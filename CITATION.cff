@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived software release."
+title: "PFAS-fish-PBTK-TD-model: PFAS PBTK and toxicodynamic modeling scripts"
+version: "1.0.0"
+date-released: 2026-05-04
+type: software
+authors:
+  - family-names: "Lu"
+    given-names: "Yi"
+repository-code: "https://github.com/luyi-95/PFAS-fish-PBTK-TD-model"
+license: "MIT"
+keywords:
+  - PFAS
+  - PBTK
+  - toxicodynamics
+  - toxicokinetics
+  - R
