@@ -1,0 +1,1946 @@
+{
+  "created_at": "2026-09-22T10:53:17+08:00",
+  "projected_rep05_rep20_wall_hours_including_5pct_overhead": 11.675802464071161,
+  "rep03_rep04_invalid_benchmark_excluded": true,
+  "results": [
+    {
+      "affinity": {
+        "captured_at": "2026-09-22T09:49:02+08:00",
+        "jobs": {
+          "job1": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "cuda00001400006",
+                "tid": 564685
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 73,
+                "name": "cuda-EvtHandlr",
+                "tid": 564691
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 175,
+                "name": "gmx",
+                "tid": 564692
+              }
+            ],
+            "pid": 564684,
+            "threads": [
+              {
+                "allowed": "0",
+                "allowed_count": 1,
+                "cpu_now": 0,
+                "name": "gmx",
+                "tid": 564684
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "cuda00001400006",
+                "tid": 564685
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 73,
+                "name": "cuda-EvtHandlr",
+                "tid": 564691
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 175,
+                "name": "gmx",
+                "tid": 564692
+              },
+              {
+                "allowed": "1",
+                "allowed_count": 1,
+                "cpu_now": 1,
+                "name": "gmx",
+                "tid": 564693
+              },
+              {
+                "allowed": "2",
+                "allowed_count": 1,
+                "cpu_now": 2,
+                "name": "gmx",
+                "tid": 564694
+              },
+              {
+                "allowed": "3",
+                "allowed_count": 1,
+                "cpu_now": 3,
+                "name": "gmx",
+                "tid": 564695
+              },
+              {
+                "allowed": "4",
+                "allowed_count": 1,
+                "cpu_now": 4,
+                "name": "gmx",
+                "tid": 564696
+              },
+              {
+                "allowed": "5",
+                "allowed_count": 1,
+                "cpu_now": 5,
+                "name": "gmx",
+                "tid": 564697
+              },
+              {
+                "allowed": "6",
+                "allowed_count": 1,
+                "cpu_now": 6,
+                "name": "gmx",
+                "tid": 564698
+              },
+              {
+                "allowed": "7",
+                "allowed_count": 1,
+                "cpu_now": 7,
+                "name": "gmx",
+                "tid": 564699
+              },
+              {
+                "allowed": "8",
+                "allowed_count": 1,
+                "cpu_now": 8,
+                "name": "gmx",
+                "tid": 564700
+              },
+              {
+                "allowed": "9",
+                "allowed_count": 1,
+                "cpu_now": 9,
+                "name": "gmx",
+                "tid": 564701
+              },
+              {
+                "allowed": "10",
+                "allowed_count": 1,
+                "cpu_now": 10,
+                "name": "gmx",
+                "tid": 564702
+              },
+              {
+                "allowed": "11",
+                "allowed_count": 1,
+                "cpu_now": 11,
+                "name": "gmx",
+                "tid": 564703
+              },
+              {
+                "allowed": "12",
+                "allowed_count": 1,
+                "cpu_now": 12,
+                "name": "gmx",
+                "tid": 564704
+              },
+              {
+                "allowed": "13",
+                "allowed_count": 1,
+                "cpu_now": 13,
+                "name": "gmx",
+                "tid": 564705
+              },
+              {
+                "allowed": "14",
+                "allowed_count": 1,
+                "cpu_now": 14,
+                "name": "gmx",
+                "tid": 564706
+              },
+              {
+                "allowed": "15",
+                "allowed_count": 1,
+                "cpu_now": 15,
+                "name": "gmx",
+                "tid": 564707
+              },
+              {
+                "allowed": "16",
+                "allowed_count": 1,
+                "cpu_now": 16,
+                "name": "gmx",
+                "tid": 564708
+              },
+              {
+                "allowed": "17",
+                "allowed_count": 1,
+                "cpu_now": 17,
+                "name": "gmx",
+                "tid": 564709
+              },
+              {
+                "allowed": "18",
+                "allowed_count": 1,
+                "cpu_now": 18,
+                "name": "gmx",
+                "tid": 564710
+              },
+              {
+                "allowed": "19",
+                "allowed_count": 1,
+                "cpu_now": 19,
+                "name": "gmx",
+                "tid": 564711
+              },
+              {
+                "allowed": "20",
+                "allowed_count": 1,
+                "cpu_now": 20,
+                "name": "gmx",
+                "tid": 564712
+              },
+              {
+                "allowed": "21",
+                "allowed_count": 1,
+                "cpu_now": 21,
+                "name": "gmx",
+                "tid": 564713
+              },
+              {
+                "allowed": "22",
+                "allowed_count": 1,
+                "cpu_now": 22,
+                "name": "gmx",
+                "tid": 564714
+              },
+              {
+                "allowed": "23",
+                "allowed_count": 1,
+                "cpu_now": 23,
+                "name": "gmx",
+                "tid": 564715
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        },
+        "pairwise_worker_overlaps": {},
+        "total_overlap_count": 0
+      },
+      "aggregate_ns_per_day": 291.197,
+      "anomalies": 0,
+      "artifacts_complete": true,
+      "benchmark_ns_per_job": 1.0,
+      "concurrency": 1,
+      "config": "single",
+      "cpu_node0_iowait_mean_pct": 0.0004633230461907845,
+      "cpu_node0_mean_pct": 24.696533601600564,
+      "cpu_node1_iowait_mean_pct": 0.003224759669944283,
+      "cpu_node1_mean_pct": 0.08008923628735899,
+      "disk_free_min_gib": 1586.6174125671387,
+      "eligibility_reassessment": "offline parser-fix review of preserved artifacts",
+      "eligible": true,
+      "exit_codes": {
+        "job1": 0
+      },
+      "gpu_actual_throttle_samples": 0,
+      "gpu_explicit_postrun_failures": {},
+      "gpu_explicit_postrun_fields": {
+        "HW Power Brake Slowdown": "Not Active",
+        "HW Slowdown": "Not Active",
+        "HW Thermal Slowdown": "Not Active",
+        "SW Power Cap": "Not Active",
+        "SW Thermal Slowdown": "Not Active"
+      },
+      "gpu_idle_samples": 1,
+      "gpu_mem_used_max_mib": 401.0,
+      "gpu_power_max_w": 57.07,
+      "gpu_power_mean_w": 53.909824561403504,
+      "gpu_temp_max_c": 46.0,
+      "gpu_temp_mean_c": 43.3859649122807,
+      "gpu_throttle_nonzero_samples": 1,
+      "gpu_util_max_pct": 19.0,
+      "gpu_util_mean_pct": 18.36842105263158,
+      "hashes_pass": true,
+      "mem_available_min_gib": 461.09903717041016,
+      "nsteps": 1000000,
+      "offsets": [
+        0
+      ],
+      "original_eligible_before_parser_fix": false,
+      "overlap_count": 0,
+      "per_job": {
+        "job1": {
+          "anomalies": 0,
+          "ns_per_day": 291.197,
+          "offset": 0,
+          "wall_time_s": 296.707,
+          "warnings": 0
+        }
+      },
+      "pin_mode": "on",
+      "pinstride": 0,
+      "scaling_efficiency": 1.0,
+      "swap_used_max_gib": 0.0,
+      "warnings": 0
+    },
+    {
+      "affinity": {
+        "captured_at": "2026-09-22T09:54:06+08:00",
+        "jobs": {
+          "job1": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 155,
+                "name": "cuda00001400006",
+                "tid": 566235
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 158,
+                "name": "cuda-EvtHandlr",
+                "tid": 566243
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 174,
+                "name": "gmx",
+                "tid": 566245
+              }
+            ],
+            "pid": 566231,
+            "threads": [
+              {
+                "allowed": "0",
+                "allowed_count": 1,
+                "cpu_now": 0,
+                "name": "gmx",
+                "tid": 566231
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 155,
+                "name": "cuda00001400006",
+                "tid": 566235
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 158,
+                "name": "cuda-EvtHandlr",
+                "tid": 566243
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 174,
+                "name": "gmx",
+                "tid": 566245
+              },
+              {
+                "allowed": "1",
+                "allowed_count": 1,
+                "cpu_now": 1,
+                "name": "gmx",
+                "tid": 566247
+              },
+              {
+                "allowed": "2",
+                "allowed_count": 1,
+                "cpu_now": 2,
+                "name": "gmx",
+                "tid": 566248
+              },
+              {
+                "allowed": "3",
+                "allowed_count": 1,
+                "cpu_now": 3,
+                "name": "gmx",
+                "tid": 566250
+              },
+              {
+                "allowed": "4",
+                "allowed_count": 1,
+                "cpu_now": 4,
+                "name": "gmx",
+                "tid": 566253
+              },
+              {
+                "allowed": "5",
+                "allowed_count": 1,
+                "cpu_now": 5,
+                "name": "gmx",
+                "tid": 566254
+              },
+              {
+                "allowed": "6",
+                "allowed_count": 1,
+                "cpu_now": 6,
+                "name": "gmx",
+                "tid": 566256
+              },
+              {
+                "allowed": "7",
+                "allowed_count": 1,
+                "cpu_now": 7,
+                "name": "gmx",
+                "tid": 566262
+              },
+              {
+                "allowed": "8",
+                "allowed_count": 1,
+                "cpu_now": 8,
+                "name": "gmx",
+                "tid": 566264
+              },
+              {
+                "allowed": "9",
+                "allowed_count": 1,
+                "cpu_now": 9,
+                "name": "gmx",
+                "tid": 566265
+              },
+              {
+                "allowed": "10",
+                "allowed_count": 1,
+                "cpu_now": 10,
+                "name": "gmx",
+                "tid": 566266
+              },
+              {
+                "allowed": "11",
+                "allowed_count": 1,
+                "cpu_now": 11,
+                "name": "gmx",
+                "tid": 566267
+              },
+              {
+                "allowed": "12",
+                "allowed_count": 1,
+                "cpu_now": 12,
+                "name": "gmx",
+                "tid": 566268
+              },
+              {
+                "allowed": "13",
+                "allowed_count": 1,
+                "cpu_now": 13,
+                "name": "gmx",
+                "tid": 566270
+              },
+              {
+                "allowed": "14",
+                "allowed_count": 1,
+                "cpu_now": 14,
+                "name": "gmx",
+                "tid": 566272
+              },
+              {
+                "allowed": "15",
+                "allowed_count": 1,
+                "cpu_now": 15,
+                "name": "gmx",
+                "tid": 566274
+              },
+              {
+                "allowed": "16",
+                "allowed_count": 1,
+                "cpu_now": 16,
+                "name": "gmx",
+                "tid": 566276
+              },
+              {
+                "allowed": "17",
+                "allowed_count": 1,
+                "cpu_now": 17,
+                "name": "gmx",
+                "tid": 566278
+              },
+              {
+                "allowed": "18",
+                "allowed_count": 1,
+                "cpu_now": 18,
+                "name": "gmx",
+                "tid": 566280
+              },
+              {
+                "allowed": "19",
+                "allowed_count": 1,
+                "cpu_now": 19,
+                "name": "gmx",
+                "tid": 566282
+              },
+              {
+                "allowed": "20",
+                "allowed_count": 1,
+                "cpu_now": 20,
+                "name": "gmx",
+                "tid": 566284
+              },
+              {
+                "allowed": "21",
+                "allowed_count": 1,
+                "cpu_now": 21,
+                "name": "gmx",
+                "tid": 566286
+              },
+              {
+                "allowed": "22",
+                "allowed_count": 1,
+                "cpu_now": 22,
+                "name": "gmx",
+                "tid": 566288
+              },
+              {
+                "allowed": "23",
+                "allowed_count": 1,
+                "cpu_now": 23,
+                "name": "gmx",
+                "tid": 566290
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          },
+          "job2": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "cuda00001400006",
+                "tid": 566233
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 157,
+                "name": "cuda-EvtHandlr",
+                "tid": 566242
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 164,
+                "name": "gmx",
+                "tid": 566244
+              }
+            ],
+            "pid": 566232,
+            "threads": [
+              {
+                "allowed": "24",
+                "allowed_count": 1,
+                "cpu_now": 24,
+                "name": "gmx",
+                "tid": 566232
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "cuda00001400006",
+                "tid": 566233
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 157,
+                "name": "cuda-EvtHandlr",
+                "tid": 566242
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 164,
+                "name": "gmx",
+                "tid": 566244
+              },
+              {
+                "allowed": "25",
+                "allowed_count": 1,
+                "cpu_now": 25,
+                "name": "gmx",
+                "tid": 566246
+              },
+              {
+                "allowed": "26",
+                "allowed_count": 1,
+                "cpu_now": 26,
+                "name": "gmx",
+                "tid": 566249
+              },
+              {
+                "allowed": "27",
+                "allowed_count": 1,
+                "cpu_now": 27,
+                "name": "gmx",
+                "tid": 566251
+              },
+              {
+                "allowed": "28",
+                "allowed_count": 1,
+                "cpu_now": 28,
+                "name": "gmx",
+                "tid": 566252
+              },
+              {
+                "allowed": "29",
+                "allowed_count": 1,
+                "cpu_now": 29,
+                "name": "gmx",
+                "tid": 566255
+              },
+              {
+                "allowed": "30",
+                "allowed_count": 1,
+                "cpu_now": 30,
+                "name": "gmx",
+                "tid": 566257
+              },
+              {
+                "allowed": "31",
+                "allowed_count": 1,
+                "cpu_now": 31,
+                "name": "gmx",
+                "tid": 566258
+              },
+              {
+                "allowed": "32",
+                "allowed_count": 1,
+                "cpu_now": 32,
+                "name": "gmx",
+                "tid": 566259
+              },
+              {
+                "allowed": "33",
+                "allowed_count": 1,
+                "cpu_now": 33,
+                "name": "gmx",
+                "tid": 566260
+              },
+              {
+                "allowed": "34",
+                "allowed_count": 1,
+                "cpu_now": 34,
+                "name": "gmx",
+                "tid": 566261
+              },
+              {
+                "allowed": "35",
+                "allowed_count": 1,
+                "cpu_now": 35,
+                "name": "gmx",
+                "tid": 566263
+              },
+              {
+                "allowed": "36",
+                "allowed_count": 1,
+                "cpu_now": 36,
+                "name": "gmx",
+                "tid": 566269
+              },
+              {
+                "allowed": "37",
+                "allowed_count": 1,
+                "cpu_now": 37,
+                "name": "gmx",
+                "tid": 566271
+              },
+              {
+                "allowed": "38",
+                "allowed_count": 1,
+                "cpu_now": 38,
+                "name": "gmx",
+                "tid": 566273
+              },
+              {
+                "allowed": "39",
+                "allowed_count": 1,
+                "cpu_now": 39,
+                "name": "gmx",
+                "tid": 566275
+              },
+              {
+                "allowed": "40",
+                "allowed_count": 1,
+                "cpu_now": 40,
+                "name": "gmx",
+                "tid": 566277
+              },
+              {
+                "allowed": "41",
+                "allowed_count": 1,
+                "cpu_now": 41,
+                "name": "gmx",
+                "tid": 566279
+              },
+              {
+                "allowed": "42",
+                "allowed_count": 1,
+                "cpu_now": 42,
+                "name": "gmx",
+                "tid": 566281
+              },
+              {
+                "allowed": "43",
+                "allowed_count": 1,
+                "cpu_now": 43,
+                "name": "gmx",
+                "tid": 566283
+              },
+              {
+                "allowed": "44",
+                "allowed_count": 1,
+                "cpu_now": 44,
+                "name": "gmx",
+                "tid": 566285
+              },
+              {
+                "allowed": "45",
+                "allowed_count": 1,
+                "cpu_now": 45,
+                "name": "gmx",
+                "tid": 566287
+              },
+              {
+                "allowed": "46",
+                "allowed_count": 1,
+                "cpu_now": 46,
+                "name": "gmx",
+                "tid": 566289
+              },
+              {
+                "allowed": "47",
+                "allowed_count": 1,
+                "cpu_now": 47,
+                "name": "gmx",
+                "tid": 566291
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ]
+          }
+        },
+        "pairwise_worker_overlaps": {
+          "job1__job2": []
+        },
+        "total_overlap_count": 0
+      },
+      "aggregate_ns_per_day": 417.59299999999996,
+      "anomalies": 0,
+      "artifacts_complete": true,
+      "benchmark_ns_per_job": 1.0,
+      "concurrency": 2,
+      "config": "two_way",
+      "cpu_node0_iowait_mean_pct": 0.0006874774539893731,
+      "cpu_node0_mean_pct": 45.07230391462421,
+      "cpu_node1_iowait_mean_pct": 0.0035184451231669075,
+      "cpu_node1_mean_pct": 0.15261392452678196,
+      "disk_free_min_gib": 1586.5425453186035,
+      "eligibility_reassessment": "offline parser-fix review of preserved artifacts",
+      "eligible": true,
+      "exit_codes": {
+        "job1": 0,
+        "job2": 0
+      },
+      "gpu_actual_throttle_samples": 0,
+      "gpu_explicit_postrun_failures": {},
+      "gpu_explicit_postrun_fields": {
+        "HW Power Brake Slowdown": "Not Active",
+        "HW Slowdown": "Not Active",
+        "HW Thermal Slowdown": "Not Active",
+        "SW Power Cap": "Not Active",
+        "SW Thermal Slowdown": "Not Active"
+      },
+      "gpu_idle_samples": 1,
+      "gpu_mem_used_max_mib": 658.0,
+      "gpu_power_max_w": 89.13,
+      "gpu_power_mean_w": 66.67159090909092,
+      "gpu_temp_max_c": 50.0,
+      "gpu_temp_mean_c": 48.125,
+      "gpu_throttle_nonzero_samples": 1,
+      "gpu_util_max_pct": 75.0,
+      "gpu_util_mean_pct": 60.81818181818182,
+      "hashes_pass": true,
+      "mem_available_min_gib": 460.9137878417969,
+      "nsteps": 1000000,
+      "offsets": [
+        0,
+        48
+      ],
+      "original_eligible_before_parser_fix": false,
+      "overlap_count": 0,
+      "per_job": {
+        "job1": {
+          "anomalies": 0,
+          "ns_per_day": 229.679,
+          "offset": 0,
+          "wall_time_s": 376.177,
+          "warnings": 0
+        },
+        "job2": {
+          "anomalies": 0,
+          "ns_per_day": 187.914,
+          "offset": 48,
+          "wall_time_s": 459.786,
+          "warnings": 0
+        }
+      },
+      "pin_mode": "on",
+      "pinstride": 0,
+      "scaling_efficiency": 0.7170283347699323,
+      "swap_used_max_gib": 0.0,
+      "warnings": 0
+    },
+    {
+      "affinity": {
+        "captured_at": "2026-09-22T10:44:19+08:00",
+        "jobs": {
+          "job1": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579573
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 126,
+                "name": "cuda-EvtHandlr",
+                "tid": 579589
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 151,
+                "name": "gmx",
+                "tid": 579617
+              }
+            ],
+            "pid": 579564,
+            "threads": [
+              {
+                "allowed": "0",
+                "allowed_count": 1,
+                "cpu_now": 0,
+                "name": "gmx",
+                "tid": 579564
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579573
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 126,
+                "name": "cuda-EvtHandlr",
+                "tid": 579589
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 151,
+                "name": "gmx",
+                "tid": 579617
+              },
+              {
+                "allowed": "1",
+                "allowed_count": 1,
+                "cpu_now": 1,
+                "name": "gmx",
+                "tid": 579675
+              },
+              {
+                "allowed": "2",
+                "allowed_count": 1,
+                "cpu_now": 2,
+                "name": "gmx",
+                "tid": 579676
+              },
+              {
+                "allowed": "3",
+                "allowed_count": 1,
+                "cpu_now": 3,
+                "name": "gmx",
+                "tid": 579677
+              },
+              {
+                "allowed": "4",
+                "allowed_count": 1,
+                "cpu_now": 4,
+                "name": "gmx",
+                "tid": 579679
+              },
+              {
+                "allowed": "5",
+                "allowed_count": 1,
+                "cpu_now": 5,
+                "name": "gmx",
+                "tid": 579683
+              },
+              {
+                "allowed": "6",
+                "allowed_count": 1,
+                "cpu_now": 6,
+                "name": "gmx",
+                "tid": 579684
+              },
+              {
+                "allowed": "7",
+                "allowed_count": 1,
+                "cpu_now": 7,
+                "name": "gmx",
+                "tid": 579686
+              },
+              {
+                "allowed": "8",
+                "allowed_count": 1,
+                "cpu_now": 8,
+                "name": "gmx",
+                "tid": 579688
+              },
+              {
+                "allowed": "9",
+                "allowed_count": 1,
+                "cpu_now": 9,
+                "name": "gmx",
+                "tid": 579690
+              },
+              {
+                "allowed": "10",
+                "allowed_count": 1,
+                "cpu_now": 10,
+                "name": "gmx",
+                "tid": 579691
+              },
+              {
+                "allowed": "11",
+                "allowed_count": 1,
+                "cpu_now": 11,
+                "name": "gmx",
+                "tid": 579693
+              },
+              {
+                "allowed": "12",
+                "allowed_count": 1,
+                "cpu_now": 12,
+                "name": "gmx",
+                "tid": 579696
+              },
+              {
+                "allowed": "13",
+                "allowed_count": 1,
+                "cpu_now": 13,
+                "name": "gmx",
+                "tid": 579699
+              },
+              {
+                "allowed": "14",
+                "allowed_count": 1,
+                "cpu_now": 14,
+                "name": "gmx",
+                "tid": 579701
+              },
+              {
+                "allowed": "15",
+                "allowed_count": 1,
+                "cpu_now": 15,
+                "name": "gmx",
+                "tid": 579703
+              },
+              {
+                "allowed": "16",
+                "allowed_count": 1,
+                "cpu_now": 16,
+                "name": "gmx",
+                "tid": 579705
+              },
+              {
+                "allowed": "17",
+                "allowed_count": 1,
+                "cpu_now": 17,
+                "name": "gmx",
+                "tid": 579706
+              },
+              {
+                "allowed": "18",
+                "allowed_count": 1,
+                "cpu_now": 18,
+                "name": "gmx",
+                "tid": 579708
+              },
+              {
+                "allowed": "19",
+                "allowed_count": 1,
+                "cpu_now": 19,
+                "name": "gmx",
+                "tid": 579710
+              },
+              {
+                "allowed": "20",
+                "allowed_count": 1,
+                "cpu_now": 20,
+                "name": "gmx",
+                "tid": 579712
+              },
+              {
+                "allowed": "21",
+                "allowed_count": 1,
+                "cpu_now": 21,
+                "name": "gmx",
+                "tid": 579714
+              },
+              {
+                "allowed": "22",
+                "allowed_count": 1,
+                "cpu_now": 22,
+                "name": "gmx",
+                "tid": 579716
+              },
+              {
+                "allowed": "23",
+                "allowed_count": 1,
+                "cpu_now": 23,
+                "name": "gmx",
+                "tid": 579719
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          },
+          "job2": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579568
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 123,
+                "name": "cuda-EvtHandlr",
+                "tid": 579586
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 138,
+                "name": "gmx",
+                "tid": 579614
+              }
+            ],
+            "pid": 579565,
+            "threads": [
+              {
+                "allowed": "24",
+                "allowed_count": 1,
+                "cpu_now": 24,
+                "name": "gmx",
+                "tid": 579565
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579568
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 123,
+                "name": "cuda-EvtHandlr",
+                "tid": 579586
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 138,
+                "name": "gmx",
+                "tid": 579614
+              },
+              {
+                "allowed": "25",
+                "allowed_count": 1,
+                "cpu_now": 25,
+                "name": "gmx",
+                "tid": 579628
+              },
+              {
+                "allowed": "26",
+                "allowed_count": 1,
+                "cpu_now": 26,
+                "name": "gmx",
+                "tid": 579629
+              },
+              {
+                "allowed": "27",
+                "allowed_count": 1,
+                "cpu_now": 27,
+                "name": "gmx",
+                "tid": 579630
+              },
+              {
+                "allowed": "28",
+                "allowed_count": 1,
+                "cpu_now": 28,
+                "name": "gmx",
+                "tid": 579632
+              },
+              {
+                "allowed": "29",
+                "allowed_count": 1,
+                "cpu_now": 29,
+                "name": "gmx",
+                "tid": 579633
+              },
+              {
+                "allowed": "30",
+                "allowed_count": 1,
+                "cpu_now": 30,
+                "name": "gmx",
+                "tid": 579636
+              },
+              {
+                "allowed": "31",
+                "allowed_count": 1,
+                "cpu_now": 31,
+                "name": "gmx",
+                "tid": 579638
+              },
+              {
+                "allowed": "32",
+                "allowed_count": 1,
+                "cpu_now": 32,
+                "name": "gmx",
+                "tid": 579639
+              },
+              {
+                "allowed": "33",
+                "allowed_count": 1,
+                "cpu_now": 33,
+                "name": "gmx",
+                "tid": 579641
+              },
+              {
+                "allowed": "34",
+                "allowed_count": 1,
+                "cpu_now": 34,
+                "name": "gmx",
+                "tid": 579643
+              },
+              {
+                "allowed": "35",
+                "allowed_count": 1,
+                "cpu_now": 35,
+                "name": "gmx",
+                "tid": 579644
+              },
+              {
+                "allowed": "36",
+                "allowed_count": 1,
+                "cpu_now": 36,
+                "name": "gmx",
+                "tid": 579646
+              },
+              {
+                "allowed": "37",
+                "allowed_count": 1,
+                "cpu_now": 37,
+                "name": "gmx",
+                "tid": 579647
+              },
+              {
+                "allowed": "38",
+                "allowed_count": 1,
+                "cpu_now": 38,
+                "name": "gmx",
+                "tid": 579650
+              },
+              {
+                "allowed": "39",
+                "allowed_count": 1,
+                "cpu_now": 39,
+                "name": "gmx",
+                "tid": 579652
+              },
+              {
+                "allowed": "40",
+                "allowed_count": 1,
+                "cpu_now": 40,
+                "name": "gmx",
+                "tid": 579654
+              },
+              {
+                "allowed": "41",
+                "allowed_count": 1,
+                "cpu_now": 41,
+                "name": "gmx",
+                "tid": 579656
+              },
+              {
+                "allowed": "42",
+                "allowed_count": 1,
+                "cpu_now": 42,
+                "name": "gmx",
+                "tid": 579658
+              },
+              {
+                "allowed": "43",
+                "allowed_count": 1,
+                "cpu_now": 43,
+                "name": "gmx",
+                "tid": 579660
+              },
+              {
+                "allowed": "44",
+                "allowed_count": 1,
+                "cpu_now": 44,
+                "name": "gmx",
+                "tid": 579662
+              },
+              {
+                "allowed": "45",
+                "allowed_count": 1,
+                "cpu_now": 45,
+                "name": "gmx",
+                "tid": 579665
+              },
+              {
+                "allowed": "46",
+                "allowed_count": 1,
+                "cpu_now": 46,
+                "name": "gmx",
+                "tid": 579667
+              },
+              {
+                "allowed": "47",
+                "allowed_count": 1,
+                "cpu_now": 47,
+                "name": "gmx",
+                "tid": 579669
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ]
+          },
+          "job3": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 151,
+                "name": "cuda00001400006",
+                "tid": 579570
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 125,
+                "name": "cuda-EvtHandlr",
+                "tid": 579587
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "gmx",
+                "tid": 579615
+              }
+            ],
+            "pid": 579566,
+            "threads": [
+              {
+                "allowed": "48",
+                "allowed_count": 1,
+                "cpu_now": 48,
+                "name": "gmx",
+                "tid": 579566
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 151,
+                "name": "cuda00001400006",
+                "tid": 579570
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 125,
+                "name": "cuda-EvtHandlr",
+                "tid": 579587
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 147,
+                "name": "gmx",
+                "tid": 579615
+              },
+              {
+                "allowed": "49",
+                "allowed_count": 1,
+                "cpu_now": 49,
+                "name": "gmx",
+                "tid": 579631
+              },
+              {
+                "allowed": "50",
+                "allowed_count": 1,
+                "cpu_now": 50,
+                "name": "gmx",
+                "tid": 579634
+              },
+              {
+                "allowed": "51",
+                "allowed_count": 1,
+                "cpu_now": 51,
+                "name": "gmx",
+                "tid": 579635
+              },
+              {
+                "allowed": "52",
+                "allowed_count": 1,
+                "cpu_now": 52,
+                "name": "gmx",
+                "tid": 579637
+              },
+              {
+                "allowed": "53",
+                "allowed_count": 1,
+                "cpu_now": 53,
+                "name": "gmx",
+                "tid": 579640
+              },
+              {
+                "allowed": "54",
+                "allowed_count": 1,
+                "cpu_now": 54,
+                "name": "gmx",
+                "tid": 579642
+              },
+              {
+                "allowed": "55",
+                "allowed_count": 1,
+                "cpu_now": 55,
+                "name": "gmx",
+                "tid": 579645
+              },
+              {
+                "allowed": "56",
+                "allowed_count": 1,
+                "cpu_now": 56,
+                "name": "gmx",
+                "tid": 579648
+              },
+              {
+                "allowed": "57",
+                "allowed_count": 1,
+                "cpu_now": 57,
+                "name": "gmx",
+                "tid": 579649
+              },
+              {
+                "allowed": "58",
+                "allowed_count": 1,
+                "cpu_now": 58,
+                "name": "gmx",
+                "tid": 579651
+              },
+              {
+                "allowed": "59",
+                "allowed_count": 1,
+                "cpu_now": 59,
+                "name": "gmx",
+                "tid": 579653
+              },
+              {
+                "allowed": "60",
+                "allowed_count": 1,
+                "cpu_now": 60,
+                "name": "gmx",
+                "tid": 579657
+              },
+              {
+                "allowed": "61",
+                "allowed_count": 1,
+                "cpu_now": 61,
+                "name": "gmx",
+                "tid": 579659
+              },
+              {
+                "allowed": "62",
+                "allowed_count": 1,
+                "cpu_now": 62,
+                "name": "gmx",
+                "tid": 579661
+              },
+              {
+                "allowed": "63",
+                "allowed_count": 1,
+                "cpu_now": 63,
+                "name": "gmx",
+                "tid": 579663
+              },
+              {
+                "allowed": "64",
+                "allowed_count": 1,
+                "cpu_now": 64,
+                "name": "gmx",
+                "tid": 579664
+              },
+              {
+                "allowed": "65",
+                "allowed_count": 1,
+                "cpu_now": 65,
+                "name": "gmx",
+                "tid": 579666
+              },
+              {
+                "allowed": "66",
+                "allowed_count": 1,
+                "cpu_now": 66,
+                "name": "gmx",
+                "tid": 579668
+              },
+              {
+                "allowed": "67",
+                "allowed_count": 1,
+                "cpu_now": 67,
+                "name": "gmx",
+                "tid": 579670
+              },
+              {
+                "allowed": "68",
+                "allowed_count": 1,
+                "cpu_now": 68,
+                "name": "gmx",
+                "tid": 579671
+              },
+              {
+                "allowed": "69",
+                "allowed_count": 1,
+                "cpu_now": 69,
+                "name": "gmx",
+                "tid": 579672
+              },
+              {
+                "allowed": "70",
+                "allowed_count": 1,
+                "cpu_now": 70,
+                "name": "gmx",
+                "tid": 579673
+              },
+              {
+                "allowed": "71",
+                "allowed_count": 1,
+                "cpu_now": 71,
+                "name": "gmx",
+                "tid": 579674
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71
+            ]
+          },
+          "job4": {
+            "helper_threads": [
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579574
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 167,
+                "name": "cuda-EvtHandlr",
+                "tid": 579588
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 179,
+                "name": "gmx",
+                "tid": 579616
+              }
+            ],
+            "pid": 579567,
+            "threads": [
+              {
+                "allowed": "72",
+                "allowed_count": 1,
+                "cpu_now": 72,
+                "name": "gmx",
+                "tid": 579567
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 122,
+                "name": "cuda00001400006",
+                "tid": 579574
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 167,
+                "name": "cuda-EvtHandlr",
+                "tid": 579588
+              },
+              {
+                "allowed": "0-191",
+                "allowed_count": 192,
+                "cpu_now": 179,
+                "name": "gmx",
+                "tid": 579616
+              },
+              {
+                "allowed": "73",
+                "allowed_count": 1,
+                "cpu_now": 73,
+                "name": "gmx",
+                "tid": 579678
+              },
+              {
+                "allowed": "74",
+                "allowed_count": 1,
+                "cpu_now": 74,
+                "name": "gmx",
+                "tid": 579680
+              },
+              {
+                "allowed": "75",
+                "allowed_count": 1,
+                "cpu_now": 75,
+                "name": "gmx",
+                "tid": 579682
+              },
+              {
+                "allowed": "76",
+                "allowed_count": 1,
+                "cpu_now": 76,
+                "name": "gmx",
+                "tid": 579685
+              },
+              {
+                "allowed": "77",
+                "allowed_count": 1,
+                "cpu_now": 77,
+                "name": "gmx",
+                "tid": 579687
+              },
+              {
+                "allowed": "78",
+                "allowed_count": 1,
+                "cpu_now": 78,
+                "name": "gmx",
+                "tid": 579689
+              },
+              {
+                "allowed": "79",
+                "allowed_count": 1,
+                "cpu_now": 79,
+                "name": "gmx",
+                "tid": 579692
+              },
+              {
+                "allowed": "80",
+                "allowed_count": 1,
+                "cpu_now": 80,
+                "name": "gmx",
+                "tid": 579694
+              },
+              {
+                "allowed": "81",
+                "allowed_count": 1,
+                "cpu_now": 81,
+                "name": "gmx",
+                "tid": 579695
+              },
+              {
+                "allowed": "82",
+                "allowed_count": 1,
+                "cpu_now": 82,
+                "name": "gmx",
+                "tid": 579697
+              },
+              {
+                "allowed": "83",
+                "allowed_count": 1,
+                "cpu_now": 83,
+                "name": "gmx",
+                "tid": 579698
+              },
+              {
+                "allowed": "84",
+                "allowed_count": 1,
+                "cpu_now": 84,
+                "name": "gmx",
+                "tid": 579700
+              },
+              {
+                "allowed": "85",
+                "allowed_count": 1,
+                "cpu_now": 85,
+                "name": "gmx",
+                "tid": 579702
+              },
+              {
+                "allowed": "86",
+                "allowed_count": 1,
+                "cpu_now": 86,
+                "name": "gmx",
+                "tid": 579704
+              },
+              {
+                "allowed": "87",
+                "allowed_count": 1,
+                "cpu_now": 87,
+                "name": "gmx",
+                "tid": 579707
+              },
+              {
+                "allowed": "88",
+                "allowed_count": 1,
+                "cpu_now": 88,
+                "name": "gmx",
+                "tid": 579709
+              },
+              {
+                "allowed": "89",
+                "allowed_count": 1,
+                "cpu_now": 89,
+                "name": "gmx",
+                "tid": 579711
+              },
+              {
+                "allowed": "90",
+                "allowed_count": 1,
+                "cpu_now": 90,
+                "name": "gmx",
+                "tid": 579713
+              },
+              {
+                "allowed": "91",
+                "allowed_count": 1,
+                "cpu_now": 91,
+                "name": "gmx",
+                "tid": 579715
+              },
+              {
+                "allowed": "92",
+                "allowed_count": 1,
+                "cpu_now": 92,
+                "name": "gmx",
+                "tid": 579717
+              },
+              {
+                "allowed": "93",
+                "allowed_count": 1,
+                "cpu_now": 93,
+                "name": "gmx",
+                "tid": 579720
+              },
+              {
+                "allowed": "94",
+                "allowed_count": 1,
+                "cpu_now": 94,
+                "name": "gmx",
+                "tid": 579721
+              },
+              {
+                "allowed": "95",
+                "allowed_count": 1,
+                "cpu_now": 95,
+                "name": "gmx",
+                "tid": 579722
+              }
+            ],
+            "worker_count": 24,
+            "worker_cpu_set": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ]
+          }
+        },
+        "pairwise_worker_overlaps": {
+          "job1__job2": [],
+          "job1__job3": [],
+          "job1__job4": [],
+          "job2__job3": [],
+          "job2__job4": [],
+          "job3__job4": []
+        },
+        "total_overlap_count": 0
+      },
+      "aggregate_ns_per_day": 828.7909999999999,
+      "anomalies": 0,
+      "benchmark_ns_per_job": 1.0,
+      "concurrency": 4,
+      "config": "four_way",
+      "cpu_node0_iowait_mean_pct": 0.00029461651364880246,
+      "cpu_node0_mean_pct": 43.59493885622639,
+      "cpu_node1_iowait_mean_pct": 0.0027415721712703745,
+      "cpu_node1_mean_pct": 35.72608744676194,
+      "disk_free_min_gib": 1586.3824920654297,
+      "eligible": true,
+      "exit_codes": {
+        "job1": 0,
+        "job2": 0,
+        "job3": 0,
+        "job4": 0
+      },
+      "gpu_actual_throttle_samples": 0,
+      "gpu_clock_event_nonzero_samples": 1,
+      "gpu_idle_samples": 1,
+      "gpu_mem_used_max_mib": 1172.0,
+      "gpu_power_max_w": 122.28,
+      "gpu_power_mean_w": 100.82029702970297,
+      "gpu_temp_max_c": 51.0,
+      "gpu_temp_mean_c": 47.722772277227726,
+      "gpu_util_max_pct": 99.0,
+      "gpu_util_mean_pct": 76.57425742574257,
+      "mem_available_min_gib": 460.61754989624023,
+      "nsteps": 1000000,
+      "offsets": [
+        0,
+        48,
+        96,
+        144
+      ],
+      "overlap_count": 0,
+      "per_job": {
+        "job1": {
+          "anomalies": 0,
+          "ns_per_day": 215.386,
+          "offset": 0,
+          "wall_time_s": 401.14,
+          "warnings": 0
+        },
+        "job2": {
+          "anomalies": 0,
+          "ns_per_day": 162.373,
+          "offset": 48,
+          "wall_time_s": 532.108,
+          "warnings": 0
+        },
+        "job3": {
+          "anomalies": 0,
+          "ns_per_day": 226.15,
+          "offset": 96,
+          "wall_time_s": 382.047,
+          "warnings": 0
+        },
+        "job4": {
+          "anomalies": 0,
+          "ns_per_day": 224.882,
+          "offset": 144,
+          "wall_time_s": 384.201,
+          "warnings": 0
+        }
+      },
+      "pin_mode": "on",
+      "pinstride": 0,
+      "scaling_efficiency": 0.7115380652960023,
+      "swap_used_max_gib": 0.0,
+      "warnings": 0
+    }
+  ],
+  "selected_aggregate_ns_per_day": 828.7909999999999,
+  "selected_concurrency": 4,
+  "selection_criterion": "maximum eligible aggregate ns/day"
+}

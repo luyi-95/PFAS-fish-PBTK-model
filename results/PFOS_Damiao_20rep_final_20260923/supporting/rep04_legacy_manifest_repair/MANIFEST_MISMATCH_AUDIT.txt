@@ -1,0 +1,49 @@
+PFOS rep04 legacy manifest mismatch forensic audit
+Audit date: 2026-09-23 Asia/Shanghai
+
+FAILURE_CLASS = ENGINEERING_PROVENANCE_DEFECT
+ROOT_CAUSE = LEGACY_MANIFEST_ORDERING
+MD_PHYSICS_CHANGED = NO
+SCIENTIFIC_RESULT_CHANGED = NO
+REPLICATE_RERUN_REQUIRED = NO
+
+Replicate: rep04
+Original manifest: /home/ls/projects/Damiao_PFOS_reproduction/ensemble_PFOS/rep04/SHA256_MANIFEST.txt
+Original manifest SHA256: aab19d4d50edfe0bbe42579bd3fabd9c73367a163fe6e65a300c224b58f7671d
+Original manifest timestamp: 2026-09-22 07:56:39.700218455 +0800
+Original manifest result: 181/182 PASS; 1/182 FAIL
+Unique mismatch path: /home/ls/projects/Damiao_PFOS_reproduction/ensemble_PFOS/rep04/qa/STATUS
+
+Old STATUS hash recorded by original manifest:
+5ed91d72d9f19ca1201d731e04fc8ab6e5d06c9d6a7318ea35332c0951b87d38
+
+Independent reconstruction of SHA256("RUNNING\n"):
+5ed91d72d9f19ca1201d731e04fc8ab6e5d06c9d6a7318ea35332c0951b87d38
+
+Current STATUS: COMPLETE_INCONCLUSIVE
+Current STATUS SHA256: e4964e062ece16d1e6b6f83f2a5f5ebe76c79083d85ee6fe7d46c1fecdd339ae
+Current STATUS timestamp: 2026-09-22 07:56:39.703218489 +0800
+Elapsed time from original manifest mtime to terminal STATUS mtime: approximately 0.003000034 s
+
+Scientific consistency evidence:
+- diffusion/DIFFUSION_STATUS = INCONCLUSIVE
+- qa/diffusion.status first line = INCONCLUSIVE
+- diffusion/diffusion_diagnostics.json selection_status = INCONCLUSIVE
+- diffusion/diffusion_diagnostics.json eligible_window_count = 0
+- qa/STATUS = COMPLETE_INCONCLUSIVE, the correct terminal state for the frozen analysis result
+- build, EM, 100-bar NpT, 1-bar NpT, and NVT stage gates are PASS
+- seed lineage matches frozen SEED_MANIFEST.tsv
+- frozen input hashes PASS
+- original/ integrity is 20/20 PASS
+- trajectory/checkpoint/final-coordinate evidence reports 4026 atoms and required final times
+- numerical anomaly scan found zero LINCS, SETTLE/SHAKE, NaN/Inf, PME, constraint, fatal, segmentation, domain-decomposition, or OOM failures
+- no file in rep04 was newer than terminal qa/STATUS before this provenance repair
+
+Integrity conclusion:
+All 181 non-STATUS entries in the original manifest still match byte-for-byte, including trajectory, TPR, CPT, EDR, XTC, GRO, MDP/topology, thermodynamic, structural, scheduler-runner, and diffusion-analysis artifacts. No scientific artifact or parameter was changed.
+
+Root-cause conclusion:
+The original manifest was generated while qa/STATUS still contained RUNNING and was followed approximately 3 ms later by the legitimate terminal update to COMPLETE_INCONCLUSIVE. This matches the documented legacy runner ordering defect in ensemble_PFOS/MANIFEST_ORDERING_FIX.md.
+
+Repair rule:
+The original SHA256_MANIFEST.txt is preserved unchanged. SHA256_MANIFEST_FINAL.txt hashes the legitimate final state after forensic evidence is added. No frozen scientific result is altered.

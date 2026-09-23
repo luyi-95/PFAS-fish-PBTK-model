@@ -1,0 +1,15 @@
+{
+  "adapter": "GromacsEngine",
+  "backend_skill": "gromacs",
+  "engine_version": "2026.3",
+  "capabilities": {
+    "thread_mpi": "SUPPORTED",
+    "openmp_24_threads": "SUPPORTED",
+    "cuda_nonbonded": "SUPPORTED",
+    "cpu_pme_bonded_update": "SUPPORTED",
+    "checkpoint_stage_lineage": "SUPPORTED"
+  },
+  "frozen_scheduler_config": "/home/ls/projects/Damiao_PFOS_reproduction/ensemble_PFOS/scheduler_benchmark/SCHEDULER_CONFIG.json",
+  "frozen_benchmark_decision": "/home/ls/projects/Damiao_PFOS_reproduction/ensemble_PFOS/scheduler_benchmark/BENCHMARK_DECISION.json",
+  "verified_at": "2026-09-22T11:10:37+08:00"
+}

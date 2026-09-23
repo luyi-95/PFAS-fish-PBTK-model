@@ -1,0 +1,8 @@
+{
+  "total_replicates": 20,
+  "terminal_replicates": 20,
+  "accepted": 7,
+  "inconclusive": 13,
+  "failed": 0,
+  "scientific_endpoint_status": "INCOMPLETE_N20"
+}
