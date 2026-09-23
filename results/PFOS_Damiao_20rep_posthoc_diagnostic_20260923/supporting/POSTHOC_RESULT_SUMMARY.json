@@ -1,0 +1,57 @@
+{
+  "formal_result_unchanged": true,
+  "REP01_FROZEN_RULE_AUDIT": "PASS",
+  "rep01_window_loglog_alpha": 0.9950940937098598,
+  "rep01_minimum_origins": 800,
+  "failure_counts": {
+    "n_fail_R2": 11,
+    "n_fail_mean_alpha": 10,
+    "n_fail_loglog_alpha": 11,
+    "n_fail_origin_count": 0,
+    "n_multiple_failure": 13,
+    "alpha_too_low": 8,
+    "alpha_too_high": 5
+  },
+  "late_lag_instability": 13,
+  "inconclusive_late_trend_counts": {
+    "LATE_PLATEAU": 8,
+    "LATE_UPWARD_BEND": 4,
+    "STABLE_OR_NONMONOTONIC": 1
+  },
+  "axis_anisotropy_flag": 9,
+  "accepted_late_instability_evaluable": 6,
+  "accepted_axis_anisotropy_evaluable": 6,
+  "origin_sensitivity_counts": {
+    "LOW": 13
+  },
+  "accepted_origin_sensitivity_counts": {
+    "HIGH": 7
+  },
+  "accepted_vs_inconclusive_metric_means": {
+    "accepted": {
+      "R2": 0.9967532474828238,
+      "mean_local_alpha": 1.0159241131881576,
+      "window_loglog_alpha": 1.0348953797929448
+    },
+    "inconclusive_closest": {
+      "R2": 0.987010840051012,
+      "mean_local_alpha": 0.8523218893935518,
+      "window_loglog_alpha": 0.8994450658809707
+    }
+  },
+  "accepted7": {
+    "n": 7,
+    "mean": 0.6427936790659631,
+    "sample_SD": 0.08503941612905257,
+    "SEM": 0.03214187810222973,
+    "CI95_t_df6": [
+      0.5641453366195601,
+      0.721442021512366
+    ],
+    "median": 0.6609537014570601,
+    "min": 0.5258526815930208,
+    "max": 0.7798373127614145,
+    "difference_from_0.62": 0.02279367906596308,
+    "relative_difference_percent": 3.676399849348884
+  }
+}
