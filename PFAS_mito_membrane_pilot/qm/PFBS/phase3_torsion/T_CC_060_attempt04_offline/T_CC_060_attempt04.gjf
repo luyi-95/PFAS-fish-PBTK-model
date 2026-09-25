@@ -1,0 +1,12 @@
+%oldchk=/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_torsion_20260924/forensic_T_CC_060_checkpoint_20260925/T_CC_060.chk
+%chk=/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_torsion_20260924/T_CC_060_sentinel_attempt04_offline_20260925/runtime/work/T_CC_060_recovery.chk
+%NProcShared=8
+%Mem=24GB
+#P MP2/6-31+G(d) Opt=(Tight,MaxCycles=200) Geom=(Checkpoint,ModRedundant) IOp(1/152=200) SCF=Tight NoSymm
+
+PFBS_ani T_CC_060 attempt04 offline sentinel candidate
+
+-1 1
+
+D 16 14 15 1 F
+

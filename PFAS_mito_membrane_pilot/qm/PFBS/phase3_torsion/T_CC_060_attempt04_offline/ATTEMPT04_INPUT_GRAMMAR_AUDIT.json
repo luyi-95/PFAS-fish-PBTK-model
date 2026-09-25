@@ -1,0 +1,69 @@
+{
+  "ATTEMPT04_GAUSSIAN_RUN": "NOT_STARTED",
+  "AUTHORIZATION_CONSUMED": "NO",
+  "MD_RUN_AUTHORIZATION": "NOT_GRANTED",
+  "PARAMETER_EDITED": "NO",
+  "checks": {
+    "charge_minus_one": true,
+    "charge_multiplicity_terminated_by_blank_line": true,
+    "exactly_one_charge_multiplicity_section": true,
+    "exactly_one_modredundant_directive": true,
+    "exactly_one_route_section": true,
+    "exactly_one_title_section": true,
+    "geom_checkpoint_modredundant_present": true,
+    "guess_read_absent": true,
+    "iop_1_152_200_present": true,
+    "method_basis_unchanged": true,
+    "modredundant_section_terminated": true,
+    "multiplicity_one": true,
+    "no_cartesian_atom_specifications_follow_charge": true,
+    "no_explicit_optimizer_history_reuse": true,
+    "no_link1_multijob": true,
+    "no_parameter_changes": true,
+    "nosymm_present": true,
+    "opt_restart_absent": true,
+    "opt_tight_maxcycles_200_present": true,
+    "output_checkpoint_absent": true,
+    "route_terminated_by_blank_line": true,
+    "scf_tight_present": true,
+    "source_checkpoint_hash_approved": true,
+    "source_output_checkpoint_distinct": true,
+    "title_terminated_by_blank_line": true
+  },
+  "effective_max_steps": "UNTESTED_OFFLINE",
+  "gaussian16_documentation": {
+    "comparison": "Checkpoint reads charge/multiplicity; ModRedundant requires a separate coordinate-modification section; Gaussian input sections terminate with blank lines.",
+    "geom": "https://www.conflex.co.jp/gaussian_support/geom.php",
+    "input": "https://www.conflex.co.jp/gaussian_support/input.php"
+  },
+  "gaussian_acceptance": "UNTESTED_OFFLINE",
+  "input_sha256": "6f4b9d3647e66b5f50a3118e4e3ad142ddd75ad961dbb9613c30a1bbedc7a543",
+  "known_successful_local_same_type_checkpoint_input": {
+    "finding": "Only attempt01/02/03 failed or unlaunched checkpoint-retrieval inputs found.",
+    "search_scope": "/home/ls .gjf/.com/.inp; PFBS .log/.out",
+    "status": "NOT_AVAILABLE"
+  },
+  "known_successful_partial_control": {
+    "difference": "explicit Cartesian geometry rather than checkpoint retrieval",
+    "input_path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_torsion_20260924/execution_revision_20260924_v4d_candidate/inputs/T_CC_180/T_CC_180.gjf",
+    "input_sha256": "90e3ea863184d51d812c5e229759cef85753b256eb7b69f8f659d00f630b3911",
+    "normal_termination": true,
+    "shared_feature": "separate ModRedundant section"
+  },
+  "optimizer_history_reuse": "No explicit restart/guess read; actual Gaussian behavior not testable offline.",
+  "route": "#P MP2/6-31+G(d) Opt=(Tight,MaxCycles=200) Geom=(Checkpoint,ModRedundant) IOp(1/152=200) SCF=Tight NoSymm",
+  "schema": "ATTEMPT04_INPUT_GRAMMAR_AUDIT_v1",
+  "section_layout": [
+    "Link0 and Route",
+    "blank",
+    "Title",
+    "blank",
+    "-1 1",
+    "blank",
+    "D 16 14 15 1 F",
+    "blank/EOF"
+  ],
+  "source_geometry_torsion_deg": 60.000167338005696,
+  "status": "PASS_OFFLINE_STATIC_ONLY",
+  "utc": "2026-09-25T09:09:07+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "ATTEMPT04_GAUSSIAN_RUN": "NOT_STARTED",
+  "AUTHORIZATION_CONSUMED": "NO",
+  "MD_RUN_AUTHORIZATION": "NOT_GRANTED",
+  "PARAMETER_EDITED": "NO",
+  "checkpoint_provenance_sha256": "efec0fd18ecd30ca53f02f8717b6b2a9c9b2de7bfe2c3f20fbac4ca436033e7e",
+  "excluded_artifacts": [
+    "__pycache__",
+    "*.pyc",
+    "temporary files",
+    "editor backups",
+    "runtime-generated artifacts"
+  ],
+  "gaussian_execution_authorized": false,
+  "grammar_audit_sha256": "1525e457daa4414cc6934bd6c73642ea4c2c8a6bdcb038e27b3e5d94ef22df5d",
+  "input_file": "T_CC_060_attempt04.gjf",
+  "input_sha256": "6f4b9d3647e66b5f50a3118e4e3ad142ddd75ad961dbb9613c30a1bbedc7a543",
+  "output_checkpoint_absent": true,
+  "package_digest_scheme": "SHA256(SHA256SUMS) over sorted relative file hashes",
+  "package_root": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_torsion_20260924/T_CC_060_sentinel_attempt04_offline_20260925/package",
+  "review_request_sha256": "c7a6954e57de9d386a1bb9a7c673efe54a3f986ff808036324ac9ff9c5a4c6f4",
+  "role": "OFFLINE_HASH_BOUND_CANDIDATE",
+  "route": "#P MP2/6-31+G(d) Opt=(Tight,MaxCycles=200) Geom=(Checkpoint,ModRedundant) IOp(1/152=200) SCF=Tight NoSymm",
+  "schema": "ATTEMPT04_PACKAGE_MANIFEST_v1",
+  "source_checkpoint_sha256": "95d413543e1270b1fd8a6f859c2268d966b21bc14c7be2740de3debe0aa0342d",
+  "utc": "2026-09-25T09:09:07+00:00"
+}
