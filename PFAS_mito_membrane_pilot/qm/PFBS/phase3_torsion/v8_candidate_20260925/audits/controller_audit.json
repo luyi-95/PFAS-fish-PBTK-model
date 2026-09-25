@@ -1,0 +1,21 @@
+{
+  "cap_check_before_SCF_MP2": true,
+  "cap_required": 200,
+  "default_mode": "OFFLINE_AUDIT",
+  "early_actual_log_cap_regex": "Number of steps in this run=... maximum allowed number of steps=...",
+  "known_alpha_warning": "record count/min/max/final; do not halt solely for known class",
+  "launch_requires": "external hash-bound Sol High approval and separate user authorization",
+  "local_failure": "POINT_REVIEW_no_retry_continue_unrelated",
+  "max_concurrent": 4,
+  "note": "Runtime acceptance of combined route remains unverified until separately authorized C.02 run.",
+  "runtime_outside_package": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_torsion_20260924/phase3_torsion_20run_20260925_v8",
+  "status": "PASS_STATIC_ONLY",
+  "systemic_stop": [
+    "package/hash",
+    "Gaussian environment",
+    "shared artifact collision",
+    "filesystem/resource",
+    "repeated parser or cap failure",
+    "provenance"
+  ]
+}

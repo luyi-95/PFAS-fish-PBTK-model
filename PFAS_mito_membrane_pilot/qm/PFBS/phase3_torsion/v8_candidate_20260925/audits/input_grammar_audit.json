@@ -1,0 +1,366 @@
+{
+  "count": 20,
+  "records": [
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_120",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "8ec063d3444f0f73c4d2c231b0502887a100abe54694328ab46df3a52a898447",
+      "status": "PASS",
+      "v8_input_sha256": "b0bba5ccca2f6f835be256485eaa2f57a5300d010ab0c2c84c7bf3ecc48b3393"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_150",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "dd5867f4cffaad54b3af3ad7f75639173824a73ed9cbcb2a1f98c0d8c4bba8e2",
+      "status": "PASS",
+      "v8_input_sha256": "156beadac6cf56ede3bb18fc7f1c34a69047ca6bfcdc7f9717cd179806a95ff7"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_210",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "6c77c042d39cacb4c4e268a4014bbed7dd68fa0e622b007b0bcda7ba62522af0",
+      "status": "PASS",
+      "v8_input_sha256": "923b5376ca7cca8d87ac0814cf941e96d39c630e63b6e6df9d6fdf641ce76f07"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_240",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "c39cc09d2a8cd1bbdde4fb1910ee461d298db396c8185a1b99455d4b4a1731a6",
+      "status": "PASS",
+      "v8_input_sha256": "3afe86545b93d234c33226f329324869294bb08eba3f1219cac8883b0a7d1ba1"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_270",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "f43695258d996a6d6a68fc94136fc8e8c048c204e1ebcc39063ec6f9ab4ca102",
+      "status": "PASS",
+      "v8_input_sha256": "2bd9b8944a385170591a51312b877884452e782c27bb68613696e0f8861777f6"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_300",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "9c85408254363e87da0c27844dd23a6edabce2a6e1e7b23bdda5b1f3d6a73fcf",
+      "status": "PASS",
+      "v8_input_sha256": "dd1226ac75afc053568fdf5b0565762f853a6b7038e2738a812272bd2c146752"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CC_330",
+      "modredundant": "D 16 14 15 1 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "d2c9c0ffe32f3cfefd73798688cfae159abcbab0c75cdebbf1a88aee08a5c23a",
+      "status": "PASS",
+      "v8_input_sha256": "5f859b9eec4ddc57880a73e131f1887a339522331b76482399a4261d0a50dc9c"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_000",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "e16b731cf0c781aa5254871f48367a14c8b617c4d6d2a7cb431bf2e245e0c95e",
+      "status": "PASS",
+      "v8_input_sha256": "c6e87eadbc97ee3a658fca63c2bebe474d305662f74859d8d66d9e223b5e2dff"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_010",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "1d1142594242eed1a591d24bff2880f9f3927f57a08017075321963ace6d531e",
+      "status": "PASS",
+      "v8_input_sha256": "0b7cedffec54e9ce5c7a6ded49c3d53cf64cb3387a02bda17f2ec16228f9dc5d"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_020",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "da05e9dbb94bd75703e72f53a7f62220723f00d6739b61fd74b890ebfedbad23",
+      "status": "PASS",
+      "v8_input_sha256": "cdd7d39e3aa066bae0ecd543b6c83ff08da77b4585637fea9cc75d4d246525ff"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_030",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "f96530f940f9871b7b54c6c608e2b334df8a56c04bbdfc9dab94c62d8c4acdf7",
+      "status": "PASS",
+      "v8_input_sha256": "6b60b9de0b335926c4dcc21ab2dbe8486ef59f90d20c705158ac6b26c6dab1ed"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_040",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "f27db01aa227f77b5cce7b155770de6e4ddc7d6955af67ce99915eb689cdebba",
+      "status": "PASS",
+      "v8_input_sha256": "68c181fa341b0d839521fef562b9cfa58300075aa85229e3fbc735d4b157559e"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_050",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "268e9be592819c0d29d2b68cadb471714f8b35d3f20a05a1296b97da9f07fa32",
+      "status": "PASS",
+      "v8_input_sha256": "11d24df0ecf4a29168c9974798b2740b56f904e59b15d535034dad89d401cf26"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_060",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "97e60d0ae4f19f632efae0fd8525c703944f093774d77d3120592212176143d5",
+      "status": "PASS",
+      "v8_input_sha256": "ebab32e8f2bb7912984792f1b1506fc59f578579e823c023132734ee15ca2528"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_070",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "e79531e07537236692365aa6d4d68dcfba6ce2e8683c6a8567f62a698f5f33fd",
+      "status": "PASS",
+      "v8_input_sha256": "7427a44f8097907206863787db484548fae7a58dfdbf0cfb452e0adb877d95af"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_080",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "99dcc3add05d95ff4a7eeaaf05c33e843c8fbc76762532f4447a8ca7d755eef5",
+      "status": "PASS",
+      "v8_input_sha256": "e1edeae141c2995e40c0325a3d1533e7c08b23a49568fb4e453ea632f7ca5e81"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_090",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "121446715a05c8137a296910c5db576b784445362a1a719342c2403314bf13b6",
+      "status": "PASS",
+      "v8_input_sha256": "b3beea571d582ab66d7be43920b356629581eb981ef283ad782682647eefe917"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_100",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "3ac42a7862532a5cdf04e153638f169226fb59d6dbd80a39de51e2005ccf1ffc",
+      "status": "PASS",
+      "v8_input_sha256": "f974bf1aeb043bf910b82693d675ee228d0b9be4916a08a15efe01795aed81a6"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_110",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "ab0662c1ea91b6bf6c5f2bba729f4663482e9f6944ff792153fb03cdca5c9eb8",
+      "status": "PASS",
+      "v8_input_sha256": "d0dda68f5ea76ac91c4e88609411b39a00dce0fce34a7e229be4d1a1e17b57f6"
+    },
+    {
+      "atom_count": 17,
+      "charge": -1,
+      "expected_maxcycles": 200,
+      "iop_1_152": 200,
+      "job_id": "T_CS_120",
+      "modredundant": "D 14 15 1 11 F",
+      "multiplicity": 1,
+      "only_changes": [
+        "job-local checkpoint path",
+        "IOp(1/152=200) route addition",
+        "terminal blank line for ModRedundant grammar"
+      ],
+      "route": "#P MP2/6-31+G(d) Opt=(Tight,ModRedundant,MaxCycles=200) IOp(1/152=200) SCF=Tight NoSymm",
+      "source_v7_input_sha256": "bf611ee262640e18b39bffde332bf359e17f8a7a5078071529f4c978f6f0b573",
+      "status": "PASS",
+      "v8_input_sha256": "326bdfcf643a7433c2381782b2d629e122f4699afaa65528e30f4589861f9be7"
+    }
+  ],
+  "status": "PASS"
+}
