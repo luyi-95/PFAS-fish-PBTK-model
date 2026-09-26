@@ -1,0 +1,136 @@
+{
+  "schema": "PFBS_PRE_QM_SOL_HIGH_COMPLETENESS_REVIEW_v1",
+  "date": "2026-09-26",
+  "disposition": "PASS_FOR_PRE_QM_AUDIT_UPLOAD",
+  "audited_package_root": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package",
+  "audited_snapshots": {
+    "initial": {
+      "file_count": 67,
+      "sha256sums_sha256": "ad9a9b87463eaf2e6c4a9be741fdc658e7b71a1f3cd5636dfce6fd4c53fe46d7"
+    },
+    "accepted_pre_review": {
+      "file_count": 67,
+      "sha256sums_sha256": "4809c23c5eb677377f2e296d24593fed965699f063d68ba58828da21b2af8df6",
+      "readme_sha256": "60a23720ebb89cb08a32977d98e165ab2f2ede12d7849eac245f4112c87c5f45"
+    },
+    "final_manifest_action": "Root regenerates including these review files; exact Git/ZIP identities recorded externally after publication."
+  },
+  "checks": {
+    "file_set_and_all_hashes": "PASS",
+    "manifest_payload": "PASS",
+    "physical_source_copies": {
+      "count": 24,
+      "status": "PASS"
+    },
+    "current_source_coefficients_and_names": "PASS",
+    "effective_nonzero_sharing": "PASS",
+    "full_failure_rows": {
+      "count": 92,
+      "status": "PASS_EXACT_ORIGINAL_REVIEW_VALUES"
+    },
+    "matrix": {
+      "rows": 61,
+      "columns": 77,
+      "existing": 62,
+      "proposed": 15,
+      "status": "PASS_QUALITATIVE_ONLY"
+    },
+    "local_inventory_raw_sources": {
+      "count": 31,
+      "status": "PASS_HASH_AND_METHOD_ROUTE"
+    },
+    "embedded_absolute_G96": {
+      "count": 25,
+      "status": "PASS_HASH_ORDER"
+    },
+    "joint_design": {
+      "development": 6,
+      "heldout": 4,
+      "status": "PASS_SEED_GEOMETRY_AND_CHECKPOINT_BINDING"
+    },
+    "original_sol_copy": "PASS_BYTE_IDENTICAL",
+    "gaussian_offline_inputs": "PASS_SOURCE_PRESERVING_RUNTIME_UNVERIFIED",
+    "hessian_raw_parse": "PASS_SOURCE_PRESERVING",
+    "criteria_transparency": "PASS",
+    "jobs_and_conditional_scope": "PASS",
+    "lightweight_upload_plan": "PASS_PREPARATION_ONLY"
+  },
+  "counts": {
+    "bond_families": 6,
+    "bond_instances": 16,
+    "angle_families": 11,
+    "angle_instances": 30,
+    "UB_families": 11,
+    "proper_rows": 16,
+    "zero_proper_rows": 4,
+    "active_nonzero_proper_groups": 12,
+    "active_Fourier_instances": 38,
+    "field_instance_records": 171,
+    "existing_observables": {
+      "geometries": 2,
+      "A_curvature": 1,
+      "absolute_PES": 25,
+      "reverse_diagnostics": 6,
+      "primary_water": 24,
+      "diffuse_water_diagnostics": 2,
+      "ESP": 2,
+      "total": 62
+    },
+    "core_proposed_jobs": 11
+  },
+  "corrections": [
+    {
+      "file": "README.md",
+      "issue": "Two diffuse water diagnostics absent from prose count.",
+      "status": "CLOSED_ROOT_CORRECTION_INDEPENDENTLY_RECHECKED"
+    }
+  ],
+  "blocking_defects": [],
+  "scientific_readiness": {
+    "fitting": "REVIEW",
+    "QM_execution": "REVIEW",
+    "Hessian_target": "REVIEW",
+    "mixed_launch_inputs": "NOT_PREPARED_NO_LAUNCH_READY_CLAIM",
+    "current_runtime": "UNVERIFIED",
+    "unfrozen_criteria": "CRITERION_NOT_PREVIOUSLY_FROZEN"
+  },
+  "authoritative_status": {
+    "decision": "BROAD_PFBS_REPARAMETERIZATION_REQUIRED",
+    "new_QM_required": "YES",
+    "scope": "LARGE",
+    "membrane_value": "MODERATE",
+    "original_MD_sha256": "9f4c235312daf0ce24df7306f8154bf7789d18eed1ca7bcdc0da0f2c5f653b9b",
+    "original_JSON_sha256": "41a91dc78fc3f331f7e49946f3b222a54b554ea56bcf19cc307543e30b03b1cf",
+    "valid_formal_candidate_cycles_consumed": 1,
+    "invalid_mixed_draft": "EXCLUDED",
+    "candidate_adopted": false,
+    "current_parameters": "REJECTED",
+    "charges_LJ": "REPORT75_ACCEPT_WITH_CAUTION_FROZEN"
+  },
+  "flags": {
+    "new_QM_launched": "NO",
+    "fitting_started": "NO",
+    "parameter_edited": "NO",
+    "MD_run_authorization": "NOT_GRANTED",
+    "publication_receipt": "PENDING_ROOT_EXACT_GIT_AND_ARCHIVE_REPRODUCTION",
+    "next_authorized_stopping_point": "GITHUB_UPLOAD_AND_INDEPENDENT_EXACT_COMMIT_REPRODUCTION"
+  },
+  "review_methods": [
+    "Read-only document inspection",
+    "Standard-library exact file hashing",
+    "Exact source line/coefficient checks",
+    "Topology sharing set comparisons",
+    "Exact original-review numerical table comparisons"
+  ],
+  "not_performed": [
+    "Gaussian",
+    "GROMACS",
+    "formchk",
+    "QM/MM/MD",
+    "fitting",
+    "parameter mutation",
+    "Hessian internal-coordinate transformation",
+    "Numeric target Jacobian/rank fit"
+  ],
+  "source_scope_note": "Remote-only existing records audited through preserved source receipts/snapshots; no claim of fresh full remote raw-log inspection. No future Git commit/ZIP identity certified."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FOR_AUDIT_COMPLETENESS_ONLY",
+  "rows": {
+    "bonds": 6,
+    "angles": 11,
+    "UB": 11,
+    "torsion_components_including4zero": 16,
+    "type_field_matrix_rows": 61,
+    "observable_columns": 77,
+    "existing_QM_observables": 62,
+    "full_A_B_bond_angle_rows": 92,
+    "joint_development": 6,
+    "joint_heldout": 4,
+    "core_new_QM_proposals": 11
+  },
+  "source_original_Sol_MD_sha256": "9f4c235312daf0ce24df7306f8154bf7789d18eed1ca7bcdc0da0f2c5f653b9b",
+  "scientific_execution_readiness": "REVIEW_EXACT_MIXED_INPUTS_AND_UNFROZEN_FIT_CRITERIA",
+  "hessian_force_targets": "NOT_TRANSFORMED",
+  "new_QM_launched": false,
+  "fitting_started": false,
+  "parameter_edited": false,
+  "MD_run_authorization": "NOT_GRANTED"
+}

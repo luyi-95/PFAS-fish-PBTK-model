@@ -1,0 +1,57 @@
+{
+  "original_itp": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\original_parameters\\pfbs_ani.itp",
+    "sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca",
+    "size": 7327
+  },
+  "original_prm": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\original_parameters\\pfbs_ani.prm",
+    "sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+    "size": 2218
+  },
+  "effective_baseline_dump": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\candidate_tpr_proof\\baseline.tpr.dump",
+    "sha256": "2ec1f2360523c920d1f4c60f915f355300cb5a04ff0d20874dfa765d23f8600b",
+    "size": 558371
+  },
+  "GEO_A_frequency_log": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.log",
+    "sha256": "56b2bf0620ab18b1ee3517d3b2e1a7754adbba416f2737418938587fd34a4667",
+    "size": 128211
+  },
+  "frequency_review": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\47_PFBS_FREQUENCY_WARNING_REVIEW.md",
+    "sha256": "dbc81ddcdd04d64d9b376dd5263b9da98283b949de13ba7cbc6e30ef41109900",
+    "size": 9444
+  },
+  "baseline_profiles": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\MM_relaxed_profiles_20260926\\MM_SOL_HIGH_REVIEW_PACKAGE_20260926_v1\\PFBS_MM_QM_DOUBLE_POINT_PROFILE.tsv",
+    "sha256": "d8c540257927de5b44211a0164f63042178346f294b8c8f1651f4a94443f7800",
+    "size": 32129
+  },
+  "candidate_geometry": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\candidate_validation_v1\\candidate_validation_geometry_comparison.json",
+    "sha256": "cecde48b75e7455d61d5048981d5ba3b4c20fdb22c8c1ec3ca6b311d715e983f",
+    "size": 106107
+  },
+  "final_candidate_review": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\reviews\\SOL_HIGH_FORMAL_CANDIDATE_FINAL_REVIEW.md",
+    "sha256": "ea4c3f4b539384a908171806037a377ac78f098d6c161f86fa543346334b1736",
+    "size": 10426
+  },
+  "nonbonded_disposition": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\75_PFBS_PHASE2_PAIRWISE_DIAGNOSTIC_SCIENTIFIC_REVIEW.md",
+    "sha256": "d0a034b3d19f8767a551309780ebec46991aa0ebb649ffb1aafe9bac9b971f80",
+    "size": 4399
+  },
+  "frozen_acceptance_rules": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\29_PFBS_QM_ACCEPTANCE_RULES.md",
+    "sha256": "ccd7d16872a44da0507f7d81af6986dd2a876699e19d5702406a99f56a6ff902",
+    "size": 8062
+  },
+  "initial_minimum_QM_plan": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\26_PFBS_MINIMUM_QM_PLAN.md",
+    "sha256": "085e3cf6ae3aa00038345f2889109f04f6d5bc60274a12b2cc267fd2c3d199d9",
+    "size": 8891
+  }
+}

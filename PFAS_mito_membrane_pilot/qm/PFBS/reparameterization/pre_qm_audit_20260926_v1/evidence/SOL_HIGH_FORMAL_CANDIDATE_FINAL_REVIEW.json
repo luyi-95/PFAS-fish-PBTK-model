@@ -1,0 +1,2993 @@
+{
+  "disposition": {
+    "BONDED_REFINEMENT_STATUS": "INSUFFICIENT",
+    "TORSION_REFINEMENT_STATUS": "PROTOCOL_REVIEW_REQUIRED",
+    "CANDIDATE_ADOPTION": "NOT_VALIDATED_REJECTED_FOR_WORKING_USE",
+    "STOP_BEFORE_PROFILES": true,
+    "FORMAL_BONDED_CYCLE_CONSUMED": true,
+    "SECOND_SOLVE_OR_SCOPE_EXPANSION_AUTHORIZED": false,
+    "TORSION_FITTING": "SUSPENDED",
+    "MD_RUN_AUTHORIZATION": "NOT_GRANTED"
+  },
+  "sources": {
+    "candidate_itp_sha256": "6a6c241bfeee38341b685c377171fc4d5be0d9e75d01f215f8abf4b26640d908",
+    "candidate_freeze_sha256": "0aa37a46ab57232e0ffb2ac359ecc458cf6ca14a21b8a2c401aec64bb6f1fcee",
+    "semantic_proof_sha256": "0ee6e834a9d0fe11a27068791d29d6ba50669ceab32868838fb8a9b80788658b",
+    "executor_comparison_sha256": "cecde48b75e7455d61d5048981d5ba3b4c20fdb22c8c1ec3ca6b311d715e983f",
+    "original_prm_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+    "response_matrix_sha256": "b2f64dcc5057a650129b66432f275a5a385bf4a7fc30167aadc15fe9f5ecb3bc",
+    "full_precision_target_sha256": "c9350d0c89a12553840825273431617a45476e36d9f5839c1013a4877152e577"
+  },
+  "review_status": "INSUFFICIENT",
+  "torsion_status": "PROTOCOL_REVIEW_REQUIRED",
+  "case_reviews": {
+    "GEO_A": {
+      "run_record_sha256": "18d6c78a8518ff2f0fa3ebd07d52acd0b048bc8dfd687434db176a71a60cf0e0",
+      "input_sha": "bf6d3b621559c8a9eab217fdb97f1679c9dff8be0a8702542092e3f650516442",
+      "final_sha": "e4d4dfb1df78705829f11cd8167b886396aefe53f30c6f2f4819a3cdb657737d",
+      "fmax": 4.52014899214101,
+      "bonds": [
+        {
+          "term": "S1-O1(1-11)",
+          "qm": 1.4824048021793783,
+          "baseline": 1.4516704549953192,
+          "candidate": 1.4803066208058921,
+          "baseline_minus_qm": -0.030734347184059096,
+          "candidate_minus_qm": -0.002098181373486163,
+          "candidate_minus_baseline": 0.028636165810572933
+        },
+        {
+          "term": "S1-O2(1-12)",
+          "qm": 1.4795360895746836,
+          "baseline": 1.4533655037676738,
+          "candidate": 1.4818482419266048,
+          "baseline_minus_qm": -0.026170585807009816,
+          "candidate_minus_qm": 0.0023121523519211706,
+          "candidate_minus_baseline": 0.028482738158930987
+        },
+        {
+          "term": "S1-O3(1-13)",
+          "qm": 1.4813346426421938,
+          "baseline": 1.452317040183244,
+          "candidate": 1.4807932650542264,
+          "baseline_minus_qm": -0.02901760245894991,
+          "candidate_minus_qm": -0.000541377587967462,
+          "candidate_minus_baseline": 0.028476224870982447
+        },
+        {
+          "term": "S1-C2(1-15)",
+          "qm": 1.8736790713925773,
+          "baseline": 1.76905478101653,
+          "candidate": 1.8746034090707475,
+          "baseline_minus_qm": -0.10462429037604726,
+          "candidate_minus_qm": 0.0009243376781702395,
+          "candidate_minus_baseline": 0.1055486280542175
+        },
+        {
+          "term": "F1-C1(2-14)",
+          "qm": 1.3595551426661177,
+          "baseline": 1.3655797682168735,
+          "candidate": 1.3634436189199062,
+          "baseline_minus_qm": 0.006024625550755891,
+          "candidate_minus_qm": 0.00388847625378852,
+          "candidate_minus_baseline": -0.002136149296967371
+        },
+        {
+          "term": "F2-C1(3-14)",
+          "qm": 1.3774984810535549,
+          "baseline": 1.3682824103544706,
+          "candidate": 1.3662693527906993,
+          "baseline_minus_qm": -0.009216070699084256,
+          "candidate_minus_qm": -0.011229128262855603,
+          "candidate_minus_baseline": -0.0020130575637713477
+        },
+        {
+          "term": "F3-C2(4-15)",
+          "qm": 1.375531096363811,
+          "baseline": 1.3514325503468607,
+          "candidate": 1.3444432370376966,
+          "baseline_minus_qm": -0.024098546016950273,
+          "candidate_minus_qm": -0.031087859326114353,
+          "candidate_minus_baseline": -0.00698931330916408
+        },
+        {
+          "term": "F4-C2(5-15)",
+          "qm": 1.3712622667249406,
+          "baseline": 1.356630762921199,
+          "candidate": 1.3489676535010295,
+          "baseline_minus_qm": -0.014631503803741452,
+          "candidate_minus_qm": -0.02229461322391102,
+          "candidate_minus_baseline": -0.007663109420169567
+        },
+        {
+          "term": "F5-C3(6-16)",
+          "qm": 1.3493720025730402,
+          "baseline": 1.360102285465584,
+          "candidate": 1.359288066887009,
+          "baseline_minus_qm": 0.010730282892543741,
+          "candidate_minus_qm": 0.009916064313968853,
+          "candidate_minus_baseline": -0.0008142185785748879
+        },
+        {
+          "term": "F6-C3(7-16)",
+          "qm": 1.3764797496427925,
+          "baseline": 1.3679283568067926,
+          "candidate": 1.3675833230356322,
+          "baseline_minus_qm": -0.008551392835999927,
+          "candidate_minus_qm": -0.00889642660716028,
+          "candidate_minus_baseline": -0.0003450337711603524
+        },
+        {
+          "term": "F7-C4(8-17)",
+          "qm": 1.330175822145935,
+          "baseline": 1.346558158625234,
+          "candidate": 1.3465323216529357,
+          "baseline_minus_qm": 0.016382336479298987,
+          "candidate_minus_qm": 0.016356499507000688,
+          "candidate_minus_baseline": -0.000025836972298298733
+        },
+        {
+          "term": "F8-C4(9-17)",
+          "qm": 1.3572512969131418,
+          "baseline": 1.3537516311618094,
+          "candidate": 1.353674470744692,
+          "baseline_minus_qm": -0.003499665751332426,
+          "candidate_minus_qm": -0.003576826168449898,
+          "candidate_minus_baseline": -0.00007716041711747224
+        },
+        {
+          "term": "F9-C4(10-17)",
+          "qm": 1.351186931996573,
+          "baseline": 1.3517385828953907,
+          "candidate": 1.3517285854678471,
+          "baseline_minus_qm": 0.0005516508988177016,
+          "candidate_minus_qm": 0.0005416534712741061,
+          "candidate_minus_baseline": -0.00000999742754359545
+        },
+        {
+          "term": "C1-C2(14-15)",
+          "qm": 1.5463338589367104,
+          "baseline": 1.4867722265211372,
+          "candidate": 1.5464134064629385,
+          "baseline_minus_qm": -0.05956163241557322,
+          "candidate_minus_qm": 0.00007954752622807426,
+          "candidate_minus_baseline": 0.05964117994180129
+        },
+        {
+          "term": "C1-C3(14-16)",
+          "qm": 1.5536251466595754,
+          "baseline": 1.5259335657342659,
+          "candidate": 1.5211730113502562,
+          "baseline_minus_qm": -0.027691580925309545,
+          "candidate_minus_qm": -0.03245213530931923,
+          "candidate_minus_baseline": -0.004760554384009685
+        },
+        {
+          "term": "C3-C4(16-17)",
+          "qm": 1.5480468386153412,
+          "baseline": 1.4953639654667383,
+          "candidate": 1.4939470776338886,
+          "baseline_minus_qm": -0.05268287314860287,
+          "candidate_minus_qm": -0.05409976098145264,
+          "candidate_minus_baseline": -0.001416887832849767
+        }
+      ],
+      "angles": [
+        {
+          "term": "S1-C2-F3",
+          "qm": 109.67733398017896,
+          "baseline": 108.89112810917901,
+          "candidate": 108.54512085512701,
+          "baseline_minus_qm": -0.7862058709999502,
+          "candidate_minus_qm": -1.1322131250519476,
+          "candidate_minus_baseline": -0.3460072540519974
+        },
+        {
+          "term": "S1-C2-F4",
+          "qm": 108.96744940646958,
+          "baseline": 107.36450479218851,
+          "candidate": 106.96356476455698,
+          "baseline_minus_qm": -1.6029446142810713,
+          "candidate_minus_qm": -2.003884641912606,
+          "candidate_minus_baseline": -0.4009400276315347
+        },
+        {
+          "term": "S1-C2-C1",
+          "qm": 119.96985166647593,
+          "baseline": 113.32210034902326,
+          "candidate": 110.45199575550187,
+          "baseline_minus_qm": -6.6477513174526734,
+          "candidate_minus_qm": -9.517855910974063,
+          "candidate_minus_baseline": -2.87010459352139
+        },
+        {
+          "term": "F1-C1-F2",
+          "qm": 107.3508090300338,
+          "baseline": 101.79714875585125,
+          "candidate": 102.0064344186243,
+          "baseline_minus_qm": -5.553660274182548,
+          "candidate_minus_qm": -5.344374611409506,
+          "candidate_minus_baseline": 0.20928566277304128
+        },
+        {
+          "term": "F1-C1-C2",
+          "qm": 109.50557562604796,
+          "baseline": 110.44459319349241,
+          "candidate": 110.09156602002227,
+          "baseline_minus_qm": 0.9390175674444521,
+          "candidate_minus_qm": 0.5859903939743134,
+          "candidate_minus_baseline": -0.3530271734701387
+        },
+        {
+          "term": "F1-C1-C3",
+          "qm": 105.39046626206549,
+          "baseline": 107.71523539912296,
+          "candidate": 108.331647271349,
+          "baseline_minus_qm": 2.324769137057473,
+          "candidate_minus_qm": 2.941181009283511,
+          "candidate_minus_baseline": 0.6164118722260383
+        },
+        {
+          "term": "F2-C1-C2",
+          "qm": 106.7104538689189,
+          "baseline": 105.735775913392,
+          "candidate": 105.1741078113321,
+          "baseline_minus_qm": -0.9746779555269001,
+          "candidate_minus_qm": -1.5363460575867975,
+          "candidate_minus_baseline": -0.5616681020598975
+        },
+        {
+          "term": "F2-C1-C3",
+          "qm": 105.69935642344878,
+          "baseline": 107.43499202576423,
+          "candidate": 108.15001821717057,
+          "baseline_minus_qm": 1.7356356023154547,
+          "candidate_minus_qm": 2.4506617937217925,
+          "candidate_minus_baseline": 0.7150261914063378
+        },
+        {
+          "term": "F3-C2-F4",
+          "qm": 107.18253818691385,
+          "baseline": 102.85491981293355,
+          "candidate": 103.4899862297174,
+          "baseline_minus_qm": -4.3276183739803,
+          "candidate_minus_qm": -3.692551957196443,
+          "candidate_minus_baseline": 0.6350664167838573
+        },
+        {
+          "term": "F3-C2-C1",
+          "qm": 105.91890064776834,
+          "baseline": 113.44460330430171,
+          "candidate": 115.23832805543991,
+          "baseline_minus_qm": 7.525702656533369,
+          "candidate_minus_qm": 9.319427407671569,
+          "candidate_minus_baseline": 1.7937247511381997
+        },
+        {
+          "term": "F4-C2-C1",
+          "qm": 104.39286289405992,
+          "baseline": 110.29485487564956,
+          "candidate": 111.64419828865336,
+          "baseline_minus_qm": 5.901991981589646,
+          "candidate_minus_qm": 7.25133539459344,
+          "candidate_minus_baseline": 1.349343413003794
+        },
+        {
+          "term": "F5-C3-F6",
+          "qm": 107.79480751174968,
+          "baseline": 101.89588762757238,
+          "candidate": 101.98154250374355,
+          "baseline_minus_qm": -5.898919884177303,
+          "candidate_minus_qm": -5.813265008006127,
+          "candidate_minus_baseline": 0.0856548761711764
+        },
+        {
+          "term": "F5-C3-C1",
+          "qm": 110.4150854742138,
+          "baseline": 113.4489071668441,
+          "candidate": 113.39906643862669,
+          "baseline_minus_qm": 3.0338216926302977,
+          "candidate_minus_qm": 2.9839809644128934,
+          "candidate_minus_baseline": -0.04984072821740426
+        },
+        {
+          "term": "F5-C3-C4",
+          "qm": 108.29467545540544,
+          "baseline": 110.01434419619542,
+          "candidate": 110.03852117702093,
+          "baseline_minus_qm": 1.7196687407899844,
+          "candidate_minus_qm": 1.743845721615486,
+          "candidate_minus_baseline": 0.02417698082550146
+        },
+        {
+          "term": "F6-C3-C1",
+          "qm": 105.21783735379346,
+          "baseline": 107.91498122033909,
+          "candidate": 107.89354381216725,
+          "baseline_minus_qm": 2.6971438665456304,
+          "candidate_minus_qm": 2.6757064583737957,
+          "candidate_minus_baseline": -0.021437408171834704
+        },
+        {
+          "term": "F6-C3-C4",
+          "qm": 105.03763419113301,
+          "baseline": 106.51855820174549,
+          "candidate": 106.79058143134672,
+          "baseline_minus_qm": 1.4809240106124832,
+          "candidate_minus_qm": 1.7529472402137145,
+          "candidate_minus_baseline": 0.27202322960123126
+        },
+        {
+          "term": "F7-C4-F8",
+          "qm": 108.2237040724793,
+          "baseline": 103.24707602707831,
+          "candidate": 103.27532366091036,
+          "baseline_minus_qm": -4.976628045400986,
+          "candidate_minus_qm": -4.948380411568934,
+          "candidate_minus_baseline": 0.028247633832052088
+        },
+        {
+          "term": "F7-C4-F9",
+          "qm": 109.2768804736617,
+          "baseline": 103.76876468530429,
+          "candidate": 103.81393030199747,
+          "baseline_minus_qm": -5.508115788357415,
+          "candidate_minus_qm": -5.462950171664232,
+          "candidate_minus_baseline": 0.04516561669318264
+        },
+        {
+          "term": "F7-C4-C3",
+          "qm": 113.14632954629842,
+          "baseline": 116.45802716153065,
+          "candidate": 116.31149392517267,
+          "baseline_minus_qm": 3.3116976152322337,
+          "candidate_minus_qm": 3.165164378874252,
+          "candidate_minus_baseline": -0.14653323635798188
+        },
+        {
+          "term": "F8-C4-F9",
+          "qm": 107.67123653178818,
+          "baseline": 103.40429369571426,
+          "candidate": 103.41576947726676,
+          "baseline_minus_qm": -4.266942836073923,
+          "candidate_minus_qm": -4.255467054521418,
+          "candidate_minus_baseline": 0.011475781552505282
+        },
+        {
+          "term": "F8-C4-C3",
+          "qm": 107.77202503419944,
+          "baseline": 113.49696666372898,
+          "candidate": 113.49396955478639,
+          "baseline_minus_qm": 5.724941629529539,
+          "candidate_minus_qm": 5.721944520586945,
+          "candidate_minus_baseline": -0.0029971089425941955
+        },
+        {
+          "term": "F9-C4-C3",
+          "qm": 110.56871903744958,
+          "baseline": 114.8841805174688,
+          "candidate": 114.96257078042184,
+          "baseline_minus_qm": 4.3154614800192235,
+          "candidate_minus_qm": 4.3938517429722594,
+          "candidate_minus_baseline": 0.07839026295303597
+        },
+        {
+          "term": "O1-S1-O2",
+          "qm": 115.87508867620741,
+          "baseline": 112.2620861460513,
+          "candidate": 112.23629832853402,
+          "baseline_minus_qm": -3.613002530156109,
+          "candidate_minus_qm": -3.6387903476733925,
+          "candidate_minus_baseline": -0.02578781751728343
+        },
+        {
+          "term": "O1-S1-O3",
+          "qm": 115.79825616835085,
+          "baseline": 112.8172528305885,
+          "candidate": 112.76009623280194,
+          "baseline_minus_qm": -2.9810033377623455,
+          "candidate_minus_qm": -3.0381599355489044,
+          "candidate_minus_baseline": -0.057156597786558905
+        },
+        {
+          "term": "O1-S1-C2",
+          "qm": 101.68837783605547,
+          "baseline": 105.90695232156716,
+          "candidate": 105.9447964948535,
+          "baseline_minus_qm": 4.218574485511695,
+          "candidate_minus_qm": 4.25641865879804,
+          "candidate_minus_baseline": 0.03784417328634504
+        },
+        {
+          "term": "O2-S1-O3",
+          "qm": 116.27786596346955,
+          "baseline": 112.6848872473556,
+          "candidate": 112.60875559622816,
+          "baseline_minus_qm": -3.5929787161139473,
+          "candidate_minus_qm": -3.6691103672413874,
+          "candidate_minus_baseline": -0.07613165112744014
+        },
+        {
+          "term": "O2-S1-C2",
+          "qm": 101.28230695055689,
+          "baseline": 105.76211526158185,
+          "candidate": 105.84456933790948,
+          "baseline_minus_qm": 4.479808311024968,
+          "candidate_minus_qm": 4.56226238735259,
+          "candidate_minus_baseline": 0.0824540763276218
+        },
+        {
+          "term": "O3-S1-C2",
+          "qm": 102.18621881661765,
+          "baseline": 106.74193852267949,
+          "candidate": 106.80507259979117,
+          "baseline_minus_qm": 4.555719706061836,
+          "candidate_minus_qm": 4.61885378317352,
+          "candidate_minus_baseline": 0.06313407711168395
+        },
+        {
+          "term": "C1-C3-C4",
+          "qm": 119.38890145578634,
+          "baseline": 115.83648937882073,
+          "candidate": 115.59269919701875,
+          "baseline_minus_qm": -3.5524120769656093,
+          "candidate_minus_qm": -3.796202258767593,
+          "candidate_minus_baseline": -0.24379018180198386
+        },
+        {
+          "term": "C2-C1-C3",
+          "qm": 121.44059188743243,
+          "baseline": 121.83164235400733,
+          "candidate": 121.32589944018856,
+          "baseline_minus_qm": 0.39105046657489595,
+          "candidate_minus_qm": -0.1146924472438684,
+          "candidate_minus_baseline": -0.5057429138187644
+        }
+      ],
+      "torsions": {
+        "T_CC_C3_C1_C2_S1": -63.772826254870424,
+        "T_CS_C1_C2_S1_O1": 71.32474319322114
+      },
+      "so3": {
+        "S1_O_A": [
+          1.4803066208058921,
+          1.4818482419266048,
+          1.4807932650542264
+        ],
+        "mean_A": 1.480982709262241,
+        "range_A": 0.0015416211207126551,
+        "OSO_deg": [
+          112.23629832853402,
+          112.76009623280194,
+          112.60875559622816
+        ]
+      },
+      "all_136_pair_comparisons": [
+        {
+          "pair": "1-2",
+          "qm_A": 3.3281177571081795,
+          "baseline_A": 3.1015909810681306,
+          "candidate_A": 3.1451081213976333,
+          "candidate_minus_baseline_A": 0.04351714032950271
+        },
+        {
+          "pair": "1-3",
+          "qm_A": 4.116226865324342,
+          "baseline_A": 3.895728966585038,
+          "candidate_A": 3.9967098183301775,
+          "candidate_minus_baseline_A": 0.1009808517451396
+        },
+        {
+          "pair": "1-4",
+          "qm_A": 2.6717845960265336,
+          "baseline_A": 2.5503020849543097,
+          "candidate_A": 2.631507921831808,
+          "candidate_minus_baseline_A": 0.08120583687749816
+        },
+        {
+          "pair": "1-5",
+          "qm_A": 2.6572995625574336,
+          "baseline_A": 2.5303225941461234,
+          "candidate_A": 2.609494739147678,
+          "candidate_minus_baseline_A": 0.07917214500155456
+        },
+        {
+          "pair": "1-6",
+          "qm_A": 3.3605534182885117,
+          "baseline_A": 3.1935056134274573,
+          "candidate_A": 3.195501071862724,
+          "candidate_minus_baseline_A": 0.001995458435266606
+        },
+        {
+          "pair": "1-7",
+          "qm_A": 4.854736790523777,
+          "baseline_A": 4.5838644114292375,
+          "candidate_A": 4.6350265224187845,
+          "candidate_minus_baseline_A": 0.05116211098954704
+        },
+        {
+          "pair": "1-8",
+          "qm_A": 3.742162270006457,
+          "baseline_A": 3.6547010223685588,
+          "candidate_A": 3.687697171458168,
+          "candidate_minus_baseline_A": 0.03299614908960935
+        },
+        {
+          "pair": "1-9",
+          "qm_A": 5.298775226736882,
+          "baseline_A": 5.126027243133095,
+          "candidate_A": 5.160337090908335,
+          "candidate_minus_baseline_A": 0.0343098477752406
+        },
+        {
+          "pair": "1-10",
+          "qm_A": 5.015004221112099,
+          "baseline_A": 4.814148959703546,
+          "candidate_A": 4.88397117623462,
+          "candidate_minus_baseline_A": 0.06982221653107334
+        },
+        {
+          "pair": "1-11",
+          "qm_A": 1.4824048021793783,
+          "baseline_A": 1.4516704549953192,
+          "candidate_A": 1.4803066208058921,
+          "candidate_minus_baseline_A": 0.028636165810572933
+        },
+        {
+          "pair": "1-12",
+          "qm_A": 1.4795360895746836,
+          "baseline_A": 1.4533655037676738,
+          "candidate_A": 1.4818482419266048,
+          "candidate_minus_baseline_A": 0.028482738158930987
+        },
+        {
+          "pair": "1-13",
+          "qm_A": 1.4813346426421938,
+          "baseline_A": 1.452317040183244,
+          "candidate_A": 1.4807932650542264,
+          "candidate_minus_baseline_A": 0.028476224870982447
+        },
+        {
+          "pair": "1-14",
+          "qm_A": 2.9658917834348086,
+          "baseline_A": 2.7244490869078,
+          "candidate_A": 2.816278097383602,
+          "candidate_minus_baseline_A": 0.09182901047580216
+        },
+        {
+          "pair": "1-15",
+          "qm_A": 1.8736790713925773,
+          "baseline_A": 1.76905478101653,
+          "candidate_A": 1.8746034090707475,
+          "candidate_minus_baseline_A": 0.1055486280542175
+        },
+        {
+          "pair": "1-16",
+          "qm_A": 3.608934263273071,
+          "baseline_A": 3.368513528038072,
+          "candidate_A": 3.4220157654491734,
+          "candidate_minus_baseline_A": 0.05350223741110138
+        },
+        {
+          "pair": "1-17",
+          "qm_A": 4.250544227331213,
+          "baseline_A": 4.032549607285823,
+          "candidate_A": 4.083372870375238,
+          "candidate_minus_baseline_A": 0.05082326308941543
+        },
+        {
+          "pair": "2-3",
+          "qm_A": 2.2051987570149647,
+          "baseline_A": 2.121561704467446,
+          "candidate_A": 2.1214826133669558,
+          "candidate_minus_baseline_A": -0.00007909110049020285
+        },
+        {
+          "pair": "2-4",
+          "qm_A": 3.5208531908538,
+          "baseline_A": 3.5436865012384917,
+          "candidate_A": 3.5921436169657834,
+          "candidate_minus_baseline_A": 0.04845711572729172
+        },
+        {
+          "pair": "2-5",
+          "qm_A": 2.664734610003711,
+          "baseline_A": 2.707559664850483,
+          "candidate_A": 2.7693467080077934,
+          "candidate_minus_baseline_A": 0.06178704315731043
+        },
+        {
+          "pair": "2-6",
+          "qm_A": 2.670659553457464,
+          "baseline_A": 2.771361718666791,
+          "candidate_A": 2.768326214652861,
+          "candidate_minus_baseline_A": -0.003035504013930268
+        },
+        {
+          "pair": "2-7",
+          "qm_A": 2.6353698806468313,
+          "baseline_A": 2.6445023160446715,
+          "candidate_A": 2.6591501428983824,
+          "candidate_minus_baseline_A": 0.01464782685371091
+        },
+        {
+          "pair": "2-8",
+          "qm_A": 4.358790221947575,
+          "baseline_A": 4.366354148652617,
+          "candidate_A": 4.355262441378315,
+          "candidate_minus_baseline_A": -0.011091707274301754
+        },
+        {
+          "pair": "2-9",
+          "qm_A": 4.655360362008073,
+          "baseline_A": 4.7079953745526275,
+          "candidate_A": 4.71170932843337,
+          "candidate_minus_baseline_A": 0.003713953880742693
+        },
+        {
+          "pair": "2-10",
+          "qm_A": 4.227008931411355,
+          "baseline_A": 4.177272942739974,
+          "candidate_A": 4.178387123491248,
+          "candidate_minus_baseline_A": 0.0011141807512737856
+        },
+        {
+          "pair": "2-11",
+          "qm_A": 3.937252986616055,
+          "baseline_A": 3.808282678322557,
+          "candidate_A": 3.868348312062464,
+          "candidate_minus_baseline_A": 0.06006563373990703
+        },
+        {
+          "pair": "2-12",
+          "qm_A": 4.478666776864955,
+          "baseline_A": 4.286789166944865,
+          "candidate_A": 4.356331278527597,
+          "candidate_minus_baseline_A": 0.0695421115827326
+        },
+        {
+          "pair": "2-13",
+          "qm_A": 2.930589437201418,
+          "baseline_A": 2.715724329232088,
+          "candidate_A": 2.740302957108659,
+          "candidate_minus_baseline_A": 0.024578627876570724
+        },
+        {
+          "pair": "2-14",
+          "qm_A": 1.3595551426661177,
+          "baseline_A": 1.3655797682168735,
+          "candidate_A": 1.3634436189199062,
+          "candidate_minus_baseline_A": -0.002136149296967371
+        },
+        {
+          "pair": "2-15",
+          "qm_A": 2.375598042470893,
+          "baseline_A": 2.3438595033178067,
+          "candidate_A": 2.3872508933497283,
+          "candidate_minus_baseline_A": 0.043391390031921606
+        },
+        {
+          "pair": "2-16",
+          "qm_A": 2.3201938668099107,
+          "baseline_A": 2.3369671571123116,
+          "candidate_A": 2.340423630329972,
+          "candidate_minus_baseline_A": 0.003456473217660516
+        },
+        {
+          "pair": "2-17",
+          "qm_A": 3.7712542259518314,
+          "baseline_A": 3.702394327951258,
+          "candidate_A": 3.7012745902455046,
+          "candidate_minus_baseline_A": -0.0011197377057534652
+        },
+        {
+          "pair": "3-4",
+          "qm_A": 2.625030083529893,
+          "baseline_A": 2.7229262089719244,
+          "candidate_A": 2.8123536865330263,
+          "candidate_minus_baseline_A": 0.08942747756110192
+        },
+        {
+          "pair": "3-5",
+          "qm_A": 2.6148551848333934,
+          "baseline_A": 2.608843498648733,
+          "candidate_A": 2.6751964481867367,
+          "candidate_minus_baseline_A": 0.06635294953800353
+        },
+        {
+          "pair": "3-6",
+          "qm_A": 3.520931084710368,
+          "baseline_A": 3.545139056166618,
+          "candidate_A": 3.546371857382895,
+          "candidate_minus_baseline_A": 0.001232801216277224
+        },
+        {
+          "pair": "3-7",
+          "qm_A": 2.5763140118910077,
+          "baseline_A": 2.6428634161604814,
+          "candidate_A": 2.6492764126543573,
+          "candidate_minus_baseline_A": 0.006412996493875944
+        },
+        {
+          "pair": "3-8",
+          "qm_A": 3.759744567291734,
+          "baseline_A": 3.7052703425494524,
+          "candidate_A": 3.7115909627313797,
+          "candidate_minus_baseline_A": 0.00632062018192725
+        },
+        {
+          "pair": "3-9",
+          "qm_A": 4.1570926290205055,
+          "baseline_A": 4.11153598651153,
+          "candidate_A": 4.11601425213558,
+          "candidate_minus_baseline_A": 0.004478265624049627
+        },
+        {
+          "pair": "3-10",
+          "qm_A": 2.757202415575137,
+          "baseline_A": 2.708745510090047,
+          "candidate_A": 2.7141982449200053,
+          "candidate_minus_baseline_A": 0.005452734829958228
+        },
+        {
+          "pair": "3-11",
+          "qm_A": 4.514354567134762,
+          "baseline_A": 4.410292972340582,
+          "candidate_A": 4.520166652448354,
+          "candidate_minus_baseline_A": 0.10987368010777132
+        },
+        {
+          "pair": "3-12",
+          "qm_A": 4.938612440474615,
+          "baseline_A": 4.840684311165781,
+          "candidate_A": 4.985296243361645,
+          "candidate_minus_baseline_A": 0.14461193219586388
+        },
+        {
+          "pair": "3-13",
+          "qm_A": 4.45430867407355,
+          "baseline_A": 4.242855647517499,
+          "candidate_A": 4.31312211371885,
+          "candidate_minus_baseline_A": 0.07026646620135146
+        },
+        {
+          "pair": "3-14",
+          "qm_A": 1.3774984810535549,
+          "baseline_A": 1.3682824103544706,
+          "candidate_A": 1.3662693527906993,
+          "candidate_minus_baseline_A": -0.0020130575637713477
+        },
+        {
+          "pair": "3-15",
+          "qm_A": 2.3481040123147716,
+          "baseline_A": 2.2773036741754833,
+          "candidate_A": 2.316065438105876,
+          "candidate_minus_baseline_A": 0.03876176393039277
+        },
+        {
+          "pair": "3-16",
+          "qm_A": 2.3386833297503724,
+          "baseline_A": 2.334918137219785,
+          "candidate_A": 2.339975531038925,
+          "candidate_minus_baseline_A": 0.005057393819140277
+        },
+        {
+          "pair": "3-17",
+          "qm_A": 3.0416117594367442,
+          "baseline_A": 2.9504574141886737,
+          "candidate_A": 2.956010636770591,
+          "candidate_minus_baseline_A": 0.005553222581917261
+        },
+        {
+          "pair": "4-5",
+          "qm_A": 2.210629982671112,
+          "baseline_A": 2.117218879779765,
+          "candidate_A": 2.1150373062966104,
+          "candidate_minus_baseline_A": -0.0021815734831545086
+        },
+        {
+          "pair": "4-6",
+          "qm_A": 3.802670184204647,
+          "baseline_A": 3.8475949996030097,
+          "candidate_A": 3.8719174350135765,
+          "candidate_minus_baseline_A": 0.02432243541056689
+        },
+        {
+          "pair": "4-7",
+          "qm_A": 4.209774166579475,
+          "baseline_A": 4.295400167526327,
+          "candidate_A": 4.360452639809737,
+          "candidate_minus_baseline_A": 0.06505247228341027
+        },
+        {
+          "pair": "4-8",
+          "qm_A": 2.7328981631487075,
+          "baseline_A": 2.637360275851426,
+          "candidate_A": 2.6316213328538502,
+          "candidate_minus_baseline_A": -0.005738942997575602
+        },
+        {
+          "pair": "4-9",
+          "qm_A": 4.432248418857651,
+          "baseline_A": 4.35582096137306,
+          "candidate_A": 4.3802218306728715,
+          "candidate_minus_baseline_A": 0.024400869299811667
+        },
+        {
+          "pair": "4-10",
+          "qm_A": 3.1371134376948087,
+          "baseline_A": 3.119119701837646,
+          "candidate_A": 3.1583812225658536,
+          "candidate_minus_baseline_A": 0.03926152072820743
+        },
+        {
+          "pair": "4-11",
+          "qm_A": 2.937497042010209,
+          "baseline_A": 2.9024399641829435,
+          "candidate_A": 2.9924693431724956,
+          "candidate_minus_baseline_A": 0.0900293789895521
+        },
+        {
+          "pair": "4-12",
+          "qm_A": 3.004079823614172,
+          "baseline_A": 2.9488799218176887,
+          "candidate_A": 3.059214357191925,
+          "candidate_minus_baseline_A": 0.11033443537423615
+        },
+        {
+          "pair": "4-13",
+          "qm_A": 3.8124805566651294,
+          "baseline_A": 3.7433496354512164,
+          "candidate_A": 3.833433426495464,
+          "candidate_minus_baseline_A": 0.0900837910442478
+        },
+        {
+          "pair": "4-14",
+          "qm_A": 2.3345284092726857,
+          "baseline_A": 2.3739605573363685,
+          "candidate_A": 2.443743886437299,
+          "candidate_minus_baseline_A": 0.06978332910093066
+        },
+        {
+          "pair": "4-15",
+          "qm_A": 1.375531096363811,
+          "baseline_A": 1.3514325503468607,
+          "candidate_A": 1.3444432370376966,
+          "candidate_minus_baseline_A": -0.00698931330916408
+        },
+        {
+          "pair": "4-16",
+          "qm_A": 3.087062330112653,
+          "baseline_A": 3.1168804694393923,
+          "candidate_A": 3.1689876747042534,
+          "candidate_minus_baseline_A": 0.05210720526486101
+        },
+        {
+          "pair": "4-17",
+          "qm_A": 3.0895997190726354,
+          "baseline_A": 3.043464738482874,
+          "candidate_A": 3.075377277077289,
+          "candidate_minus_baseline_A": 0.03191253859441501
+        },
+        {
+          "pair": "5-6",
+          "qm_A": 4.34298177438625,
+          "baseline_A": 4.402748275872869,
+          "candidate_A": 4.430852170324049,
+          "candidate_minus_baseline_A": 0.028103894451179556
+        },
+        {
+          "pair": "5-7",
+          "qm_A": 4.613329326608904,
+          "baseline_A": 4.6609961883261235,
+          "candidate_A": 4.724904489349323,
+          "candidate_minus_baseline_A": 0.06390830102319978
+        },
+        {
+          "pair": "5-8",
+          "qm_A": 4.574564069057529,
+          "baseline_A": 4.439362861126701,
+          "candidate_A": 4.424733469739024,
+          "candidate_minus_baseline_A": -0.014629391387676272
+        },
+        {
+          "pair": "5-9",
+          "qm_A": 5.850733075344267,
+          "baseline_A": 5.758186484956418,
+          "candidate_A": 5.777428992603313,
+          "candidate_minus_baseline_A": 0.019242507646894502
+        },
+        {
+          "pair": "5-10",
+          "qm_A": 4.669364937108068,
+          "baseline_A": 4.528469624784177,
+          "candidate_A": 4.543020561962779,
+          "candidate_minus_baseline_A": 0.014550937178602119
+        },
+        {
+          "pair": "5-11",
+          "qm_A": 3.7931577524226463,
+          "baseline_A": 3.7111119533123005,
+          "candidate_A": 3.7979206964605225,
+          "candidate_minus_baseline_A": 0.08680874314822207
+        },
+        {
+          "pair": "5-12",
+          "qm_A": 2.8875271436535286,
+          "baseline_A": 2.797553019658383,
+          "candidate_A": 2.8916518409582914,
+          "candidate_minus_baseline_A": 0.09409882129990832
+        },
+        {
+          "pair": "5-13",
+          "qm_A": 3.0409747262969407,
+          "baseline_A": 3.0343901115386105,
+          "candidate_A": 3.1383198878272105,
+          "candidate_minus_baseline_A": 0.1039297762886
+        },
+        {
+          "pair": "5-14",
+          "qm_A": 2.307738191823462,
+          "baseline_A": 2.334553060965831,
+          "candidate_A": 2.3979076552061316,
+          "candidate_minus_baseline_A": 0.06335459424030043
+        },
+        {
+          "pair": "5-15",
+          "qm_A": 1.3712622667249406,
+          "baseline_A": 1.356630762921199,
+          "candidate_A": 1.3489676535010295,
+          "candidate_minus_baseline_A": -0.007663109420169567
+        },
+        {
+          "pair": "5-16",
+          "qm_A": 3.783933197559157,
+          "baseline_A": 3.771367982664382,
+          "candidate_A": 3.8147106547451033,
+          "candidate_minus_baseline_A": 0.04334267208072129
+        },
+        {
+          "pair": "5-17",
+          "qm_A": 4.567913309003041,
+          "baseline_A": 4.426900785926447,
+          "candidate_A": 4.443207019452543,
+          "candidate_minus_baseline_A": 0.016306233526095504
+        },
+        {
+          "pair": "6-7",
+          "qm_A": 2.202445783419745,
+          "baseline_A": 2.1185230526857395,
+          "candidate_A": 2.1189070820891076,
+          "candidate_minus_baseline_A": 0.00038402940336812463
+        },
+        {
+          "pair": "6-8",
+          "qm_A": 2.777287796946144,
+          "baseline_A": 2.8514666984205768,
+          "candidate_A": 2.8426568439805115,
+          "candidate_minus_baseline_A": -0.008809854440065212
+        },
+        {
+          "pair": "6-9",
+          "qm_A": 2.722943108259414,
+          "baseline_A": 2.792634728390691,
+          "candidate_A": 2.7958726301901593,
+          "candidate_minus_baseline_A": 0.003237901799468368
+        },
+        {
+          "pair": "6-10",
+          "qm_A": 3.5308634675354673,
+          "baseline_A": 3.559206467575007,
+          "candidate_A": 3.5584960259703924,
+          "candidate_minus_baseline_A": -0.0007104416046144202
+        },
+        {
+          "pair": "6-11",
+          "qm_A": 2.8342680618489347,
+          "baseline_A": 2.6731102860897638,
+          "candidate_A": 2.683984610489423,
+          "candidate_minus_baseline_A": 0.010874324399659407
+        },
+        {
+          "pair": "6-12",
+          "qm_A": 4.798183601447395,
+          "baseline_A": 4.620800857165958,
+          "candidate_A": 4.653189945949025,
+          "candidate_minus_baseline_A": 0.032389088783067344
+        },
+        {
+          "pair": "6-13",
+          "qm_A": 3.408283647683874,
+          "baseline_A": 3.253589987547889,
+          "candidate_A": 3.250571527247276,
+          "candidate_minus_baseline_A": -0.003018460300613146
+        },
+        {
+          "pair": "6-14",
+          "qm_A": 2.3868590590566483,
+          "baseline_A": 2.414560932890442,
+          "candidate_A": 2.409137753145128,
+          "candidate_minus_baseline_A": -0.005423179745314144
+        },
+        {
+          "pair": "6-15",
+          "qm_A": 3.1911034604140642,
+          "baseline_A": 3.2049453658013776,
+          "candidate_A": 3.2379299785359947,
+          "candidate_minus_baseline_A": 0.03298461273461717
+        },
+        {
+          "pair": "6-16",
+          "qm_A": 1.3493720025730402,
+          "baseline_A": 1.360102285465584,
+          "candidate_A": 1.359288066887009,
+          "candidate_minus_baseline_A": -0.0008142185785748879
+        },
+        {
+          "pair": "6-17",
+          "qm_A": 2.3513139456008982,
+          "baseline_A": 2.3405517409820646,
+          "candidate_A": 2.3390577478344845,
+          "candidate_minus_baseline_A": -0.0014939931475801416
+        },
+        {
+          "pair": "7-8",
+          "qm_A": 3.519660118026332,
+          "baseline_A": 3.5300486368579964,
+          "candidate_A": 3.53019488185934,
+          "candidate_minus_baseline_A": 0.00014624500134363672
+        },
+        {
+          "pair": "7-9",
+          "qm_A": 2.6040829481217935,
+          "baseline_A": 2.65874626133866,
+          "candidate_A": 2.660099837065644,
+          "candidate_minus_baseline_A": 0.0013535757269842463
+        },
+        {
+          "pair": "7-10",
+          "qm_A": 2.746846291139917,
+          "baseline_A": 2.8361221241675754,
+          "candidate_A": 2.8441250522815547,
+          "candidate_minus_baseline_A": 0.00800292811397929
+        },
+        {
+          "pair": "7-11",
+          "qm_A": 4.65132417293626,
+          "baseline_A": 4.445262811646126,
+          "candidate_A": 4.4990923795432165,
+          "candidate_minus_baseline_A": 0.05382956789709059
+        },
+        {
+          "pair": "7-12",
+          "qm_A": 6.141994913102865,
+          "baseline_A": 5.947206215541261,
+          "candidate_A": 6.034720919461582,
+          "candidate_minus_baseline_A": 0.08751470392032079
+        },
+        {
+          "pair": "7-13",
+          "qm_A": 4.901588070922652,
+          "baseline_A": 4.610140639157463,
+          "candidate_A": 4.633848984114993,
+          "candidate_minus_baseline_A": 0.02370834495752927
+        },
+        {
+          "pair": "7-14",
+          "qm_A": 2.330479180686726,
+          "baseline_A": 2.3417669696879324,
+          "candidate_A": 2.337223188764793,
+          "candidate_minus_baseline_A": -0.004543780923139451
+        },
+        {
+          "pair": "7-15",
+          "qm_A": 3.7947115701697145,
+          "baseline_A": 3.7456528022617306,
+          "candidate_A": 3.7954476907669026,
+          "candidate_minus_baseline_A": 0.049794888505172
+        },
+        {
+          "pair": "7-16",
+          "qm_A": 1.3764797496427925,
+          "baseline_A": 1.3679283568067926,
+          "candidate_A": 1.3675833230356322,
+          "candidate_minus_baseline_A": -0.0003450337711603524
+        },
+        {
+          "pair": "7-17",
+          "qm_A": 2.32311449059212,
+          "baseline_A": 2.2957672963871976,
+          "candidate_A": 2.298381825848236,
+          "candidate_minus_baseline_A": 0.0026145294610384617
+        },
+        {
+          "pair": "8-9",
+          "qm_A": 2.1773116480505337,
+          "baseline_A": 2.1169087049897617,
+          "candidate_A": 2.1172410595717612,
+          "candidate_minus_baseline_A": 0.0003323545819995388
+        },
+        {
+          "pair": "8-10",
+          "qm_A": 2.186728726166489,
+          "baseline_A": 2.1229327046515776,
+          "candidate_A": 2.123560806438543,
+          "candidate_minus_baseline_A": 0.0006281017869653738
+        },
+        {
+          "pair": "8-11",
+          "qm_A": 2.7983082854077983,
+          "baseline_A": 2.8447114564098124,
+          "candidate_A": 2.894121694201748,
+          "candidate_minus_baseline_A": 0.04941023779193543
+        },
+        {
+          "pair": "8-12",
+          "qm_A": 4.634121637425783,
+          "baseline_A": 4.551608185461101,
+          "candidate_A": 4.625538609216294,
+          "candidate_minus_baseline_A": 0.07393042375519343
+        },
+        {
+          "pair": "8-13",
+          "qm_A": 4.745491644897948,
+          "baseline_A": 4.686050937691384,
+          "candidate_A": 4.72196305829365,
+          "candidate_minus_baseline_A": 0.035912120602265674
+        },
+        {
+          "pair": "8-14",
+          "qm_A": 3.1900511036821024,
+          "baseline_A": 3.1323319555000255,
+          "candidate_A": 3.124366554518812,
+          "candidate_minus_baseline_A": -0.007965400981213566
+        },
+        {
+          "pair": "8-15",
+          "qm_A": 3.2665717424286274,
+          "baseline_A": 3.1676136325623414,
+          "candidate_A": 3.1539755176600943,
+          "candidate_minus_baseline_A": -0.01363811490224709
+        },
+        {
+          "pair": "8-16",
+          "qm_A": 2.4051321093910936,
+          "baseline_A": 2.4173569319851937,
+          "candidate_A": 2.4141990921526633,
+          "candidate_minus_baseline_A": -0.0031578398325304846
+        },
+        {
+          "pair": "8-17",
+          "qm_A": 1.330175822145935,
+          "baseline_A": 1.346558158625234,
+          "candidate_A": 1.3465323216529357,
+          "candidate_minus_baseline_A": -0.000025836972298298733
+        },
+        {
+          "pair": "9-10",
+          "qm_A": 2.186599077379692,
+          "baseline_A": 2.1232679849303535,
+          "candidate_A": 2.123367459205098,
+          "candidate_minus_baseline_A": 0.00009947427474443771
+        },
+        {
+          "pair": "9-11",
+          "qm_A": 4.40343478201044,
+          "baseline_A": 4.318823385678877,
+          "candidate_A": 4.351232059369635,
+          "candidate_minus_baseline_A": 0.03240867369075762
+        },
+        {
+          "pair": "9-12",
+          "qm_A": 6.468847779566429,
+          "baseline_A": 6.3066098796614884,
+          "candidate_A": 6.379250222368684,
+          "candidate_minus_baseline_A": 0.07264034270719577
+        },
+        {
+          "pair": "9-13",
+          "qm_A": 5.862242483169099,
+          "baseline_A": 5.732222873530012,
+          "candidate_A": 5.758125945853697,
+          "candidate_minus_baseline_A": 0.025903072323685272
+        },
+        {
+          "pair": "9-14",
+          "qm_A": 3.7928553573534747,
+          "baseline_A": 3.7526370209777316,
+          "candidate_A": 3.744449859488822,
+          "candidate_minus_baseline_A": -0.008187161488909744
+        },
+        {
+          "pair": "9-15",
+          "qm_A": 4.63788108547252,
+          "baseline_A": 4.524293901455568,
+          "candidate_A": 4.539198373872109,
+          "candidate_minus_baseline_A": 0.014904472416541026
+        },
+        {
+          "pair": "9-16",
+          "qm_A": 2.349725995779372,
+          "baseline_A": 2.3838994895244947,
+          "candidate_A": 2.38258617779679,
+          "candidate_minus_baseline_A": -0.001313311727704658
+        },
+        {
+          "pair": "9-17",
+          "qm_A": 1.3572512969131418,
+          "baseline_A": 1.3537516311618094,
+          "candidate_A": 1.353674470744692,
+          "candidate_minus_baseline_A": -0.00007716041711747224
+        },
+        {
+          "pair": "10-11",
+          "qm_A": 4.56369471274717,
+          "baseline_A": 4.500761629195765,
+          "candidate_A": 4.578987627874373,
+          "candidate_minus_baseline_A": 0.07822599867860802
+        },
+        {
+          "pair": "10-12",
+          "qm_A": 5.887197335635706,
+          "baseline_A": 5.774750021272354,
+          "candidate_A": 5.890983293149627,
+          "candidate_minus_baseline_A": 0.11623327187727295
+        },
+        {
+          "pair": "10-13",
+          "qm_A": 5.800064218717857,
+          "baseline_A": 5.612296953431223,
+          "candidate_A": 5.665337153616971,
+          "candidate_minus_baseline_A": 0.053040200185748176
+        },
+        {
+          "pair": "10-14",
+          "qm_A": 3.0279150889894133,
+          "baseline_A": 2.9594625608779817,
+          "candidate_A": 2.9492947964073535,
+          "candidate_minus_baseline_A": -0.010167764470628171
+        },
+        {
+          "pair": "10-15",
+          "qm_A": 3.716951320629271,
+          "baseline_A": 3.5740771147605974,
+          "candidate_A": 3.575637395761946,
+          "candidate_minus_baseline_A": 0.001560281001348418
+        },
+        {
+          "pair": "10-16",
+          "qm_A": 2.3857727931557653,
+          "baseline_A": 2.4009190177778232,
+          "candidate_A": 2.4007366304233098,
+          "candidate_minus_baseline_A": -0.0001823873545134802
+        },
+        {
+          "pair": "10-17",
+          "qm_A": 1.351186931996573,
+          "baseline_A": 1.3517385828953907,
+          "candidate_A": 1.3517285854678471,
+          "candidate_minus_baseline_A": -0.00000999742754359545
+        },
+        {
+          "pair": "11-12",
+          "qm_A": 2.5101563621539964,
+          "baseline_A": 2.4120932337208574,
+          "candidate_A": 2.459148285530489,
+          "candidate_minus_baseline_A": 0.04705505180963154
+        },
+        {
+          "pair": "11-13",
+          "qm_A": 2.5106247501655465,
+          "baseline_A": 2.4190348217455258,
+          "candidate_A": 2.465792236175726,
+          "candidate_minus_baseline_A": 0.04675741443020032
+        },
+        {
+          "pair": "11-14",
+          "qm_A": 3.3261872046791714,
+          "baseline_A": 3.18072473288636,
+          "candidate_A": 3.2811736284794355,
+          "candidate_minus_baseline_A": 0.10044889559307535
+        },
+        {
+          "pair": "11-15",
+          "qm_A": 2.6141151227303854,
+          "baseline_A": 2.5777125867484427,
+          "candidate_A": 2.688881808958125,
+          "candidate_minus_baseline_A": 0.11116922220968206
+        },
+        {
+          "pair": "11-16",
+          "qm_A": 3.3103352896719986,
+          "baseline_A": 3.148418012066581,
+          "candidate_A": 3.214049581809346,
+          "candidate_minus_baseline_A": 0.06563156974276518
+        },
+        {
+          "pair": "11-17",
+          "qm_A": 3.56660113518312,
+          "baseline_A": 3.4739961788643643,
+          "candidate_A": 3.535297948173529,
+          "candidate_minus_baseline_A": 0.061301769309164644
+        },
+        {
+          "pair": "12-13",
+          "qm_A": 2.514758206072706,
+          "baseline_A": 2.418588264863425,
+          "candidate_A": 2.464907474622809,
+          "candidate_minus_baseline_A": 0.04631920975938364
+        },
+        {
+          "pair": "12-14",
+          "qm_A": 4.046985656077518,
+          "baseline_A": 3.8939389719151043,
+          "candidate_A": 4.017577384068677,
+          "candidate_minus_baseline_A": 0.1236384121535723
+        },
+        {
+          "pair": "12-15",
+          "qm_A": 2.604691086309111,
+          "baseline_A": 2.576560600077586,
+          "candidate_A": 2.688288046568022,
+          "candidate_minus_baseline_A": 0.11172744649043587
+        },
+        {
+          "pair": "12-16",
+          "qm_A": 4.887522547087472,
+          "baseline_A": 4.7043175477501284,
+          "candidate_A": 4.791871756836921,
+          "candidate_minus_baseline_A": 0.08755420908679223
+        },
+        {
+          "pair": "12-17",
+          "qm_A": 5.326452254241597,
+          "baseline_A": 5.16552307648343,
+          "candidate_A": 5.256536190132125,
+          "candidate_minus_baseline_A": 0.09101311364869513
+        },
+        {
+          "pair": "13-14",
+          "qm_A": 3.2107606622690965,
+          "baseline_A": 3.012383273739468,
+          "candidate_A": 3.0826963235335505,
+          "candidate_minus_baseline_A": 0.0703130497940827
+        },
+        {
+          "pair": "13-15",
+          "qm_A": 2.6223660664222463,
+          "baseline_A": 2.5920978689250522,
+          "candidate_A": 2.7040717373754424,
+          "candidate_minus_baseline_A": 0.11197386845039015
+        },
+        {
+          "pair": "13-16",
+          "qm_A": 3.9029658140386907,
+          "baseline_A": 3.679964210648865,
+          "candidate_A": 3.7159775260346666,
+          "candidate_minus_baseline_A": 0.03601331538580155
+        },
+        {
+          "pair": "13-17",
+          "qm_A": 4.956222205659818,
+          "baseline_A": 4.74917867359853,
+          "candidate_A": 4.78872391669488,
+          "candidate_minus_baseline_A": 0.03954524309634966
+        },
+        {
+          "pair": "14-15",
+          "qm_A": 1.5463338589367104,
+          "baseline_A": 1.4867722265211372,
+          "candidate_A": 1.5464134064629385,
+          "candidate_minus_baseline_A": 0.05964117994180129
+        },
+        {
+          "pair": "14-16",
+          "qm_A": 1.5536251466595754,
+          "baseline_A": 1.5259335657342659,
+          "candidate_A": 1.5211730113502562,
+          "candidate_minus_baseline_A": -0.004760554384009685
+        },
+        {
+          "pair": "14-17",
+          "qm_A": 2.6778196950895286,
+          "baseline_A": 2.5599699728519143,
+          "candidate_A": 2.5513129035046473,
+          "candidate_minus_baseline_A": -0.008657069347266955
+        },
+        {
+          "pair": "15-16",
+          "qm_A": 2.7039185681034,
+          "baseline_A": 2.6328919385449217,
+          "candidate_A": 2.6742051248389043,
+          "candidate_minus_baseline_A": 0.04131318629398262
+        },
+        {
+          "pair": "15-17",
+          "qm_A": 3.3696226267890736,
+          "baseline_A": 3.216335908918731,
+          "candidate_A": 3.228162352981136,
+          "candidate_minus_baseline_A": 0.011826444062405184
+        },
+        {
+          "pair": "16-17",
+          "qm_A": 1.5480468386153412,
+          "baseline_A": 1.4953639654667383,
+          "candidate_A": 1.4939470776338886,
+          "candidate_minus_baseline_A": -0.001416887832849767
+        }
+      ],
+      "pair_summary": {
+        "count": 136,
+        "max_pair_nm": 0.6379250222368684,
+        "image_lower_nm": 9.362074977763132,
+        "largest_changes": [
+          {
+            "pair": "3-12",
+            "qm_A": 4.938612440474615,
+            "baseline_A": 4.840684311165781,
+            "candidate_A": 4.985296243361645,
+            "candidate_minus_baseline_A": 0.14461193219586388
+          },
+          {
+            "pair": "12-14",
+            "qm_A": 4.046985656077518,
+            "baseline_A": 3.8939389719151043,
+            "candidate_A": 4.017577384068677,
+            "candidate_minus_baseline_A": 0.1236384121535723
+          },
+          {
+            "pair": "10-12",
+            "qm_A": 5.887197335635706,
+            "baseline_A": 5.774750021272354,
+            "candidate_A": 5.890983293149627,
+            "candidate_minus_baseline_A": 0.11623327187727295
+          },
+          {
+            "pair": "13-15",
+            "qm_A": 2.6223660664222463,
+            "baseline_A": 2.5920978689250522,
+            "candidate_A": 2.7040717373754424,
+            "candidate_minus_baseline_A": 0.11197386845039015
+          },
+          {
+            "pair": "12-15",
+            "qm_A": 2.604691086309111,
+            "baseline_A": 2.576560600077586,
+            "candidate_A": 2.688288046568022,
+            "candidate_minus_baseline_A": 0.11172744649043587
+          }
+        ]
+      }
+    },
+    "GEO_B_REVISED_10nm": {
+      "run_record_sha256": "3a8dc5f043cf7529a7636c0a0d1de64dfe76a2e53526fde6bb66ec855d9e6081",
+      "input_sha": "fc99a7915d74ebe8529d1f6619ca528a33b14c721384b3fe84f65a1cf1678cb3",
+      "final_sha": "483bf1ff81e7d6a71f4934d6b8a1dd259ffa0f82d014db5aefa8f65fc3cdc9e7",
+      "fmax": 5.1926229648634,
+      "bonds": [
+        {
+          "term": "S1-O1(1-11)",
+          "qm": 1.480465887667455,
+          "baseline": 1.453425253475034,
+          "candidate": 1.4818145248445311,
+          "baseline_minus_qm": -0.027040634192420976,
+          "candidate_minus_qm": 0.0013486371770761174,
+          "candidate_minus_baseline": 0.028389271369497093
+        },
+        {
+          "term": "S1-O2(1-12)",
+          "qm": 1.4806664390483129,
+          "baseline": 1.4539163673410371,
+          "candidate": 1.4821433224191127,
+          "baseline_minus_qm": -0.026750071707275724,
+          "candidate_minus_qm": 0.0014768833707998752,
+          "candidate_minus_baseline": 0.0282269550780756
+        },
+        {
+          "term": "S1-O3(1-13)",
+          "qm": 1.4823240170020167,
+          "baseline": 1.4528992276984896,
+          "candidate": 1.481560234190252,
+          "baseline_minus_qm": -0.0294247893035271,
+          "candidate_minus_qm": -0.0007637828117645906,
+          "candidate_minus_baseline": 0.02866100649176251
+        },
+        {
+          "term": "S1-C2(1-15)",
+          "qm": 1.8779260960849893,
+          "baseline": 1.777123899992815,
+          "candidate": 1.8823446654507654,
+          "baseline_minus_qm": -0.10080219609217433,
+          "candidate_minus_qm": 0.004418569365776115,
+          "candidate_minus_baseline": 0.10522076545795045
+        },
+        {
+          "term": "F1-C1(2-14)",
+          "qm": 1.3609327811824499,
+          "baseline": 1.3667045635219144,
+          "candidate": 1.3645487538006251,
+          "baseline_minus_qm": 0.005771782339464515,
+          "candidate_minus_qm": 0.003615972618175256,
+          "candidate_minus_baseline": -0.002155809721289259
+        },
+        {
+          "term": "F2-C1(3-14)",
+          "qm": 1.361694349976532,
+          "baseline": 1.3653694354984625,
+          "candidate": 1.3636733721801584,
+          "baseline_minus_qm": 0.003675085521930521,
+          "candidate_minus_qm": 0.001979022203626446,
+          "candidate_minus_baseline": -0.0016960633183040752
+        },
+        {
+          "term": "F3-C2(4-15)",
+          "qm": 1.3737307862856514,
+          "baseline": 1.352815551918113,
+          "candidate": 1.345849845826196,
+          "baseline_minus_qm": -0.020915234367538282,
+          "candidate_minus_qm": -0.027880940459455328,
+          "candidate_minus_baseline": -0.0069657060919170455
+        },
+        {
+          "term": "F4-C2(5-15)",
+          "qm": 1.3746418065114232,
+          "baseline": 1.3525879603007525,
+          "candidate": 1.345923659032008,
+          "baseline_minus_qm": -0.022053846210670747,
+          "candidate_minus_qm": -0.028718147479415146,
+          "candidate_minus_baseline": -0.006664301268744399
+        },
+        {
+          "term": "F5-C3(6-16)",
+          "qm": 1.3601883799422818,
+          "baseline": 1.3642784561706374,
+          "candidate": 1.3638745045694034,
+          "baseline_minus_qm": 0.004090076228355555,
+          "candidate_minus_qm": 0.0036861246271215897,
+          "candidate_minus_baseline": -0.000403951601233965
+        },
+        {
+          "term": "F6-C3(7-16)",
+          "qm": 1.3700696599680562,
+          "baseline": 1.3676223151570897,
+          "candidate": 1.3670053621684404,
+          "baseline_minus_qm": -0.002447344810966534,
+          "candidate_minus_qm": -0.0030642977996158116,
+          "candidate_minus_baseline": -0.0006169529886492775
+        },
+        {
+          "term": "F7-C4(8-17)",
+          "qm": 1.3403759103553696,
+          "baseline": 1.348784546555151,
+          "candidate": 1.348601338740215,
+          "baseline_minus_qm": 0.008408636199781272,
+          "candidate_minus_qm": 0.008225428384845301,
+          "candidate_minus_baseline": -0.0001832078149359706
+        },
+        {
+          "term": "F8-C4(9-17)",
+          "qm": 1.3559843534831049,
+          "baseline": 1.3539378109366447,
+          "candidate": 1.3537844155166003,
+          "baseline_minus_qm": -0.002046542546460195,
+          "candidate_minus_qm": -0.0021999379665045282,
+          "candidate_minus_baseline": -0.00015339542004433326
+        },
+        {
+          "term": "F9-C4(10-17)",
+          "qm": 1.3442475330395833,
+          "baseline": 1.3500211746790063,
+          "candidate": 1.3500818726421069,
+          "baseline_minus_qm": 0.005773641639422955,
+          "candidate_minus_qm": 0.005834339602523553,
+          "candidate_minus_baseline": 0.00006069796310059772
+        },
+        {
+          "term": "C1-C2(14-15)",
+          "qm": 1.5414727177177037,
+          "baseline": 1.4897810340782536,
+          "candidate": 1.5486860204009336,
+          "baseline_minus_qm": -0.05169168363945009,
+          "candidate_minus_qm": 0.00721330268322995,
+          "candidate_minus_baseline": 0.05890498632268004
+        },
+        {
+          "term": "C1-C3(14-16)",
+          "qm": 1.5582651596570543,
+          "baseline": 1.5236943502418367,
+          "candidate": 1.5172329092832557,
+          "baseline_minus_qm": -0.03457080941521751,
+          "candidate_minus_qm": -0.04103225037379854,
+          "candidate_minus_baseline": -0.006461440958581033
+        },
+        {
+          "term": "C3-C4(16-17)",
+          "qm": 1.545069010019299,
+          "baseline": 1.4948014653577615,
+          "candidate": 1.4939887975969728,
+          "baseline_minus_qm": -0.05026754466153749,
+          "candidate_minus_qm": -0.05108021242232619,
+          "candidate_minus_baseline": -0.000812667760788699
+        }
+      ],
+      "angles": [
+        {
+          "term": "S1-C2-F3",
+          "qm": 109.47537283316586,
+          "baseline": 108.0073502475959,
+          "candidate": 107.79932514354306,
+          "baseline_minus_qm": -1.468022585569969,
+          "candidate_minus_qm": -1.6760476896228056,
+          "candidate_minus_baseline": -0.2080251040528367
+        },
+        {
+          "term": "S1-C2-F4",
+          "qm": 109.71820108431614,
+          "baseline": 107.23681570043424,
+          "candidate": 106.98358455149457,
+          "baseline_minus_qm": -2.4813853838819,
+          "candidate_minus_qm": -2.734616532821562,
+          "candidate_minus_baseline": -0.2532311489396619
+        },
+        {
+          "term": "S1-C2-C1",
+          "qm": 116.91210244206768,
+          "baseline": 111.87182320632627,
+          "candidate": 108.68418002003432,
+          "baseline_minus_qm": -5.040279235741409,
+          "candidate_minus_qm": -8.227922422033359,
+          "candidate_minus_baseline": -3.1876431862919503
+        },
+        {
+          "term": "F1-C1-F2",
+          "qm": 108.74266895623758,
+          "baseline": 102.69638907824621,
+          "candidate": 102.84582015043078,
+          "baseline_minus_qm": -6.046279877991367,
+          "candidate_minus_qm": -5.896848805806798,
+          "candidate_minus_baseline": 0.1494310721845693
+        },
+        {
+          "term": "F1-C1-C2",
+          "qm": 110.38735878107522,
+          "baseline": 112.70645723213002,
+          "candidate": 112.17425346184719,
+          "baseline_minus_qm": 2.319098451054799,
+          "candidate_minus_qm": 1.7868946807719652,
+          "candidate_minus_baseline": -0.5322037702828339
+        },
+        {
+          "term": "F1-C1-C3",
+          "qm": 104.5121831407152,
+          "baseline": 105.035192958096,
+          "candidate": 105.89282801868077,
+          "baseline_minus_qm": 0.5230098173808102,
+          "candidate_minus_qm": 1.3806448779655796,
+          "candidate_minus_baseline": 0.8576350605847693
+        },
+        {
+          "term": "F2-C1-C2",
+          "qm": 109.60661113251722,
+          "baseline": 111.10022006512526,
+          "candidate": 110.96430637440244,
+          "baseline_minus_qm": 1.4936089326080406,
+          "candidate_minus_qm": 1.3576952418852244,
+          "candidate_minus_baseline": -0.13591369072281623
+        },
+        {
+          "term": "F2-C1-C3",
+          "qm": 106.15292052824611,
+          "baseline": 109.16460420827013,
+          "candidate": 110.02143960537194,
+          "baseline_minus_qm": 3.0116836800240208,
+          "candidate_minus_qm": 3.868519077125825,
+          "candidate_minus_baseline": 0.8568353971018041
+        },
+        {
+          "term": "F3-C2-F4",
+          "qm": 107.21219794496402,
+          "baseline": 103.53372192727251,
+          "candidate": 104.13293041396284,
+          "baseline_minus_qm": -3.6784760176915086,
+          "candidate_minus_qm": -3.079267531001179,
+          "candidate_minus_baseline": 0.5992084866903298
+        },
+        {
+          "term": "F3-C2-C1",
+          "qm": 107.32580921305703,
+          "baseline": 113.10837497591672,
+          "candidate": 114.50635342054699,
+          "baseline_minus_qm": 5.78256576285969,
+          "candidate_minus_qm": 7.180544207489959,
+          "candidate_minus_baseline": 1.3979784446302688
+        },
+        {
+          "term": "F4-C2-C1",
+          "qm": 105.74424590376499,
+          "baseline": 112.56321899501663,
+          "candidate": 114.29423470898779,
+          "baseline_minus_qm": 6.818973091251635,
+          "candidate_minus_qm": 8.549988805222796,
+          "candidate_minus_baseline": 1.7310157139711606
+        },
+        {
+          "term": "F5-C3-F6",
+          "qm": 107.77152882883,
+          "baseline": 102.55478637595218,
+          "candidate": 102.66880513714769,
+          "baseline_minus_qm": -5.216742452877824,
+          "candidate_minus_qm": -5.102723691682314,
+          "candidate_minus_baseline": 0.11401876119550991
+        },
+        {
+          "term": "F5-C3-C1",
+          "qm": 110.16968887384166,
+          "baseline": 112.16812996741159,
+          "candidate": 111.95329484860646,
+          "baseline_minus_qm": 1.998441093569923,
+          "candidate_minus_qm": 1.7836059747647965,
+          "candidate_minus_baseline": -0.2148351188051265
+        },
+        {
+          "term": "F5-C3-C4",
+          "qm": 106.87356801362543,
+          "baseline": 108.89167217865264,
+          "candidate": 109.02230457323049,
+          "baseline_minus_qm": 2.0181041650272107,
+          "candidate_minus_qm": 2.148736559605055,
+          "candidate_minus_baseline": 0.13063239457784448
+        },
+        {
+          "term": "F6-C3-C1",
+          "qm": 106.39321950632629,
+          "baseline": 108.91003531444102,
+          "candidate": 108.93154566225118,
+          "baseline_minus_qm": 2.5168158081147283,
+          "candidate_minus_qm": 2.538326155924892,
+          "candidate_minus_baseline": 0.02151034781016392
+        },
+        {
+          "term": "F6-C3-C4",
+          "qm": 105.92765861305558,
+          "baseline": 106.7458089037404,
+          "candidate": 107.11072089848665,
+          "baseline_minus_qm": 0.8181502906848124,
+          "candidate_minus_qm": 1.1830622854310633,
+          "candidate_minus_baseline": 0.3649119947462509
+        },
+        {
+          "term": "F7-C4-F8",
+          "qm": 107.7280972686723,
+          "baseline": 103.03678984013678,
+          "candidate": 103.08968525272569,
+          "baseline_minus_qm": -4.691307428535524,
+          "candidate_minus_qm": -4.638412015946614,
+          "candidate_minus_baseline": 0.05289541258891006
+        },
+        {
+          "term": "F7-C4-F9",
+          "qm": 109.46339202165414,
+          "baseline": 104.06416981086176,
+          "candidate": 104.04113178322547,
+          "baseline_minus_qm": -5.399222210792388,
+          "candidate_minus_qm": -5.422260238428677,
+          "candidate_minus_baseline": -0.02303802763628937
+        },
+        {
+          "term": "F7-C4-C3",
+          "qm": 111.75127911230354,
+          "baseline": 115.88518579805206,
+          "candidate": 115.82534695957914,
+          "baseline_minus_qm": 4.133906685748528,
+          "candidate_minus_qm": 4.0740678472756,
+          "candidate_minus_baseline": -0.05983883847292759
+        },
+        {
+          "term": "F8-C4-F9",
+          "qm": 107.99167256109826,
+          "baseline": 103.5186821163523,
+          "candidate": 103.51586755725207,
+          "baseline_minus_qm": -4.47299044474596,
+          "candidate_minus_qm": -4.47580500384619,
+          "candidate_minus_baseline": -0.0028145591002299852
+        },
+        {
+          "term": "F8-C4-C3",
+          "qm": 108.36126926334,
+          "baseline": 113.4894256032025,
+          "candidate": 113.42315010131925,
+          "baseline_minus_qm": 5.1281563398625,
+          "candidate_minus_qm": 5.0618808379792455,
+          "candidate_minus_baseline": -0.06627550188325415
+        },
+        {
+          "term": "F9-C4-C3",
+          "qm": 111.3974313862652,
+          "baseline": 115.29256963476959,
+          "candidate": 115.39496386129979,
+          "baseline_minus_qm": 3.895138248504395,
+          "candidate_minus_qm": 3.997532475034589,
+          "candidate_minus_baseline": 0.10239422653019403
+        },
+        {
+          "term": "O1-S1-O2",
+          "qm": 115.8617593435942,
+          "baseline": 112.33979448908708,
+          "candidate": 112.31660964043856,
+          "baseline_minus_qm": -3.521964854507118,
+          "candidate_minus_qm": -3.5451497031556443,
+          "candidate_minus_baseline": -0.023184848648526213
+        },
+        {
+          "term": "O1-S1-O3",
+          "qm": 115.96678545732925,
+          "baseline": 112.91412628914618,
+          "candidate": 112.80911743919692,
+          "baseline_minus_qm": -3.0526591681830695,
+          "candidate_minus_qm": -3.157668018132327,
+          "candidate_minus_baseline": -0.10500884994925741
+        },
+        {
+          "term": "O1-S1-C2",
+          "qm": 102.50601319835522,
+          "baseline": 106.4424247351568,
+          "candidate": 106.5189038099939,
+          "baseline_minus_qm": 3.936411536801586,
+          "candidate_minus_qm": 4.0128906116386815,
+          "candidate_minus_baseline": 0.0764790748370956
+        },
+        {
+          "term": "O2-S1-O3",
+          "qm": 116.12933095760322,
+          "baseline": 112.51789094681526,
+          "candidate": 112.45732153982276,
+          "baseline_minus_qm": -3.611440010787959,
+          "candidate_minus_qm": -3.6720094177804583,
+          "candidate_minus_baseline": -0.06056940699249935
+        },
+        {
+          "term": "O2-S1-C2",
+          "qm": 100.92184273605463,
+          "baseline": 105.5396053793924,
+          "candidate": 105.63745534638872,
+          "baseline_minus_qm": 4.61776264333777,
+          "candidate_minus_qm": 4.715612610334091,
+          "candidate_minus_baseline": 0.09784996699632131
+        },
+        {
+          "term": "O3-S1-C2",
+          "qm": 101.71880765541988,
+          "baseline": 106.42044281553511,
+          "candidate": 106.46413117941077,
+          "baseline_minus_qm": 4.701635160115231,
+          "candidate_minus_qm": 4.745323523990891,
+          "candidate_minus_baseline": 0.043688363875659775
+        },
+        {
+          "term": "C1-C3-C4",
+          "qm": 119.16297945581584,
+          "baseline": 116.51423450377187,
+          "candidate": 116.18198121239095,
+          "baseline_minus_qm": -2.6487449520439696,
+          "candidate_minus_qm": -2.9809982434248923,
+          "candidate_minus_baseline": -0.33225329138092263
+        },
+        {
+          "term": "C2-C1-C3",
+          "qm": 117.05902651940126,
+          "baseline": 115.24626199376925,
+          "candidate": 114.23965862914316,
+          "baseline_minus_qm": -1.812764525632005,
+          "candidate_minus_qm": -2.8193678902580928,
+          "candidate_minus_baseline": -1.0066033646260877
+        }
+      ],
+      "torsions": {
+        "T_CC_C3_C1_C2_S1": -169.32971586377525,
+        "T_CS_C1_C2_S1_O1": 64.35140301848442
+      },
+      "so3": {
+        "S1_O_A": [
+          1.4818145248445311,
+          1.4821433224191127,
+          1.481560234190252
+        ],
+        "mean_A": 1.481839360484632,
+        "range_A": 0.000583088228860662,
+        "OSO_deg": [
+          112.31660964043856,
+          112.80911743919692,
+          112.45732153982276
+        ]
+      },
+      "all_136_pair_comparisons": [
+        {
+          "pair": "1-2",
+          "qm_A": 3.1171721090328046,
+          "baseline_A": 2.9523849541619382,
+          "candidate_A": 2.9866446126329844,
+          "candidate_minus_baseline_A": 0.03425965847104617
+        },
+        {
+          "pair": "1-3",
+          "qm_A": 3.3623799342696277,
+          "baseline_A": 3.1064754021403655,
+          "candidate_A": 3.145232471040851,
+          "candidate_minus_baseline_A": 0.03875706890048525
+        },
+        {
+          "pair": "1-4",
+          "qm_A": 2.670943368414612,
+          "baseline_A": 2.544542060902182,
+          "candidate_A": 2.6274217079499858,
+          "candidate_minus_baseline_A": 0.08287964704780393
+        },
+        {
+          "pair": "1-5",
+          "qm_A": 2.6754807036497192,
+          "baseline_A": 2.5322343335977413,
+          "candidate_A": 2.6143424558463058,
+          "candidate_minus_baseline_A": 0.08210812224856445
+        },
+        {
+          "pair": "1-6",
+          "qm_A": 4.7281115850163715,
+          "baseline_A": 4.544542277100546,
+          "candidate_A": 4.624741942441561,
+          "candidate_minus_baseline_A": 0.08019966534101464
+        },
+        {
+          "pair": "1-7",
+          "qm_A": 5.257903783625089,
+          "baseline_A": 5.044273473177818,
+          "candidate_A": 5.11768165927745,
+          "candidate_minus_baseline_A": 0.0734081860996314
+        },
+        {
+          "pair": "1-8",
+          "qm_A": 4.968941733385396,
+          "baseline_A": 4.820152508343991,
+          "candidate_A": 4.908598254327904,
+          "candidate_minus_baseline_A": 0.08844574598391297
+        },
+        {
+          "pair": "1-9",
+          "qm_A": 6.391362656701074,
+          "baseline_A": 6.171345554503896,
+          "candidate_A": 6.257784753401979,
+          "candidate_minus_baseline_A": 0.08643919889808327
+        },
+        {
+          "pair": "1-10",
+          "qm_A": 5.264913940576522,
+          "baseline_A": 5.06693405730698,
+          "candidate_A": 5.135415393764654,
+          "candidate_minus_baseline_A": 0.06848133645767351
+        },
+        {
+          "pair": "1-11",
+          "qm_A": 1.480465887667455,
+          "baseline_A": 1.453425253475034,
+          "candidate_A": 1.4818145248445311,
+          "candidate_minus_baseline_A": 0.028389271369497093
+        },
+        {
+          "pair": "1-12",
+          "qm_A": 1.4806664390483129,
+          "baseline_A": 1.4539163673410371,
+          "candidate_A": 1.4821433224191127,
+          "candidate_minus_baseline_A": 0.0282269550780756
+        },
+        {
+          "pair": "1-13",
+          "qm_A": 1.4823240170020167,
+          "baseline_A": 1.4528992276984896,
+          "candidate_A": 1.481560234190252,
+          "candidate_minus_baseline_A": 0.02866100649176251
+        },
+        {
+          "pair": "1-14",
+          "qm_A": 2.9194563888979372,
+          "baseline_A": 2.7111233629064913,
+          "candidate_A": 2.794530696519863,
+          "candidate_minus_baseline_A": 0.08340733361337183
+        },
+        {
+          "pair": "1-15",
+          "qm_A": 1.8779260960849893,
+          "baseline_A": 1.777123899992815,
+          "candidate_A": 1.8823446654507654,
+          "candidate_minus_baseline_A": 0.10522076545795045
+        },
+        {
+          "pair": "1-16",
+          "qm_A": 4.342072960544313,
+          "baseline_A": 4.11423311403513,
+          "candidate_A": 4.200064357903791,
+          "candidate_minus_baseline_A": 0.08583124386866103
+        },
+        {
+          "pair": "1-17",
+          "qm_A": 5.1078233423831385,
+          "baseline_A": 4.860523106763441,
+          "candidate_A": 4.945130872260172,
+          "candidate_minus_baseline_A": 0.08460776549673099
+        },
+        {
+          "pair": "2-3",
+          "qm_A": 2.2129770201994905,
+          "baseline_A": 2.1336298983812645,
+          "candidate_A": 2.132841932306509,
+          "candidate_minus_baseline_A": -0.0007879660747556194
+        },
+        {
+          "pair": "2-4",
+          "qm_A": 2.90699148058504,
+          "baseline_A": 2.9612376940920577,
+          "candidate_A": 3.000494765629674,
+          "candidate_minus_baseline_A": 0.03925707153761637
+        },
+        {
+          "pair": "2-5",
+          "qm_A": 3.521219588878549,
+          "baseline_A": 3.5601597156719262,
+          "candidate_A": 3.603826799644976,
+          "candidate_minus_baseline_A": 0.04366708397304997
+        },
+        {
+          "pair": "2-6",
+          "qm_A": 2.6330051024846117,
+          "baseline_A": 2.7327868297040587,
+          "candidate_A": 2.7380094019864054,
+          "candidate_minus_baseline_A": 0.0052225722823466825
+        },
+        {
+          "pair": "2-7",
+          "qm_A": 2.6770549770931096,
+          "baseline_A": 2.5836454411318783,
+          "candidate_A": 2.5939651074116727,
+          "candidate_minus_baseline_A": 0.010319666279794415
+        },
+        {
+          "pair": "2-8",
+          "qm_A": 4.30419172169584,
+          "baseline_A": 4.3604728715236885,
+          "candidate_A": 4.35601115457348,
+          "candidate_minus_baseline_A": -0.004461716950208583
+        },
+        {
+          "pair": "2-9",
+          "qm_A": 4.656797102032787,
+          "baseline_A": 4.660974488403325,
+          "candidate_A": 4.665915082755158,
+          "candidate_minus_baseline_A": 0.0049405943518330275
+        },
+        {
+          "pair": "2-10",
+          "qm_A": 4.251030921235105,
+          "baseline_A": 4.16334218130723,
+          "candidate_A": 4.160323969598503,
+          "candidate_minus_baseline_A": -0.003018211708726959
+        },
+        {
+          "pair": "2-11",
+          "qm_A": 2.9293610410577626,
+          "baseline_A": 2.699367092808263,
+          "candidate_A": 2.725246332378932,
+          "candidate_minus_baseline_A": 0.025879239570669288
+        },
+        {
+          "pair": "2-12",
+          "qm_A": 4.450251916100934,
+          "baseline_A": 4.299906583709292,
+          "candidate_A": 4.362754966980649,
+          "candidate_minus_baseline_A": 0.06284838327135756
+        },
+        {
+          "pair": "2-13",
+          "qm_A": 3.3215321116931893,
+          "baseline_A": 3.3226713452205257,
+          "candidate_A": 3.366074064422866,
+          "candidate_minus_baseline_A": 0.04340271920234029
+        },
+        {
+          "pair": "2-14",
+          "qm_A": 1.3609327811824499,
+          "baseline_A": 1.3667045635219144,
+          "candidate_A": 1.3645487538006251,
+          "candidate_minus_baseline_A": -0.002155809721289259
+        },
+        {
+          "pair": "2-15",
+          "qm_A": 2.385352341278125,
+          "baseline_A": 2.3789139435407414,
+          "candidate_A": 2.4198373700465856,
+          "candidate_minus_baseline_A": 0.04092342650584424
+        },
+        {
+          "pair": "2-16",
+          "qm_A": 2.3115276933141,
+          "baseline_A": 2.295636501551886,
+          "candidate_A": 2.301709588182134,
+          "candidate_minus_baseline_A": 0.006073086630248081
+        },
+        {
+          "pair": "2-17",
+          "qm_A": 3.7602397700085612,
+          "baseline_A": 3.6754781760031725,
+          "candidate_A": 3.675786835067389,
+          "candidate_minus_baseline_A": 0.0003086590642165099
+        },
+        {
+          "pair": "3-4",
+          "qm_A": 3.51988659572166,
+          "baseline_A": 3.55189431058193,
+          "candidate_A": 3.5993228055133333,
+          "candidate_minus_baseline_A": 0.04742849493140344
+        },
+        {
+          "pair": "3-5",
+          "qm_A": 2.6100888114922483,
+          "baseline_A": 2.753506893659022,
+          "candidate_A": 2.826886264452859,
+          "candidate_minus_baseline_A": 0.07337937079383705
+        },
+        {
+          "pair": "3-6",
+          "qm_A": 3.520053824972147,
+          "baseline_A": 3.5582791525248476,
+          "candidate_A": 3.5596054907213013,
+          "candidate_minus_baseline_A": 0.0013263381964536691
+        },
+        {
+          "pair": "3-7",
+          "qm_A": 2.5829845058606162,
+          "baseline_A": 2.7216327912758542,
+          "candidate_A": 2.738916904912676,
+          "candidate_minus_baseline_A": 0.017284113636821807
+        },
+        {
+          "pair": "3-8",
+          "qm_A": 3.8260076768072504,
+          "baseline_A": 3.7251502542153063,
+          "candidate_A": 3.717653792368737,
+          "candidate_minus_baseline_A": -0.007496461846569158
+        },
+        {
+          "pair": "3-9",
+          "qm_A": 4.176660809332976,
+          "baseline_A": 4.136282786528677,
+          "candidate_A": 4.134799708952982,
+          "candidate_minus_baseline_A": -0.001483077575695546
+        },
+        {
+          "pair": "3-10",
+          "qm_A": 2.817114284231646,
+          "baseline_A": 2.734456319520153,
+          "candidate_A": 2.727880567892149,
+          "candidate_minus_baseline_A": -0.006575751628003612
+        },
+        {
+          "pair": "3-11",
+          "qm_A": 4.070149716017829,
+          "baseline_A": 3.7358520075027757,
+          "candidate_A": 3.7675619921400285,
+          "candidate_minus_baseline_A": 0.03170998463725283
+        },
+        {
+          "pair": "3-12",
+          "qm_A": 4.448010624515532,
+          "baseline_A": 4.334321364891088,
+          "candidate_A": 4.411432950169573,
+          "candidate_minus_baseline_A": 0.07711158527848472
+        },
+        {
+          "pair": "3-13",
+          "qm_A": 2.930245390162063,
+          "baseline_A": 2.7538973787398167,
+          "candidate_A": 2.7832932009708293,
+          "candidate_minus_baseline_A": 0.02939582223101267
+        },
+        {
+          "pair": "3-14",
+          "qm_A": 1.361694349976532,
+          "baseline_A": 1.3653694354984625,
+          "candidate_A": 1.3636733721801584,
+          "candidate_minus_baseline_A": -0.0016960633183040752
+        },
+        {
+          "pair": "3-15",
+          "qm_A": 2.374666609314669,
+          "baseline_A": 2.3554693566021765,
+          "candidate_A": 2.4019268353816305,
+          "candidate_minus_baseline_A": 0.04645747877945405
+        },
+        {
+          "pair": "3-16",
+          "qm_A": 2.3373114006492632,
+          "baseline_A": 2.3562263338912453,
+          "candidate_A": 2.36185138695572,
+          "candidate_minus_baseline_A": 0.005625053064474805
+        },
+        {
+          "pair": "3-17",
+          "qm_A": 3.0780279776319492,
+          "baseline_A": 2.971893372350596,
+          "candidate_A": 2.9686088400102313,
+          "candidate_minus_baseline_A": -0.003284532340364521
+        },
+        {
+          "pair": "4-5",
+          "qm_A": 2.2123217147792946,
+          "baseline_A": 2.125091983814871,
+          "candidate_A": 2.123067478424751,
+          "candidate_minus_baseline_A": -0.0020245053901200016
+        },
+        {
+          "pair": "4-6",
+          "qm_A": 2.7081527632085334,
+          "baseline_A": 2.6848161574590583,
+          "candidate_A": 2.7343314005569006,
+          "candidate_minus_baseline_A": 0.049515243097842276
+        },
+        {
+          "pair": "4-7",
+          "qm_A": 4.134276179077179,
+          "baseline_A": 4.125332674279988,
+          "candidate_A": 4.192419312470309,
+          "candidate_minus_baseline_A": 0.06708663819032168
+        },
+        {
+          "pair": "4-8",
+          "qm_A": 2.8707604855670272,
+          "baseline_A": 3.118298066512007,
+          "candidate_A": 3.164462301730163,
+          "candidate_minus_baseline_A": 0.04616423521815616
+        },
+        {
+          "pair": "4-9",
+          "qm_A": 4.464042611532399,
+          "baseline_A": 4.574429207788678,
+          "candidate_A": 4.638032018982823,
+          "candidate_minus_baseline_A": 0.06360281119414513
+        },
+        {
+          "pair": "4-10",
+          "qm_A": 4.10752150465083,
+          "baseline_A": 4.2891136725253824,
+          "candidate_A": 4.346460191029354,
+          "candidate_minus_baseline_A": 0.05734651850397121
+        },
+        {
+          "pair": "4-11",
+          "qm_A": 2.9133856801400277,
+          "baseline_A": 2.9374563595869208,
+          "candidate_A": 3.037685951629313,
+          "candidate_minus_baseline_A": 0.10022959204239212
+        },
+        {
+          "pair": "4-12",
+          "qm_A": 3.042055192178138,
+          "baseline_A": 2.90593280088809,
+          "candidate_A": 3.011168490353526,
+          "candidate_minus_baseline_A": 0.10523568946543582
+        },
+        {
+          "pair": "4-13",
+          "qm_A": 3.8023289834843297,
+          "baseline_A": 3.738193382153876,
+          "candidate_A": 3.829558849353269,
+          "candidate_minus_baseline_A": 0.09136546719939309
+        },
+        {
+          "pair": "4-14",
+          "qm_A": 2.350429550312238,
+          "baseline_A": 2.3730847019525108,
+          "candidate_A": 2.4369756061751486,
+          "candidate_minus_baseline_A": 0.06389090422263788
+        },
+        {
+          "pair": "4-15",
+          "qm_A": 1.3737307862856514,
+          "baseline_A": 1.352815551918113,
+          "candidate_A": 1.345849845826196,
+          "candidate_minus_baseline_A": -0.0069657060919170455
+        },
+        {
+          "pair": "4-16",
+          "qm_A": 2.836421865252775,
+          "baseline_A": 2.866871672571241,
+          "candidate_A": 2.9379205296087605,
+          "candidate_minus_baseline_A": 0.0710488570375194
+        },
+        {
+          "pair": "4-17",
+          "qm_A": 3.3670896142422526,
+          "baseline_A": 3.4802073279187407,
+          "candidate_A": 3.5435183535274106,
+          "candidate_minus_baseline_A": 0.06331102560866997
+        },
+        {
+          "pair": "5-6",
+          "qm_A": 3.80816696614658,
+          "baseline_A": 3.699057119850699,
+          "candidate_A": 3.7232287951216394,
+          "candidate_minus_baseline_A": 0.02417167527094044
+        },
+        {
+          "pair": "5-7",
+          "qm_A": 4.176798410150654,
+          "baseline_A": 4.287102056011042,
+          "candidate_A": 4.360867386384157,
+          "candidate_minus_baseline_A": 0.07376533037311539
+        },
+        {
+          "pair": "5-8",
+          "qm_A": 2.7263327076021087,
+          "baseline_A": 2.58716398908882,
+          "candidate_A": 2.604214403374266,
+          "candidate_minus_baseline_A": 0.017050414285445736
+        },
+        {
+          "pair": "5-9",
+          "qm_A": 4.368996048528889,
+          "baseline_A": 4.31833901944144,
+          "candidate_A": 4.364090186332723,
+          "candidate_minus_baseline_A": 0.045751166891282224
+        },
+        {
+          "pair": "5-10",
+          "qm_A": 2.967723803576913,
+          "baseline_A": 3.139811934566735,
+          "candidate_A": 3.204246350835219,
+          "candidate_minus_baseline_A": 0.06443441626848401
+        },
+        {
+          "pair": "5-11",
+          "qm_A": 3.8106174776732655,
+          "baseline_A": 3.725454193025108,
+          "candidate_A": 3.8167746100492943,
+          "candidate_minus_baseline_A": 0.09132041702418636
+        },
+        {
+          "pair": "5-12",
+          "qm_A": 2.862350122362738,
+          "baseline_A": 2.8272036327764285,
+          "candidate_A": 2.9317168662021076,
+          "candidate_minus_baseline_A": 0.10451323342567909
+        },
+        {
+          "pair": "5-13",
+          "qm_A": 3.088430354946181,
+          "baseline_A": 2.991818029524741,
+          "candidate_A": 3.089906991114624,
+          "candidate_minus_baseline_A": 0.098088961589883
+        },
+        {
+          "pair": "5-14",
+          "qm_A": 2.327169629349997,
+          "baseline_A": 2.365440574979207,
+          "candidate_A": 2.434150456711327,
+          "candidate_minus_baseline_A": 0.06870988173211989
+        },
+        {
+          "pair": "5-15",
+          "qm_A": 1.3746418065114232,
+          "baseline_A": 1.3525879603007525,
+          "candidate_A": 1.345923659032008,
+          "candidate_minus_baseline_A": -0.006664301268744399
+        },
+        {
+          "pair": "5-16",
+          "qm_A": 3.0643857782204984,
+          "baseline_A": 3.061727090120423,
+          "candidate_A": 3.123491301551286,
+          "candidate_minus_baseline_A": 0.06176421143086319
+        },
+        {
+          "pair": "5-17",
+          "qm_A": 3.021986030463086,
+          "baseline_A": 3.0104136060513675,
+          "candidate_A": 3.0631486364188976,
+          "candidate_minus_baseline_A": 0.05273503036753002
+        },
+        {
+          "pair": "6-7",
+          "qm_A": 2.2056288140711717,
+          "baseline_A": 2.1313853383305146,
+          "candidate_A": 2.1322874253329034,
+          "candidate_minus_baseline_A": 0.0009020870023888072
+        },
+        {
+          "pair": "6-8",
+          "qm_A": 2.7018786542013693,
+          "baseline_A": 2.7927116674685735,
+          "candidate_A": 2.786655235418039,
+          "candidate_minus_baseline_A": -0.0060564320505345215
+        },
+        {
+          "pair": "6-9",
+          "qm_A": 2.7360197370667834,
+          "baseline_A": 2.8007814811118443,
+          "candidate_A": 2.807702570468753,
+          "candidate_minus_baseline_A": 0.006921089356908716
+        },
+        {
+          "pair": "6-10",
+          "qm_A": 3.524451567154676,
+          "baseline_A": 3.5528781894025547,
+          "candidate_A": 3.5539954153281856,
+          "candidate_minus_baseline_A": 0.0011172259256309047
+        },
+        {
+          "pair": "6-11",
+          "qm_A": 4.665947142978475,
+          "baseline_A": 4.597871534139206,
+          "candidate_A": 4.679426284728941,
+          "candidate_minus_baseline_A": 0.08155475058973494
+        },
+        {
+          "pair": "6-12",
+          "qm_A": 5.565677162118012,
+          "baseline_A": 5.40342446732459,
+          "candidate_A": 5.5280948371601415,
+          "candidate_minus_baseline_A": 0.12467036983555158
+        },
+        {
+          "pair": "6-13",
+          "qm_A": 5.356758114067224,
+          "baseline_A": 5.2987851877913,
+          "candidate_A": 5.368084285333097,
+          "candidate_minus_baseline_A": 0.06929909754179686
+        },
+        {
+          "pair": "6-14",
+          "qm_A": 2.3958173001034586,
+          "baseline_A": 2.3982549658703367,
+          "candidate_A": 2.389430719383462,
+          "candidate_minus_baseline_A": -0.008824246486874632
+        },
+        {
+          "pair": "6-15",
+          "qm_A": 3.122344151199709,
+          "baseline_A": 3.0048847687910083,
+          "candidate_A": 3.0065352965568675,
+          "candidate_minus_baseline_A": 0.0016505277658591666
+        },
+        {
+          "pair": "6-16",
+          "qm_A": 1.3601883799422818,
+          "baseline_A": 1.3642784561706374,
+          "candidate_A": 1.3638745045694034,
+          "candidate_minus_baseline_A": -0.000403951601233965
+        },
+        {
+          "pair": "6-17",
+          "qm_A": 2.336100585400389,
+          "baseline_A": 2.327288617939686,
+          "candidate_A": 2.328179558297055,
+          "candidate_minus_baseline_A": 0.000890940357368919
+        },
+        {
+          "pair": "7-8",
+          "qm_A": 3.514816966218293,
+          "baseline_A": 3.5243683133929404,
+          "candidate_A": 3.525925916806733,
+          "candidate_minus_baseline_A": 0.0015576034137927408
+        },
+        {
+          "pair": "7-9",
+          "qm_A": 2.599660770403318,
+          "baseline_A": 2.6404982608949403,
+          "candidate_A": 2.642247323171974,
+          "candidate_minus_baseline_A": 0.0017490622770335307
+        },
+        {
+          "pair": "7-10",
+          "qm_A": 2.807090409100855,
+          "baseline_A": 2.8739650229383695,
+          "candidate_A": 2.8847102580083623,
+          "candidate_minus_baseline_A": 0.010745235069992809
+        },
+        {
+          "pair": "7-11",
+          "qm_A": 5.461632394883786,
+          "baseline_A": 5.178990312963814,
+          "candidate_A": 5.235269615229377,
+          "candidate_minus_baseline_A": 0.05627930226556366
+        },
+        {
+          "pair": "7-12",
+          "qm_A": 6.333699307057371,
+          "baseline_A": 6.221899687038388,
+          "candidate_A": 6.339684246598689,
+          "candidate_minus_baseline_A": 0.11778455956030154
+        },
+        {
+          "pair": "7-13",
+          "qm_A": 5.270964562298824,
+          "baseline_A": 5.2334919471311725,
+          "candidate_A": 5.293014177491448,
+          "candidate_minus_baseline_A": 0.05952223036027515
+        },
+        {
+          "pair": "7-14",
+          "qm_A": 2.34741473680686,
+          "baseline_A": 2.3542958532289187,
+          "candidate_A": 2.348725565605101,
+          "candidate_minus_baseline_A": -0.005570287623817727
+        },
+        {
+          "pair": "7-15",
+          "qm_A": 3.7683676462115563,
+          "baseline_A": 3.7067904445623863,
+          "candidate_A": 3.74813881811598,
+          "candidate_minus_baseline_A": 0.041348373553593554
+        },
+        {
+          "pair": "7-16",
+          "qm_A": 1.3700696599680562,
+          "baseline_A": 1.3676223151570897,
+          "candidate_A": 1.3670053621684404,
+          "candidate_minus_baseline_A": -0.0006169529886492775
+        },
+        {
+          "pair": "7-17",
+          "qm_A": 2.329411273206389,
+          "baseline_A": 2.2984492227257594,
+          "candidate_A": 2.3027089064401887,
+          "candidate_minus_baseline_A": 0.004259683714429308
+        },
+        {
+          "pair": "8-9",
+          "qm_A": 2.177653987824047,
+          "baseline_A": 2.115715048566245,
+          "candidate_A": 2.1162275759981974,
+          "candidate_minus_baseline_A": 0.0005125274319524031
+        },
+        {
+          "pair": "8-10",
+          "qm_A": 2.19188110748964,
+          "baseline_A": 2.127618179951027,
+          "candidate_A": 2.127187823382706,
+          "candidate_minus_baseline_A": -0.00043035656832079994
+        },
+        {
+          "pair": "8-11",
+          "qm_A": 5.594038980464474,
+          "baseline_A": 5.63217135457829,
+          "candidate_A": 5.725272357618396,
+          "candidate_minus_baseline_A": 0.09310100304010582
+        },
+        {
+          "pair": "8-12",
+          "qm_A": 5.221302770003195,
+          "baseline_A": 5.240246906677095,
+          "candidate_A": 5.392646468478109,
+          "candidate_minus_baseline_A": 0.15239956180101366
+        },
+        {
+          "pair": "8-13",
+          "qm_A": 5.560806404208122,
+          "baseline_A": 5.320886286290186,
+          "candidate_A": 5.384650960490836,
+          "candidate_minus_baseline_A": 0.0637646742006499
+        },
+        {
+          "pair": "8-14",
+          "qm_A": 3.185602658345516,
+          "baseline_A": 3.1478178041913862,
+          "candidate_A": 3.1389103121499637,
+          "candidate_minus_baseline_A": -0.008907492041422493
+        },
+        {
+          "pair": "8-15",
+          "qm_A": 3.1317579757979406,
+          "baseline_A": 3.092190573860168,
+          "candidate_A": 3.0721960528017767,
+          "candidate_minus_baseline_A": -0.019994521058391168
+        },
+        {
+          "pair": "8-16",
+          "qm_A": 2.391393070073801,
+          "baseline_A": 2.411232528439328,
+          "candidate_A": 2.409592499370235,
+          "candidate_minus_baseline_A": -0.0016400290690929964
+        },
+        {
+          "pair": "8-17",
+          "qm_A": 1.3403759103553696,
+          "baseline_A": 1.348784546555151,
+          "candidate_A": 1.348601338740215,
+          "candidate_minus_baseline_A": -0.0001832078149359706
+        },
+        {
+          "pair": "9-10",
+          "qm_A": 2.184429035326173,
+          "baseline_A": 2.1237390439433748,
+          "candidate_A": 2.123624983651538,
+          "candidate_minus_baseline_A": -0.00011406029183680388
+        },
+        {
+          "pair": "9-11",
+          "qm_A": 6.837231584778297,
+          "baseline_A": 6.723368120173182,
+          "candidate_A": 6.806659238491712,
+          "candidate_minus_baseline_A": 0.08329111831853009
+        },
+        {
+          "pair": "9-12",
+          "qm_A": 6.9946830877575135,
+          "baseline_A": 6.927767932503176,
+          "candidate_A": 7.073325936484661,
+          "candidate_minus_baseline_A": 0.14555800398148477
+        },
+        {
+          "pair": "9-13",
+          "qm_A": 6.7006444285305875,
+          "baseline_A": 6.486731933287951,
+          "candidate_A": 6.544262600243428,
+          "candidate_minus_baseline_A": 0.05753066695547737
+        },
+        {
+          "pair": "9-14",
+          "qm_A": 3.797696407226888,
+          "baseline_A": 3.7552996066459277,
+          "candidate_A": 3.7444564849064186,
+          "candidate_minus_baseline_A": -0.010843121739509076
+        },
+        {
+          "pair": "9-15",
+          "qm_A": 4.53770066417299,
+          "baseline_A": 4.4478429795802406,
+          "candidate_A": 4.454634847013436,
+          "candidate_minus_baseline_A": 0.006791867433195264
+        },
+        {
+          "pair": "9-16",
+          "qm_A": 2.354967038002225,
+          "baseline_A": 2.3834691200621165,
+          "candidate_A": 2.381749065544523,
+          "candidate_minus_baseline_A": -0.0017200545175937165
+        },
+        {
+          "pair": "9-17",
+          "qm_A": 1.3559843534831049,
+          "baseline_A": 1.3539378109366447,
+          "candidate_A": 1.3537844155166003,
+          "candidate_minus_baseline_A": -0.00015339542004433326
+        },
+        {
+          "pair": "10-11",
+          "qm_A": 6.109475665014631,
+          "baseline_A": 5.930316584585546,
+          "candidate_A": 5.994632135602931,
+          "candidate_minus_baseline_A": 0.06431555101738518
+        },
+        {
+          "pair": "10-12",
+          "qm_A": 5.800853865587462,
+          "baseline_A": 5.844644822321983,
+          "candidate_A": 5.9702929335207235,
+          "candidate_minus_baseline_A": 0.12564811119874086
+        },
+        {
+          "pair": "10-13",
+          "qm_A": 5.252669504148343,
+          "baseline_A": 4.997997378205813,
+          "candidate_A": 5.0366618987736835,
+          "candidate_minus_baseline_A": 0.0386645205678704
+        },
+        {
+          "pair": "10-14",
+          "qm_A": 3.0198940141177166,
+          "baseline_A": 2.9678099911814964,
+          "candidate_A": 2.956144660994755,
+          "candidate_minus_baseline_A": -0.011665330186741318
+        },
+        {
+          "pair": "10-15",
+          "qm_A": 3.584552325945877,
+          "baseline_A": 3.5849043124046673,
+          "candidate_A": 3.5974674040682335,
+          "candidate_minus_baseline_A": 0.012563091663566173
+        },
+        {
+          "pair": "10-16",
+          "qm_A": 2.3895045016030023,
+          "baseline_A": 2.404442421758837,
+          "candidate_A": 2.4051473508810712,
+          "candidate_minus_baseline_A": 0.000704929122234077
+        },
+        {
+          "pair": "10-17",
+          "qm_A": 1.3442475330395833,
+          "baseline_A": 1.3500211746790063,
+          "candidate_A": 1.3500818726421069,
+          "candidate_minus_baseline_A": 0.00006069796310059772
+        },
+        {
+          "pair": "11-12",
+          "qm_A": 2.509287807238338,
+          "baseline_A": 2.415105677293736,
+          "candidate_A": 2.46180240493974,
+          "candidate_minus_baseline_A": 0.04669672764600419
+        },
+        {
+          "pair": "11-13",
+          "qm_A": 2.5121333471895912,
+          "baseline_A": 2.4223400145485736,
+          "candidate_A": 2.468388255799652,
+          "candidate_minus_baseline_A": 0.04604824125107854
+        },
+        {
+          "pair": "11-14",
+          "qm_A": 3.3261814668327947,
+          "baseline_A": 3.1188551462962577,
+          "candidate_A": 3.194543786761757,
+          "candidate_minus_baseline_A": 0.07568864046549928
+        },
+        {
+          "pair": "11-15",
+          "qm_A": 2.6310546581373018,
+          "baseline_A": 2.5947663294220287,
+          "candidate_A": 2.7065033277783823,
+          "candidate_minus_baseline_A": 0.11173699835635365
+        },
+        {
+          "pair": "11-16",
+          "qm_A": 4.630244021866345,
+          "baseline_A": 4.442822931345616,
+          "candidate_A": 4.521445558716554,
+          "candidate_minus_baseline_A": 0.07862262737093761
+        },
+        {
+          "pair": "11-17",
+          "qm_A": 5.688979178101905,
+          "baseline_A": 5.52035366458278,
+          "candidate_A": 5.6017021753670075,
+          "candidate_minus_baseline_A": 0.08134851078422756
+        },
+        {
+          "pair": "12-13",
+          "qm_A": 2.5145290738309285,
+          "baseline_A": 2.4171810097356015,
+          "candidate_A": 2.463616058512849,
+          "candidate_minus_baseline_A": 0.046435048777247356
+        },
+        {
+          "pair": "12-14",
+          "qm_A": 4.010957311731575,
+          "baseline_A": 3.8915200466524515,
+          "candidate_A": 4.010532126345518,
+          "candidate_minus_baseline_A": 0.11901207969306604
+        },
+        {
+          "pair": "12-15",
+          "qm_A": 2.602431957924931,
+          "baseline_A": 2.5800115131052364,
+          "candidate_A": 2.691468833548796,
+          "candidate_minus_baseline_A": 0.11145732044355983
+        },
+        {
+          "pair": "12-16",
+          "qm_A": 5.245575881286445,
+          "baseline_A": 5.120464738833203,
+          "candidate_A": 5.253075757959509,
+          "candidate_minus_baseline_A": 0.13261101912630657
+        },
+        {
+          "pair": "12-17",
+          "qm_A": 5.683401824546108,
+          "baseline_A": 5.622996194726479,
+          "candidate_A": 5.764992418085919,
+          "candidate_minus_baseline_A": 0.14199622335944007
+        },
+        {
+          "pair": "13-14",
+          "qm_A": 3.110521573694994,
+          "baseline_A": 3.03758963989466,
+          "candidate_A": 3.1123388703772656,
+          "candidate_minus_baseline_A": 0.07474923048260562
+        },
+        {
+          "pair": "13-15",
+          "qm_A": 2.618143684031495,
+          "baseline_A": 2.594003474476539,
+          "candidate_A": 2.7053690810187536,
+          "candidate_minus_baseline_A": 0.11136560654221483
+        },
+        {
+          "pair": "13-16",
+          "qm_A": 4.649101270127061,
+          "baseline_A": 4.527734745633095,
+          "candidate_A": 4.596562413538715,
+          "candidate_minus_baseline_A": 0.06882766790561945
+        },
+        {
+          "pair": "13-17",
+          "qm_A": 5.414712175486067,
+          "baseline_A": 5.159546600823259,
+          "candidate_A": 5.218234062882102,
+          "candidate_minus_baseline_A": 0.058687462058842677
+        },
+        {
+          "pair": "14-15",
+          "qm_A": 1.5414727177177037,
+          "baseline_A": 1.4897810340782536,
+          "candidate_A": 1.5486860204009336,
+          "candidate_minus_baseline_A": 0.05890498632268004
+        },
+        {
+          "pair": "14-16",
+          "qm_A": 1.5582651596570543,
+          "baseline_A": 1.5236943502418367,
+          "candidate_A": 1.5172329092832557,
+          "candidate_minus_baseline_A": -0.006461440958581033
+        },
+        {
+          "pair": "14-17",
+          "qm_A": 2.6761690032707284,
+          "baseline_A": 2.5670269267132984,
+          "candidate_A": 2.556221255874961,
+          "candidate_minus_baseline_A": -0.010805670838337278
+        },
+        {
+          "pair": "15-16",
+          "qm_A": 2.64380946347369,
+          "baseline_A": 2.5450778770884295,
+          "candidate_A": 2.5748392500673374,
+          "candidate_minus_baseline_A": 0.029761372978907907
+        },
+        {
+          "pair": "15-17",
+          "qm_A": 3.257601499188479,
+          "baseline_A": 3.1571035795276137,
+          "candidate_A": 3.1647327066383903,
+          "candidate_minus_baseline_A": 0.007629127110776679
+        },
+        {
+          "pair": "16-17",
+          "qm_A": 1.545069010019299,
+          "baseline_A": 1.4948014653577615,
+          "candidate_A": 1.4939887975969728,
+          "candidate_minus_baseline_A": -0.000812667760788699
+        }
+      ],
+      "pair_summary": {
+        "count": 136,
+        "max_pair_nm": 0.7073325936484661,
+        "image_lower_nm": 9.292667406351534,
+        "largest_changes": [
+          {
+            "pair": "8-12",
+            "qm_A": 5.221302770003195,
+            "baseline_A": 5.240246906677095,
+            "candidate_A": 5.392646468478109,
+            "candidate_minus_baseline_A": 0.15239956180101366
+          },
+          {
+            "pair": "9-12",
+            "qm_A": 6.9946830877575135,
+            "baseline_A": 6.927767932503176,
+            "candidate_A": 7.073325936484661,
+            "candidate_minus_baseline_A": 0.14555800398148477
+          },
+          {
+            "pair": "12-17",
+            "qm_A": 5.683401824546108,
+            "baseline_A": 5.622996194726479,
+            "candidate_A": 5.764992418085919,
+            "candidate_minus_baseline_A": 0.14199622335944007
+          },
+          {
+            "pair": "12-16",
+            "qm_A": 5.245575881286445,
+            "baseline_A": 5.120464738833203,
+            "candidate_A": 5.253075757959509,
+            "candidate_minus_baseline_A": 0.13261101912630657
+          },
+          {
+            "pair": "10-12",
+            "qm_A": 5.800853865587462,
+            "baseline_A": 5.844644822321983,
+            "candidate_A": 5.9702929335207235,
+            "candidate_minus_baseline_A": 0.12564811119874086
+          }
+        ]
+      }
+    }
+  },
+  "ten_observations": [
+    {
+      "observation": "SC_A",
+      "qm_A": 1.8736790713925773,
+      "baseline_A": 1.76905478101653,
+      "predicted_A": 1.873745483275774,
+      "actual_A": 1.8746034090707475,
+      "actual_minus_qm_A": 0.0009243376781702395,
+      "actual_minus_predicted_A": 0.0008579257949734576
+    },
+    {
+      "observation": "CC_A",
+      "qm_A": 1.5463338589367104,
+      "baseline_A": 1.4867722265211372,
+      "predicted_A": 1.5446226649398662,
+      "actual_A": 1.5464134064629385,
+      "actual_minus_qm_A": 0.00007954752622807426,
+      "actual_minus_predicted_A": 0.0017907415230722368
+    },
+    {
+      "observation": "SO1_A",
+      "qm_A": 1.4824048021793783,
+      "baseline_A": 1.4516704549953192,
+      "predicted_A": 1.4781984958366448,
+      "actual_A": 1.4803066208058921,
+      "actual_minus_qm_A": -0.002098181373486163,
+      "actual_minus_predicted_A": 0.0021081249692473936
+    },
+    {
+      "observation": "SO2_A",
+      "qm_A": 1.4795360895746836,
+      "baseline_A": 1.4533655037676738,
+      "predicted_A": 1.4845692171601124,
+      "actual_A": 1.4818482419266048,
+      "actual_minus_qm_A": 0.0023121523519211706,
+      "actual_minus_predicted_A": -0.002720975233507561
+    },
+    {
+      "observation": "SO3_A",
+      "qm_A": 1.4813346426421938,
+      "baseline_A": 1.452317040183244,
+      "predicted_A": 1.4795408489197257,
+      "actual_A": 1.4807932650542264,
+      "actual_minus_qm_A": -0.000541377587967462,
+      "actual_minus_predicted_A": 0.0012524161345006668
+    },
+    {
+      "observation": "SC_B",
+      "qm_A": 1.8779260960849893,
+      "baseline_A": 1.777123899992815,
+      "predicted_A": 1.877788678931565,
+      "actual_A": 1.8823446654507654,
+      "actual_minus_qm_A": 0.004418569365776115,
+      "actual_minus_predicted_A": 0.004555986519200417
+    },
+    {
+      "observation": "CC_B",
+      "qm_A": 1.5414727177177037,
+      "baseline_A": 1.4897810340782536,
+      "predicted_A": 1.542952765260084,
+      "actual_A": 1.5486860204009336,
+      "actual_minus_qm_A": 0.00721330268322995,
+      "actual_minus_predicted_A": 0.005733255140849547
+    },
+    {
+      "observation": "SO1_B",
+      "qm_A": 1.480465887667455,
+      "baseline_A": 1.453425253475034,
+      "predicted_A": 1.478668719021675,
+      "actual_A": 1.4818145248445311,
+      "actual_minus_qm_A": 0.0013486371770761174,
+      "actual_minus_predicted_A": 0.0031458058228561736
+    },
+    {
+      "observation": "SO2_B",
+      "qm_A": 1.4806664390483129,
+      "baseline_A": 1.4539163673410371,
+      "predicted_A": 1.4823109781228918,
+      "actual_A": 1.4821433224191127,
+      "actual_minus_qm_A": 0.0014768833707998752,
+      "actual_minus_predicted_A": -0.00016765570377907935
+    },
+    {
+      "observation": "SO3_B",
+      "qm_A": 1.4823240170020167,
+      "baseline_A": 1.4528992276984896,
+      "predicted_A": 1.4832854527953643,
+      "actual_A": 1.481560234190252,
+      "actual_minus_qm_A": -0.0007637828117645906,
+      "actual_minus_predicted_A": -0.001725218605112211
+    }
+  ]
+}

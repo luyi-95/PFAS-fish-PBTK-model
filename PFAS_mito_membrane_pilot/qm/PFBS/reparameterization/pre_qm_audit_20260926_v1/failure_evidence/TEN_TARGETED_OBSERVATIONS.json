@@ -1,0 +1,92 @@
+[
+  {
+    "observation": "SC_A",
+    "qm_A": 1.8736790713925773,
+    "baseline_A": 1.76905478101653,
+    "predicted_A": 1.873745483275774,
+    "actual_A": 1.8746034090707475,
+    "actual_minus_qm_A": 0.0009243376781702395,
+    "actual_minus_predicted_A": 0.0008579257949734576
+  },
+  {
+    "observation": "CC_A",
+    "qm_A": 1.5463338589367104,
+    "baseline_A": 1.4867722265211372,
+    "predicted_A": 1.5446226649398662,
+    "actual_A": 1.5464134064629385,
+    "actual_minus_qm_A": 7.954752622807426e-05,
+    "actual_minus_predicted_A": 0.0017907415230722368
+  },
+  {
+    "observation": "SO1_A",
+    "qm_A": 1.4824048021793783,
+    "baseline_A": 1.4516704549953192,
+    "predicted_A": 1.4781984958366448,
+    "actual_A": 1.4803066208058921,
+    "actual_minus_qm_A": -0.002098181373486163,
+    "actual_minus_predicted_A": 0.0021081249692473936
+  },
+  {
+    "observation": "SO2_A",
+    "qm_A": 1.4795360895746836,
+    "baseline_A": 1.4533655037676738,
+    "predicted_A": 1.4845692171601124,
+    "actual_A": 1.4818482419266048,
+    "actual_minus_qm_A": 0.0023121523519211706,
+    "actual_minus_predicted_A": -0.002720975233507561
+  },
+  {
+    "observation": "SO3_A",
+    "qm_A": 1.4813346426421938,
+    "baseline_A": 1.452317040183244,
+    "predicted_A": 1.4795408489197257,
+    "actual_A": 1.4807932650542264,
+    "actual_minus_qm_A": -0.000541377587967462,
+    "actual_minus_predicted_A": 0.0012524161345006668
+  },
+  {
+    "observation": "SC_B",
+    "qm_A": 1.8779260960849893,
+    "baseline_A": 1.777123899992815,
+    "predicted_A": 1.877788678931565,
+    "actual_A": 1.8823446654507654,
+    "actual_minus_qm_A": 0.004418569365776115,
+    "actual_minus_predicted_A": 0.004555986519200417
+  },
+  {
+    "observation": "CC_B",
+    "qm_A": 1.5414727177177037,
+    "baseline_A": 1.4897810340782536,
+    "predicted_A": 1.542952765260084,
+    "actual_A": 1.5486860204009336,
+    "actual_minus_qm_A": 0.00721330268322995,
+    "actual_minus_predicted_A": 0.005733255140849547
+  },
+  {
+    "observation": "SO1_B",
+    "qm_A": 1.480465887667455,
+    "baseline_A": 1.453425253475034,
+    "predicted_A": 1.478668719021675,
+    "actual_A": 1.4818145248445311,
+    "actual_minus_qm_A": 0.0013486371770761174,
+    "actual_minus_predicted_A": 0.0031458058228561736
+  },
+  {
+    "observation": "SO2_B",
+    "qm_A": 1.4806664390483129,
+    "baseline_A": 1.4539163673410371,
+    "predicted_A": 1.4823109781228918,
+    "actual_A": 1.4821433224191127,
+    "actual_minus_qm_A": 0.0014768833707998752,
+    "actual_minus_predicted_A": -0.00016765570377907935
+  },
+  {
+    "observation": "SO3_B",
+    "qm_A": 1.4823240170020167,
+    "baseline_A": 1.4528992276984896,
+    "predicted_A": 1.4832854527953643,
+    "actual_A": 1.481560234190252,
+    "actual_minus_qm_A": -0.0007637828117645906,
+    "actual_minus_predicted_A": -0.001725218605112211
+  }
+]
