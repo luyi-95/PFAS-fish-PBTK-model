@@ -1,0 +1,1 @@
+Complete supported and unsupported right singular vectors, each with deterministic sign, are recorded in SELECTIVE_CC_RIGHT_SINGULAR_VECTORS.tsv. SELECTIVE_CC_NULL_DIRECTIONS.tsv is the unsupported-only view. Unresolved coordinates retain explicit null components; no zero-variance claim is made. Sol review pending.

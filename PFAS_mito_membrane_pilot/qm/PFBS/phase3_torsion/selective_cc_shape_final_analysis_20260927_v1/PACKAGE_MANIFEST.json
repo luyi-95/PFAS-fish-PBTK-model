@@ -1,0 +1,236 @@
+{
+  "analysis_only": true,
+  "decision": {
+    "fit_design_ready": false,
+    "route_reassessment": "GEOMETRY_PLUS_CC_REDESIGN",
+    "status": "C_IDENTIFIABLE_BUT_INSUFFICIENT_LEVERAGE"
+  },
+  "files_before_manifest": [
+    {
+      "bytes": 10453,
+      "path": "CC240_BRANCH_GUARD_RESULTS.tsv",
+      "sha256": "ae9222934051fd20f42920dcd55d3bd97bc5f33596e45ac4500c3126f2181604"
+    },
+    {
+      "bytes": 33039,
+      "path": "CC_LOW_ENERGY_LEVERAGE.tsv",
+      "sha256": "82dfb7b21e178cff193a0d576d87df96ef82f7401a780e1811f14c646e0f5fbf"
+    },
+    {
+      "bytes": 2142,
+      "path": "CC_PROFILE_SHAPE_REVIEW.md",
+      "sha256": "c02d8b30c068100ffa117cedbd12cf370b222fddfcddcfab1e198919b410cb40"
+    },
+    {
+      "bytes": 764,
+      "path": "CC_SHAPE_BRANCH_GAP.tsv",
+      "sha256": "29663096b8e769796ebea2be56dc9dbd68cef7e6686771f53352f55726e0111f"
+    },
+    {
+      "bytes": 96375,
+      "path": "CC_SHAPE_DERIVATIVE_DETAIL.tsv",
+      "sha256": "799dee5fafbc464dd72ca121f98824fbb4467c9fa68426ff6687fe819b2f94b5"
+    },
+    {
+      "bytes": 2644,
+      "path": "CC_SHAPE_DIRECTION_SCREEN.tsv",
+      "sha256": "c7a3b6dbd94424b4fafd4453a121cd1f484f9316b5f10bbebad1276338e2f2d9"
+    },
+    {
+      "bytes": 268,
+      "path": "CC_SHAPE_GUARDS.json",
+      "sha256": "8bf3d11a97e7d657590cdce105808a8efe621c035329ad67697cc82b5bb3f0cb"
+    },
+    {
+      "bytes": 12214,
+      "path": "CC_SHAPE_SUBMATRIX_SVD.tsv",
+      "sha256": "0a848484cb04ee2b770470ed963966e6f7a03efbbc50c225ea584f9346910bb9"
+    },
+    {
+      "bytes": 724,
+      "path": "CC_TERM_CLASSIFICATION.tsv",
+      "sha256": "e30e556ca8c745954301a853e7658637d1a9716c284a88696630eea904b17624"
+    },
+    {
+      "bytes": 75383,
+      "path": "CS_GUARD_RESULTS.tsv",
+      "sha256": "a133c172e37392eae3186c6562caa06ce557d0dfa7595e271f2f451e51e2702f"
+    },
+    {
+      "bytes": 1849,
+      "path": "EXPORT_RECOVERY_RECEIPT_V3.json",
+      "sha256": "10a3b66465a7637fa8b3598e088ee87895c4728085ac9c8ecc50b5cc1f474225"
+    },
+    {
+      "bytes": 199874,
+      "path": "GEOMETRY_GUARD_RESULTS.tsv",
+      "sha256": "b6fe1d76371679d43290fcb3e499cb6d77b0d6b3fc91128c80ffd9a9a802709c"
+    },
+    {
+      "bytes": 295,
+      "path": "MINIMAL_CC_SHAPE_BLOCK.tsv",
+      "sha256": "c7342d048637cf6d87d9dea89cef799e506fc711ff20cc831ce043b1861fc757"
+    },
+    {
+      "bytes": 10889,
+      "path": "provenance/MVP_LOW_TIER_ROW_DIAGNOSTIC_SPEC.json",
+      "sha256": "af4c6a47b6c77b041bf4aa7a8b7eb2c488a0a165769b61a99f4930425ec1f030"
+    },
+    {
+      "bytes": 12903,
+      "path": "provenance/ORIGINAL_FROZEN_EXPORTER.py",
+      "sha256": "e16a3c630f240aafcce9473d958e708ffbedc5f10b9b2680bb5a7832ca802340"
+    },
+    {
+      "bytes": 1316,
+      "path": "provenance/POSTRUN_RECOVERY_CONTEXT.md",
+      "sha256": "ab1195b17dd8d495f2f289e87e96559aa4c27f8993110bf183d889ddac688419"
+    },
+    {
+      "bytes": 15225,
+      "path": "provenance/RECOVERY_EXPORTER_V3.py",
+      "sha256": "566b8b335836537162239512835a1cb744132326224be94d4a2b72e9f52e0b26"
+    },
+    {
+      "bytes": 23261,
+      "path": "provenance/SELECTIVE_CC_ANALYSIS_RULES.json",
+      "sha256": "b4e4f22475441ff6749070edc9609463c4816fb6c06e95981b05b61c446a2a67"
+    },
+    {
+      "bytes": 1303,
+      "path": "PROVENANCE_FINAL_REVIEW.json",
+      "sha256": "93ea0ddb944629ae86a593730ba94228096b9cd03460fe7c69f504e0ee4bf4a3"
+    },
+    {
+      "bytes": 2278,
+      "path": "PROVENANCE_FINAL_REVIEW.md",
+      "sha256": "ec197576a821821675406297a04a19238229eb129cfecb977de67ff795ce0fff"
+    },
+    {
+      "bytes": 3565,
+      "path": "README.md",
+      "sha256": "19f16e07cd50f6223d09486dfb9999ed17db78cdf48d379645d2692cded0dc97"
+    },
+    {
+      "bytes": 576775,
+      "path": "RECOVERY_INPUT_HASH_INVENTORY_V3.json",
+      "sha256": "00f326b95b6c3c6a4c50d73560e1dc80b5bd4956f4c29eee125910cd98b3f267"
+    },
+    {
+      "bytes": 85374,
+      "path": "SELECTIVE_CC_COMBINED_JACOBIAN.tsv",
+      "sha256": "bea3aa20bcfd71d56b41972f02cddf8dd27091a0d4e557fb7bbcff83705caf70"
+    },
+    {
+      "bytes": 15122,
+      "path": "SELECTIVE_CC_CORRELATION.tsv",
+      "sha256": "1f045275f3549dc1f7d91cdf850b86286578006cd6d9eca513ad0b899ec3a187"
+    },
+    {
+      "bytes": 103566,
+      "path": "SELECTIVE_CC_DERIVATIVE_QC.tsv",
+      "sha256": "f25da8eec45e14838f89ea6b5357db680871a9faebffe2626b7bc8d3d0e50c27"
+    },
+    {
+      "bytes": 14607,
+      "path": "SELECTIVE_CC_JACOBIAN_NORMALIZED.tsv",
+      "sha256": "6677cadd0ba29c3e76ffa8b963c435248efc8e0f4d4fc2a3739a82b350c82eef"
+    },
+    {
+      "bytes": 14245,
+      "path": "SELECTIVE_CC_JACOBIAN_RAW.tsv",
+      "sha256": "5a59838d31d158118b99d643cbac9169d42fcdc8d642066eb189493987c063b2"
+    },
+    {
+      "bytes": 2979,
+      "path": "SELECTIVE_CC_LEAVE_ONE_BLOCK_OUT.tsv",
+      "sha256": "d5604aedac9da9d3cab7842d4b5e9b13e8733043a41fcc9af9472f9444a6f49b"
+    },
+    {
+      "bytes": 317,
+      "path": "SELECTIVE_CC_NULL_DIRECTIONS.md",
+      "sha256": "8fab672287865598198a27821e286625ad9f9a71c4898620a4f9fa193547e339"
+    },
+    {
+      "bytes": 383,
+      "path": "SELECTIVE_CC_PRINCIPAL_ANGLES.tsv",
+      "sha256": "946f1847229470a330295b83266499a3999b4a0943eff73bcc74c9dc95ed3879"
+    },
+    {
+      "bytes": 93576,
+      "path": "SELECTIVE_CC_RIGHT_SINGULAR_VECTORS.tsv",
+      "sha256": "a594ba1cd90a8e2a23d60d55469a20fd0610228b23038193da04d93eff9deb62"
+    },
+    {
+      "bytes": 11078,
+      "path": "SELECTIVE_CC_STEP_STABILITY.tsv",
+      "sha256": "a807cf02930c063c2a3495403d9f4fa81f573a544e92a4065bac2f364d7e3c31"
+    },
+    {
+      "bytes": 2790,
+      "path": "SELECTIVE_CC_SVD_RESULTS.tsv",
+      "sha256": "bf1f7c4d3105bb9ca4a61ba87645597a05f02e4937ccbdc1d292d2c5825c5077"
+    },
+    {
+      "bytes": 3516662,
+      "path": "SHARED_CHAIN_GUARD_RESULTS.tsv",
+      "sha256": "b7c0ec5cefb4d222a25fa8f233eb4e07eb63afe0c4672f3bdada61271a3a7075"
+    },
+    {
+      "bytes": 1704,
+      "path": "SOL_HIGH_FINAL_SELECTIVE_CC_SHAPE_REVIEW.json",
+      "sha256": "158d35d9c66038721e520c9d119af4edf8b486dc4f5273d4e54442d7499e314d"
+    },
+    {
+      "bytes": 5548,
+      "path": "SOL_HIGH_FINAL_SELECTIVE_CC_SHAPE_REVIEW.md",
+      "sha256": "f1bb00d7cc775541a053543d7837354b1902dcd216d1f383a52bf269279807cc"
+    },
+    {
+      "bytes": 4377,
+      "path": "SOURCE_PROVENANCE_MANIFEST.json",
+      "sha256": "402fa1a5d1e429ab3b4f92e78e239325dd0b4699a80f3032a46b443adcf3309d"
+    },
+    {
+      "bytes": 2017,
+      "path": "SUPPLEMENTAL_AUDIT_RECEIPT.json",
+      "sha256": "fb28767e98f84c60c39f6322ec22ec7e69343e6e2fbcfc00a3820d6d83120aa7"
+    },
+    {
+      "bytes": 14840,
+      "path": "supplemental_audit_v1.py",
+      "sha256": "daa6023b2485acd150dcf4042123d3e0c66e2c1e220172fb096f10061e3d12d2"
+    },
+    {
+      "bytes": 254,
+      "path": "V2_BASE_COMPATIBILITY.json",
+      "sha256": "f5f6032112a739398c2b2ef4a520f319bf28d39e4123db876c229ce9b91f0194"
+    },
+    {
+      "bytes": 12276,
+      "path": "V2_BASE_COMPATIBILITY.tsv",
+      "sha256": "5d612eaab0584d1635086ae0eb21c6dfc63a6540b72325dcbb7b8e3fc0e29cd4"
+    }
+  ],
+  "fitting": false,
+  "hash_method": {
+    "PACKAGE_SHA256": "SHA256 of exact SHA256SUMS file bytes after it is generated",
+    "SHA256SUMS": "SHA256 of every package file except SHA256SUMS and PACKAGE_MANIFEST.json; sorted by POSIX relative path"
+  },
+  "md": false,
+  "new_mm": false,
+  "new_qm": false,
+  "package_name": "selective_cc_shape_final_analysis_20260927_v1",
+  "parameter_edit": false,
+  "purpose": "source-bounded analysis and adjudication only",
+  "schema": "PFBS_SELECTIVE_CC_FINAL_ANALYSIS_PACKAGE_MANIFEST_V1",
+  "source_identities": {
+    "base_parameter_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+    "input_manifest_sha256": "00f326b95b6c3c6a4c50d73560e1dc80b5bd4956f4c29eee125910cd98b3f267",
+    "original_exporter_sha256": "e16a3c630f240aafcce9473d958e708ffbedc5f10b9b2680bb5a7832ca802340",
+    "recovered_matrix_sha256": "f3ce5cd0f5ba083b15acc6a1ffc87619cba01e189289d437f934b1b975af3b22",
+    "recovery_exporter_sha256": "566b8b335836537162239512835a1cb744132326224be94d4a2b72e9f52e0b26",
+    "recovery_receipt_sha256": "10a3b66465a7637fa8b3598e088ee87895c4728085ac9c8ecc50b5cc1f474225",
+    "rules_sha256": "b4e4f22475441ff6749070edc9609463c4816fb6c06e95981b05b61c446a2a67"
+  }
+}

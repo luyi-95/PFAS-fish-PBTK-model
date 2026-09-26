@@ -1,0 +1,292 @@
+{
+  "status": "PROSPECTIVE_LOW_TIER_DIAGNOSTIC_ONLY_BEFORE_MM_RESULTS",
+  "created_utc": "2026-09-26T06:28:29.549349+00:00",
+  "source_binding_sha256": "315a741f8441c0bf37657f2e6e477691ed85e78cdc8e6213de8e53d369bb8ded",
+  "protocol_sha256": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "mvp_gates_sha256": "70c879440aef9ba9b2c603aa578a89a3cb01f53b8e01c1c99eaba62f7d7e998b",
+  "hartree_to_kcal_mol": 627.5094740631,
+  "selection": "Existing accepted QM delta from each axis minimum <=1.0 kcal/mol; not from future MM results",
+  "selected_energy_rows": [
+    {
+      "primary_energy_source_id": "T_CC_180",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.340254797999,
+      "delta_axis_min_kcal_mol": 0.9905817499942648,
+      "low_tier": true,
+      "g96_sha256": "237d0de9329d2f7154e75e1b94b8d20dc99d256df491b1962585edd08ac5d56b"
+    },
+    {
+      "primary_energy_source_id": "T_CC_300",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3418333905,
+      "delta_axis_min_kcal_mol": 0.0,
+      "low_tier": true,
+      "g96_sha256": "fc6381c1ad4b27e5f9a79cad7e8361d93f1a8d0e253a0d934cd0410aba899c01"
+    },
+    {
+      "primary_energy_source_id": "T_CS_050",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3407951204,
+      "delta_axis_min_kcal_mol": 0.6302223230526441,
+      "low_tier": true,
+      "g96_sha256": "d5ffde1699a4340c997fb87781ff0319b604b8e83883345a0da527c51bce31d9"
+    },
+    {
+      "primary_energy_source_id": "T_CS_060",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3416455518,
+      "delta_axis_min_kcal_mol": 0.09656856246956406,
+      "low_tier": true,
+      "g96_sha256": "80f6abaaca25fcd7bd9b4a96576a6529dc2aab9c92bb4dc8cb8d94382f35e1bd"
+    },
+    {
+      "primary_energy_source_id": "T_CS_070",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3417994436,
+      "delta_axis_min_kcal_mol": 0.0,
+      "low_tier": true,
+      "g96_sha256": "861b37106b6bffb8af5aa0780a88e99efc6bb88ef7f40055d7a4c38fada5ead3"
+    },
+    {
+      "primary_energy_source_id": "T_CS_080",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3410245324,
+      "delta_axis_min_kcal_mol": 0.48626411947550613,
+      "low_tier": true,
+      "g96_sha256": "185564ab2bddfe1f6bee80c92bcc4d84c3c5217d92438a78fed413f0c2f0ee48"
+    }
+  ],
+  "all_qm_selection_rows": [
+    {
+      "primary_energy_source_id": "T_CC_000",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3258661167,
+      "delta_axis_min_kcal_mol": 10.019615584469175,
+      "low_tier": false,
+      "g96_sha256": "a6e94cfe558c5be38544a34d2a6fad98313d167e35f5e4b511ff44a3e9ca9bd2"
+    },
+    {
+      "primary_energy_source_id": "T_CC_030",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3325016142,
+      "delta_axis_min_kcal_mol": 5.855778037999326,
+      "low_tier": false,
+      "g96_sha256": "bab98c0a3ea47718c84ee2523940894bf3eb8df2875321a686eefa8b41f8b782"
+    },
+    {
+      "primary_energy_source_id": "T_CC_060",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3383880418,
+      "delta_axis_min_kcal_mol": 2.161988950619415,
+      "low_tier": false,
+      "g96_sha256": "41baeb9c356cf99a1669a39f741dfb4147717de0ce46134528141edf74e37c1d"
+    },
+    {
+      "primary_energy_source_id": "T_CC_090",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3384822247,
+      "delta_axis_min_kcal_mol": 2.102888288539102,
+      "low_tier": false,
+      "g96_sha256": "dbc39b01855c642528b1b5129ecf4ae28ec9520145b3527abc86ff7044f37fe4"
+    },
+    {
+      "primary_energy_source_id": "T_CC_120",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3364446559,
+      "delta_axis_min_kcal_mol": 3.3814820145981415,
+      "low_tier": false,
+      "g96_sha256": "703b1af8fd53d30a74d3f4bf3a1f53070360f76270386005e08d7e6d5c6d10b8"
+    },
+    {
+      "primary_energy_source_id": "T_CC_150",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3372820054,
+      "delta_axis_min_kcal_mol": 2.8560372702532297,
+      "low_tier": false,
+      "g96_sha256": "3625c62a0da1954c05f2c25a8ce89fd780c033322f4d07af01007123ad2086d7"
+    },
+    {
+      "primary_energy_source_id": "T_CC_180",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.340254797999,
+      "delta_axis_min_kcal_mol": 0.9905817499942648,
+      "low_tier": true,
+      "g96_sha256": "237d0de9329d2f7154e75e1b94b8d20dc99d256df491b1962585edd08ac5d56b"
+    },
+    {
+      "primary_energy_source_id": "T_CC_210",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3394867217,
+      "delta_axis_min_kcal_mol": 1.4725569044088693,
+      "low_tier": false,
+      "g96_sha256": "ff7ba181ddce36b5fec269c010000630a05fa87e61843c9cb6ae5b286660aa06"
+    },
+    {
+      "primary_energy_source_id": "T_CC_240",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3345959676,
+      "delta_axis_min_kcal_mol": 4.541551437447195,
+      "low_tier": false,
+      "g96_sha256": "880de9f672087b3c73f343d26033dc31c7e6d04945e3ef56427c9859c467bda9"
+    },
+    {
+      "primary_energy_source_id": "T_CC_270",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3365102911,
+      "delta_axis_min_kcal_mol": 3.34029530481828,
+      "low_tier": false,
+      "g96_sha256": "0bb8e714e59c30b159e44188b0df6faf6cdafd8794878db4b1f2197b15d282c8"
+    },
+    {
+      "primary_energy_source_id": "T_CC_300",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3418333905,
+      "delta_axis_min_kcal_mol": 0.0,
+      "low_tier": true,
+      "g96_sha256": "fc6381c1ad4b27e5f9a79cad7e8361d93f1a8d0e253a0d934cd0410aba899c01"
+    },
+    {
+      "primary_energy_source_id": "T_CC_330",
+      "axis": "T_CC",
+      "qm_energy_hartree": -1671.3368186216,
+      "delta_axis_min_kcal_mol": 3.1468149948959834,
+      "low_tier": false,
+      "g96_sha256": "12d5e015638e715123552261c80c982de9108a65a82103add957bb662b8d1c03"
+    },
+    {
+      "primary_energy_source_id": "T_CS_000",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3344698694,
+      "delta_axis_min_kcal_mol": 4.599377251321659,
+      "low_tier": false,
+      "g96_sha256": "b76cb71c416ae436646084247ac0799101a651a6e78ef12bdd936ed29539a181"
+    },
+    {
+      "primary_energy_source_id": "T_CS_010",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3350479838,
+      "delta_axis_min_kcal_mol": 4.236604988220648,
+      "low_tier": false,
+      "g96_sha256": "93231ed042bed5c0602602d32e5c5f3d4901969d8156257c0347236c62607f21"
+    },
+    {
+      "primary_energy_source_id": "T_CS_020",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3361710628,
+      "delta_axis_min_kcal_mol": 3.5318622755485665,
+      "low_tier": false,
+      "g96_sha256": "fc0fe0aaa70da2491407d7cf40549f0928ad568ab5bdce4bbe2d14d68bfcc78c"
+    },
+    {
+      "primary_energy_source_id": "T_CS_030",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3377520075,
+      "delta_axis_min_kcal_mol": 2.5398044983406147,
+      "low_tier": false,
+      "g96_sha256": "a05c8327bb40345cb389bdc875b9059d4912df044e264f7722d2fc594a9c36dd"
+    },
+    {
+      "primary_energy_source_id": "T_CS_040",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3394204695,
+      "delta_axis_min_kcal_mol": 1.4928287862277165,
+      "low_tier": false,
+      "g96_sha256": "1a3dc833568c912b0d2cb86bfde6f64600b04206593d34bfbb044abbbf528520"
+    },
+    {
+      "primary_energy_source_id": "T_CS_050",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3407951204,
+      "delta_axis_min_kcal_mol": 0.6302223230526441,
+      "low_tier": true,
+      "g96_sha256": "d5ffde1699a4340c997fb87781ff0319b604b8e83883345a0da527c51bce31d9"
+    },
+    {
+      "primary_energy_source_id": "T_CS_060",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3416455518,
+      "delta_axis_min_kcal_mol": 0.09656856246956406,
+      "low_tier": true,
+      "g96_sha256": "80f6abaaca25fcd7bd9b4a96576a6529dc2aab9c92bb4dc8cb8d94382f35e1bd"
+    },
+    {
+      "primary_energy_source_id": "T_CS_070",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3417994436,
+      "delta_axis_min_kcal_mol": 0.0,
+      "low_tier": true,
+      "g96_sha256": "861b37106b6bffb8af5aa0780a88e99efc6bb88ef7f40055d7a4c38fada5ead3"
+    },
+    {
+      "primary_energy_source_id": "T_CS_080",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3410245324,
+      "delta_axis_min_kcal_mol": 0.48626411947550613,
+      "low_tier": true,
+      "g96_sha256": "185564ab2bddfe1f6bee80c92bcc4d84c3c5217d92438a78fed413f0c2f0ee48"
+    },
+    {
+      "primary_energy_source_id": "T_CS_090",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3392595048,
+      "delta_axis_min_kcal_mol": 1.5938356604323562,
+      "low_tier": false,
+      "g96_sha256": "95090c3545e38e3050c6dfd9ee40f08d6e347c417cfbc010bffb72eed38858f5"
+    },
+    {
+      "primary_energy_source_id": "T_CS_100",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3369909955,
+      "delta_axis_min_kcal_mol": 3.017346738286481,
+      "low_tier": false,
+      "g96_sha256": "c5e6d243501db4ba3bbd09f5ae97a9cc954f7652d24c606c3bb8196a5b512755"
+    },
+    {
+      "primary_energy_source_id": "T_CS_110",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3350644546,
+      "delta_axis_min_kcal_mol": 4.226269405243035,
+      "low_tier": false,
+      "g96_sha256": "fd3404ec36fe83815887e7a1e639f61c92bd7d0c7d43580b0b9c0fed1892da18"
+    },
+    {
+      "primary_energy_source_id": "T_CS_120",
+      "axis": "T_CS",
+      "qm_energy_hartree": -1671.3344794388,
+      "delta_axis_min_kcal_mol": 4.593372362200989,
+      "low_tier": false,
+      "g96_sha256": "cd3a576945e09ba26d11c6c20df75fa39584268550f612d9a1dc957add5b6753"
+    }
+  ],
+  "diagnostic_row_sets": {
+    "LOW_TIER_ENERGY_ONLY": [
+      "T_CC_180",
+      "T_CC_300",
+      "T_CS_050",
+      "T_CS_060",
+      "T_CS_070",
+      "T_CS_080"
+    ],
+    "MVP_LOW_TIER_GEOMETRY_AND_ENERGY": "All unchanged 92 A/B bond+angle rows plus these six primary energy rows plus E_B-E_A =99 rows"
+  },
+  "same_common_energy_anchor": "T_CC_300",
+  "weights": "Restrict original primary weights exactly; no renormalization or per-axis recentering",
+  "noise_steps_rank_formulas": "UNCHANGED; restrict elementwise error envelope to selected rows; show full and restricted results separately",
+  "full_primary_rows": 118,
+  "low_tier_full_diagnostic_rows": 99,
+  "dominant_sampled_qm_minima": {
+    "T_CC": [
+      "T_CC_300"
+    ],
+    "T_CS": [
+      "T_CS_070"
+    ]
+  },
+  "secondary_low_tier_cc180_is_global_minimum": false,
+  "invalid_endpoint_or_column_rescue": false,
+  "release_from_diagnostic_rank_alone": false,
+  "mvp_route_status": "PENDING",
+  "new_qm": false,
+  "fit": false,
+  "mm_execution_by_reviewer": false
+}

@@ -1,0 +1,24 @@
+{
+  "base_parameter": {
+    "path": "immutable_sources/pfbs_ani.prm",
+    "sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56"
+  },
+  "frozen_analysis_rules_sha256": "b4e4f22475441ff6749070edc9609463c4816fb6c06e95981b05b61c446a2a67",
+  "input_inventory_sha256": "00f326b95b6c3c6a4c50d73560e1dc80b5bd4956f4c29eee125910cd98b3f267",
+  "matrix_receipt_validation": "PASS",
+  "new_mm_calculations": false,
+  "new_qm": false,
+  "numerical_calculations_changed": false,
+  "original_exporter_sha256": "e16a3c630f240aafcce9473d958e708ffbedc5f10b9b2680bb5a7832ca802340",
+  "parameter_edited": false,
+  "parameter_fitting": false,
+  "preexisting_source_parameter_manifest_sha256": "3407ba87b7e655d70d3eba09a406316425060ae11df2b94490e983580db9b48d",
+  "recovered_matrix_sha256": "f3ce5cd0f5ba083b15acc6a1ffc87619cba01e189289d437f934b1b975af3b22",
+  "recovery_exporter_v3_sha256": "566b8b335836537162239512835a1cb744132326224be94d4a2b72e9f52e0b26",
+  "recovery_receipt_sha256": "10a3b66465a7637fa8b3598e088ee87895c4728085ac9c8ecc50b5cc1f474225",
+  "rerun": false,
+  "rows": 728,
+  "schema": "PFBS_SELECTIVE_CC_PROVENANCE_FINAL_REVIEW_V1",
+  "status": "PASS_DETERMINISTIC_METADATA_REPAIR",
+  "v2_base_compatibility_sha256": "f5f6032112a739398c2b2ef4a520f319bf28d39e4123db876c229ce9b91f0194"
+}

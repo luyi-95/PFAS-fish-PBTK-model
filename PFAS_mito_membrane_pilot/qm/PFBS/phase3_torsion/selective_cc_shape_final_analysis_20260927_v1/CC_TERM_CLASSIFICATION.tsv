@@ -1,0 +1,5 @@
+term_id	classification	interpretation
+CC_FOURIER_1	GROUP_WITH_[CC_FOURIER_1;CC_FOURIER_2;CC_FOURIER_3;CC_FOURIER_4]	Largest component of the single supported rank-1 direction; not independently fit-ready.
+CC_FOURIER_2	GROUP_WITH_[CC_FOURIER_1;CC_FOURIER_2;CC_FOURIER_3;CC_FOURIER_4]	Substantial grouped component; independent direction unsupported.
+CC_FOURIER_3	GROUP_WITH_[CC_FOURIER_1;CC_FOURIER_2;CC_FOURIER_3;CC_FOURIER_4]	The dominant component of the next unsupported singular direction; retain only in grouped diagnostic direction.
+CC_FOURIER_4	GROUP_WITH_[CC_FOURIER_1;CC_FOURIER_2;CC_FOURIER_3;CC_FOURIER_4]	Small component in supported direction; standalone derivative is REVIEW/UNIDENTIFIABLE across source rows.

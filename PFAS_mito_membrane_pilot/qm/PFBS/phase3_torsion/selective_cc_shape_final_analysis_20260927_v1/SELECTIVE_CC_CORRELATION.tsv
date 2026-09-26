@@ -1,0 +1,81 @@
+matrix	variable_i	variable_j	supported_covariance_proxy	correlation	null_projection_i	null_projection_j	both_coordinates_resolved	interpretation
+CC_ONLY	CC_FOURIER_1	CC_FOURIER_1	0.37274894350928844		0.6066502617021853	0.6066502617021853	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_1	CC_FOURIER_2	-0.26593217354409343		0.6066502617021853	0.823608555099501	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_1	CC_FOURIER_3	-0.10077165940012675		0.6066502617021853	0.9766321727925824	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_1	CC_FOURIER_4	-0.006041032716724302		0.6066502617021853	0.9999170000605162	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_2	CC_FOURIER_1	-0.2659321735440935		0.823608555099501	0.6066502617021853	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_2	CC_FOURIER_2	0.1897253423714227		0.823608555099501	0.823608555099501	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_2	CC_FOURIER_3	0.07189403721342272		0.823608555099501	0.9766321727925824	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_2	CC_FOURIER_4	0.004309884679175332		0.823608555099501	0.9999170000605162	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_3	CC_FOURIER_1	-0.10077165940012676		0.9766321727925824	0.6066502617021853	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_3	CC_FOURIER_2	0.07189403721342272		0.9766321727925824	0.823608555099501	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_3	CC_FOURIER_3	0.027243343046529943		0.9766321727925824	0.9766321727925824	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_3	CC_FOURIER_4	0.0016331767050054543		0.9766321727925824	0.9999170000605162	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_4	CC_FOURIER_1	-0.006041032716724302		0.9999170000605162	0.6066502617021853	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_4	CC_FOURIER_2	0.004309884679175331		0.9999170000605162	0.823608555099501	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_4	CC_FOURIER_3	0.001633176705005454		0.9999170000605162	0.9766321727925824	False	unit-normalized response covariance proxy; not statistical covariance
+CC_ONLY	CC_FOURIER_4	CC_FOURIER_4	9.790524405235242e-05		0.9999170000605162	0.9999170000605162	False	unit-normalized response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	R_OG2P1-SG3O1	0.7002687200829024		0.003830953581483921	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	R_CG312-SG3O1	0.01477496424087787		0.003830953581483921	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	R_CG312-CG312	0.005501761104409415		0.003830953581483921	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	TH_CG312-CG312-SG3O1	0.1744516202560006		0.003830953581483921	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	CC_FOURIER_1	-0.12691653336161254		0.003830953581483921	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	CC_FOURIER_2	0.09272164028701542		0.003830953581483921	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	CC_FOURIER_3	-0.0009153793759638788		0.003830953581483921	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_OG2P1-SG3O1	CC_FOURIER_4	-0.0074168381487632355		0.003830953581483921	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	R_OG2P1-SG3O1	0.014774964240877868		0.009989492373624429	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	R_CG312-SG3O1	1.003538439479966		0.009989492373624429	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	R_CG312-CG312	0.09463467960743811		0.009989492373624429	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	TH_CG312-CG312-SG3O1	1.0929425373469956		0.009989492373624429	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	CC_FOURIER_1	-0.08238121544622054		0.009989492373624429	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	CC_FOURIER_2	0.0729064817880147		0.009989492373624429	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	CC_FOURIER_3	-0.26249373180059193		0.009989492373624429	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-SG3O1	CC_FOURIER_4	-0.07374940241039951		0.009989492373624429	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	R_OG2P1-SG3O1	0.005501761104409429		0.01764794909992817	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	R_CG312-SG3O1	0.09463467960743811		0.01764794909992817	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	R_CG312-CG312	0.5046988031607248		0.01764794909992817	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	TH_CG312-CG312-SG3O1	-0.04378601774226956		0.01764794909992817	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	CC_FOURIER_1	-0.06707788185064666		0.01764794909992817	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	CC_FOURIER_2	0.04507295346012093		0.01764794909992817	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	CC_FOURIER_3	0.03636339056137893		0.01764794909992817	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	R_CG312-CG312	CC_FOURIER_4	-0.004810176786775205		0.01764794909992817	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	R_OG2P1-SG3O1	0.17445162025600058		0.26311943039631186	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	R_CG312-SG3O1	1.0929425373469954		0.26311943039631186	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	R_CG312-CG312	-0.04378601774226956		0.26311943039631186	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	TH_CG312-CG312-SG3O1	13.611717264060225		0.26311943039631186	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	CC_FOURIER_1	1.366561452585383		0.26311943039631186	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	CC_FOURIER_2	-0.7627263630658344		0.26311943039631186	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	CC_FOURIER_3	-4.183582576492893		0.26311943039631186	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	TH_CG312-CG312-SG3O1	CC_FOURIER_4	-0.8914663165303696		0.26311943039631186	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	R_OG2P1-SG3O1	-0.12691653336161254		0.6170842624192351	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	R_CG312-SG3O1	-0.08238121544622053		0.6170842624192351	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	R_CG312-CG312	-0.06707788185064664		0.6170842624192351	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	TH_CG312-CG312-SG3O1	1.366561452585383		0.6170842624192351	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	CC_FOURIER_1	0.575621580454737		0.6170842624192351	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	CC_FOURIER_2	-0.3867190932532606		0.6170842624192351	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	CC_FOURIER_3	-0.5733121481917914		0.6170842624192351	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_1	CC_FOURIER_4	-0.09940201336292162		0.6170842624192351	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	R_OG2P1-SG3O1	0.0927216402870154		0.8293542490001214	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	R_CG312-SG3O1	0.07290648178801472		0.8293542490001214	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	R_CG312-CG312	0.04507295346012093		0.8293542490001214	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	TH_CG312-CG312-SG3O1	-0.7627263630658344		0.8293542490001214	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	CC_FOURIER_1	-0.3867190932532606		0.8293542490001214	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	CC_FOURIER_2	0.2621461611110713		0.8293542490001214	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	CC_FOURIER_3	0.3428548186410619		0.8293542490001214	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_2	CC_FOURIER_4	0.05699909843304286		0.8293542490001214	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	R_OG2P1-SG3O1	-0.0009153793759638762		0.9305805065191848	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	R_CG312-SG3O1	-0.26249373180059193		0.9305805065191848	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	R_CG312-CG312	0.03636339056137894		0.9305805065191848	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	TH_CG312-CG312-SG3O1	-4.183582576492893		0.9305805065191848	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	CC_FOURIER_1	-0.5733121481917914		0.9305805065191848	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	CC_FOURIER_2	0.3428548186410619		0.9305805065191848	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	CC_FOURIER_3	1.3394904216848105		0.9305805065191848	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_3	CC_FOURIER_4	0.27739947465822967		0.9305805065191848	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	R_OG2P1-SG3O1	-0.007416838148763235		0.9978680838185521	0.003830953581483921	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	R_CG312-SG3O1	-0.07374940241039951		0.9978680838185521	0.009989492373624429	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	R_CG312-CG312	-0.004810176786775205		0.9978680838185521	0.01764794909992817	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	TH_CG312-CG312-SG3O1	-0.8914663165303695		0.9978680838185521	0.26311943039631186	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	CC_FOURIER_1	-0.09940201336292162		0.9978680838185521	0.6170842624192351	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	CC_FOURIER_2	0.05699909843304286		0.9978680838185521	0.8293542490001214	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	CC_FOURIER_3	0.27739947465822967		0.9978680838185521	0.9305805065191848	False	unit-normalized combined response covariance proxy; not statistical covariance
+COMBINED_4PLUS4	CC_FOURIER_4	CC_FOURIER_4	0.05880801180308836		0.9978680838185521	0.9978680838185521	False	unit-normalized combined response covariance proxy; not statistical covariance

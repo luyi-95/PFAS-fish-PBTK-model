@@ -1,0 +1,8 @@
+{
+  "branch_cc240_sources_present": true,
+  "cg_nonconverged_cells": 0,
+  "interpretation": "Runtime integrity guards only; first-order physical guard screens are reported separately.",
+  "pair_domain_coverage": true,
+  "pair_domain_failures": 0,
+  "run_cells": 728
+}

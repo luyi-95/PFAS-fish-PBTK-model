@@ -1,0 +1,51 @@
+{
+  "analysis_only": true,
+  "derivative_qc_counts_by_variable": {
+    "CC_FOURIER_1": {
+      "PASS": 26,
+      "REVIEW": 26,
+      "UNIDENTIFIABLE": 66
+    },
+    "CC_FOURIER_2": {
+      "PASS": 24,
+      "REVIEW": 20,
+      "UNIDENTIFIABLE": 74
+    },
+    "CC_FOURIER_3": {
+      "PASS": 22,
+      "REVIEW": 16,
+      "UNIDENTIFIABLE": 80
+    },
+    "CC_FOURIER_4": {
+      "PASS": 22,
+      "REVIEW": 6,
+      "UNIDENTIFIABLE": 90
+    }
+  },
+  "derivative_qc_rows": 472,
+  "frozen_contract_sha256": "7b6d810583a0cb1cb076bc5d525bf677ed0b542185ec541d6c599080bde46d9f",
+  "inputs": {
+    "SELECTIVE_CC_COMBINED_UNCERTAINTY.tsv": "cd529c0dfa7a38640031589594d1fc63f501325da15250400ee9043114701481",
+    "SELECTIVE_CC_JACOBIAN_2H_NORMALIZED.tsv": "e5968701223592a0be3869c21db99f3219b61eac4522a13c6cbf9bf49422f7f2",
+    "SELECTIVE_CC_JACOBIAN_COMBINED_NORMALIZED.tsv": "04030d87bb9e2c26be23e9f7d9d3c2dbf7d2bcc139820851d5bbe7cd1a691dee",
+    "SELECTIVE_CC_JACOBIAN_NORMALIZED.tsv": "6677cadd0ba29c3e76ffa8b963c435248efc8e0f4d4fc2a3739a82b350c82eef",
+    "SELECTIVE_CC_JACOBIAN_TIGHT_NORMALIZED.tsv": "969750e27c6acdeb8a52d9a86e47152134de821907eb4465bda78a771e55e7af",
+    "SELECTIVE_CC_UNCERTAINTY_NORMALIZED.tsv": "4a7f1d1dc95595512dfca2fa4562cbd0a5d24a4f7516456ff976287209dc6b18",
+    "SOURCE_PROVENANCE_MANIFEST.json": "402fa1a5d1e429ab3b4f92e78e239325dd0b4699a80f3032a46b443adcf3309d"
+  },
+  "leave_one_block_out_tests": 7,
+  "low_tier_T_CS_source_ids": [
+    "T_CS_050",
+    "T_CS_060",
+    "T_CS_070",
+    "T_CS_080"
+  ],
+  "low_tier_spec_sha256": "af4c6a47b6c77b041bf4aa7a8b7eb2c488a0a165769b61a99f4930425ec1f030",
+  "new_calculations": false,
+  "outputs": {
+    "SELECTIVE_CC_DERIVATIVE_QC.tsv": "f25da8eec45e14838f89ea6b5357db680871a9faebffe2626b7bc8d3d0e50c27",
+    "SELECTIVE_CC_LEAVE_ONE_BLOCK_OUT.tsv": "d5604aedac9da9d3cab7842d4b5e9b13e8733043a41fcc9af9472f9444a6f49b"
+  },
+  "parameter_fit": false,
+  "schema": "PFBS_SELECTIVE_CC_SUPPLEMENTAL_AUDIT_V1"
+}

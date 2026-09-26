@@ -1,0 +1,131 @@
+{
+  "amplitude_unit": "kJ/mol",
+  "branch_extended_119_diagnostic": {
+    "columns": 4,
+    "condition_supported": 1.0,
+    "covariance_proxy_diagonal": [
+      0.3727489434268439,
+      0.18972534238234318,
+      0.027243342993632208,
+      9.790524426643816e-05
+    ],
+    "covariance_proxy_note": "unit-noise proxy only",
+    "delta_frobenius": 0.034253938753280345,
+    "machine_tolerance": 3.440559585894833e-14,
+    "rank": 1,
+    "rows": 119,
+    "singular_values": [
+      1.3020926780657107,
+      0.1391506594080226,
+      0.046116439842093244,
+      0.01564940072056508
+    ],
+    "threshold_5delta": 0.17126969376640172
+  },
+  "combined_4plus4": {
+    "columns": 8,
+    "condition_supported": 5.9680630837759425,
+    "covariance_proxy_diagonal": [
+      0.7002687200829024,
+      1.003538439479966,
+      0.5046988031607248,
+      13.611717264060225,
+      0.575621580454737,
+      0.2621461611110713,
+      1.3394904216848105,
+      0.05880801180308836
+    ],
+    "covariance_proxy_note": "unit-noise proxy only",
+    "delta_frobenius": 0.039985478995632935,
+    "machine_tolerance": 4.004413380314526e-14,
+    "rank": 5,
+    "rows": 118,
+    "singular_values": [
+      1.5283283565611803,
+      1.4367939002736179,
+      1.1431010419439736,
+      0.9408293180776449,
+      0.2560844842132969,
+      0.12282170022624406,
+      0.034575452420108975,
+      0.015347518295074948
+    ],
+    "threshold_5delta": 0.19992739497816467
+  },
+  "combined_cc_columns": [
+    "CC_FOURIER_1",
+    "CC_FOURIER_2",
+    "CC_FOURIER_3",
+    "CC_FOURIER_4"
+  ],
+  "combined_geometry_columns": [
+    "R_OG2P1-SG3O1",
+    "R_CG312-SG3O1",
+    "R_CG312-CG312",
+    "TH_CG312-CG312-SG3O1"
+  ],
+  "combined_matrix_shape": [
+    118,
+    8
+  ],
+  "controller_status": "COMPLETE",
+  "execution_authorized": false,
+  "expected_runs": 728,
+  "full_primary": {
+    "columns": 4,
+    "condition_supported": 1.0,
+    "covariance_proxy_diagonal": [
+      0.37274894350928844,
+      0.1897253423714227,
+      0.027243343046529943,
+      9.790524405235242e-05
+    ],
+    "covariance_proxy_note": "unit-noise proxy only",
+    "delta_frobenius": 0.034253906681017444,
+    "machine_tolerance": 3.4116473201079195e-14,
+    "rank": 1,
+    "rows": 118,
+    "singular_values": [
+      1.3020926779286082,
+      0.1391506583411711,
+      0.046116439811835046,
+      0.015649400062357037
+    ],
+    "threshold_5delta": 0.17126953340508722
+  },
+  "guards": {
+    "branch_cc240_sources_present": true,
+    "cg_nonconverged_cells": 0,
+    "interpretation": "Runtime integrity guards only; first-order physical guard screens are reported separately.",
+    "pair_domain_coverage": true,
+    "pair_domain_failures": 0,
+    "run_cells": 728
+  },
+  "input_hashes": {
+    "analysis_rules": "b4e4f22475441ff6749070edc9609463c4816fb6c06e95981b05b61c446a2a67",
+    "export": "f3ce5cd0f5ba083b15acc6a1ffc87619cba01e189289d437f934b1b975af3b22",
+    "manifest": "3407ba87b7e655d70d3eba09a406316425060ae11df2b94490e983580db9b48d",
+    "v2_source_binding": "315a741f8441c0bf37657f2e6e477691ed85e78cdc8e6213de8e53d369bb8ded",
+    "variable_spec": "66c2a3f8c8fbd9132aa71b530f2841ad9a85d2a74012d45b9140235e5962507b"
+  },
+  "limitations": "This adapter reports fixed finite-difference response and SVD diagnostics. It does not optimize amplitudes, create a candidate force field, or infer membrane reliability.",
+  "matrix_shape": [
+    118,
+    4
+  ],
+  "observed_runs": 728,
+  "primary_observables": 118,
+  "schema": "PFBS_SELECTIVE_CC_FOURIER_SHAPE_ANALYSIS_V1",
+  "status": "DIAGNOSTIC_ONLY_NO_FIT",
+  "v2_bound_hashes": {
+    "error_normalized": "994068229fe195ece9785e0c14ca31aa51ed3097f183d07a83b0b388ea40c1fd",
+    "error_raw": "9bab1c1fde77a620c571166ba95bc8abb3e4a07fd24a6d3d2c5da6193481a1c9",
+    "geometry_comparison_sha256": "8628eaac4f7524e2795484db2b67b2335681083f7b164b930c5b50f602e2e667",
+    "normalized_2h": "ca08ccfc52167e3fa65b0a9ecfd7422f9cdbf15fd836a570781243cbc9c7584d",
+    "normalized_h": "10f2e5ac15f9a4f8b2514fda24d1037e47bb94c9e8ea959730d53ed9d7c436cb",
+    "normalized_tight": "4a58fbda4fd92c23eaaf6e16c5e96b4232e4c51db37d284205952eb1b3e17f0b",
+    "raw_2h": "28890c7280d80eb60cfa3bfc96050f858dcc9f4769ed77137be674ff5ee27882",
+    "raw_h": "a7a93f662a528efce63ce19df8067e8402e68e002b3b3f63daa8bc1b8d90e16b",
+    "raw_tight": "668a93ffca19d4fa58752edea5371456805ece18c2388baf31d997fdbc9ebc25"
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "schema": "SELECTIVE_CC_ANALYSIS_RULES_PROPOSAL_V1",
+  "status": "PROPOSED_BEFORE_RESULTS_NOT_EXECUTION_FROZEN",
+  "authority": {
+    "git": "8984de6f8c0c1b8ccdedf3d842b0f51a78a65e72",
+    "package_sha256": "5092642add4cd849ef02eaefe7f0ade8ac5334df2d448fad59352ecfd8dab024"
+  },
+  "variables": [
+    {
+      "id": "CC_FOURIER_1",
+      "term_id": "FGA2-CG312-CG312-SG3O1:n1",
+      "function": 9,
+      "base_kJ_mol": 4.85344,
+      "phase_deg": 180,
+      "n": 1,
+      "h_kJ_mol": 0.1,
+      "h2_kJ_mol": 0.2,
+      "normalization_scale_kJ_mol": 2.42672,
+      "lower_kJ_mol": 0.0,
+      "upper_kJ_mol": 9.70688,
+      "instances": "2-14-15-1;3-14-15-1",
+      "source_line": 32,
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "field_token_zero_based": 6
+    },
+    {
+      "id": "CC_FOURIER_2",
+      "term_id": "CG312-CG312-CG312-SG3O1:n1",
+      "function": 9,
+      "base_kJ_mol": 3.93296,
+      "phase_deg": 180,
+      "n": 1,
+      "h_kJ_mol": 0.1,
+      "h2_kJ_mol": 0.2,
+      "normalization_scale_kJ_mol": 1.96648,
+      "lower_kJ_mol": 0.0,
+      "upper_kJ_mol": 7.86592,
+      "instances": "16-14-15-1",
+      "source_line": 27,
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "field_token_zero_based": 6
+    },
+    {
+      "id": "CC_FOURIER_3",
+      "term_id": "CG312-CG312-CG312-SG3O1:n2",
+      "function": 9,
+      "base_kJ_mol": 1.58992,
+      "phase_deg": 0,
+      "n": 2,
+      "h_kJ_mol": 0.05,
+      "h2_kJ_mol": 0.1,
+      "normalization_scale_kJ_mol": 0.79496,
+      "lower_kJ_mol": 0.0,
+      "upper_kJ_mol": 3.17984,
+      "instances": "16-14-15-1",
+      "source_line": 28,
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "field_token_zero_based": 6
+    },
+    {
+      "id": "CC_FOURIER_4",
+      "term_id": "CG312-CG312-CG312-SG3O1:n3",
+      "function": 9,
+      "base_kJ_mol": 0.46024,
+      "phase_deg": 0,
+      "n": 3,
+      "h_kJ_mol": 0.02,
+      "h2_kJ_mol": 0.04,
+      "normalization_scale_kJ_mol": 0.23012,
+      "lower_kJ_mol": 0.0,
+      "upper_kJ_mol": 0.92048,
+      "instances": "16-14-15-1",
+      "source_line": 29,
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "field_token_zero_based": 6
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "T_CC_000",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_000.g96",
+      "g96_sha256": "a6e94cfe558c5be38544a34d2a6fad98313d167e35f5e4b511ff44a3e9ca9bd2",
+      "QM_energy_hartree": -1671.3258661167,
+      "QM_achieved_scan_deg": 8.2317896820712e-05,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_030",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_030.g96",
+      "g96_sha256": "bab98c0a3ea47718c84ee2523940894bf3eb8df2875321a686eefa8b41f8b782",
+      "QM_energy_hartree": -1671.3325016142,
+      "QM_achieved_scan_deg": 30.000158540910803,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_060",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_060.g96",
+      "g96_sha256": "41baeb9c356cf99a1669a39f741dfb4147717de0ce46134528141edf74e37c1d",
+      "QM_energy_hartree": -1671.3383880418,
+      "QM_achieved_scan_deg": 60.0001592609087,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_090",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_090.g96",
+      "g96_sha256": "dbc39b01855c642528b1b5129ecf4ae28ec9520145b3527abc86ff7044f37fe4",
+      "QM_energy_hartree": -1671.3384822247,
+      "QM_achieved_scan_deg": 90.00019699894702,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_120",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_120.g96",
+      "g96_sha256": "703b1af8fd53d30a74d3f4bf3a1f53070360f76270386005e08d7e6d5c6d10b8",
+      "QM_energy_hartree": -1671.3364446559,
+      "QM_achieved_scan_deg": 119.99983965803996,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_150",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_150.g96",
+      "g96_sha256": "3625c62a0da1954c05f2c25a8ce89fd780c033322f4d07af01007123ad2086d7",
+      "QM_energy_hartree": -1671.3372820054,
+      "QM_achieved_scan_deg": 150.00011419393934,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_180",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_180.g96",
+      "g96_sha256": "237d0de9329d2f7154e75e1b94b8d20dc99d256df491b1962585edd08ac5d56b",
+      "QM_energy_hartree": -1671.340254797999,
+      "QM_achieved_scan_deg": -179.99987411198484,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_210",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_210.g96",
+      "g96_sha256": "ff7ba181ddce36b5fec269c010000630a05fa87e61843c9cb6ae5b286660aa06",
+      "QM_energy_hartree": -1671.3394867217,
+      "QM_achieved_scan_deg": -150.00009928563182,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_240",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_240.g96",
+      "g96_sha256": "880de9f672087b3c73f343d26033dc31c7e6d04945e3ef56427c9859c467bda9",
+      "QM_energy_hartree": -1671.3345959676,
+      "QM_achieved_scan_deg": -120.00007620746388,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_270",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_270.g96",
+      "g96_sha256": "0bb8e714e59c30b159e44188b0df6faf6cdafd8794878db4b1f2197b15d282c8",
+      "QM_energy_hartree": -1671.3365102911,
+      "QM_achieved_scan_deg": -89.99993474284005,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_300",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_300.g96",
+      "g96_sha256": "fc6381c1ad4b27e5f9a79cad7e8361d93f1a8d0e253a0d934cd0410aba899c01",
+      "QM_energy_hartree": -1671.3418333905,
+      "QM_achieved_scan_deg": -59.99998160172803,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_330",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CC_330.g96",
+      "g96_sha256": "12d5e015638e715123552261c80c982de9108a65a82103add957bb662b8d1c03",
+      "QM_energy_hartree": -1671.3368186216,
+      "QM_achieved_scan_deg": -30.00016585816224,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_000",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_000.g96",
+      "g96_sha256": "b76cb71c416ae436646084247ac0799101a651a6e78ef12bdd936ed29539a181",
+      "QM_energy_hartree": -1671.3344698694,
+      "QM_achieved_scan_deg": 1.5180520262743396e-05,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_010",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_010.g96",
+      "g96_sha256": "93231ed042bed5c0602602d32e5c5f3d4901969d8156257c0347236c62607f21",
+      "QM_energy_hartree": -1671.3350479838,
+      "QM_achieved_scan_deg": 10.000078136231716,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_020",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_020.g96",
+      "g96_sha256": "fc0fe0aaa70da2491407d7cf40549f0928ad568ab5bdce4bbe2d14d68bfcc78c",
+      "QM_energy_hartree": -1671.3361710628,
+      "QM_achieved_scan_deg": 20.00017404591677,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_030",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_030.g96",
+      "g96_sha256": "a05c8327bb40345cb389bdc875b9059d4912df044e264f7722d2fc594a9c36dd",
+      "QM_energy_hartree": -1671.3377520075,
+      "QM_achieved_scan_deg": 30.00019985596987,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_040",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_040.g96",
+      "g96_sha256": "1a3dc833568c912b0d2cb86bfde6f64600b04206593d34bfbb044abbbf528520",
+      "QM_energy_hartree": -1671.3394204695,
+      "QM_achieved_scan_deg": 40.00013511844969,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_050",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_050.g96",
+      "g96_sha256": "d5ffde1699a4340c997fb87781ff0319b604b8e83883345a0da527c51bce31d9",
+      "QM_energy_hartree": -1671.3407951204,
+      "QM_achieved_scan_deg": 50.000069706040776,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_060",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_060.g96",
+      "g96_sha256": "80f6abaaca25fcd7bd9b4a96576a6529dc2aab9c92bb4dc8cb8d94382f35e1bd",
+      "QM_energy_hartree": -1671.3416455518,
+      "QM_achieved_scan_deg": 60.00001911469256,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_070",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_070.g96",
+      "g96_sha256": "861b37106b6bffb8af5aa0780a88e99efc6bb88ef7f40055d7a4c38fada5ead3",
+      "QM_energy_hartree": -1671.3417994436,
+      "QM_achieved_scan_deg": 69.99996549339919,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_080",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_080.g96",
+      "g96_sha256": "185564ab2bddfe1f6bee80c92bcc4d84c3c5217d92438a78fed413f0c2f0ee48",
+      "QM_energy_hartree": -1671.3410245324,
+      "QM_achieved_scan_deg": 79.99992991278366,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_090",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_090.g96",
+      "g96_sha256": "95090c3545e38e3050c6dfd9ee40f08d6e347c417cfbc010bffb72eed38858f5",
+      "QM_energy_hartree": -1671.3392595048,
+      "QM_achieved_scan_deg": 89.99991027498892,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_100",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_100.g96",
+      "g96_sha256": "c5e6d243501db4ba3bbd09f5ae97a9cc954f7652d24c606c3bb8196a5b512755",
+      "QM_energy_hartree": -1671.3369909955,
+      "QM_achieved_scan_deg": 99.99973782178598,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_110",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_110.g96",
+      "g96_sha256": "fd3404ec36fe83815887e7a1e639f61c92bd7d0c7d43580b0b9c0fed1892da18",
+      "QM_energy_hartree": -1671.3350644546,
+      "QM_achieved_scan_deg": 109.99982259760765,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CS_120",
+      "g96": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/qm_start_g96/T_CS_120.g96",
+      "g96_sha256": "cd3a576945e09ba26d11c6c20df75fa39584268550f612d9a1dc957add5b6753",
+      "QM_energy_hartree": -1671.3344794388,
+      "QM_achieved_scan_deg": 120.0000256226668,
+      "branch_only": false
+    },
+    {
+      "source_id": "T_CC_240_FROM_REVERSE_QM",
+      "g96_sha256": "8af7af63d19b53cffc32f9eda8be8acabcdedd5642a150991c618d46afeeece1",
+      "QM_achieved_scan_deg": -120.00002885442426,
+      "branch_only": true,
+      "source_binding": "exact v2 compact export and reverse source receipt"
+    },
+    {
+      "source_id": "GEO_A",
+      "g96_authoritative_relative_path": "deliverable/qm/PFBS/phase3_torsion_20260924/TASK1_BONDED_CANDIDATE_20260926_v1/payload/final_evidence_01/formal_dp_runs/GEO_A/base/start.g96",
+      "g96_sha256": "bf6d3b621559c8a9eab217fdb97f1679c9dff8be0a8702542092e3f650516442",
+      "restraint": "NONE",
+      "branch_only": false
+    },
+    {
+      "source_id": "GEO_B_REVISED",
+      "g96_authoritative_relative_path": "deliverable/qm/PFBS/phase3_torsion_20260924/TASK1_BONDED_CANDIDATE_20260926_v1/payload/final_evidence_01/formal_dp_runs/GEO_B_REVISED_10nm/base/start.g96",
+      "g96_sha256": "fc99a7915d74ebe8529d1f6619ca528a33b14c721384b3fe84f65a1cf1678cb3",
+      "restraint": "NONE",
+      "branch_only": false
+    }
+  ],
+  "states": {
+    "primary": 17,
+    "tight": 9,
+    "programs": 728,
+    "primary_multipliers": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "tight_multipliers": [
+      -1,
+      1
+    ],
+    "each_has_new_BASE": true
+  },
+  "numerical": {
+    "binary_sha256": "910c195c43f12f35e44ff5ccfdafd3236bf86c6afb0774b550e0ccb5d5148c2d",
+    "stages": [
+      "LBFGS30000",
+      "CG30000"
+    ],
+    "emtol_primary": 1,
+    "emtol_tight": 0.1,
+    "emstep_nm": 0.001,
+    "terminal_convergence": "CG_FMAX_ONLY",
+    "box_nm": [
+      10,
+      10,
+      10
+    ],
+    "cutoff_nm": 2,
+    "workers": 16,
+    "CPU_threads_each": 1,
+    "GPU": false,
+    "independent_starts": "exact accepted QM start for every state",
+    "profile_restraint": "exact v2 targets from achieved QM angle; k500000; no A/B restraint",
+    "physical_energy": "exact v2 no-restraint md/nsteps1 rerun CG TRR; no coordinate updates",
+    "unknown_warning": "GLOBAL_STOP",
+    "automatic_retries": 0
+  },
+  "matrices": {
+    "primary_J_CC": "118x4",
+    "primary_J_COMBINED": "118x8",
+    "geometry_columns": [
+      "R_OG2P1-SG3O1",
+      "R_CG312-SG3O1",
+      "R_CG312-CG312",
+      "TH_CG312-CG312-SG3O1"
+    ],
+    "branch_extended": "119x4 and119x8 DIAGNOSTIC_ONLY; add reverse-minus-forward gap; cannot rescue118primary rank",
+    "low_tier": "exact v2 99row set, no renormalization",
+    "row_catalog": "exact v2 RAW_OBSERVABLES baseline118 metadata",
+    "scales": {
+      "bond_A": 0.03,
+      "angle_degree": 3.0,
+      "energy_kcal_mol": 1.0,
+      "parameter": "0.5*sourceamplitude kJ/mol; oldgeometryscales unchanged"
+    },
+    "weights": "exact v2 bond/angle/axis/family/instance weights; branchgap1/sqrt24",
+    "anchor": "CC300 same state, same anchor for bothaxes",
+    "energy_conversion": "kJ/mol /4.184 = kcal/mol",
+    "global_guards": "all16bonds/30angles/136pairs/properdihedrals on all28sources/stages; primarygeometryrows A/B only"
+  },
+  "combined_transfer": {
+    "reuse": "bound v2 geometry raw Jh/J2h/Jtight/E columns with original s_p",
+    "BASE_compatibility": "exact source/topology/physics/executable; newBASE-oldprimary <=abs(oldprimary-oldtight)+serialization roundoff per rawobservable; if fails COMBINED_REVIEW, no rescue",
+    "branch_geom_derivatives": "extract exact geometry states from bound v2 compact export",
+    "baseline_transport": "no reestimated geometry derivative; record every difference and bound"
+  },
+  "finite_difference": {
+    "h": "(Oph-Omh)/(2h)",
+    "2h": "(Op2h-Om2h)/(4h)",
+    "uncertainty": "abs(Jh-J2h)+abs(Jh-Jtight)+propagated arithmetic/serialization",
+    "R_step": 0.1,
+    "R_conv": 0.05,
+    "delta": "Frobenius(E)",
+    "rank": "sigma>5*max(delta,max(m,n)*epsilon*sigma_max)",
+    "covariance": "supported V diag(sigma^-2)V.T unit-noise proxy only; unresolveddirections notzero variance",
+    "individual_identifiability": "finite proxy sqrt(Cjj)<=1 plus independentPES support; no null membership ignored"
+  },
+  "submatrices": [
+    "LOW_TIER99",
+    "GEOMETRY_ONLY92",
+    "PES_ONLY25",
+    "A_GEOMETRY46",
+    "B_GEOMETRY46",
+    "REMOVE_BONDS",
+    "REMOVE_ANGLES",
+    "REMOVE_CC",
+    "REMOVE_CS",
+    "REMOVE_CC180",
+    "DELETE_ZERO_CC300_ROW_CONTROL",
+    "REMOVE_CC300_SOURCE_REANCHOR_CC180",
+    "REMOVE_CC240_BRANCH_FROM119",
+    "REMOVE_A_INCLUDING_AB_ENERGY",
+    "REMOVE_B_INCLUDING_AB_ENERGY"
+  ],
+  "remove_CC300": {
+    "formula": "excludeCC300; for retainedprofilei J_i_new=J_i-J_CC180; includeCC180zero; A/B and branchgapunchanged",
+    "noise": "triangle sum E_i+E_CC180; endpoint-level derivation preferred",
+    "weights": "originalpointweights restricted, notrenormalized",
+    "interpretation": "distinct from trivialanchorzerorow deletion; sharedreference/covariance reported; cannot rescueprimary failure"
+  },
+  "direction_screen": {
+    "all_subsets_preregistered": [
+      [
+        "CC_FOURIER_1"
+      ],
+      [
+        "CC_FOURIER_2"
+      ],
+      [
+        "CC_FOURIER_3"
+      ],
+      [
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_2"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_3"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_2",
+        "CC_FOURIER_3"
+      ],
+      [
+        "CC_FOURIER_2",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_3",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_2",
+        "CC_FOURIER_3"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_2",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_3",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_2",
+        "CC_FOURIER_3",
+        "CC_FOURIER_4"
+      ],
+      [
+        "CC_FOURIER_1",
+        "CC_FOURIER_2",
+        "CC_FOURIER_3",
+        "CC_FOURIER_4"
+      ]
+    ],
+    "selection": "analyze all4 first; prefer1then2 then supportedgroup; no convenientcolumn/point deletion",
+    "confounding": "principalangles of CC and supportedgeometry response spaces plus uncertainty on projectedCC residual; cosine max<=.3LOW,<=.7MODERATE,>.7HIGH; NONE only exactorthogonality within roundoff; allnewreportcategories notphysicalproof",
+    "projection_uncertainty": "If geometry support complete with sigma_min_G>5deltaG, rho=min(1,2deltaG/(sigma_min_G-deltaG)); residual deltaR=deltaC+rho*norm(C,F). Use sigma_R>5*max(deltaR,machine_tol). If geometry unsupported, no projector robustness PASS. Also report h/2h/tight principal-angle differences; no covariance-statistical claim.",
+    "orientation": "all supportedSVD vectors and axes reported; signchosen lexfirstnonzero positive, gapimproving sign additionally recorded"
+  },
+  "guards": {
+    "source_graph_domain": "exact types/charges/exclusions/non-target interactions;17finiteatoms;orthorhombic10nm box;136pairdistances<=2nm",
+    "branch_classifier": "exact v2 sameatompermutation across six endpoints andbaseline;wrappedunrestrainedproper minimax<=30deg; restrainedcentralbondexcluded; no nominal120fold",
+    "scan_drift_deg": 0.02,
+    "geometry_endpoint_review_A": 0.005,
+    "geometry_endpoint_review_degree": 0.5,
+    "geometry_error": "report perQMerror and baselinechange; no new majorMVPflag or materiallyworseexistingflag",
+    "CS": "all13points; no newminimum outside10degQMlowneighborhood preferred>1kcal; sourceCSparametersfixed",
+    "CC240": "retain forward/reverse both; noaverage; fullgeometry/dihedrals;branchgapchange>.1kcal REVIEW only; structuralinvalidityFAIL",
+    "failure_scope": "exactv2 globalintegritySTOP vs finiteNCdirectionquarantine; no retries/rescales/extrapolation rescue",
+    "firstorder_geometry_ray": "For every A/B bond and angle, abs(QMerror_base+t*Jdirection)<=abs(QMerror_base)+.005A or+.5deg respectively; no new5percent heavybond/6deg heavyangle flag. This newly prospective screening budget is not historical MVP acceptance.",
+    "firstorder_branch_ray": "Both source-domain validity required; abs(predicted branchgap-basebranchgap)<=.1kcal for conservative potentiallysufficient screen; threshold is NEW_DIRECTION_SCREEN, not a QMbranch equality target.",
+    "firstorder_CS_ray": "Evaluate piecewise-linear grid-energy lower envelope on each prereg ray; retain v2MVP10deg neighborhood/1kcal unsupportedwell rule; no fitted energyoffset or missingpoint omission."
+  },
+  "leverage": {
+    "defect": "exactbound QMCC180-300 minus newBASE MMCC180-300; approximate3.64kcalcontext",
+    "neighbors": [
+      "CC150-180",
+      "CC210-180",
+      "CC270-300",
+      "CC330-300",
+      "CC240forward-300",
+      "CC240reverse-300"
+    ],
+    "physical_bounds": "0<=a<=2sourcea; no sign reversal; same v2 scalar amplitude envelope nowindependent",
+    "assumption": "leveragewindow only; notCHARMMuniversalrange or validated fitbox",
+    "rays": "everyindividual andsupportedSVD/group; t interval limitedby amplitude bounds and prospectivegeometry/CS/branch guards; compute maxfirstordergapand E interval only",
+    "category": "uppergap<defect INSUFFICIENT; lowergap>=defect withguardfeasibleray POTENTIALLY_SUFFICIENT; otherwiseAMBIGUOUS_NONLINEAR_LEVERAGE",
+    "extrapolation": "report displacement/2h ratios; beyondprobedneighborhoodpotential only, neverglobalrepairproof",
+    "forbidden": "no residualminimizingsolve,no nonlinearfit,no candidate amplitudefile"
+  },
+  "approval": {
+    "runner_sha256": null,
+    "analysis_sha256": null,
+    "test_sha256": null,
+    "manifest_sha256": null,
+    "engine_capability_receipt_sha256": null,
+    "semantic_preflight_sha256": null,
+    "status": "BLOCKED_UNTIL_EXACT_SCRIPT_REVIEW_THEN_PREFLIGHT_PASS"
+  },
+  "bound_sources": {
+    "engine_audit\\inputs\\QM_SOURCE_BINDING.json": "315a741f8441c0bf37657f2e6e477691ed85e78cdc8e6213de8e53d369bb8ded",
+    "engine_audit\\inputs\\MM_RUN_MANIFEST.json": "a8ffd3ac74607cb6d880a7ab798eff684fb1d6a7f836b646bd0ec5b69cf22d12",
+    "NUMERICAL_IDENTIFIABILITY_PROTOCOL.md": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+    "BRANCH_CLASSIFIER_PREREGISTRATION_ADDENDUM.md": "21c9381e097fb8ef3e23ac2a3ab86ab4b71ab2f9629eaa7762f1e98702369d55",
+    "FAILURE_SCOPE_PREREGISTRATION_ADDENDUM.md": "a7f5751163adda6fd1e399149c76c7b81244812c84dffc96f749d59e85064608",
+    "MVP_PROSPECTIVE_ACCEPTANCE_GATES.md": "70c879440aef9ba9b2c603aa578a89a3cb01f53b8e01c1c99eaba62f7d7e998b",
+    "MVP_LOW_TIER_ROW_DIAGNOSTIC_SPEC.json": "af4c6a47b6c77b041bf4aa7a8b7eb2c488a0a165769b61a99f4930425ec1f030",
+    "numerical_evidence\\matrix_20260926T092541Z_v8\\analysis_export_v2\\MATRIX_COMPACT_RUN_EXPORT.json": "cb7d39e700a936e1bbea5e4086c383f4406a0917ac0bd58f6feae7ce23e2a9bb"
+  }
+}
