@@ -21,3 +21,5 @@ The receipt states `rerun=false` and `numerical_calculations_changed=false`. No 
 This establishes the provenance of the recovered export and derived analysis package. It does not assert that MM force-field parameters are scientifically acceptable. The current parameter status remains `REJECTED`; no parameter fitting or editing is authorized.
 
 The preserved `provenance/POSTRUN_RECOVERY_CONTEXT.md` records the earlier exporter-schema recovery context. It is retained verbatim. The later source adjudication and V3 receipt bind `primary__BASE` to the exact frozen parameter file; this package preserves both records and does not rewrite the earlier note.
+
+The package-local `.gitattributes` disables Git text conversion so independent Windows checkouts preserve the exact bytes covered by SHA256SUMS.

@@ -39,3 +39,5 @@ The package omits large runtime outputs, checkpoints, scratch, raw logs, and the
 The detailed decision and limits are in `SOL_HIGH_FINAL_SELECTIVE_CC_SHAPE_REVIEW.md`; exact source binding is in `PROVENANCE_FINAL_REVIEW.md`.
 
 The preserved `provenance/POSTRUN_RECOVERY_CONTEXT.md` records the earlier exporter-schema recovery context. It is retained verbatim. The later source adjudication and V3 receipt bind `primary__BASE` to the exact frozen parameter file; this package preserves both records and does not rewrite the earlier note.
+
+The package-local `.gitattributes` disables Git text conversion so independent Windows checkouts preserve the exact bytes covered by SHA256SUMS.

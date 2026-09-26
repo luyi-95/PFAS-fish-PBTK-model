@@ -7,6 +7,11 @@
   },
   "files_before_manifest": [
     {
+      "bytes": 9,
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
       "bytes": 10453,
       "path": "CC240_BRANCH_GUARD_RESULTS.tsv",
       "sha256": "ae9222934051fd20f42920dcd55d3bd97bc5f33596e45ac4500c3126f2181604"
@@ -102,14 +107,14 @@
       "sha256": "93ea0ddb944629ae86a593730ba94228096b9cd03460fe7c69f504e0ee4bf4a3"
     },
     {
-      "bytes": 2278,
+      "bytes": 2424,
       "path": "PROVENANCE_FINAL_REVIEW.md",
-      "sha256": "ec197576a821821675406297a04a19238229eb129cfecb977de67ff795ce0fff"
+      "sha256": "84d5bf4ef8a8355b465877fd8bafee5c4538e490613e6ce073fb1b71677b5fb6"
     },
     {
-      "bytes": 3565,
+      "bytes": 3711,
       "path": "README.md",
-      "sha256": "19f16e07cd50f6223d09486dfb9999ed17db78cdf48d379645d2692cded0dc97"
+      "sha256": "718b7a2aefc5b6ead741b353ece6c894239d95ff7ae8e0101d39ec41e136fa34"
     },
     {
       "bytes": 576775,
