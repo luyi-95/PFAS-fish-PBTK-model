@@ -1,0 +1,101 @@
+{
+  "package_name": "PFBS_clean_rebuild_evidence_20260927_v1",
+  "repository": "https://github.com/luyi-95/PFAS-fish-PBTK-model",
+  "created_utc": "2026-09-26T22:17:38.001544+00:00",
+  "source_stream_sha256": "fe0e86404bb3857e2a3ecf7ae577001640a3f6010181a52899c09a18febe4eba",
+  "source_processed_mol2_sha256": "f5d09e21487580fa11b1ce95f575c1a8567b46234050ae0ba25b6c12f0d1af9b",
+  "source_input_mol2_sha256": "365572656abb44337c06a51c00b416e972ff8e1b3b3ed4e1c8f671f12b7e1223",
+  "clean_converter_sha256": "eb32b884d0db37dccc585c7a2b33894c7351600db1b3e90969a3f3601d880cb4",
+  "parent_force_field_archive_sha256": "b2221dcba73066b6b5c30a52b9894216d03ea6c3e68206d9ce43857dd8116c21",
+  "clean_prm_sha256_not_uploaded": "a27c132bdcbb2a3a9fa4cc194c8768fe2388dfdbf64d67c75fb674ea1c5f1bef",
+  "historical_full_profile_sha256_not_uploaded": "d8c540257927de5b44211a0164f63042178346f294b8c8f1651f4a94443f7800",
+  "clean_baseline_geometry_summary_sha256_not_uploaded": "11d1a89eab0768784ee205800829a4f354eebad7e25a996c7d36b74f2d36e00c",
+  "clean_baseline_energy_summary_sha256_not_uploaded": "8688bfa785e4b6bb3ba441e64729e6a5081b85a89959e31b75b02afae1fc5d64",
+  "clean_recomputed_profile_points": [
+    "T_CC_180",
+    "T_CC_300",
+    "T_CS_000",
+    "T_CS_070"
+  ],
+  "files": [
+    {
+      "path": "clean/pfbs_ani.itp",
+      "sha256": "dac17fa1534dd9ba724df9cec8b3ed9a50d0612e0cedd87d7f86e33819ad97cd",
+      "bytes": 7170,
+      "origin": "remote qm/PFBS/clean_rebuild_20260927/convert/pfbs_ani.itp"
+    },
+    {
+      "path": "clean/pfbs_ani.top",
+      "sha256": "1034b59aa243141a6c06a9582d9fdd87c6aa2a41b51fba02fbe27e2bdbb99df8",
+      "bytes": 538,
+      "origin": "remote qm/PFBS/clean_rebuild_20260927/convert/pfbs_ani.top"
+    },
+    {
+      "path": "PFBS_CLEAN_REBUILD_AUDIT.md",
+      "sha256": "68999073a874ac812b40eb8f7190051ab95bfa85be083adeb194e574319109cb",
+      "bytes": 3672,
+      "origin": "E:/AI-App-Data/PFBS-clean-rebuild-20260927/PFBS_CLEAN_REBUILD_AUDIT.md"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6cb8f5f0f3d5c9e3006d763e0fa28900ed08c2f2164aabb6ed4c03ceaa4d8161",
+      "bytes": 3303,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "source/PFBS_input_canonical.cgenff.mol2",
+      "sha256": "f5d09e21487580fa11b1ce95f575c1a8567b46234050ae0ba25b6c12f0d1af9b",
+      "bytes": 1279,
+      "origin": "remote parameters/preflight/PFBS/raw_cgenff5_output/PFBS_input_canonical.cgenff.mol2; copied from SHA-matched local mirror"
+    },
+    {
+      "path": "source/PFBS_input_canonical.mol2",
+      "sha256": "365572656abb44337c06a51c00b416e972ff8e1b3b3ed4e1c8f671f12b7e1223",
+      "bytes": 1333,
+      "origin": "remote parameters/preflight/PFBS/raw_cgenff5_output/PFBS_input_canonical.mol2; copied from SHA-matched local mirror"
+    },
+    {
+      "path": "source/PFBS_input_canonical.str",
+      "sha256": "fe0e86404bb3857e2a3ecf7ae577001640a3f6010181a52899c09a18febe4eba",
+      "bytes": 4483,
+      "origin": "remote parameters/preflight/PFBS/raw_cgenff5_output/PFBS_input_canonical.str; copied from SHA-matched local mirror"
+    },
+    {
+      "path": "tables/ANGLE_UREY_BRADLEY_MAPPING.tsv",
+      "sha256": "9a4d74ea9be9df7c336453b7f48e8bee62a2ceda45a4b6621186736373b285c2",
+      "bytes": 1006,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "tables/CGENFF_TO_GROMACS_MAPPING.tsv",
+      "sha256": "585603254cce1c9af6637ff201aae109edea86666dcb3b9daadd543190e2980f",
+      "bytes": 3036,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "tables/GEO_A_GEO_B_QM_VS_CLEAN_MM_GEOMETRY.tsv",
+      "sha256": "7c14edb121666e5b62dd0fe90712dae3d3b52c15f7b5dfea6e360cdeba95ab8c",
+      "bytes": 855,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "tables/OLD_VS_CLEAN_IMPLEMENTATION.tsv",
+      "sha256": "344e278266e19d7c7474f2b92878b4c107f7c93f0ce3a930cacea5cf9d42229b",
+      "bytes": 2135,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "tables/T_CC_QM_VS_MM_PROFILE.tsv",
+      "sha256": "db7831563a74f59755eba1d56cfb4a174b950c9cc00f2a008ccdd96a937a44ab",
+      "bytes": 1828,
+      "origin": "generated for this package from cited source data"
+    },
+    {
+      "path": "tables/T_CS_QM_VS_MM_PROFILE.tsv",
+      "sha256": "f4ce987aff16782675accd93d83a846b22d8e5620a7329e7433039eb2cebb779",
+      "bytes": 1791,
+      "origin": "generated for this package from cited source data"
+    }
+  ],
+  "package_sha256_definition": "SHA256 of exact SHA256SUMS file bytes; SHA256SUMS lists all other package files including manifest.json"
+}

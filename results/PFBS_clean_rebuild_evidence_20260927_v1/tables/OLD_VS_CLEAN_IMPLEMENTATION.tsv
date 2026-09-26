@@ -1,0 +1,16 @@
+field	comparison_method	old	clean	status	notes
+source_CGenFF_str	same original SHA256	fe0e86404bb3857e2a3ecf7ae577001640a3f6010181a52899c09a18febe4eba	fe0e86404bb3857e2a3ecf7ae577001640a3f6010181a52899c09a18febe4eba	IDENTICAL	No source parameter change
+parent_CHARMM36_CGenFF5_FF	recursive diff	same original FF tree	same original FF tree	IDENTICAL	No changed base nonbonded/bonded types
+PFBS_itp_bytes	SHA256	c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca	dac17fa1534dd9ba724df9cec8b3ed9a50d0612e0cedd87d7f86e33819ad97cd	DIFFERENT_LINE_ENDINGS_ONLY	CRLF versus LF; normalized content identical
+PFBS_prm_bytes	SHA256	24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56	a27c132bdcbb2a3a9fa4cc194c8768fe2388dfdbf64d67c75fb674ea1c5f1bef	DIFFERENT_LINE_ENDINGS_ONLY	CRLF versus LF; normalized content identical; prm omitted from upload whitelist
+PFBS_atoms	count	17	17	IDENTICAL	Ordered atom names, types, charges unchanged
+PFBS_bonds	count	16	16	IDENTICAL	Same graph and interaction list
+PFBS_angles	count/function	30 / function 5	30 / function 5	IDENTICAL	Includes C1-C2-S1 UB term
+PFBS_proper_dihedrals	itp list / TPR terms	36 / 38	36 / 38	IDENTICAL	Multiple periodic terms expanded in TPR
+PFBS_1_4_pairs	count	36	36	IDENTICAL	nrexcl=3; fudgeLJ=fudgeQQ=1
+C1_C2_S1	theta0/k/r13/kUB	122/418.4/0.2357/25104	122/418.4/0.2357/25104	IDENTICAL	TPR UREY_BRADLEY
+C3_C1_C2_S1	n/phase/k	1/180/3.93296;2/0/1.58992;3/0/0.46024	1/180/3.93296;2/0/1.58992;3/0/0.46024	IDENTICAL	Three actual TPR instances
+T_CC_180_physical_energy_kJ_mol	double precision	386.553004	386.553005	MATCH_REPORT_PRECISION	Same accepted QM start and high-precision minimization path
+T_CC_300_physical_energy_kJ_mol	double precision	397.654456	397.654456	MATCH_REPORT_PRECISION	Same accepted QM start and high-precision minimization path
+T_CS_000_physical_energy_kJ_mol	double precision	433.047466	433.047466	MATCH_REPORT_PRECISION	Same accepted QM start and high-precision minimization path
+T_CS_070_physical_energy_kJ_mol	double precision	397.402298	397.402298	MATCH_REPORT_PRECISION	Same accepted QM start and high-precision minimization path
