@@ -1,0 +1,157 @@
+; Created by cgenff_charmm2gmx.py
+
+[ moleculetype ]
+; Name			   nrexcl
+PFBS_ani				 3
+
+[ atoms ]
+;	 nr		  type	resnr residue  atom   cgnr	   charge		mass  typeB    chargeB		massB
+; residue	 1 PFBS_ani rtp PFBS_ani q	qsum
+     1      SG3O1      1 PFBS_ani     S1      1      0.929     32.060   ;
+     2       FGA2      1 PFBS_ani     F1      2     -0.147     18.998   ;
+     3       FGA2      1 PFBS_ani     F2      3     -0.147     18.998   ;
+     4       FGA2      1 PFBS_ani     F3      4     -0.128     18.998   ;
+     5       FGA2      1 PFBS_ani     F4      5     -0.128     18.998   ;
+     6       FGA2      1 PFBS_ani     F5      6     -0.147     18.998   ;
+     7       FGA2      1 PFBS_ani     F6      7     -0.147     18.998   ;
+     8       FGA3      1 PFBS_ani     F7      8     -0.135     18.998   ;
+     9       FGA3      1 PFBS_ani     F8      9     -0.135     18.998   ;
+    10       FGA3      1 PFBS_ani     F9     10     -0.135     18.998   ;
+    11      OG2P1      1 PFBS_ani     O1     11     -0.550     15.999   ;
+    12      OG2P1      1 PFBS_ani     O2     12     -0.550     15.999   ;
+    13      OG2P1      1 PFBS_ani     O3     13     -0.550     15.999   ;
+    14      CG312      1 PFBS_ani     C1     14      0.335     12.011   ;
+    15      CG312      1 PFBS_ani     C2     15     -0.058     12.011   ;
+    16      CG312      1 PFBS_ani     C3     16      0.338     12.011   ;
+    17      CG302      1 PFBS_ani     C4     17      0.355     12.011   ;
+
+[ bonds ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1    11	 1 ;       SG3O1      OG2P1
+    1    12	 1 ;       SG3O1      OG2P1
+    1    13	 1 ;       SG3O1      OG2P1
+    1    15	 1 ;       SG3O1      CG312
+    2    14	 1 ;        FGA2      CG312
+    3    14	 1 ;        FGA2      CG312
+    4    15	 1 ;        FGA2      CG312
+    5    15	 1 ;        FGA2      CG312
+    6    16	 1 ;        FGA2      CG312
+    7    16	 1 ;        FGA2      CG312
+    8    17	 1 ;        FGA3      CG302
+    9    17	 1 ;        FGA3      CG302
+   10    17	 1 ;        FGA3      CG302
+   14    15	 1 ;       CG312      CG312
+   14    16	 1 ;       CG312      CG312
+   16    17	 1 ;       CG312      CG302
+
+[ pairs ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1     2	 1
+    1     3	 1
+    1    16	 1
+    2     4	 1
+    2     5	 1
+    2     6	 1
+    2     7	 1
+    2    17	 1
+    3     4	 1
+    3     5	 1
+    3     6	 1
+    3     7	 1
+    3    17	 1
+    4    11	 1
+    4    12	 1
+    4    13	 1
+    4    16	 1
+    5    11	 1
+    5    12	 1
+    5    13	 1
+    5    16	 1
+    6    15	 1
+    6     8	 1
+    6     9	 1
+    6    10	 1
+    7    15	 1
+    7     8	 1
+    7     9	 1
+    7    10	 1
+    8    14	 1
+    9    14	 1
+   10    14	 1
+   11    14	 1
+   12    14	 1
+   13    14	 1
+   15    17	 1
+
+[ angles ]
+;	ai	  aj	ak funct			c0			  c1			c2			  c3
+   11     1    12	5 ;      OG2P1      SG3O1      OG2P1
+   11     1    13	5 ;      OG2P1      SG3O1      OG2P1
+   11     1    15	5 ;      OG2P1      SG3O1      CG312
+   12     1    13	5 ;      OG2P1      SG3O1      OG2P1
+   12     1    15	5 ;      OG2P1      SG3O1      CG312
+   13     1    15	5 ;      OG2P1      SG3O1      CG312
+    2    14     3	5 ;       FGA2      CG312       FGA2
+    2    14    15	5 ;       FGA2      CG312      CG312
+    2    14    16	5 ;       FGA2      CG312      CG312
+    3    14    15	5 ;       FGA2      CG312      CG312
+    3    14    16	5 ;       FGA2      CG312      CG312
+   15    14    16	5 ;      CG312      CG312      CG312
+    1    15     4	5 ;      SG3O1      CG312       FGA2
+    1    15     5	5 ;      SG3O1      CG312       FGA2
+    1    15    14	5 ;      SG3O1      CG312      CG312
+    4    15     5	5 ;       FGA2      CG312       FGA2
+    4    15    14	5 ;       FGA2      CG312      CG312
+    5    15    14	5 ;       FGA2      CG312      CG312
+    6    16     7	5 ;       FGA2      CG312       FGA2
+    6    16    14	5 ;       FGA2      CG312      CG312
+    6    16    17	5 ;       FGA2      CG312      CG302
+    7    16    14	5 ;       FGA2      CG312      CG312
+    7    16    17	5 ;       FGA2      CG312      CG302
+   14    16    17	5 ;      CG312      CG312      CG302
+    8    17     9	5 ;       FGA3      CG302       FGA3
+    8    17    10	5 ;       FGA3      CG302       FGA3
+    8    17    16	5 ;       FGA3      CG302      CG312
+    9    17    10	5 ;       FGA3      CG302       FGA3
+    9    17    16	5 ;       FGA3      CG302      CG312
+   10    17    16	5 ;       FGA3      CG302      CG312
+
+[ dihedrals ]
+;	ai	  aj	ak	  al funct			  c0			c1			  c2			c3			  c4			c5
+   11     1    15     4	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   11     1    15     5	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   11     1    15    14	 9 ;      OG2P1      SG3O1      CG312      CG312
+   12     1    15     4	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   12     1    15     5	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   12     1    15    14	 9 ;      OG2P1      SG3O1      CG312      CG312
+   13     1    15     4	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   13     1    15     5	 9 ;      OG2P1      SG3O1      CG312       FGA2
+   13     1    15    14	 9 ;      OG2P1      SG3O1      CG312      CG312
+    2    14    15     1	 9 ;       FGA2      CG312      CG312      SG3O1
+    2    14    15     4	 9 ;       FGA2      CG312      CG312       FGA2
+    2    14    15     5	 9 ;       FGA2      CG312      CG312       FGA2
+    3    14    15     1	 9 ;       FGA2      CG312      CG312      SG3O1
+    3    14    15     4	 9 ;       FGA2      CG312      CG312       FGA2
+    3    14    15     5	 9 ;       FGA2      CG312      CG312       FGA2
+   16    14    15     1	 9 ;      CG312      CG312      CG312      SG3O1
+   16    14    15     4	 9 ;      CG312      CG312      CG312       FGA2
+   16    14    15     5	 9 ;      CG312      CG312      CG312       FGA2
+    2    14    16     6	 9 ;       FGA2      CG312      CG312       FGA2
+    2    14    16     7	 9 ;       FGA2      CG312      CG312       FGA2
+    2    14    16    17	 9 ;       FGA2      CG312      CG312      CG302
+    3    14    16     6	 9 ;       FGA2      CG312      CG312       FGA2
+    3    14    16     7	 9 ;       FGA2      CG312      CG312       FGA2
+    3    14    16    17	 9 ;       FGA2      CG312      CG312      CG302
+   15    14    16     6	 9 ;      CG312      CG312      CG312       FGA2
+   15    14    16     7	 9 ;      CG312      CG312      CG312       FGA2
+   15    14    16    17	 9 ;      CG312      CG312      CG312      CG302
+    6    16    17     8	 9 ;       FGA2      CG312      CG302       FGA3
+    6    16    17     9	 9 ;       FGA2      CG312      CG302       FGA3
+    6    16    17    10	 9 ;       FGA2      CG312      CG302       FGA3
+    7    16    17     8	 9 ;       FGA2      CG312      CG302       FGA3
+    7    16    17     9	 9 ;       FGA2      CG312      CG302       FGA3
+    7    16    17    10	 9 ;       FGA2      CG312      CG302       FGA3
+   14    16    17     8	 9 ;      CG312      CG312      CG302       FGA3
+   14    16    17     9	 9 ;      CG312      CG312      CG302       FGA3
+   14    16    17    10	 9 ;      CG312      CG312      CG302       FGA3
+

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "sources": [
+    {
+      "source_id": "GEO_A",
+      "g96_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\formal_dp_runs\\GEO_A\\base\\start.g96",
+      "g96_sha256": "bf6d3b621559c8a9eab217fdb97f1679c9dff8be0a8702542092e3f650516442",
+      "run_record_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\formal_dp_runs\\GEO_A\\base\\run_record.json",
+      "run_record_sha256": "f0eba98150199209e89b64744c29f012fdf68a3b5a0919001594ff0460096084",
+      "archive_geometry_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_ARCHIVE_GEOMETRY_MASSES.tsv",
+      "archive_geometry_sha256": "85e3c38d5e067facb9deb0429b8e6dfec2abf2b58413d325ef60619715708330",
+      "gromacs_binary_sha256": "910c195c43f12f35e44ff5ccfdafd3236bf86c6afb0774b550e0ccb5d5148c2d",
+      "candidate_base_itp_sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca",
+      "candidate_base_prm_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "max_pair_distance_difference_nm": 1.1870707194994168e-09,
+      "atom_order_match": true,
+      "status": "PASS"
+    },
+    {
+      "source_id": "GEO_B_REVISED",
+      "g96_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\formal_dp_runs\\GEO_B_REVISED_10nm\\base\\start.g96",
+      "g96_sha256": "fc99a7915d74ebe8529d1f6619ca528a33b14c721384b3fe84f65a1cf1678cb3",
+      "run_record_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\formal_dp_runs\\GEO_B_REVISED_10nm\\base\\run_record.json",
+      "run_record_sha256": "ed59cd58dc64b9f2ad9f8f51863f917defe546af530b20ccc171bb9de00c6349",
+      "archive_geometry_path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\GEO_B_ACCEPTED_ARCHIVE_GEOMETRY.tsv",
+      "archive_geometry_sha256": "564c2d3f1d6e7508ffeb92e67b59625161f88ac7e0ec6bf162d37425fdfa9466",
+      "gromacs_binary_sha256": "910c195c43f12f35e44ff5ccfdafd3236bf86c6afb0774b550e0ccb5d5148c2d",
+      "candidate_base_itp_sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca",
+      "candidate_base_prm_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "max_pair_distance_difference_nm": 1.0694688734602664e-07,
+      "atom_order_match": true,
+      "status": "PASS"
+    }
+  ]
+}

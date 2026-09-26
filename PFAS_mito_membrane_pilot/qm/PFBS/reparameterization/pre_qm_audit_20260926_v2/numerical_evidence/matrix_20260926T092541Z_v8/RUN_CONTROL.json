@@ -1,0 +1,9 @@
+{
+  "completed_this_invocation": 1736,
+  "elapsed_wall_seconds": 2963.6094999313354,
+  "failures_or_nonconverged": 0,
+  "protocol_hash": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "status": "COMPLETE",
+  "total": 1736,
+  "workers": 16
+}

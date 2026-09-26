@@ -1,0 +1,241 @@
+{
+  "operation": "OFFLINE_ARCHIVE_PARSE_ONLY",
+  "engine_invoked": false,
+  "parameter_edited": false,
+  "parser_status": "PASS",
+  "target_readiness_status": "REVIEW_TRANSFORMATION_AND_MODE_COMPARISON_NOT_DONE",
+  "sources": {
+    "frequency_log": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.log",
+      "sha256": "56b2bf0620ab18b1ee3517d3b2e1a7754adbba416f2737418938587fd34a4667",
+      "bytes": 128211
+    },
+    "frequency_input": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.gjf",
+      "sha256": "d3b2a3e51b22e31c66c7818d62442e866a7c421a151c6a5c256136e96958ed58",
+      "bytes": 865
+    },
+    "frequency_checkpoint": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.chk",
+      "sha256": "a4927633059acca2e2af469ed38acbfa7b27405ab628ec84d5b46fafe1e08b9e",
+      "bytes": 9932800
+    },
+    "archive_punch": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\fort.7",
+      "sha256": "894726ec0e34e46ef4a09a23e5402ae842805f0f9dcedd4a78a41592426e1f77",
+      "bytes": 18881
+    }
+  },
+  "archive_line_range": {
+    "first_line_1based": 1724,
+    "last_line_1based": 1990
+  },
+  "archive_sections": [
+    {
+      "section": 0,
+      "prefix": "1\\1\\GINC-MASTER\\Freq\\RMP2-FC\\6-31+G(d)\\C4F9O3S1(1-)\\LS\\24-Sep-2026\\0",
+      "length": 68
+    },
+    {
+      "section": 1,
+      "prefix": "#P MP2/6-31+G(d) Freq SCF=Tight NoSymm",
+      "length": 38
+    },
+    {
+      "section": 2,
+      "prefix": "PFBS_ani GEO_A frozen reference harmonic frequency",
+      "length": 50
+    },
+    {
+      "section": 3,
+      "prefix": "-1,1\\S,-2.2232398296,-0.804615756,-0.3097160649\\F,-0.4114461799,1.8946117712,-1.0224167803",
+      "length": 721
+    },
+    {
+      "section": 4,
+      "prefix": "Version=ES64L-G16RevC.02\\HF=-1668.5331769\\MP2=-1671.3418391\\RMSD=3.680e-09\\RMSF=2.275e-07\\",
+      "length": 1933
+    },
+    {
+      "section": 5,
+      "prefix": "0.78171764,-0.17101348,0.73008850,-0.14289772,-0.16092429,0.80835864,-0.00228646,0.0042876",
+      "length": 15242
+    },
+    {
+      "section": 6,
+      "prefix": "0.00000031,-0.00000011,0.00000010,-0.00000010,0.00000017,-0.00000033,-0.00000010,0.0000000",
+      "length": 579
+    },
+    {
+      "section": 7,
+      "prefix": "\\@",
+      "length": 2
+    }
+  ],
+  "field_identification_evidence": [
+    "Header Freq/RMP2-FC/6-31+G(d)",
+    "Exact route",
+    "NImag=0 properties ends before double separator",
+    "First unlabeled numeric section after NImag: developer parser documents lower-triangle Cartesian force constants",
+    "Subsequent51 values match negative explicitly labeled Hartrees/Bohr force table at printed rounding",
+    "Full archive equals independently punched fort.7"
+  ],
+  "packed_count": 1326,
+  "Cartesian_dimension": 51,
+  "coordinate_order": [
+    "S1_x",
+    "S1_y",
+    "S1_z",
+    "F1_x",
+    "F1_y",
+    "F1_z",
+    "F2_x",
+    "F2_y",
+    "F2_z",
+    "F3_x",
+    "F3_y",
+    "F3_z",
+    "F4_x",
+    "F4_y",
+    "F4_z",
+    "F5_x",
+    "F5_y",
+    "F5_z",
+    "F6_x",
+    "F6_y",
+    "F6_z",
+    "F7_x",
+    "F7_y",
+    "F7_z",
+    "F8_x",
+    "F8_y",
+    "F8_z",
+    "F9_x",
+    "F9_y",
+    "F9_z",
+    "O1_x",
+    "O1_y",
+    "O1_z",
+    "O2_x",
+    "O2_y",
+    "O2_z",
+    "O3_x",
+    "O3_y",
+    "O3_z",
+    "C1_x",
+    "C1_y",
+    "C1_z",
+    "C2_x",
+    "C2_y",
+    "C2_z",
+    "C3_x",
+    "C3_y",
+    "C3_z",
+    "C4_x",
+    "C4_y",
+    "C4_z"
+  ],
+  "packing": "row-major lower triangle: (x1,x1),(y1,x1),(y1,y1),(z1,x1),...; symmetry expansion retains exact source lexemes",
+  "units": {
+    "hessian": "Hartree/Bohr^2",
+    "gradient": "Hartree/Bohr",
+    "archive_geometry": "Angstrom confirmed identical to original GJF and printed Input orientation",
+    "isotope_masses": "amu from AtmWgt, not GROMACS topology masses"
+  },
+  "coordinate_frame": "archive/input Cartesian frame for this NoSymm all-fixed Cartesian job; raw source states Z-matrix is all fixed cartesians, so copy forces; no rotate-to-standard applied",
+  "unit_documentation_status": "Gaussian primary-author manual explains atomic-unit Cartesian fields/derivatives; exact archive grammar+packing also independently documented by GoodVibes developer source; Gaussian16-specific full archive grammar not located, retain REVIEW before force-field target use",
+  "printed_modes": {
+    "count": 45,
+    "negative_count": 0,
+    "values_cm_inverse": [
+      "32.2563",
+      "58.9978",
+      "78.7249",
+      "113.8115",
+      "119.9931",
+      "141.0002",
+      "172.7343",
+      "188.9037",
+      "221.7838",
+      "238.1160",
+      "255.0356",
+      "275.6199",
+      "291.4490",
+      "314.7081",
+      "321.1986",
+      "339.0783",
+      "340.7813",
+      "369.1733",
+      "383.0506",
+      "452.1853",
+      "479.7740",
+      "503.9183",
+      "524.2310",
+      "535.5968",
+      "578.2639",
+      "601.3199",
+      "629.1914",
+      "636.4925",
+      "654.2209",
+      "743.0118",
+      "911.6056",
+      "1001.2021",
+      "1028.9833",
+      "1086.1870",
+      "1132.4512",
+      "1152.8239",
+      "1168.3786",
+      "1198.5528",
+      "1210.7172",
+      "1251.6149",
+      "1267.2447",
+      "1273.1083",
+      "1289.8877",
+      "1319.4701",
+      "1392.1025"
+    ]
+  },
+  "unperformed": [
+    "mass-weighting",
+    "rotation/translation projection",
+    "internal-coordinate transformation",
+    "normal-mode recomputation",
+    "mode-character matching",
+    "force-constant inference",
+    "scaling",
+    "fit"
+  ],
+  "scaling_applied": false,
+  "generated": {
+    "GEO_A_ARCHIVE_EXACT.txt": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_ARCHIVE_EXACT.txt",
+      "sha256": "b10d21250d78b956e34a0c3f1518785324757f198a9495bef8db9d50d161beea",
+      "bytes": 18648
+    },
+    "GEO_A_ARCHIVE_GEOMETRY_MASSES.tsv": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_ARCHIVE_GEOMETRY_MASSES.tsv",
+      "sha256": "85e3c38d5e067facb9deb0429b8e6dfec2abf2b58413d325ef60619715708330",
+      "bytes": 1052
+    },
+    "GEO_A_CARTESIAN_HESSIAN_RAW.tsv": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_CARTESIAN_HESSIAN_RAW.tsv",
+      "sha256": "495b5c65b5944157861659b39f2fc49f21a35b84ee76c91a0c5f89e2e040fb0e",
+      "bytes": 30446
+    },
+    "GEO_A_GRADIENT_RAW.tsv": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_GRADIENT_RAW.tsv",
+      "sha256": "b6b2742098b7a07307137818e3ce37c28126720ff797478c243b42709a522c0a",
+      "bytes": 1592
+    },
+    "GEO_A_HESSIAN_PACKED_RAW.tsv": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\GEO_A_HESSIAN_PACKED_RAW.tsv",
+      "sha256": "150194d2a5c45c14e47f68a5e3a71e8b87f8b4202a7acbff84a92d08dae4756e",
+      "bytes": 41616
+    },
+    "prepare_gaussian_offline.py": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\inputs\\existing_hessian\\prepare_gaussian_offline.py",
+      "sha256": "321171fd204f6a15dd24cc42977fcab15907a117719faf818554d8240cd82175",
+      "bytes": 13438
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "review_role": "independent Sol High scientific adjudication",
+  "analysis_directory": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\analysis\\numerical_matrix_20260926T092541Z_v8_v7",
+  "source_sha256": {
+    "execution_receipt": "fa619c189a3f6caaf622a1be4e023bed4655d429324e6b8e4f0873006a89cc83",
+    "provenance_manifest": "c0d2b2b535e7c2babafc97dd180d880a6fe2ebd6682e8c2a62173df1c45f4112",
+    "analysis_script": "bba0ffbfedfea9169b0f1f5ba14806112f42e51af046d5f2be13dbc32b255ea0"
+  },
+  "MVP_ROUTE_STATUS": "A_EXISTING_QM_SUFFICIENT_FOR_MINIMAL_REPAIR",
+  "NEW_QM_REQUIRED": "NO",
+  "GEO_B_HESSIAN_STATUS": "NOT_REQUIRED_FOR_MVP_ROUTE_A_AT_THIS_STAGE",
+  "JOINT_2D_QM_STATUS": "NOT_REQUIRED_FOR_MVP_ROUTE_A_AT_THIS_STAGE",
+  "FIT_READY": "NO",
+  "PARAMETER_EDITED": "NO",
+  "QM_RUN": "NO",
+  "MD_GRANTED": "NO",
+  "NUMERICAL_MATRIX_STATUS": "PARTIAL_SUPPORT_FULL_9_OF_10_LOW_TIER_8_OF_10",
+  "full_primary": {
+    "rows": 118,
+    "columns": 10,
+    "supported_rank": 9,
+    "threshold_5delta": 0.13790795548285145,
+    "sigma_min": 0.10149590845554517
+  },
+  "low_tier": {
+    "rows": 99,
+    "columns": 10,
+    "supported_rank": 8,
+    "threshold_5delta": 0.1378145913346972,
+    "sigma_min": 0.01146564622642828
+  },
+  "reduced_geometry_core_full": {
+    "nrows": 118,
+    "ncols": 4,
+    "singular_values": [
+      1.4409628389291713,
+      1.2652602546590805,
+      1.0823486855729088,
+      0.3289126734833406
+    ],
+    "frobenius_uncertainty": 0.020627855138097884,
+    "threshold_5delta": 0.10313927569048942,
+    "supported_rank": 4
+  },
+  "reduced_geometry_core_low_tier": {
+    "nrows": 99,
+    "ncols": 4,
+    "singular_values": [
+      1.2221292722658301,
+      1.2009175648809318,
+      0.9942848708532283,
+      0.250759792184277
+    ],
+    "frobenius_uncertainty": 0.02062535979914163,
+    "threshold_5delta": 0.10312679899570815,
+    "supported_rank": 4
+  },
+  "primary_anchored_CC180_minus_CC300_kcal_mol": -2.652564605371893,
+  "source_QM_CC180_minus_CC300_kcal_mol": 0.99058,
+  "J_CC180_minus_CC300_lambda_CC_kcal_mol_per_unit": 0.02084735836280771,
+  "critical_scientific_limit": "Grouped CC scalar scale is not a supported route to correct the low-energy basin inversion; existing CC PES can constrain a more selective CHARMM Fourier-shape hypothesis, but its MM sensitivity was not measured in this matrix.",
+  "minimum_first_geometry_block": [
+    "R_OG2P1-SG3O1",
+    "R_CG312-SG3O1",
+    "R_CG312-CG312",
+    "TH_CG312-CG312-SG3O1"
+  ],
+  "CC_torsion_shape_followup": "conditional MM-only source-bound type-group sensitivity using existing 1D QM targets; no coefficient or fit release in this review",
+  "variable_actions": {
+    "R_OG2P1-SG3O1": "GROUP",
+    "R_CG312-SG3O1": "RELEASE",
+    "R_CG312-CG312": "GROUP",
+    "R_CG302-CG312": "FREEZE",
+    "TH_OG2P1-SG3O1-OG2P1": "CONDITIONAL_AFTER_HESSIAN",
+    "TH_FGA2-CG312-FGA2": "FREEZE",
+    "TH_CG312-CG312-SG3O1": "GROUP",
+    "TH_FGA3-CG302-FGA3": "FREEZE",
+    "LAMBDA_CS": "FREEZE",
+    "LAMBDA_CC": "FREEZE"
+  },
+  "reduced_block_tsv_sha256": "a4a8db8242635b2b551ba20bc5318b225449c0232ceaea70bea68c144f16d15f",
+  "next_gate": "Separately authorize and preregister source-bound MM-only Fourier-shape discrimination and joint geometry residual evaluation; preserve A/B and CC/CS low-energy guards. Review existing GEO_A Hessian before any k/UB claim. No new QM, fit, parameter adoption, pilot, or MD is approved here.",
+  "report_md_sha256": "e852a63a39bb1813cbb1eab12540558f6282c433f71d42cec8bea214ee784c46",
+  "A_B_primary_MM_BASE_torsion_degrees": {
+    "A_CC": 297.39586156389254,
+    "A_CS": 70.48338325037102,
+    "B_REVISED_CC": 190.88227998499656,
+    "B_REVISED_CS": 64.47613918310024,
+    "dihedral_definitions": [
+      "S1-C2-C1-C3",
+      "O1-S1-C2-C1"
+    ]
+  }
+}

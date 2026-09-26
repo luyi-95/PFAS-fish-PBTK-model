@@ -1,0 +1,32 @@
+{
+  "status": "REVISE",
+  "created_utc": "2026-09-26T07:31:43.687603+00:00",
+  "runner_sha256": "766cb61700921e888e6b8b4060d0b316c2da2bd2e8444fd217848d8de8e9caa3",
+  "review_sha256": "7dfa76b44d97d3918d596932e86a236491933bb821fa1d67e535e9f47f8d7522",
+  "reference_retarget": "PASS_HASH_BOUND_SAME_DP",
+  "authorized_field_masking": "PASS_SCALAR_BOTH_A_B",
+  "active_instance_semantics": "FAIL_SHARED_FUNCTYPE_40",
+  "actual_baseline_bond_instances_1based_for_type40": [
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "synthetic_static_tests": {
+    "isolated_SC_change": "ACCEPTED_EXPECTED",
+    "shared_type40_all_three_changed_for_R_CG312_CG312": "ACCEPTED_FALSE_PASS",
+    "shared_type40_all_three_changed_for_R_CG302_CG312": "ACCEPTED_FALSE_PASS"
+  },
+  "new_preflight_authorized_for_this_runner": false,
+  "full_mm_matrix_authorized": false,
+  "engines_invoked_by_reviewer": false,
+  "mvp_route_status": "PENDING"
+}

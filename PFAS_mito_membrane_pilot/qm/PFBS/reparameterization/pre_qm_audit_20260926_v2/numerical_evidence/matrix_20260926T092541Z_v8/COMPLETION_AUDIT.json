@@ -1,0 +1,35 @@
+{
+  "active_engine_processes": [],
+  "attempt_id": "matrix_20260926T092541Z_v8",
+  "cg_fmax_kj_mol_nm": {
+    "max": 0.999069413403743,
+    "min": 0.0320156128999442
+  },
+  "compact_json_sha256": "41a216763aed36e1d3904f6798d6cd9adb951db282173d09543c8ea6695d8210",
+  "compact_tsv_sha256": "54db4142ce34ec0943e2fd85c536f4c8b6ae5cd230879138dbd52bccf0b4ba29",
+  "done": 1736,
+  "elapsed_wall_seconds": 2963.6094999313354,
+  "energy_frame_binding": "all xvg_last_time_ps exactly equals cg.trr last-frame time within preregistered 1e-6 ps check",
+  "energy_frame_time_mismatches": 0,
+  "expected_runs": 1736,
+  "failed": 0,
+  "gpu": false,
+  "gromacs_backend": "CPU",
+  "launch_record_sha256": "5979f38f6faed25c638523f7f4a3f6ac6ebcfb79df7ffe6e222297bb8e9bbc17",
+  "manifest_sha256": "a8ffd3ac74607cb6d880a7ab798eff684fb1d6a7f836b646bd0ec5b69cf22d12",
+  "max_all_pair_distance_nm_across_start_lbfgs_cg": 0.7045546922819016,
+  "missing": 0,
+  "numerical_nonconvergence": 0,
+  "pair_domain_violations": 0,
+  "run_control_sha256": "a4ab585dd86fbc9048974a6d47009a0024fe9c8057ecb3391a42349baac0ddd5",
+  "run_control_status": "COMPLETE",
+  "runner_sha256": "cfc467e92d487c22e0e22a6fa5c6293eee46c1048aaad2a247221e2940b46587",
+  "status": "COMPLETE_VERIFIED",
+  "thread_cap": 1,
+  "unexpected_receipts": 0,
+  "verified_utc": "2026-09-26T10:17:06.119780+00:00",
+  "warning_events": {
+    "WARNING 1 [file lbfgs.mdp]: For efficient BFGS minimization, use switch/shift/pme instead of cut-off.": 3472
+  },
+  "worker_config": 16
+}

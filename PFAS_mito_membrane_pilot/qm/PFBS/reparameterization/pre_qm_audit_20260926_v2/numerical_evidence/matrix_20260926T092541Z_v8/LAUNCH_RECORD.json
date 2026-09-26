@@ -1,0 +1,53 @@
+{
+  "approval": {
+    "json_sha256": "7f127cc537447f89f32bcc48d564654348eb0afa033b58d59852355d1b74a24b",
+    "review": "SOL_HIGH_PREFLIGHT_RECEIPT_REVIEW_V8.md",
+    "sha256": "7f418ed9b8b6767b77763c7ec2a35c7dc751abd70b8fe8c8042eb5f0fa9efe1a"
+  },
+  "attempt_id": "matrix_20260926T092541Z_v8",
+  "attempt_record_dir": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/matrix_launches/matrix_20260926T092541Z_v8",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/immutable_sources/run_mm_identifiability_active_sem_v6_cfc467e92d48.py",
+    "--run"
+  ],
+  "controller_log": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/matrix_launches/matrix_20260926T092541Z_v8/controller.stdout_stderr.log",
+  "controller_pid": 2376987,
+  "controller_process_check": "2376987 Rs   /usr/bin/python3 -B /home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/immutable_sources/run_mm_identifiability_active_sem_v6_cfc467e92d48.py --run",
+  "created_utc": "2026-09-26T09:25:41.824864+00:00",
+  "failure_policy": "GLOBAL_STOP on integrity/execution failure; finite terminal-CG nonconvergence quarantines state/direction and unrelated authorized work continues; no retries.",
+  "launched_utc": "2026-09-26T09:25:41.828544+00:00",
+  "manifest": {
+    "expected_runs": 1736,
+    "path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/immutable_sources/MM_RUN_MANIFEST.json",
+    "primary_states": 41,
+    "sha256": "a8ffd3ac74607cb6d880a7ab798eff684fb1d6a7f836b646bd0ec5b69cf22d12",
+    "source_starts": 28,
+    "state_count": 62,
+    "tight_audit_states": 21
+  },
+  "preflight": {
+    "mode": "GROMPP_ONLY_NO_MINIMIZATION",
+    "path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/receipts/PREFLIGHT_GROMPP_ONLY_attempt_20260926T084808_UTC_901173.json",
+    "sha256": "5eac65da649faec1ce7dbc8d3524a82f12dfde525e84bfbe29968b0dd3dbcfd4",
+    "status": "PASS_ACTIVE_TPR_SEMANTIC_PREFLIGHT"
+  },
+  "process_check_utc": "2026-09-26T09:25:43.916963+00:00",
+  "protocol_hash": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "record_type": "FROZEN_MM_IDENTIFIABILITY_MATRIX_LAUNCH",
+  "resources": {
+    "gpu": false,
+    "gromacs_backend": "CPU",
+    "gromacs_binary_sha256": "910c195c43f12f35e44ff5ccfdafd3236bf86c6afb0774b550e0ccb5d5148c2d",
+    "threads_per_job": 1,
+    "workers": 16
+  },
+  "runner": {
+    "legacy_runner_used": false,
+    "path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/immutable_sources/run_mm_identifiability_active_sem_v6_cfc467e92d48.py",
+    "sha256": "cfc467e92d487c22e0e22a6fa5c6293eee46c1048aaad2a247221e2940b46587"
+  },
+  "runtime_root": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime",
+  "status": "RUNNING"
+}

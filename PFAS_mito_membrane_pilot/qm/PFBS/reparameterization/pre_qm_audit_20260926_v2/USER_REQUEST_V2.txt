@@ -1,0 +1,823 @@
+MODEL_DECISION = GPT-6 Sol High
+EXECUTION_MODEL = GPT-6 Luna High
+
+TASK =
+PFBS_BROAD_REPARAMETERIZATION_PRE_QM_V2_REVISION
+
+TASK_MODE =
+SCIENTIFIC_PROTOCOL_REVISION_AND_NUMERICAL_IDENTIFIABILITY_PREFLIGHT
+
+============================================================
+0. AUTHORITATIVE INPUT PACKAGE
+============================================================
+
+Use the exact previously audited package:
+
+GIT_COMMIT_SHA =
+0426052aefc17d2e2bece233b853daa78dc1caa4
+
+PACKAGE_SHA256 =
+ddb9eac8347fe721e11b476a63daa4bff7617bf9a61217d95ff867d980b2cbd0
+
+Authoritative current state:
+
+PROTOCOL_DECISION =
+BROAD_PFBS_REPARAMETERIZATION_REQUIRED
+
+NEW_QM_REQUIRED = YES
+
+CURRENT_CGENFF5_STATUS = REJECTED
+
+FIT_READY = NO
+
+PARAMETER_EDITED = NO
+
+MD_RUN_AUTHORIZATION = NOT_GRANTED
+
+Do NOT modify the v1 audit package.
+
+Treat it as immutable provenance.
+
+============================================================
+1. SCIENTIFIC OBJECTIVE
+============================================================
+
+Resolve the remaining PRE-QM protocol gaps BEFORE committing
+substantial new QM resources.
+
+The three mandatory unresolved issues are:
+
+A. numerical parameter identifiability;
+
+B. prospective 2D held-out design strength;
+
+C. preregistered fitting / validation / acceptance rules.
+
+Do not start broad fitting or joint CC/CS QM until these are
+resolved.
+
+============================================================
+2. TASK 0A — NUMERICAL MM IDENTIFIABILITY PREFLIGHT
+============================================================
+
+This stage is MM-only.
+
+DO NOT run Gaussian.
+
+DO NOT change production parameters.
+
+DO NOT adopt any candidate parameters.
+
+Temporary parameter perturbations in isolated copies are
+permitted ONLY for finite-difference sensitivity analysis.
+
+------------------------------------------------------------
+2.1 Initially eligible variables
+------------------------------------------------------------
+
+Evaluate numerical sensitivity for the currently proposed
+reduced equilibrium block.
+
+Bond equilibrium candidates:
+
+- OG2P1-SG3O1 r0
+- CG312-SG3O1 r0
+- CG312-CG312 r0
+- CG302-CG312 r0
+
+Angle equilibrium candidates:
+
+Use only the exact candidate theta0 families identified in
+the v1 package.
+
+Do NOT automatically release every angle marked
+CANDIDATE_TO_RELEASE.
+
+Sol High must first reduce them to the smallest scientifically
+defensible equilibrium block.
+
+------------------------------------------------------------
+2.2 Initially frozen variables
+------------------------------------------------------------
+
+Keep frozen during this first identifiability pass:
+
+- all charges
+- all LJ
+- topology
+- exclusions / 1-4 semantics
+- atom types
+- force-field family
+
+Also initially freeze:
+
+- all bond force constants
+- all angle force constants
+- all Urey-Bradley parameters
+- all tail torsions
+- all CF3 torsions
+
+UB remains FROZEN BY DEFAULT.
+
+------------------------------------------------------------
+2.3 Torsion amplitudes as diagnostic variables
+------------------------------------------------------------
+
+For numerical correlation diagnostics ONLY, Sol High may
+include the minimal grouped T_CC / T_CS proper-amplitude
+combinations already identified in v1.
+
+Do NOT fit them.
+
+Do NOT release phase or multiplicity.
+
+Preserve zero-amplitude terms unless separately justified.
+
+The purpose is to determine whether equilibrium geometry
+variables and grouped torsion amplitudes are numerically
+confounded.
+
+============================================================
+3. FINITE-DIFFERENCE SENSITIVITY DESIGN
+============================================================
+
+Construct a scaled finite-difference Jacobian:
+
+J_ij = d O_i / d p_j
+
+using isolated MM calculations.
+
+Use central differences where numerically stable.
+
+For every tested parameter perform at least:
+
+-p perturbation
++p perturbation
+
+and, where needed to verify local linearity:
+
+-2p perturbation
++2p perturbation
+
+The exact perturbation magnitude must be selected BEFORE
+reviewing derivative outcomes.
+
+It must be:
+
+- small enough to approximate local response;
+- large enough to exceed minimization/numerical noise.
+
+Document the perturbation rule for each parameter class.
+
+Do NOT tune perturbation sizes to obtain a favorable rank.
+
+============================================================
+4. OBSERVABLE VECTOR FOR NUMERICAL IDENTIFIABILITY
+============================================================
+
+Use existing data only.
+
+Include appropriate observables from:
+
+- GEO_A relaxed MM geometry
+- GEO_B relaxed MM geometry
+- local bond lengths
+- local valence angles
+- global 17-atom geometry guards
+- existing T_CC relaxed MM profile
+- existing T_CS relaxed MM profile
+- conformer A/B relative behavior where applicable
+- T_CC_240 branch diagnostics where informative
+
+Do not use prospective held-out QM results because they do
+not exist yet.
+
+Do not use water/ESP data as fitting observables for bonded
+parameters; they remain nonbonded compatibility guards.
+
+============================================================
+5. SCALE THE JACOBIAN
+============================================================
+
+Do not compare raw derivatives with incompatible units.
+
+Create both:
+
+A. raw physical-unit Jacobian;
+
+B. dimensionless / normalized Jacobian.
+
+Document the normalization of:
+
+- bond observables
+- angle observables
+- relative energies
+- parameter perturbations
+
+Do not select scaling retrospectively to improve apparent
+conditioning.
+
+============================================================
+6. IDENTIFIABILITY ANALYSIS
+============================================================
+
+At minimum compute:
+
+- singular values
+- singular vectors
+- effective numerical rank
+- condition number
+- parameter-parameter correlation / covariance proxy
+- near-null parameter combinations
+- derivative stability across perturbation magnitude
+- sensitivity to observable-block removal
+
+Perform leave-one-observable-class-out checks where feasible:
+
+geometry only
+PES only
+A basin only
+B basin only
+
+The objective is not merely:
+
+"rank = number of variables"
+
+but whether parameter directions are stably supported by
+independent information.
+
+============================================================
+7. IDENTIFIABILITY THRESHOLDS
+============================================================
+
+Do NOT invent arbitrary thresholds after viewing the future
+fit.
+
+Sol High must preregister the numerical decision rule.
+
+Where no historical threshold exists:
+
+label the new rule explicitly as:
+
+NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION
+
+The rule must be justified from:
+
+- numerical derivative noise
+- step-size reproducibility
+- scaling
+- conditioning
+- parameter uncertainty / instability
+
+Do not falsely label a new threshold as historically frozen.
+
+Return each variable/group as:
+
+IDENTIFIABLE
+WEAKLY_IDENTIFIABLE
+COLLINEAR_GROUP
+UNIDENTIFIABLE
+
+============================================================
+8. REDUCED VARIABLE SET
+============================================================
+
+Based on the numerical analysis, Sol High must freeze:
+
+REDUCED_PARAMETER_BLOCK_V1
+
+For every candidate parameter state:
+
+RELEASE
+GROUP
+FREEZE
+CONDITIONAL_AFTER_HESSIAN
+
+Prefer fewer parameters.
+
+If two or more fields are practically collinear:
+
+do NOT release them independently.
+
+Reduce, group, or freeze them.
+
+============================================================
+9. UB POLICY
+============================================================
+
+UB remains:
+
+FROZEN
+
+unless ALL of the following later occur:
+
+1. A+B curvature evidence shows bond/angle-only representation
+   is inadequate;
+
+2. the relevant UB direction is numerically distinguishable
+   from theta0 / ktheta;
+
+3. the reduced Jacobian has independent support for the UB
+   field;
+
+4. Sol High explicitly approves release.
+
+Do not simultaneously free:
+
+theta0
+ktheta
+r13
+kUB
+
+without independent rank evidence.
+
+============================================================
+10. TASK 0B — HELD-OUT 2D DESIGN REVIEW
+============================================================
+
+Current development design:
+
+T_CC =
+60, 180, 300 deg
+
+crossed with:
+
+T_CS =
+30, 90 deg
+
+=> 6 development points.
+
+This may remain the initial development design.
+
+Current held-outs:
+
+CC90/CS20
+CC90/CS100
+CC210/CS20
+CC210/CS100
+
+must be independently reviewed BEFORE QM.
+
+------------------------------------------------------------
+10.1 Evaluate held-out separation
+------------------------------------------------------------
+
+Quantify periodic 2D distance from every held-out point to
+the development design.
+
+Also evaluate:
+
+- symmetry equivalence
+- basin coverage
+- barrier/transition coverage
+- off-valley coupling coverage
+- branch ambiguity
+- seed feasibility
+- geometry-clash risk
+
+Explicitly test whether:
+
+CS = 20 / 100
+
+is too close to development:
+
+CS = 30 / 90
+
+to provide a strong prospective test of coupling
+generalization.
+
+------------------------------------------------------------
+10.2 Sol High decision
+------------------------------------------------------------
+
+Return:
+
+HELDOUT_DESIGN_STATUS =
+KEEP_WITH_JUSTIFICATION
+/
+REVISE_FOR_STRONGER_2D_SEPARATION
+
+If revised:
+
+keep preferably 4 held-out points unless a clear scientific
+reason requires otherwise.
+
+The exact four points must be frozen BEFORE any new joint QM
+result is generated.
+
+At least consider coverage of:
+
+- one genuinely interior 2D coupling region;
+- one region more distant from development CS levels;
+- unseen T_CC values;
+- O-permutation / symmetry constraints;
+- accessible clash-free seeds.
+
+Do NOT choose held-out points after inspecting future QM.
+
+============================================================
+11. TASK 0C — PREREGISTER ACCEPTANCE RULES
+============================================================
+
+Before new joint QM or fitting, freeze the decision
+framework.
+
+Separate:
+
+HARD_QC_GATE
+FIT_OBJECTIVE
+DIAGNOSTIC
+VALIDATION_GATE
+NO_COMPENSATION_GATE
+
+Do not mix them.
+
+============================================================
+12. GEOMETRY CRITERIA
+============================================================
+
+Existing historical:
+
+~0.03 A
+~3 degrees
+
+must remain labeled as the existing diagnostic guidance if
+that was its original status.
+
+Do not silently convert it into a universal optimizer target.
+
+Define in advance how broad-model geometry will be assessed:
+
+- local target bonds
+- local target angles
+- whole-chain geometry
+- untargeted geometry deterioration
+- A/B consistency
+
+If a new quantitative aggregate metric is introduced,
+label it:
+
+NEW_PREREGISTERED_CRITERION
+
+and justify it before fitting.
+
+============================================================
+13. HESSIAN / CURVATURE CRITERIA
+============================================================
+
+Freeze the protocol for comparing A/B Hessian information.
+
+Specify:
+
+- raw Cartesian Hessian handling
+- units
+- coordinate frame
+- rigid translation/rotation projection
+- mass weighting policy
+- internal-coordinate transformation
+- mode assignment / mode-character comparison
+- treatment of low-frequency modes
+- scaling policy, if any
+
+Do not fit force constants directly to raw frequencies
+without coordinate/curvature attribution.
+
+============================================================
+14. PES CRITERIA
+============================================================
+
+For T_CC and T_CS preregister how to evaluate:
+
+- relative energy profile
+- low-energy basin ordering
+- global minimum location
+- local minima
+- barrier location
+- barrier heights
+- profile shape
+- branch behavior
+- symmetry / closure
+
+Existing 5 kcal/mol emphasis remains a weighting priority,
+not an automatic pass/fail threshold unless separately
+approved.
+
+Do not hide high-energy points.
+
+============================================================
+15. 2D DEVELOPMENT AND HELD-OUT CRITERIA
+============================================================
+
+Before seeing new QM outcomes define:
+
+- development loss metric
+- held-out prediction metric
+- how relative energy zero is defined
+- weighting across 2D points
+- treatment of nonconvergence
+- treatment of branch ambiguity
+
+If numerical RMSE / MAE thresholds are newly introduced:
+
+mark them:
+
+NEW_PREREGISTERED_CRITERION
+
+with explicit rationale.
+
+Do not choose the threshold after seeing held-out results.
+
+============================================================
+16. REGULARIZATION / PARAMETER BOUNDS
+============================================================
+
+Before fitting, freeze:
+
+- allowed deviation from source CGenFF values
+- parameter bounds
+- regularization form
+- regularization strength selection rule
+- grouping constraints
+- whether source values act as priors
+
+Do not tune regularization against held-out results.
+
+Held-out data must never be used for:
+
+- variable selection
+- weight selection
+- regularization tuning
+- restart selection
+- parameter-bound selection
+
+============================================================
+17. NO-COMPENSATION RULE
+============================================================
+
+This remains a mandatory hard scientific rule.
+
+Reject any candidate that achieves one target class by
+materially worsening another, including:
+
+- improved PES + degraded geometry
+- improved geometry + degraded PES
+- improved A + degraded B
+- improved junction + degraded tail
+- improved development + poor held-out performance
+
+The final model must be one joint CHARMM-compatible
+potential.
+
+============================================================
+18. NEW QM SEQUENCING
+============================================================
+
+Do NOT authorize all 11 proposed jobs simultaneously.
+
+Use sequential information gain.
+
+------------------------------------------------------------
+18.1 Stage QM-1
+------------------------------------------------------------
+
+First candidate new QM tranche:
+
+GEO_B frequency / Hessian ONLY.
+
+Before launch:
+
+- freeze exact input
+- verify GEO_B source geometry/hash
+- verify method:
+  MP2/6-31+G(d)
+- charge -1
+- multiplicity 1
+- verify Gaussian grammar
+- verify resource plan
+- freeze package SHA256
+- Sol High exact-package approval
+
+Do NOT launch yet unless separately authorized by user or
+existing valid scope explicitly covers it.
+
+------------------------------------------------------------
+18.2 After GEO_B Hessian
+------------------------------------------------------------
+
+Process A+B curvature jointly.
+
+Recompute / update:
+
+- internal-coordinate information
+- numerical Jacobian
+- rank
+- correlations
+- candidate stiffness identifiability
+
+Then Sol High must decide:
+
+STIFFNESS_RELEASE_STATUS =
+SUPPORTED_REDUCED_SET
+/
+INSUFFICIENT_INFORMATION
+/
+ADDITIONAL_CURVATURE_QM_REQUIRED
+
+Do not automatically release every k field.
+
+------------------------------------------------------------
+18.3 Stage QM-2
+------------------------------------------------------------
+
+Only if the reduced model remains scientifically viable:
+
+prepare the six fixed 2D development CC/CS jobs.
+
+Build a NEW immutable exact launch package.
+
+Sol High must approve its exact hash.
+
+Do not mix held-outs into fitting execution logic.
+
+------------------------------------------------------------
+18.4 Stage QM-3
+------------------------------------------------------------
+
+Held-out jobs must remain sealed from all fitting decisions.
+
+Only after one candidate model is frozen from development
+data may the four held-out QM results be exposed for final
+validation.
+
+If held-outs have already been calculated for logistical
+reasons, their results must remain cryptographically /
+procedurally sealed from the fitting agent until candidate
+freeze.
+
+============================================================
+19. CONDITIONAL QM REMAINS CONDITIONAL
+============================================================
+
+Do NOT automatically launch:
+
+- C1-C3 tail scan
+- CF3 tail scan
+- finite-displacement set
+- new minimum search
+
+These remain:
+
+CONDITIONAL_NOT_YET_AUTHORIZED
+
+Only trigger them if the updated identifiability analysis
+shows the corresponding parameter direction is unresolved
+and the new calculation is expected to distinguish it.
+
+============================================================
+20. V2 DELIVERABLES
+============================================================
+
+Create a new lightweight package:
+
+pre_qm_audit_20260926_v2
+
+Include at minimum:
+
+NUMERICAL_IDENTIFIABILITY_PROTOCOL.md
+NUMERICAL_JACOBIAN_RAW.tsv
+NUMERICAL_JACOBIAN_NORMALIZED.tsv
+SVD_RESULTS.tsv
+PARAMETER_CORRELATION.tsv
+NULL_DIRECTION_ANALYSIS.md
+DERIVATIVE_STEP_STABILITY.tsv
+REDUCED_PARAMETER_BLOCK_V1.tsv
+
+HELDOUT_2D_DESIGN_REVIEW.md
+HELDOUT_2D_DESIGN_FROZEN.tsv
+
+PREREGISTERED_ACCEPTANCE_FRAMEWORK.md
+PREREGISTERED_ACCEPTANCE_CRITERIA.tsv
+PARAMETER_BOUNDS_AND_REGULARIZATION.md
+
+GEO_B_HESSIAN_PROCESSING_PROTOCOL.md
+NEW_QM_SEQUENCE_PLAN.md
+
+PACKAGE_MANIFEST.json
+SHA256SUMS
+README.md
+
+============================================================
+21. GITHUB PROVENANCE
+============================================================
+
+Upload the lightweight v2 package to:
+
+https://github.com/luyi-95/PFAS-fish-PBTK-model
+
+Use a dedicated versioned branch/path.
+
+Do NOT overwrite v1.
+
+Do NOT upload:
+
+- Gaussian scratch
+- rwf/int/d2e
+- large chk/fchk unless strictly necessary
+- credentials
+- license information
+- caches
+
+Verify an independent checkout reproduces all payload hashes.
+
+Return:
+
+GIT_BRANCH =
+GIT_COMMIT_SHA =
+PACKAGE_SHA256 =
+
+============================================================
+22. SOL HIGH FINAL PRE-QM V2 VERDICT
+============================================================
+
+After v2 is frozen, Sol High must return:
+
+NUMERICAL_IDENTIFIABILITY_STATUS =
+PASS
+/
+PARTIAL
+/
+FAIL
+
+HELDOUT_DESIGN_STATUS =
+KEEP_WITH_JUSTIFICATION
+/
+REVISED_AND_FROZEN
+/
+FAIL
+
+ACCEPTANCE_RULES_STATUS =
+PREREGISTERED
+/
+INCOMPLETE
+
+REDUCED_PARAMETER_BLOCK_STATUS =
+FROZEN
+/
+REVIEW
+
+GEO_B_HESSIAN_STATUS =
+READY_FOR_EXACT_PACKAGE_PREPARATION
+/
+REVIEW
+
+JOINT_2D_QM_STATUS =
+NOT_YET_READY
+/
+READY_AFTER_GEO_B
+/
+READY_NOW
+
+FIT_READY =
+YES / NO
+
+============================================================
+23. HARD STOP CONDITIONS
+============================================================
+
+STOP and do not start new QM if:
+
+- numerical identifiability remains unresolved;
+- candidate parameter set is still obviously underdetermined;
+- UB cannot be distinguished from angle terms;
+- held-out design is not frozen prospectively;
+- acceptance criteria remain outcome-dependent;
+- parameter bounds/regularization are undefined;
+- existing v1 provenance/hash cannot be reproduced;
+- any new protocol silently changes method/basis/charge/
+  multiplicity/force-field family.
+
+============================================================
+24. AUTHORIZATION BOUNDARIES
+============================================================
+
+NEW_QM_LAUNCHED = NO
+
+PARAMETER_EDITED =
+TEMPORARY_MM_SENSITIVITY_COPIES_ONLY
+
+PRODUCTION_PARAMETER_REPLACEMENT =
+NOT_AUTHORIZED
+
+FITTING_STARTED =
+NO
+
+MD_RUN_AUTHORIZATION =
+NOT_GRANTED
+
+OTHER_PFAS_PARAMETERIZATION =
+NOT_AUTHORIZED
+
+At the end, STOP after v2 GitHub upload and Sol High review.
+
+Return the exact Git commit SHA and package SHA256 to the user
+for independent audit before new QM execution.

@@ -1,0 +1,18 @@
+{
+  "status": "PROSPECTIVE_IMPLEMENTATION_CLARIFICATION_BEFORE_MM_RESULTS",
+  "created_utc": "2026-09-26T06:18:21.331595+00:00",
+  "protocol_sha256": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "addendum_sha256": "aff3752034f2aa0d85bce0d46094d9c3a4e7c25954e8809b35704e4d9e617cc4",
+  "terminal_stage": "CG",
+  "primary_final_fmax_max_kj_mol_nm": 1.0,
+  "audit_final_fmax_max_kj_mol_nm": 0.1,
+  "lbfgs_force_recorded": true,
+  "lbfgs_same_tolerance_required": false,
+  "stage_errors_nonfinite_unapproved_warnings": "STOP",
+  "physical_energy": "NO_RESTRAINT_TOPOLOGY_RERUN_FINAL_CG_TRR_FRAME",
+  "runner_approved": false,
+  "mm_results_inspected": false,
+  "fit_ready": false,
+  "new_qm_authorized": false,
+  "md_authorized": false
+}

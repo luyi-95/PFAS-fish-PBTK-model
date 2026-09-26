@@ -1,0 +1,13 @@
+# Basin interpretation and mathematical-source addendum
+
+This document clarifies the frozen derivative protocol without changing any variable, stencil, scale, force tolerance, numerical threshold or data-selection rule. No derivative outcome was viewed in preparing it.
+
+A/B names are source-start labels. If their original-parameter relaxed MM structures occupy the same basin, record the duplicate information; half-weighting duplicate rows does not create independent physics. Rank and A/B block-removal must explicitly report collapse. It is model-insufficiency evidence for eventual representation of distinct QM basins, not permission to invent a second MM state.
+
+For finite-difference smoothness, compare each perturbed state to that same start's original-parameter MM baseline basin/rotamer identity. A QM-to-baseline-MM relaxation change is reported separately. A branch switch between parameter states invalidates the corresponding smooth derivative. CC240 reverse/forward merging at baseline remains diagnostic and cannot be treated as two independent primary equations or averaged into a new target.
+
+[Nick Higham's primary mathematical exposition](https://nhigham.com/2021/05/04/singular-value-inequalities/) states the singular-value perturbation bound |sigma_i(A+E)-sigma_i(A)|<=||E||_2. Since ||E||_2<=||E||_F, the fixed5delta rank margin implies delta/(sigma-delta)<1/4 for a retained direction IF the actual perturbation is bounded bydelta. Here delta is a conservative empirical step/convergence/rounding envelope, not a rigorous bound on all physical/model error. Consequently rank support is noise-informed preflight evidence; it does not prove global identifiability or statistical confidence.
+
+[Official NumPy matrix-rank documentation](https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html) distinguishes machine-precision singular cutoffs from practical noise tolerances. Machine-only rank must be reported separately. Unit-normalized covariance proxy and its<=1 source-scale budget are newly preregistered comparison rules, not measured QM uncertainties or a literature constant. Unsupported null variance must not be reported as zero after pseudoinversion.
+
+New10% step,5% convergence,5delta margin,<=1 uncertainty proxy, parameter scales and fitting/validation budgets are explicit design choices. Primary methods justify testing numerical noise, scale, curvature character and joint data; they do not independently validate these PFBS budgets. Unfavorable results cause STOP/PARTIAL/FAIL under the frozen design; no favorable-rank retuning.

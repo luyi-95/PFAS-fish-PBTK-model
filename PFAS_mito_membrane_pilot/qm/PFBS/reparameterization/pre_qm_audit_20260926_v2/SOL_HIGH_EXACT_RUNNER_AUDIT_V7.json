@@ -1,0 +1,21 @@
+{
+  "status": "APPROVE",
+  "runner_sha256": "cfc467e92d487c22e0e22a6fa5c6293eee46c1048aaad2a247221e2940b46587",
+  "test_sha256": "292ed3fe08dc739e0f23202eb4fe8f9489f175d6e11910f5c3ac18c063e0e2e5",
+  "offline_tests": "13/13 PASS",
+  "archived_offline_report_sha256": "b48cc484b350ee973f47dbac8dd812427d9b745a67c96da52f1a309f01f925b7",
+  "validation_summary_sha256": "fc9c1a773b5c743ebdf8e1648b87aa761063146213746ee5f2f23baad5be6c94",
+  "actual_pair_count": 80,
+  "pair_pass": 80,
+  "unique_variables": 10,
+  "independently_checked_target_ab_fields": 496,
+  "independently_checked_tpr_body_size_bindings": 160,
+  "independent_remote_unique_cases": 84,
+  "independent_remote_hash_inventory_sha256": "4079a4681963e7233383bb8eb8b3f134ebaa7420cd7aa730dda498ec0982568f",
+  "remote_dump_tpr_hash_or_size_discrepancies": 0,
+  "one_new_grompp_dump_only_preflight_authorized": true,
+  "full_mm_matrix_authorized": false,
+  "next_gate": "Independent review of new complete PASS preflight receipt",
+  "gromacs_invoked_by_reviewer": false,
+  "parameter_edited": false
+}

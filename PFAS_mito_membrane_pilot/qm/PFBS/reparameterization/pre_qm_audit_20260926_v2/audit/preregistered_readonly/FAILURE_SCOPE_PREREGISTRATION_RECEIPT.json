@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-26T06:21:13.115344+00:00",
+  "status": "PROSPECTIVE_FAILURE_SCOPE_INTERPRETATION",
+  "protocol_sha256": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "addendum_sha256": "a7f5751163adda6fd1e399149c76c7b81244812c84dffc96f749d59e85064608",
+  "global_stop": [
+    "PROVENANCE",
+    "EXECUTION_ERROR",
+    "NONFINITE",
+    "UNAPPROVED_WARNING",
+    "SEMANTIC_MISMATCH",
+    "UNVERIFIED_OUTPUT"
+  ],
+  "finite_normal_terminal_nonconvergence": "QUARANTINE_AFFECTED_DIRECTION_PARTIAL_REVIEW_UNRELATED_PREREGISTERED_WORK_MAY_COMPLETE",
+  "automatic_retry": false,
+  "unplanned_rescue": false,
+  "failed_rows_silent_omission": false,
+  "runner_approved": false,
+  "mm_results_inspected": false,
+  "mvp_route_status": "PENDING"
+}

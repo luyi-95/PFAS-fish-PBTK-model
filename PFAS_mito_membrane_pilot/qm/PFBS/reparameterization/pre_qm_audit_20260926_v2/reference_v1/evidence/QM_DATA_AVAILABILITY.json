@@ -1,0 +1,25 @@
+{
+  "GEO_A_log_binding": {
+    "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.log",
+    "sha256": "56b2bf0620ab18b1ee3517d3b2e1a7754adbba416f2737418938587fd34a4667",
+    "size": 128211
+  },
+  "route": "MP2/6-31+G(d) Freq SCF=Tight NoSymm",
+  "normal_termination": true,
+  "projected_modes": 45,
+  "negative_projected_modes": 0,
+  "archive_numeric_blocks": [
+    {
+      "number_count": 1326,
+      "sha256_text": "9c6eeef05c897614f07e8d9a64726da6e0b9ddc37f82f82c6e027c73a4f10f1e"
+    },
+    {
+      "number_count": 51,
+      "sha256_text": "8daefe9238912df7261ff7701f86a33729dba411160e093b6f1c7b7e014506ed"
+    }
+  ],
+  "expected_51x51_packed_Hessian_count": 1326,
+  "packed_Hessian_block_present": true,
+  "interpretation": "Existing full-length packed Hessian is accessible in raw log. Mapping, units, internal-coordinate projection and any scaling must be independently verified before fitting. No Hessian fitting or spectral calculation performed.",
+  "GEO_B_frequency": "Not found in local deliverable or read-only filename inventory of remote PFBS tree. This is not a claim about all possible external records."
+}

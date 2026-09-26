@@ -1,0 +1,60 @@
+{
+  "protocol": "MVP_MINIMAL_SUBMATRIX_PREDECLARATION",
+  "outcomes_seen": false,
+  "purpose": "Use existing preregistered raw/normalizedJ only; no newparameterperturbations,scales,weights,stencils,thresholds orfit.",
+  "fixed_row_selection": "same primarySVD rowset and existingblock-removalsets; do not renormalize rows after deletion",
+  "ordered_blocks": [
+    {
+      "id": "MVP_EQ_CORE",
+      "variables": [
+        "R_CG312-SG3O1",
+        "TH_CG312-CG312-SG3O1"
+      ],
+      "question": "major S-C defect plus no-compensation junction direction"
+    },
+    {
+      "id": "MVP_EQ_CC_CORE",
+      "variables": [
+        "R_CG312-SG3O1",
+        "TH_CG312-CG312-SG3O1",
+        "LAMBDA_CC"
+      ],
+      "question": "major geometry plus wrong dominantCCminimum"
+    },
+    {
+      "id": "MVP_EQ_CC_CS_CORE",
+      "variables": [
+        "R_CG312-SG3O1",
+        "TH_CG312-CG312-SG3O1",
+        "LAMBDA_CC",
+        "LAMBDA_CS"
+      ],
+      "question": "only if major relevant lowCS/topologyartifact shown; CS not auto release"
+    },
+    {
+      "id": "MVP_SHARED_CC_GUARD",
+      "variables": [
+        "R_CG312-SG3O1",
+        "R_CG312-CG312",
+        "TH_CG312-CG312-SG3O1",
+        "LAMBDA_CC"
+      ],
+      "question": "if supported responses show core geometry correction conflicts with C-C wholechainmajor guard"
+    },
+    {
+      "id": "MVP_SHARED_CC_CS_GUARD",
+      "variables": [
+        "R_CG312-SG3O1",
+        "R_CG312-CG312",
+        "TH_CG312-CG312-SG3O1",
+        "LAMBDA_CC",
+        "LAMBDA_CS"
+      ],
+      "question": "sameguard plus independently relevant CS direction"
+    }
+  ],
+  "other_tested_fields": "Frozen asMVPdefault unless specificmajorflag/relevantcrossresponse documented; anyexpandedsubmatrix interpretation usescurrentunchangedfullJ andsamecriteria,explicitSolreview.",
+  "interpretation": "A reduced submatrix is a model with omittedsource fieldsfrozen, notidentifiability of independentlyfree whole10variables. Report bothfull andfixed-reduced results; grouping canonlybeclaimed withsource-bounddirectionproof, notfavorable subset rankalone.",
+  "route_not_selected": true,
+  "final_block_not_frozen": true
+}

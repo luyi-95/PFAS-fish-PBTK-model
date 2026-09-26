@@ -1,0 +1,388 @@
+{
+  "protocol_id": "PFBS_MM_IDENTIFIABILITY_PREREG_V2_01",
+  "provenance": {
+    "v1_git": "0426052aefc17d2e2bece233b853daa78dc1caa4",
+    "v1_zip_sha256": "ddb9eac8347fe721e11b476a63daa4bff7617bf9a61217d95ff867d980b2cbd0"
+  },
+  "created_before_derivative_outcomes": true,
+  "selection_status": "INITIAL_DIAGNOSTIC_HYPOTHESIS_NOT_FINAL_REDUCED_PARAMETER_BLOCK",
+  "variables": [
+    {
+      "id": "R_OG2P1-SG3O1",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.1448,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "OG2P1-SG3O1",
+          "instances": "1-11;1-12;1-13",
+          "base": 0.1448,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    },
+    {
+      "id": "R_CG312-SG3O1",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.1807,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-SG3O1",
+          "instances": "1-15",
+          "base": 0.1807,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56"
+    },
+    {
+      "id": "R_CG312-CG312",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.14563,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-CG312",
+          "instances": "14-15;14-16",
+          "base": 0.14563,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    },
+    {
+      "id": "R_CG302-CG312",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.14563,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG302-CG312",
+          "instances": "16-17",
+          "base": 0.14563,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56"
+    },
+    {
+      "id": "TH_OG2P1-SG3O1-OG2P1",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 109.47,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "OG2P1-SG3O1-OG2P1",
+          "instances": "11-1-12;11-1-13;12-1-13",
+          "base": 109.47,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    },
+    {
+      "id": "TH_FGA2-CG312-FGA2",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 107.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-FGA2",
+          "instances": "2-14-3;4-15-5;6-16-7",
+          "base": 107.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    },
+    {
+      "id": "TH_CG312-CG312-SG3O1",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 122.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-CG312-SG3O1",
+          "instances": "1-15-14",
+          "base": 122.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56"
+    },
+    {
+      "id": "TH_FGA3-CG302-FGA3",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 107.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA3-CG302-FGA3",
+          "instances": "8-17-9;8-17-10;9-17-10",
+          "base": 107.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    },
+    {
+      "id": "LAMBDA_CS",
+      "parameter_class": "GROUPED_TORSION_DIAGNOSTIC_ONLY",
+      "field": "proportional_amplitude_scale",
+      "base": 1.0,
+      "unit": "dimensionless",
+      "h": 0.05,
+      "normalization_scale": 0.5,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-SG3O1-OG2P1:n3",
+          "instances": "11-1-15-4;11-1-15-5;12-1-15-4;12-1-15-5;13-1-15-4;13-1-15-5",
+          "base_amplitude_kJ_mol": 0.96232,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-SG3O1-OG2P1:n3",
+          "instances": "11-1-15-14;12-1-15-14;13-1-15-14",
+          "base_amplitude_kJ_mol": 0.96232,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        }
+      ],
+      "fit_authorized": false
+    },
+    {
+      "id": "LAMBDA_CC",
+      "parameter_class": "GROUPED_TORSION_DIAGNOSTIC_ONLY",
+      "field": "proportional_amplitude_scale",
+      "base": 1.0,
+      "unit": "dimensionless",
+      "h": 0.05,
+      "normalization_scale": 0.5,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-CG312-SG3O1:n1",
+          "instances": "2-14-15-1;3-14-15-1",
+          "base_amplitude_kJ_mol": 4.85344,
+          "phase_deg": 180.0,
+          "multiplicity": 1,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n1",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 3.93296,
+          "phase_deg": 180.0,
+          "multiplicity": 1,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n2",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 1.58992,
+          "phase_deg": 0.0,
+          "multiplicity": 2,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n3",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 0.46024,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        }
+      ],
+      "fit_authorized": false
+    }
+  ],
+  "perturbations": {
+    "all_four_sign_steps_mandatory": true,
+    "primary_states": 41,
+    "convergence_audit_states": 21,
+    "one_variable_per_copy": true,
+    "all_copies_reset_to_original_v1": true,
+    "no_candidate_solve": true
+  },
+  "numeric_protocol": {
+    "precision": "double",
+    "minimization_primary": [
+      {
+        "integrator": "l-bfgs",
+        "nsteps": 30000,
+        "emtol_kJ_mol_nm": 1.0,
+        "emstep_nm": 0.001
+      },
+      {
+        "integrator": "cg",
+        "nsteps": 30000,
+        "emtol_kJ_mol_nm": 1.0,
+        "emstep_nm": 0.001
+      }
+    ],
+    "convergence_audit_emtol": 0.1,
+    "audit_states": "baseline and +/-h for all10 variables on all source structures; independent accepted QM starts",
+    "allowed_change": "ONLY convergence tolerance for preregistered audit; identical physical settings/constraints",
+    "settings_source": "exact approved baseline/profile processed MDP/TPR physics; isolated10nm,2nmcutoff; no torsion restraint for A/B; identical existing profile restraint semantics for profiles",
+    "final_force_gate": "actual Fmax must satisfy each declared emtol; raw log proof; iteration count alone not proof",
+    "warning_policy": "STOP all unapproved warnings; exact pre-existing single LBFGS cutoff-efficiency warning may use same hash-bound one-warning exception; no blanket maxwarn",
+    "history_policy": "independent accepted QM source start per parameter state; primary LBFGS->CG within-state transfer only; never parameter-state warm starts"
+  },
+  "observable_vector": {
+    "SVD_primary": [
+      "A/B all16 bond distances",
+      "A/B all30 valence angles",
+      "25 absolute constrained profile physical relative energies common CC300 reference",
+      "A/B energy difference B-A"
+    ],
+    "diagnostic_excluded_from_SVD": [
+      "all136 pair distances in each A/B",
+      "proper torsions/branch assignment",
+      "CC240 reverse minus forward energy and full branch geometry",
+      "achieved profile constraint angles",
+      "source atom graph/O permutation/whole-chain guards"
+    ],
+    "normalization": {
+      "bond_observable_A": 0.03,
+      "angle_observable_deg": 3.0,
+      "energy_observable_kcal_mol": 1.0,
+      "geometry_historical_scale_is_not_new_optimizer_target": true,
+      "blocks": {
+        "bond": "total squared weight1; A/B equal; six source families equal; instances equal within family",
+        "angle": "total squared weight1; A/B equal; eleven source families equal; instances equal within family",
+        "PES": "total squared weight1; CC/CS eachhalf; points equal within eachaxis",
+        "AB_energy": "weight1"
+      },
+      "energy_conversion": "kJ/mol /4.184; no restraint potential energy in physical relative energy",
+      "reference": "CC300 same parameter state; one common anchor for CC/CS, no per-axis shift or offset fitting"
+    }
+  },
+  "criteria_label": "NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION",
+  "criteria": {
+    "step_stability_relative_column_norm_max": 0.1,
+    "convergence_derivative_relative_column_norm_max": 0.05,
+    "zero_column_handling": "do not divide by arbitrary signal floor; classify UNIDENTIFIABLE when signal<=uncertainty bound",
+    "elementwise_J_uncertainty": "abs(J_h-J_2h)+abs(J_h-J_h_tight)+machine-roundoff bound; no Richardson discount",
+    "spectral_uncertainty_bound": "Frobenius norm of elementwise uncertainty envelope; separately report machine-only tolerance max(m,n)*epsilon*sigma_max",
+    "effective_rank": "singular value>5*max(spectral_uncertainty_bound,machine_only_tolerance); strict greater-than; same rule each block-removal matrix",
+    "robust_inverse_amplification": "delta/(sigma_min-delta)<=0.25 for retained directions, follows5delta rule; report raw and normalized condition numbers, no arbitrary retrospective cond cutoff",
+    "normalized_unit_noise_covariance_proxy": "C=V diag(1/sigma^2)V^T using supported directions only; not QM sampling covariance",
+    "unique_parameter_support": "sqrt(Cjj)<=1 normalized parameter scale AND direction noise/stability supported; finite covariance forbidden for unresolved null coordinates",
+    "null_support_report": "all coefficients; highlight abs(vj)>=.25 only as preregistered reporting aid, not independent collinearity test",
+    "correlation_report": "full normalized covariance proxy correlations; high pair correlation alone does not establish collinearity",
+    "classifications": [
+      "IDENTIFIABLE",
+      "WEAKLY_IDENTIFIABLE",
+      "COLLINEAR_GROUP",
+      "UNIDENTIFIABLE"
+    ],
+    "leave_blocks": [
+      "geometry_only",
+      "PES_only",
+      "A_basin_geometry_only",
+      "B_basin_geometry_only",
+      "remove_bonds",
+      "remove_angles",
+      "remove_CC",
+      "remove_CS",
+      "remove_AB_energy"
+    ],
+    "support_adjudication": "Full primary block must pass; geometry variables need geometry support; torsion diagnostics need PES support. Loss ofsupport in informative block-removal is expected and interpreted, not universally required fullrank of every subset.",
+    "branch_rule": "Any branch change invalidates smooth derivative for affected rows; no averaging; stop affected direction and adjudicate PARTIAL/FAIL; no extra probe or step retuning."
+  },
+  "final_variable_policy": {
+    "equilibria": "RELEASE only after supported numerical result and later joint physics acceptance; otherwise GROUP/FREEZE/CONDITIONAL_AFTER_HESSIAN",
+    "torsion_groups": "Diagnostic-only in Task0A even if identifiable; no fitting release until curvature/sequencing adjudication",
+    "all_stiffness": "CONDITIONAL_AFTER_HESSIAN",
+    "UB": "FROZEN; four user conditions all required before later release",
+    "phase_multiplicity_zero_terms_tail_charges_LJ": "FROZEN"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "automorphisms_CS_O1_fixed": 96,
+  "automorphisms_general": 288,
+  "count": 280,
+  "failed": 0,
+  "max_minimax_change_deg": 2.803451957406594,
+  "threshold_deg": 30.0,
+  "torsion_indices_source": "unique reverse-canonical proper quartets from original v1 ITP"
+}

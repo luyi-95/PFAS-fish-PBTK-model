@@ -1,0 +1,40 @@
+criterion_id	role	scope	metric	threshold	unit	provenance_label	failure_policy_or_note
+QC_SOURCE	HARD_QC_GATE	all	exact hashed v1/method/state/graph/physical settings	EXACT	mixed	SOURCE_FROZEN	Mismatch STOP
+QC_MM_FORCE	HARD_QC_GATE	MM preflight	finalFmax	primary<=1;audit<=0.1	kJ/mol/nm	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	No converged-status shortcut
+QC_MM_SCAN	HARD_QC_GATE	existing profileMM	wrapped achieved scan drift	<=0.020	degree	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	QM historical0.01 remains distinct
+QC_SMOOTH_BRANCH	HARD_QC_GATE	each derivative direction	single symmetry-map minimax unrestrained proper change across all states	<=30	degree	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	Not an assertion of unique basin; invalidresponse STOP
+J_STEP	HARD_QC_GATE	each column	relative normalizedJh-J2h norm	<=0.10	dimensionless	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	Zero signals UNIDENTIFIABLE
+J_CONV	HARD_QC_GATE	each column	relative normalizedJh-Jtight norm	<=0.05	dimensionless	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	No step/tolerance retuning
+J_RANK	DIAGNOSTIC	primary and block-removal J	supported singular value	sigma>5*max(delta,machineTolerance)	dimensionless	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	Empiricaluncertainty envelope not globalproof
+J_UNIQUE_PROXY	DIAGNOSTIC	supported unique coordinate	sqrt(unit-noise covariance Cjj)	<=1	normalized parameter scale	NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION	Not statistical CI; null coordinates unresolved
+HIST_GEOMETRY	DIAGNOSTIC	historical	approximate bond/angle guidance	~0.03;~3	angstrom;degree	SOURCE_DIAGNOSTIC_ONLY	Not universal optimizer target
+FIT_WEIGHTS	FIT_OBJECTIVE	development	equal classmeans/source family instance weights	fixed blocks; lowPES<=5 weightfactor2	dimensionless	NEW_PREREGISTERED_CRITERION	All points retained; no heldouts
+GEO_BOND_RMSE	VALIDATION_GATE	each A/B/2Dstructure	family-equal all16bondRMSE	<=0.020	angstrom	NEW_PREREGISTERED_CRITERION	Separate eachbasin
+GEO_ANGLE_RMSE	VALIDATION_GATE	each A/B/2Dstructure	family-equal all30angleRMSE	<=2.0	degree	NEW_PREREGISTERED_CRITERION	Separate eachbasin
+GEO_BOND_MAX	VALIDATION_GATE	each structure	max absolute bond error	<=0.040	angstrom	NEW_PREREGISTERED_CRITERION	Every instance retained
+GEO_ANGLE_MAX	VALIDATION_GATE	each structure	max absolute angle error	<=4.0	degree	NEW_PREREGISTERED_CRITERION	Every instance retained
+GEO_PAIR_RMSE	VALIDATION_GATE	each structure	all136pair distanceRMSE	<=0.050	angstrom	NEW_PREREGISTERED_CRITERION	Guard not independentfitrank
+GEO_PAIR_MAX	VALIDATION_GATE	each structure	maximum pair distanceerror	<=0.150	angstrom	NEW_PREREGISTERED_CRITERION	Correct mapped branch required
+PES_ALL_RMSE	VALIDATION_GATE	eachCC/CS axis	allpoint energyRMSE	<=1.0	kcal/mol	NEW_PREREGISTERED_CRITERION	commonCC300anchor
+PES_ALL_MAE	VALIDATION_GATE	eachCC/CS axis	allpoint energyMAE	<=0.75	kcal/mol	NEW_PREREGISTERED_CRITERION	No fitted offset
+PES_MAX	VALIDATION_GATE	eachCC/CS axis	max energyerror	<=2.0	kcal/mol	NEW_PREREGISTERED_CRITERION	Highpoints not hidden
+PES_LOW	VALIDATION_GATE	QMrelE<=5subset	energyRMSE	<=0.50	kcal/mol	NEW_PREREGISTERED_CRITERION	Former5kcal priority notgate
+PES_BARRIER	VALIDATION_GATE	each axis	barrierheight absoluteerror	<=1.0	kcal/mol	NEW_PREREGISTERED_CRITERION	Sampled discretebarrier
+PES_LOCATION	VALIDATION_GATE	CC/CS discrete extrema	location deviation	<=30CC;<=10CS	degree	NEW_PREREGISTERED_CRITERION	oneapprovedsamplingstep
+PES_ORDER	VALIDATION_GATE	basin energygap>0.50	ordering preserved; no extra missing min depth>0.50	TRUE	kcal/mol criterion	NEW_PREREGISTERED_CRITERION	Smaller gaps unresolved
+PES_SHAPE	VALIDATION_GATE	allpoints eachaxis	Pearson correlation	<=1 and>=0.90	dimensionless	NEW_PREREGISTERED_CRITERION	Undefined flatcurve REVIEW
+2D_RMSE	VALIDATION_GATE	development and heldout separately	energyRMSE	<=0.75	kcal/mol	NEW_PREREGISTERED_CRITERION	equalweights commonanchor
+2D_MAE	VALIDATION_GATE	development and heldout separately	energyMAE	<=0.50	kcal/mol	NEW_PREREGISTERED_CRITERION	heldoutsealed
+2D_MAX	VALIDATION_GATE	development and heldout separately	max energyerror	<=1.50	kcal/mol	NEW_PREREGISTERED_CRITERION	No pointreplacement
+2D_GAP	NO_COMPENSATION_GATE	heldout minus development	RMSEgeneralizationgap	<=0.25	kcal/mol	NEW_PREREGISTERED_CRITERION	No heldoutretuning
+2D_CONTRAST	VALIDATION_GATE	development3CClevelpairs	difference-in-differences absolute residual	<=1.0	kcal/mol	NEW_PREREGISTERED_CRITERION	Correlatedcontrasts no crossforce term
+HESS_MATRIX	VALIDATION_GATE	A/B separately	projectedmassweighted relativeFrobeniuserror	<=0.20	dimensionless	NEW_PREREGISTERED_CRITERION	unscaledQM factor1
+HESS_MODE	VALIDATION_GATE	all45assigned modes	frequencyMAE	<=30	cm^-1	NEW_PREREGISTERED_CRITERION	attributedmodes notrawk
+HESS_LOW	VALIDATION_GATE	QMfrequency<200	frequencyMAE	<=20	cm^-1	NEW_PREREGISTERED_CRITERION	Retainlowmodes norelativezeroerror
+HESS_OVERLAP	VALIDATION_GATE	nondegenerate/10cm^-1clusters	squaredoverlap/meanprincipalcosine	>=0.70;>=0.80	dimensionless	NEW_PREREGISTERED_CRITERION	Ambiguousmatching REVIEW
+NO_COMP_BOND	NO_COMPENSATION_GATE	untargeted individual/class/basin	absoluteerror/RMSE deterioration	<=0.005	angstrom	NEW_PREREGISTERED_CRITERION	Originalv1baseline sameQMtarget
+NO_COMP_ANGLE	NO_COMPENSATION_GATE	untargeted individual/class/basin	absoluteerror/RMSE deterioration	<=0.50	degree	NEW_PREREGISTERED_CRITERION	Originalv1baseline sameQMtarget
+NO_COMP_ENERGY	NO_COMPENSATION_GATE	CC/CS/2D/CC240 branchgap	RMSEorbranchgaperror deterioration	<=0.25	kcal/mol	NEW_PREREGISTERED_CRITERION	Never apply energybudgetto geometry
+NB_GUARD	NO_COMPENSATION_GATE	water/ESP compatibility	retain report75/76 cautious gates	SOURCE_RULES	sourceunits	SOURCE_FROZEN	NochargesLJfit
+SEAL	HARD_QC_GATE	prospective4heldouts	no plaintextoutcomes beforefinalcandidatefreeze	REQUIRED	procedural	USER_FROZEN	Hashaloneisnotsealing
+CONFORMER_AB	VALIDATION_GATE	A/B	relativeenergyerror;ordering ifQMgap>0.50	<=0.50;orderingrequiredabovegap	kcal/mol	NEW_PREREGISTERED_CRITERION	Near-degeneracy unresolved not forcedordering

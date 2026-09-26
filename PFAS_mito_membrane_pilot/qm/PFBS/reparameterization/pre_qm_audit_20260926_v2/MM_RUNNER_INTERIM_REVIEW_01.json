@@ -1,0 +1,25 @@
+{
+  "review_status": "REVISE_BEFORE_MDRUN",
+  "reviewer_role": "Independent Sol High scientific review",
+  "created_utc": "2026-09-26T06:16:51.783155+00:00",
+  "runner_sha256": "73c4f9cb21dffdfefe3fda36030db50ab572f4e95fb11e9d49b1304508d0fe8a",
+  "mdrun_authorized_by_review": false,
+  "fixed_from_prior_draft": [
+    "Stage-qualified unique runtime states",
+    "Grouped amplitude scaling uses proportional_amplitude_scale and sourceK*(1+delta)",
+    "Physical evaluation uses v1 no-restraint rerun"
+  ],
+  "remaining_checks": [
+    "Undefined state in make_job receipt path",
+    "Exact anchored warning parsing and one-warning-only retry",
+    "Reverse CC240 provenance must not inherit forward energy/hash metadata",
+    "Generated G96 POSITIONRED handling and final TRR/coordinate/energy-row binding",
+    "Exact active TPR semantic proof for ten variables and unchanged nonselected physics",
+    "All accepted-start and include-closure hashes checked before execution"
+  ],
+  "energy_evaluation_decision": "Use unchanged v1 restraint-free -rerun cg.trr, integrator md nsteps1, final Potential row; no coordinate updating.",
+  "mvp_interpretation": "Prospective geometry and low-tier screens are new intended-use risk rules. Limited numerical J inadequacy is not missing QM evidence or proof of broad necessity. Final route remains pending.",
+  "new_qm_launched_by_reviewer": false,
+  "parameter_edited_by_reviewer": false,
+  "md_run_by_reviewer": false
+}

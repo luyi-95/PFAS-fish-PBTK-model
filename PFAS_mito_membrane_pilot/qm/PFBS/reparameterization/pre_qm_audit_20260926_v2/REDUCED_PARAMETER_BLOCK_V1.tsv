@@ -1,0 +1,11 @@
+variable_id	final_action	active_instance_scope	MVP_interpretation	fit_now
+R_OG2P1-SG3O1	GROUP	equivalent S-O triplet 1-11/12/13	head-bond geometry guard; joint core only; k unchanged	NO
+R_CG312-SG3O1	RELEASE	S1-C2 1-15	joint core equilibrium r0; source-type scope	NO
+R_CG312-CG312	GROUP	C1-C2 14-15 and C1-C3 14-16	shared type-wide r0 only; both instances move together; tail geometry guard	NO
+R_CG302-CG312	FREEZE	C3-C4 16-17	systematic tail bond residual but no demonstrated need in minimum first block	NO
+TH_OG2P1-SG3O1-OG2P1	CONDITIONAL_AFTER_HESSIAN	three O-S-O instances	A Hessian internal-coordinate audit first; angle k/UB frozen	NO
+TH_FGA2-CG312-FGA2	FREEZE	three CF2 F-C-F instances	not required to address present MVP basin/junction red flags	NO
+TH_CG312-CG312-SG3O1	GROUP	S1-C2-C1 1-15-14	joint with S-C and shared C-C; angle equilibrium only; k/UB frozen	NO
+TH_FGA3-CG302-FGA3	FREEZE	three terminal CF3 F-C-F instances	tail guard; no tail torsion defect established	NO
+LAMBDA_CS	FREEZE	nine CS dihedral instances / two type families	diagnostic scalar only; QM and MM low CS minimum both 70 degrees	NO
+LAMBDA_CC	FREEZE	five CC dihedral instances / four nonzero Fourier groups	unresolved full-matrix direction and negligible CC180-300 gap leverage; cannot fit scalar	NO

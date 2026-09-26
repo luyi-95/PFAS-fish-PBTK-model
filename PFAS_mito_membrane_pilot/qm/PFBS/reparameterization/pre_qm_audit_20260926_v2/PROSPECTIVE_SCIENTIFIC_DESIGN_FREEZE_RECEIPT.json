@@ -1,0 +1,50 @@
+{
+  "receipt": "PROSPECTIVE_SCIENTIFIC_DESIGN_FREEZE_V2_01",
+  "created_UTC": "2026-09-26T05:59:15.826705+00:00",
+  "files": {
+    "BASIN_AND_MATHEMATICAL_RATIONALE_ADDENDUM.md": "ee4e963b5055fb8759032cb3991c8e2d70f1f4840d53b4a7d10135b3d8c29c13",
+    "BRANCH_CLASSIFIER_PREREGISTRATION_ADDENDUM.md": "21c9381e097fb8ef3e23ac2a3ab86ab4b71ab2f9629eaa7762f1e98702369d55",
+    "GEO_B_HESSIAN_PROCESSING_PROTOCOL.md": "f273cccb27afb218411ffab8114e1cb998062616cf0ce1493cb51e2b76646412",
+    "HELDOUT_2D_DESIGN_FROZEN.tsv": "59d153f6b7ff21fee504ffda7a6df4c6d85920b8b53d2ff7a195c571251b1ad6",
+    "HELDOUT_2D_DESIGN_REVIEW.md": "8ed455d666fcd070e0157ace183d515fdd57136a49e2d3f2720ab2a8b5a1f74f",
+    "INITIAL_DIAGNOSTIC_VARIABLES.tsv": "afb72bd4cbade810c005d0c9f1496883f7ed614c68542fc0d05d63fec7863db7",
+    "MM_IDENTIFIABILITY_VARIABLE_SPEC.json": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61",
+    "NEW_QM_SEQUENCE_PLAN.md": "7a0173e7bd849ec359bd2eef514305fdb1bc6f4441de045abe6ff5a545633bf5",
+    "NUMERICAL_IDENTIFIABILITY_PROTOCOL.md": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+    "PARAMETER_BOUNDS_AND_REGULARIZATION.md": "a90e594e56c49a4192904ebd01286320b99ce63276ea2633badc655179398c7b",
+    "PARAMETER_BOUNDS_PROPOSED.tsv": "9b4d6218cd94fdd7add8b42976eeaa6103970c7406bdecbd6d332cda405f364b",
+    "PREREGISTERED_ACCEPTANCE_CRITERIA.tsv": "64684c771a1efe057d7d48ef0708d2d0ce90b9d523e3cc89861b333b34968654",
+    "PREREGISTERED_ACCEPTANCE_FRAMEWORK.md": "fbbdf64bcba5f7dec5d68591c7708bcf2c2b5797f48fbb7fef3c45dc36377aa8",
+    "SCIENTIFIC_PREREGISTRATION_FREEZE_RECEIPT.json": "e845098fa7729ec313f73b4a2f68e67547e5698398c54c456c92d57869be404f"
+  },
+  "scope": "scientific_design_only; root scientific/execution evidence stored elsewhere",
+  "derivative_results_viewed_by_reviewer": false,
+  "new_QM_results_exist_or_used": false,
+  "acceptance_bounds_and_heldouts_fixed_before_fitting": true,
+  "heldout_exact_four": [
+    [
+      90,
+      60
+    ],
+    [
+      210,
+      0
+    ],
+    [
+      330,
+      60
+    ],
+    [
+      270,
+      0
+    ]
+  ],
+  "initial_equilibrium_variables": 8,
+  "torsion_diagnostics": 2,
+  "final_reduced_block": "PENDING_NUMERICAL_ADJUDICATION_NOT_YET_FROZEN",
+  "new_QM_authorization": "NOT_GRANTED",
+  "fitting_started": false,
+  "parameter_edited_by_reviewer": false,
+  "MD_authorization": "NOT_GRANTED",
+  "immutable_v1_modified": false
+}

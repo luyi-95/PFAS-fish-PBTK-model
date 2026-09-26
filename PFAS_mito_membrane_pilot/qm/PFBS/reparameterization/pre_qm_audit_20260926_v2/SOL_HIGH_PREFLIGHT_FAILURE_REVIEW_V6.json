@@ -1,0 +1,26 @@
+{
+  "status": "MECHANICAL_COMPARATOR_PATCH_APPROVED_CONDITIONALLY",
+  "failed_attempt": "attempt_20260926T075804_UTC_817525",
+  "receipt_sha256": "bc369d3aef86005d7059cd5077164b50bb8376d6e5b92366411e9b0be84cba3f",
+  "forensic_json_sha256": "f3afe75ac8035371ac51d93679c631c7a43a4207603b993496b3bf819fe8c95f",
+  "forensic_md_sha256": "ece7400e1981c1bda0f65309b441b59f60b751333f0b2e99c72258ec7a495657",
+  "compared_outer_tuples": 80,
+  "exact_outer_tuples": 48,
+  "sole_field_mismatch_tuples": 32,
+  "sole_field": "TPR header buffer size",
+  "gromacs_v2026_3_source": "https://gitlab.com/gromacs/gromacs/-/raw/v2026.3/src/gromacs/fileio/tpxio.cpp",
+  "independent_physical_tpr_dump_count": 84,
+  "tpr_bytes_minus_printed_body_bytes": 107,
+  "body_size_counts": {
+    "471877": 52,
+    "471913": 16,
+    "471917": 8,
+    "471945": 8
+  },
+  "endpoint_validation": "NOT_REACHED",
+  "patch_scope": "One exact-position TPR header body-size integer; bind raw line and file-size relation; preserve all other comparisons",
+  "next_preflight": "ONE_GROMPP_DUMP_ONLY_AFTER_EXACT_PATCH_REVIEW",
+  "full_mm_matrix_authorized": false,
+  "gromacs_invoked_by_reviewer": false,
+  "parameter_edited": false
+}

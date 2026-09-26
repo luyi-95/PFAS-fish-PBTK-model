@@ -1,0 +1,936 @@
+{
+  "protocol_id": "PFBS_MM_IDENTIFIABILITY_PREREG_V2_01",
+  "protocol_hash": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "variable_spec_hash": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61",
+  "v1_zip_hash": "ddb9eac8347fe721e11b476a63daa4bff7617bf9a61217d95ff867d980b2cbd0",
+  "source_files": {
+    "pfbs_ani.itp": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\current_parameters\\pfbs_ani.itp",
+      "sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca"
+    },
+    "pfbs_ani.prm": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\current_parameters\\pfbs_ani.prm",
+      "sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56"
+    },
+    "ffbonded.itp": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\source_readonly_cache\\ffbonded.itp",
+      "sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf"
+    }
+  },
+  "variables": [
+    {
+      "id": "R_OG2P1-SG3O1",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.1448,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "OG2P1-SG3O1",
+          "instances": "1-11;1-12;1-13",
+          "base": 0.1448,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+      "source_rows": [
+        {
+          "term_id": "OG2P1-SG3O1",
+          "source_file": "ffbonded.itp",
+          "source_line_1based": 1528,
+          "source_values_exact": "0.14480000 451872.00",
+          "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+          "atom_types": "OG2P1-SG3O1",
+          "base_value": 0.1448,
+          "parameter_token_index_0based": 3
+        }
+      ]
+    },
+    {
+      "id": "R_CG312-SG3O1",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.1807,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-SG3O1",
+          "instances": "1-15",
+          "base": 0.1807,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "source_rows": [
+        {
+          "term_id": "CG312-SG3O1",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 5,
+          "source_values_exact": "0.18070000 154808.00",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-SG3O1",
+          "base_value": 0.1807,
+          "parameter_token_index_0based": 3
+        }
+      ]
+    },
+    {
+      "id": "R_CG312-CG312",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.14563,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-CG312",
+          "instances": "14-15;14-16",
+          "base": 0.14563,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+      "source_rows": [
+        {
+          "term_id": "CG312-CG312",
+          "source_file": "ffbonded.itp",
+          "source_line_1based": 1083,
+          "source_values_exact": "0.14563000 227869.01",
+          "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+          "atom_types": "CG312-CG312",
+          "base_value": 0.14563,
+          "parameter_token_index_0based": 3
+        }
+      ]
+    },
+    {
+      "id": "R_CG302-CG312",
+      "parameter_class": "BOND_EQUILIBRIUM",
+      "field": "r0_nm",
+      "base": 0.14563,
+      "unit": "nm",
+      "h": 0.001,
+      "normalization_scale": 0.01,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG302-CG312",
+          "instances": "16-17",
+          "base": 0.14563,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "source_rows": [
+        {
+          "term_id": "CG302-CG312",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 4,
+          "source_values_exact": "0.14563000 227869.01",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG302-CG312",
+          "base_value": 0.14563,
+          "parameter_token_index_0based": 3
+        }
+      ]
+    },
+    {
+      "id": "TH_OG2P1-SG3O1-OG2P1",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 109.47,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "OG2P1-SG3O1-OG2P1",
+          "instances": "11-1-12;11-1-13;12-1-13",
+          "base": 109.47,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+      "source_rows": [
+        {
+          "term_id": "OG2P1-SG3O1-OG2P1",
+          "source_file": "ffbonded.itp",
+          "source_line_1based": 9645,
+          "source_values_exact": "109.470000 1087.840000 0.24500000 29288.00",
+          "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+          "atom_types": "OG2P1-SG3O1-OG2P1",
+          "base_value": 109.47,
+          "parameter_token_index_0based": 4
+        }
+      ]
+    },
+    {
+      "id": "TH_FGA2-CG312-FGA2",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 107.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-FGA2",
+          "instances": "2-14-3;4-15-5;6-16-7",
+          "base": 107.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+      "source_rows": [
+        {
+          "term_id": "FGA2-CG312-FGA2",
+          "source_file": "ffbonded.itp",
+          "source_line_1based": 6151,
+          "source_values_exact": "107.000000 1255.200000 0.21700000 8368.00",
+          "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+          "atom_types": "FGA2-CG312-FGA2",
+          "base_value": 107.0,
+          "parameter_token_index_0based": 4
+        }
+      ]
+    },
+    {
+      "id": "TH_CG312-CG312-SG3O1",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 122.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "CG312-CG312-SG3O1",
+          "instances": "1-15-14",
+          "base": 122.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+      "source_rows": [
+        {
+          "term_id": "CG312-CG312-SG3O1",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 14,
+          "source_values_exact": "122.000000 418.400000 0.23570000 25104.00",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-CG312-SG3O1",
+          "base_value": 122.0,
+          "parameter_token_index_0based": 4
+        }
+      ]
+    },
+    {
+      "id": "TH_FGA3-CG302-FGA3",
+      "parameter_class": "ANGLE_EQUILIBRIUM",
+      "field": "theta0_deg",
+      "base": 107.0,
+      "unit": "degree",
+      "h": 1.0,
+      "normalization_scale": 5.0,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA3-CG302-FGA3",
+          "instances": "8-17-9;8-17-10;9-17-10",
+          "base": 107.0,
+          "rule": "ADD_DELTA_TO_ALL_MATCHED_TYPE_INSTANCES"
+        }
+      ],
+      "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+      "source_rows": [
+        {
+          "term_id": "FGA3-CG302-FGA3",
+          "source_file": "ffbonded.itp",
+          "source_line_1based": 5705,
+          "source_values_exact": "107.000000 987.424000 0.21550000 25104.00",
+          "source_sha256": "cda750df0be35f862599f276f667be608b266a7a0aee085d2f623e82796403cf",
+          "atom_types": "FGA3-CG302-FGA3",
+          "base_value": 107.0,
+          "parameter_token_index_0based": 4
+        }
+      ]
+    },
+    {
+      "id": "LAMBDA_CS",
+      "parameter_class": "GROUPED_TORSION_DIAGNOSTIC_ONLY",
+      "field": "proportional_amplitude_scale",
+      "base": 1.0,
+      "unit": "dimensionless",
+      "h": 0.05,
+      "normalization_scale": 0.5,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-SG3O1-OG2P1:n3",
+          "instances": "11-1-15-4;11-1-15-5;12-1-15-4;12-1-15-5;13-1-15-4;13-1-15-5",
+          "base_amplitude_kJ_mol": 0.96232,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-SG3O1-OG2P1:n3",
+          "instances": "11-1-15-14;12-1-15-14;13-1-15-14",
+          "base_amplitude_kJ_mol": 0.96232,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        }
+      ],
+      "fit_authorized": false,
+      "source_rows": [
+        {
+          "term_id": "FGA2-CG312-SG3O1-OG2P1:n3",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 35,
+          "source_values_exact": "0.000000 0.962320 3",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "FGA2-CG312-SG3O1-OG2P1",
+          "base_value": 0.96232,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 3,
+          "phase_deg": 0.0
+        },
+        {
+          "term_id": "CG312-CG312-SG3O1-OG2P1:n3",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 34,
+          "source_values_exact": "0.000000 0.962320 3",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-CG312-SG3O1-OG2P1",
+          "base_value": 0.96232,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 3,
+          "phase_deg": 0.0
+        }
+      ]
+    },
+    {
+      "id": "LAMBDA_CC",
+      "parameter_class": "GROUPED_TORSION_DIAGNOSTIC_ONLY",
+      "field": "proportional_amplitude_scale",
+      "base": 1.0,
+      "unit": "dimensionless",
+      "h": 0.05,
+      "normalization_scale": 0.5,
+      "multipliers": [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      "terms": [
+        {
+          "term_id": "FGA2-CG312-CG312-SG3O1:n1",
+          "instances": "2-14-15-1;3-14-15-1",
+          "base_amplitude_kJ_mol": 4.85344,
+          "phase_deg": 180.0,
+          "multiplicity": 1,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n1",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 3.93296,
+          "phase_deg": 180.0,
+          "multiplicity": 1,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n2",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 1.58992,
+          "phase_deg": 0.0,
+          "multiplicity": 2,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n3",
+          "instances": "16-14-15-1",
+          "base_amplitude_kJ_mol": 0.46024,
+          "phase_deg": 0.0,
+          "multiplicity": 3,
+          "rule": "K_EQUALS_SOURCE_K_TIMES_LAMBDA_ALL_MATCHED_INSTANCES"
+        }
+      ],
+      "fit_authorized": false,
+      "source_rows": [
+        {
+          "term_id": "FGA2-CG312-CG312-SG3O1:n1",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 32,
+          "source_values_exact": "180.000000 4.853440 1",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "FGA2-CG312-CG312-SG3O1",
+          "base_value": 4.85344,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 1,
+          "phase_deg": 180.0
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n1",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 27,
+          "source_values_exact": "180.000000 3.932960 1",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-CG312-CG312-SG3O1",
+          "base_value": 3.93296,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 1,
+          "phase_deg": 180.0
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n2",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 28,
+          "source_values_exact": "0.000000 1.589920 2",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-CG312-CG312-SG3O1",
+          "base_value": 1.58992,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 2,
+          "phase_deg": 0.0
+        },
+        {
+          "term_id": "CG312-CG312-CG312-SG3O1:n3",
+          "source_file": "pfbs_ani.prm",
+          "source_line_1based": 29,
+          "source_values_exact": "0.000000 0.460240 3",
+          "source_sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+          "atom_types": "CG312-CG312-CG312-SG3O1",
+          "base_value": 0.46024,
+          "parameter_token_index_0based": 6,
+          "multiplicity": 3,
+          "phase_deg": 0.0
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "stage": "primary",
+      "state_id": "BASE",
+      "variable_id": null,
+      "multiplier": 0,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_OG2P1-SG3O1_-2h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_OG2P1-SG3O1_-1h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_OG2P1-SG3O1_+1h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_OG2P1-SG3O1_+2h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-SG3O1_-2h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-SG3O1_-1h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-SG3O1_+1h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-SG3O1_+2h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-CG312_-2h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-CG312_-1h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-CG312_+1h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG312-CG312_+2h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG302-CG312_-2h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG302-CG312_-1h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG302-CG312_+1h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "R_CG302-CG312_+2h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_-2h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_-1h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_+1h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_+2h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA2-CG312-FGA2_-2h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA2-CG312-FGA2_-1h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA2-CG312-FGA2_+1h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA2-CG312-FGA2_+2h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_CG312-CG312-SG3O1_-2h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_CG312-CG312-SG3O1_-1h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_CG312-CG312-SG3O1_+1h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_CG312-CG312-SG3O1_+2h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA3-CG302-FGA3_-2h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA3-CG302-FGA3_-1h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA3-CG302-FGA3_+1h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "TH_FGA3-CG302-FGA3_+2h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CS_-2h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CS_-1h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CS_+1h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CS_+2h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CC_-2h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": -2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CC_-1h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": -1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CC_+1h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": 1,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "primary",
+      "state_id": "LAMBDA_CC_+2h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": 2,
+      "tolerance": 1.0
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "BASE",
+      "variable_id": null,
+      "multiplier": 0,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_OG2P1-SG3O1_-1h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_OG2P1-SG3O1_+1h",
+      "variable_id": "R_OG2P1-SG3O1",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG312-SG3O1_-1h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG312-SG3O1_+1h",
+      "variable_id": "R_CG312-SG3O1",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG312-CG312_-1h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG312-CG312_+1h",
+      "variable_id": "R_CG312-CG312",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG302-CG312_-1h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "R_CG302-CG312_+1h",
+      "variable_id": "R_CG302-CG312",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_-1h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_OG2P1-SG3O1-OG2P1_+1h",
+      "variable_id": "TH_OG2P1-SG3O1-OG2P1",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_FGA2-CG312-FGA2_-1h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_FGA2-CG312-FGA2_+1h",
+      "variable_id": "TH_FGA2-CG312-FGA2",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_CG312-CG312-SG3O1_-1h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_CG312-CG312-SG3O1_+1h",
+      "variable_id": "TH_CG312-CG312-SG3O1",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_FGA3-CG302-FGA3_-1h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "TH_FGA3-CG302-FGA3_+1h",
+      "variable_id": "TH_FGA3-CG302-FGA3",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "LAMBDA_CS_-1h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "LAMBDA_CS_+1h",
+      "variable_id": "LAMBDA_CS",
+      "multiplier": 1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "LAMBDA_CC_-1h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": -1,
+      "tolerance": 0.1
+    },
+    {
+      "stage": "tight_audit",
+      "state_id": "LAMBDA_CC_+1h",
+      "variable_id": "LAMBDA_CC",
+      "multiplier": 1,
+      "tolerance": 0.1
+    }
+  ],
+  "expected_profile_sources": 26,
+  "expected_total_sources": 28,
+  "expected_runs": 1736,
+  "gromacs": {
+    "remote_binary": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/phase3_mm_relaxed_profiles_20260926_v1/gromacs_double_build/bin/gmx_d",
+    "binary_sha256": "910c195c43f12f35e44ff5ccfdafd3236bf86c6afb0774b550e0ccb5d5148c2d",
+    "mdp_physics_source": "NUMERICAL_IDENTIFIABILITY_PROTOCOL.md section 2; source v1 profile mdp settings",
+    "cutoff_nm": 2.0,
+    "box_nm": 10.0,
+    "restraint_k_kj_mol_rad2": 500000.0,
+    "restraint_semantics": "Only profile points; exact v1 dihedral_restraints semantics; physical energy from no-restraint topology",
+    "max_workers": 16,
+    "threads_per_worker": 1,
+    "gpu": "disabled"
+  },
+  "geometry_start_candidates": {
+    "GEO_A": {
+      "path": "deliverable/qm/PFBS/phase3_torsion_20260924/TASK1_BONDED_CANDIDATE_20260926_v1/payload/final_evidence_01/formal_dp_runs/GEO_A/base/start.g96",
+      "sha256": "bf6d3b621559c8a9eab217fdb97f1679c9dff8be0a8702542092e3f650516442"
+    },
+    "GEO_B": {
+      "path": "deliverable/qm/PFBS/phase3_torsion_20260924/TASK1_BONDED_CANDIDATE_20260926_v1/payload/final_evidence_01/formal_dp_runs/GEO_B_REVISED_10nm/base/start.g96",
+      "sha256": "fc99a7915d74ebe8529d1f6619ca528a33b14c721384b3fe84f65a1cf1678cb3"
+    }
+  },
+  "warning_exception": "For efficient BFGS minimization, use switch/shift/pme instead of cut-off.",
+  "branch_addendum_hash": "21c9381e097fb8ef3e23ac2a3ab86ab4b71ab2f9629eaa7762f1e98702369d55",
+  "math_addendum_hash": "ee4e963b5055fb8759032cb3991c8e2d70f1f4840d53b4a7d10135b3d8c29c13",
+  "mm_profile_drift_max_deg": 0.02,
+  "unrestrained_proper_minimax_max_deg": 30.0
+}

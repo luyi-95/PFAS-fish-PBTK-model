@@ -1,0 +1,82 @@
+[
+  {
+    "design": "OLD_HELDOUT",
+    "CC": 210,
+    "CS": 100,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 10.0,
+    "nearest_ordinary_degrees": 31.622776601683793,
+    "nearest_normalized_360_120": 0.11785113019775792,
+    "nearest_mirror_quotient": 0.11785113019775792
+  },
+  {
+    "design": "OLD_HELDOUT",
+    "CC": 210,
+    "CS": 20,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 10.0,
+    "nearest_ordinary_degrees": 31.622776601683793,
+    "nearest_normalized_360_120": 0.11785113019775792,
+    "nearest_mirror_quotient": 0.11785113019775792
+  },
+  {
+    "design": "OLD_HELDOUT",
+    "CC": 90,
+    "CS": 100,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 10.0,
+    "nearest_ordinary_degrees": 31.622776601683793,
+    "nearest_normalized_360_120": 0.11785113019775792,
+    "nearest_mirror_quotient": 0.11785113019775792
+  },
+  {
+    "design": "OLD_HELDOUT",
+    "CC": 90,
+    "CS": 20,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 10.0,
+    "nearest_ordinary_degrees": 31.622776601683793,
+    "nearest_normalized_360_120": 0.11785113019775792,
+    "nearest_mirror_quotient": 0.11785113019775792
+  },
+  {
+    "design": "REVISED_HELDOUT",
+    "CC": 210,
+    "CS": 0,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 30.0,
+    "nearest_ordinary_degrees": 42.42640687119285,
+    "nearest_normalized_360_120": 0.26352313834736496,
+    "nearest_mirror_quotient": 0.26352313834736496
+  },
+  {
+    "design": "REVISED_HELDOUT",
+    "CC": 270,
+    "CS": 0,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 30.0,
+    "nearest_ordinary_degrees": 42.42640687119285,
+    "nearest_normalized_360_120": 0.26352313834736496,
+    "nearest_mirror_quotient": 0.26352313834736496
+  },
+  {
+    "design": "REVISED_HELDOUT",
+    "CC": 330,
+    "CS": 60,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 30.0,
+    "nearest_ordinary_degrees": 42.42640687119285,
+    "nearest_normalized_360_120": 0.26352313834736496,
+    "nearest_mirror_quotient": 0.26352313834736496
+  },
+  {
+    "design": "REVISED_HELDOUT",
+    "CC": 90,
+    "CS": 60,
+    "min_d_CC_deg": 30.0,
+    "min_d_CS_120_deg": 30.0,
+    "nearest_ordinary_degrees": 42.42640687119285,
+    "nearest_normalized_360_120": 0.26352313834736496,
+    "nearest_mirror_quotient": 0.26352313834736496
+  }
+]

@@ -1,0 +1,194 @@
+============================================================
+MVP SCOPE REDUCTION OVERRIDE
+============================================================
+
+This instruction supersedes any default assumption that the
+current v2 identifiability workflow should automatically
+continue into broad PFBS reparameterization.
+
+The scientific objective is now:
+
+PROJECT_OBJECTIVE =
+MINIMUM_VIABLE_PARAMETERIZATION_FOR_SUPPORTING_MEMBRANE_MD
+
+NOT:
+PUBLICATION_GRADE_PFBS_FORCE_FIELD_DEVELOPMENT
+
+NOT:
+FULL_BROAD_REPARAMETERIZATION_BY_DEFAULT
+
+The current MM sensitivity / numerical Jacobian analysis is
+authorized because it is low-cost and can identify the
+smallest defensible repair set.
+
+However, completion of the Jacobian does NOT authorize:
+
+- GEO_B Hessian calculation
+- 2D CC/CS QM calculations
+- bond/angle fitting
+- torsion fitting
+- UB release
+- tail scans
+- additional finite-displacement QM
+- parameter adoption
+- membrane MD
+
+============================================================
+POST-JACOBIAN SCIENTIFIC QUESTION
+============================================================
+
+After numerical identifiability is complete, Sol High must
+NOT ask:
+
+"How should the full PFBS force field be completed?"
+
+Instead ask:
+
+"What is the minimum additional parameter correction and
+minimum additional evidence required to make PFBS sufficiently
+reliable for the intended supporting membrane-interaction MD?"
+
+The intended MD use is limited to mechanistic support for:
+
+- PFBS local membrane association / insertion behavior
+- qualitative membrane perturbation
+- comparison within the intended PFAS membrane study
+
+The intended MD is NOT required to support:
+
+- publication-grade absolute free energies
+- highly accurate PMFs
+- diffusion benchmarking
+- transferable standalone PFBS force-field claims
+- complete vibrational reproduction
+- exhaustive conformational PES characterization
+
+============================================================
+MVP RED-FLAG PRIORITY
+============================================================
+
+Only deficiencies likely to materially distort the intended
+membrane MD should drive further refinement.
+
+Priority order:
+
+1. major equilibrium-geometry defects;
+2. wrong dominant low-energy T_CC basin;
+3. major T_CS low-energy/topology artifact;
+4. instability of GEO_A / GEO_B under the same parameter set;
+5. obvious parameter-induced structural artifact in short
+   water/membrane pilots.
+
+Minor residual errors that do not materially alter these
+features are NOT sufficient reasons for continued force-field
+development.
+
+============================================================
+MANDATORY POST-JACOBIAN VERDICT
+============================================================
+
+Sol High must return exactly one:
+
+MVP_ROUTE_STATUS =
+
+A. EXISTING_QM_SUFFICIENT_FOR_MINIMAL_REPAIR
+
+B. GEO_B_HESSIAN_ONLY_NEEDED
+
+C. SMALL_TARGETED_QM_SET_NEEDED
+
+D. BROAD_REPARAMETERIZATION_UNAVOIDABLE
+
+For A/B/C:
+
+define the MINIMUM parameter block and MINIMUM additional
+evidence needed.
+
+For C:
+
+specify the smallest exact QM set required.
+Do NOT default to the previously proposed 6 development +
+4 held-out 2D points.
+
+For D:
+
+Sol High must explicitly demonstrate why the major
+membrane-MD-relevant red flags cannot be resolved without
+broad reparameterization.
+
+"BROAD_REPARAMETERIZATION_UNAVOIDABLE" must not be inferred
+merely because the full force field is imperfect.
+
+============================================================
+MVP STOP RULE
+============================================================
+
+The PFBS refinement program must STOP once all of the
+following are satisfied:
+
+MAJOR_GEOMETRY_RED_FLAGS = NONE
+
+T_CC_LOW_ENERGY_BASIN =
+QUALITATIVELY_CONSISTENT_WITH_QM
+
+T_CS_LOW_ENERGY_BEHAVIOR =
+NO_MAJOR_ARTIFACT
+
+GEO_A_AND_GEO_B =
+STABLE_ENOUGH_FOR_INTENDED_USE
+
+SHORT_WATER_PILOT =
+PASS
+
+SHORT_MEMBRANE_PILOT =
+PASS
+
+Then assign:
+
+PFBS_PARAMETER_STATUS =
+ACCEPTED_FOR_INTENDED_SUPPORTING_MEMBRANE_MD_WITH_CAUTION
+
+FURTHER_FORCE_FIELD_REFINEMENT =
+STOP
+
+Do NOT continue parameter refinement merely to improve:
+
+- small geometry residuals
+- Hessian RMSE
+- normal-mode agreement
+- high-energy PES agreement
+- full 2D surface accuracy
+- numerical elegance of parameter identifiability
+- publication-grade transferability
+
+unless such residuals are shown to materially affect the
+intended membrane MD.
+
+============================================================
+CURRENT AUTHORIZATION
+============================================================
+
+ALLOW:
+- current MM numerical sensitivity analysis
+- current numerical Jacobian / SVD / correlation analysis
+- held-out design review
+- preregistration of criteria
+- read-only scientific adjudication
+- Git/provenance packaging
+
+DO NOT ALLOW:
+- new Gaussian jobs
+- parameter fitting
+- production parameter replacement
+- MD
+
+After Jacobian completion and Sol High MVP-route verdict:
+
+STOP.
+
+Return to the user before any new QM or fitting begins.
+
+NEW_QM_LAUNCHED = NO
+PARAMETER_EDITED = TEMPORARY_MM_SENSITIVITY_COPIES_ONLY
+PRODUCTION_PARAMETER_REPLACEMENT = NOT_AUTHORIZED
+MD_RUN_AUTHORIZATION = NOT_GRANTED

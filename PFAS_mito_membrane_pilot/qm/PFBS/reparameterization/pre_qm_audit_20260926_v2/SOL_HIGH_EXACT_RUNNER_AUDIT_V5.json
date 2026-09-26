@@ -1,0 +1,17 @@
+{
+  "status": "APPROVE",
+  "runner_sha256": "c481ed84090e740a4fcd0e9d6fcb1ce72dfb1de73f39da55199e6ec011a68a31",
+  "test_sha256": "a24307020a6c5335aae97983121af52f81e7e6162d42aa997db1d5b936be4195",
+  "offline_tests": "9/9 PASS",
+  "actual_archived_base_vs_perturbed_semantic_comparison": "PASS",
+  "actual_archived_base_dump_sha256": "3dbaac64e638f2ed1d5b267bc11174a8b02560274be9d2873a293e75695013ee",
+  "actual_archived_perturbed_dump_sha256": "c6170f5a3df89dc12d9999c9466ae2a2ac50f3ad90416093e496813f1b60e4fe",
+  "active_interactions": 120,
+  "lj_table_entries": 46,
+  "one_new_grompp_dump_only_preflight_authorized": true,
+  "full_mm_matrix_authorized": false,
+  "prerequisite": "Independently review new preflight receipt for PASS",
+  "gromacs_invoked_by_reviewer": false,
+  "parameter_edited": false,
+  "mvp_route_status": "PENDING"
+}

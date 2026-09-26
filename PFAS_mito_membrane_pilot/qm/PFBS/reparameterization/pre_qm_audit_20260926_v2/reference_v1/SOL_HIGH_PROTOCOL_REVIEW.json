@@ -1,0 +1,1596 @@
+{
+  "decision": "BROAD_PFBS_REPARAMETERIZATION_REQUIRED",
+  "NEW_QM_REQUIRED": "YES",
+  "EXPECTED_PARAMETER_CLASSES": [
+    "BOND_EQUILIBRIA",
+    "VALENCE_ANGLE_EQUILIBRIA",
+    "IDENTIFIED_BOND_AND_ANGLE_FORCE_CONSTANTS",
+    "UREY_BRADLEY_REVIEW_WITH_CONDITIONAL_IDENTIFIABLE_CHANGE",
+    "COUPLED_PROPER_TORSION_AMPLITUDES"
+  ],
+  "EXPECTED_SCOPE": "LARGE",
+  "EXPECTED_SCIENTIFIC_VALUE_FOR_MEMBRANE_MD": "MODERATE",
+  "PARAMETER_EDITED": "NO",
+  "MD_RUN_AUTHORIZATION": "NOT_GRANTED",
+  "NEW_CALCULATION_AUTHORIZATION": "NOT_GRANTED",
+  "formal_bonded_cycle_consumed": true,
+  "invalid_mixed_draft_excluded": true,
+  "current_parameters": "REJECTED",
+  "failed_candidate": "NOT_ADOPTED",
+  "nonbonded_decision": "REPORT75_ACCEPT_CURRENT_CHARGES_AND_LJ_WITH_CAUTION",
+  "exact_source_terms": {
+    "source_binding": {
+      "original_itp": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\original_parameters\\pfbs_ani.itp",
+        "sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca",
+        "size": 7327
+      },
+      "original_prm": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\original_parameters\\pfbs_ani.prm",
+        "sha256": "24baf41553845380e9905f7419ca85cb0528dcd7652d596ca6ba83e003d05a56",
+        "size": 2218
+      },
+      "effective_baseline_dump": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\candidate_tpr_proof\\baseline.tpr.dump",
+        "sha256": "2ec1f2360523c920d1f4c60f915f355300cb5a04ff0d20874dfa765d23f8600b",
+        "size": 558371
+      },
+      "GEO_A_frequency_log": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\frequency\\PFBS_FREQ_GEO_A\\PFBS_FREQ_GEO_A.log",
+        "sha256": "56b2bf0620ab18b1ee3517d3b2e1a7754adbba416f2737418938587fd34a4667",
+        "size": 128211
+      },
+      "frequency_review": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\47_PFBS_FREQUENCY_WARNING_REVIEW.md",
+        "sha256": "dbc81ddcdd04d64d9b376dd5263b9da98283b949de13ba7cbc6e30ef41109900",
+        "size": 9444
+      },
+      "baseline_profiles": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\MM_relaxed_profiles_20260926\\MM_SOL_HIGH_REVIEW_PACKAGE_20260926_v1\\PFBS_MM_QM_DOUBLE_POINT_PROFILE.tsv",
+        "sha256": "d8c540257927de5b44211a0164f63042178346f294b8c8f1651f4a94443f7800",
+        "size": 32129
+      },
+      "candidate_geometry": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\final_evidence_01\\candidate_validation_v1\\candidate_validation_geometry_comparison.json",
+        "sha256": "cecde48b75e7455d61d5048981d5ba3b4c20fdb22c8c1ec3ca6b311d715e983f",
+        "size": 106107
+      },
+      "final_candidate_review": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\qm\\PFBS\\phase3_torsion_20260924\\TASK1_BONDED_CANDIDATE_20260926_v1\\payload\\reviews\\SOL_HIGH_FORMAL_CANDIDATE_FINAL_REVIEW.md",
+        "sha256": "ea4c3f4b539384a908171806037a377ac78f098d6c161f86fa543346334b1736",
+        "size": 10426
+      },
+      "nonbonded_disposition": {
+        "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\deliverable\\75_PFBS_PHASE2_PAIRWISE_DIAGNOSTIC_SCIENTIFIC_REVIEW.md",
+        "sha256": "d0a034b3d19f8767a551309780ebec46991aa0ebb649ffb1aafe9bac9b971f80",
+        "size": 4399
+      }
+    },
+    "atoms": {
+      "1": {
+        "type": "SG3O1",
+        "name": "S1"
+      },
+      "2": {
+        "type": "FGA2",
+        "name": "F1"
+      },
+      "3": {
+        "type": "FGA2",
+        "name": "F2"
+      },
+      "4": {
+        "type": "FGA2",
+        "name": "F3"
+      },
+      "5": {
+        "type": "FGA2",
+        "name": "F4"
+      },
+      "6": {
+        "type": "FGA2",
+        "name": "F5"
+      },
+      "7": {
+        "type": "FGA2",
+        "name": "F6"
+      },
+      "8": {
+        "type": "FGA3",
+        "name": "F7"
+      },
+      "9": {
+        "type": "FGA3",
+        "name": "F8"
+      },
+      "10": {
+        "type": "FGA3",
+        "name": "F9"
+      },
+      "11": {
+        "type": "OG2P1",
+        "name": "O1"
+      },
+      "12": {
+        "type": "OG2P1",
+        "name": "O2"
+      },
+      "13": {
+        "type": "OG2P1",
+        "name": "O3"
+      },
+      "14": {
+        "type": "CG312",
+        "name": "C1"
+      },
+      "15": {
+        "type": "CG312",
+        "name": "C2"
+      },
+      "16": {
+        "type": "CG312",
+        "name": "C3"
+      },
+      "17": {
+        "type": "CG302",
+        "name": "C4"
+      }
+    },
+    "effective_term_groups": [
+      {
+        "function": "BONDS",
+        "types": [
+          "OG2P1",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 36,
+        "effective_GROMACS_coefficients": "b0A= 1.44800e-01, cbA= 4.51872e+05, b0B= 1.44800e-01, cbB= 4.51872e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              1,
+              11
+            ],
+            "atom_names": [
+              "S1",
+              "O1"
+            ]
+          },
+          {
+            "atom_ids": [
+              1,
+              12
+            ],
+            "atom_names": [
+              "S1",
+              "O2"
+            ]
+          },
+          {
+            "atom_ids": [
+              1,
+              13
+            ],
+            "atom_names": [
+              "S1",
+              "O3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "BONDS",
+        "types": [
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 37,
+        "effective_GROMACS_coefficients": "b0A= 1.80700e-01, cbA= 1.54808e+05, b0B= 1.80700e-01, cbB= 1.54808e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              1,
+              15
+            ],
+            "atom_names": [
+              "S1",
+              "C2"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "BONDS",
+        "types": [
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 38,
+        "effective_GROMACS_coefficients": "b0A= 1.35300e-01, cbA= 2.92043e+05, b0B= 1.35300e-01, cbB= 2.92043e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14
+            ],
+            "atom_names": [
+              "F1",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14
+            ],
+            "atom_names": [
+              "F2",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              4,
+              15
+            ],
+            "atom_names": [
+              "F3",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              5,
+              15
+            ],
+            "atom_names": [
+              "F4",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              6,
+              16
+            ],
+            "atom_names": [
+              "F5",
+              "C3"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16
+            ],
+            "atom_names": [
+              "F6",
+              "C3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "BONDS",
+        "types": [
+          "CG302",
+          "FGA3"
+        ],
+        "tpr_parameter_index": 39,
+        "effective_GROMACS_coefficients": "b0A= 1.34000e-01, cbA= 2.21752e+05, b0B= 1.34000e-01, cbB= 2.21752e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              8,
+              17
+            ],
+            "atom_names": [
+              "F7",
+              "C4"
+            ]
+          },
+          {
+            "atom_ids": [
+              9,
+              17
+            ],
+            "atom_names": [
+              "F8",
+              "C4"
+            ]
+          },
+          {
+            "atom_ids": [
+              10,
+              17
+            ],
+            "atom_names": [
+              "F9",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "BONDS",
+        "types": [
+          "CG312",
+          "CG312"
+        ],
+        "tpr_parameter_index": 40,
+        "effective_GROMACS_coefficients": "b0A= 1.45630e-01, cbA= 2.27869e+05, b0B= 1.45630e-01, cbB= 2.27869e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              14,
+              15
+            ],
+            "atom_names": [
+              "C1",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              14,
+              16
+            ],
+            "atom_names": [
+              "C1",
+              "C3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "BONDS",
+        "types": [
+          "CG302",
+          "CG312"
+        ],
+        "tpr_parameter_index": 40,
+        "effective_GROMACS_coefficients": "b0A= 1.45630e-01, cbA= 2.27869e+05, b0B= 1.45630e-01, cbB= 2.27869e+05",
+        "instances": [
+          {
+            "atom_ids": [
+              16,
+              17
+            ],
+            "atom_names": [
+              "C3",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "OG2P1",
+          "SG3O1",
+          "OG2P1"
+        ],
+        "tpr_parameter_index": 41,
+        "effective_GROMACS_coefficients": "thetaA= 1.09470000e+02, kthetaA= 1.08784000e+03, r13A= 2.45000000e-01, kUBA= 2.92880000e+04, thetaB= 1.09470000e+02, kthetaB= 1.08784000e+03, r13B= 2.45000000e-01, kUBB= 2.92880000e+04",
+        "instances": [
+          {
+            "atom_ids": [
+              11,
+              1,
+              12
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "O2"
+            ]
+          },
+          {
+            "atom_ids": [
+              11,
+              1,
+              13
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "O3"
+            ]
+          },
+          {
+            "atom_ids": [
+              12,
+              1,
+              13
+            ],
+            "atom_names": [
+              "O2",
+              "S1",
+              "O3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG312",
+          "SG3O1",
+          "OG2P1"
+        ],
+        "tpr_parameter_index": 42,
+        "effective_GROMACS_coefficients": "thetaA= 9.90000000e+01, kthetaA= 6.69440000e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 9.90000000e+01, kthetaB= 6.69440000e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              11,
+              1,
+              15
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              12,
+              1,
+              15
+            ],
+            "atom_names": [
+              "O2",
+              "S1",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              13,
+              1,
+              15
+            ],
+            "atom_names": [
+              "O3",
+              "S1",
+              "C2"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "FGA2",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 43,
+        "effective_GROMACS_coefficients": "thetaA= 1.07000000e+02, kthetaA= 1.25520000e+03, r13A= 2.17000000e-01, kUBA= 8.36800000e+03, thetaB= 1.07000000e+02, kthetaB= 1.25520000e+03, r13B= 2.17000000e-01, kUBB= 8.36800000e+03",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14,
+              3
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "F2"
+            ]
+          },
+          {
+            "atom_ids": [
+              4,
+              15,
+              5
+            ],
+            "atom_names": [
+              "F3",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              6,
+              16,
+              7
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "F6"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG312",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 44,
+        "effective_GROMACS_coefficients": "thetaA= 1.20931400e+02, kthetaA= 4.18902080e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 1.20931400e+02, kthetaB= 4.18902080e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14,
+              15
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              2,
+              14,
+              16
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C3"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              15
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C2"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              16
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C3"
+            ]
+          },
+          {
+            "atom_ids": [
+              4,
+              15,
+              14
+            ],
+            "atom_names": [
+              "F3",
+              "C2",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              5,
+              15,
+              14
+            ],
+            "atom_names": [
+              "F4",
+              "C2",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              6,
+              16,
+              14
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16,
+              14
+            ],
+            "atom_names": [
+              "F6",
+              "C3",
+              "C1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG312"
+        ],
+        "tpr_parameter_index": 45,
+        "effective_GROMACS_coefficients": "thetaA= 1.18610000e+02, kthetaA= 3.90701920e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 1.18610000e+02, kthetaB= 3.90701920e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              15,
+              14,
+              16
+            ],
+            "atom_names": [
+              "C2",
+              "C1",
+              "C3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "FGA2",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 46,
+        "effective_GROMACS_coefficients": "thetaA= 1.22000000e+02, kthetaA= 4.18400000e+02, r13A= 2.35700000e-01, kUBA= 2.51040000e+04, thetaB= 1.22000000e+02, kthetaB= 4.18400000e+02, r13B= 2.35700000e-01, kUBB= 2.51040000e+04",
+        "instances": [
+          {
+            "atom_ids": [
+              1,
+              15,
+              4
+            ],
+            "atom_names": [
+              "S1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              1,
+              15,
+              5
+            ],
+            "atom_names": [
+              "S1",
+              "C2",
+              "F4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG312",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 46,
+        "effective_GROMACS_coefficients": "thetaA= 1.22000000e+02, kthetaA= 4.18400000e+02, r13A= 2.35700000e-01, kUBA= 2.51040000e+04, thetaB= 1.22000000e+02, kthetaB= 4.18400000e+02, r13B= 2.35700000e-01, kUBB= 2.51040000e+04",
+        "instances": [
+          {
+            "atom_ids": [
+              1,
+              15,
+              14
+            ],
+            "atom_names": [
+              "S1",
+              "C2",
+              "C1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG302",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 47,
+        "effective_GROMACS_coefficients": "thetaA= 1.20930000e+02, kthetaA= 4.18902080e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 1.20930000e+02, kthetaB= 4.18902080e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              6,
+              16,
+              17
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "C4"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16,
+              17
+            ],
+            "atom_names": [
+              "F6",
+              "C3",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG302",
+          "CG312",
+          "CG312"
+        ],
+        "tpr_parameter_index": 45,
+        "effective_GROMACS_coefficients": "thetaA= 1.18610000e+02, kthetaA= 3.90701920e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 1.18610000e+02, kthetaB= 3.90701920e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              14,
+              16,
+              17
+            ],
+            "atom_names": [
+              "C1",
+              "C3",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "FGA3",
+          "CG302",
+          "FGA3"
+        ],
+        "tpr_parameter_index": 48,
+        "effective_GROMACS_coefficients": "thetaA= 1.07000000e+02, kthetaA= 9.87424000e+02, r13A= 2.15500000e-01, kUBA= 2.51040000e+04, thetaB= 1.07000000e+02, kthetaB= 9.87424000e+02, r13B= 2.15500000e-01, kUBB= 2.51040000e+04",
+        "instances": [
+          {
+            "atom_ids": [
+              8,
+              17,
+              9
+            ],
+            "atom_names": [
+              "F7",
+              "C4",
+              "F8"
+            ]
+          },
+          {
+            "atom_ids": [
+              8,
+              17,
+              10
+            ],
+            "atom_names": [
+              "F7",
+              "C4",
+              "F9"
+            ]
+          },
+          {
+            "atom_ids": [
+              9,
+              17,
+              10
+            ],
+            "atom_names": [
+              "F8",
+              "C4",
+              "F9"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "UREY_BRADLEY",
+        "types": [
+          "CG312",
+          "CG302",
+          "FGA3"
+        ],
+        "tpr_parameter_index": 47,
+        "effective_GROMACS_coefficients": "thetaA= 1.20930000e+02, kthetaA= 4.18902080e+02, r13A= 0.00000000e+00, kUBA= 0.00000000e+00, thetaB= 1.20930000e+02, kthetaB= 4.18902080e+02, r13B= 0.00000000e+00, kUBB= 0.00000000e+00",
+        "instances": [
+          {
+            "atom_ids": [
+              8,
+              17,
+              16
+            ],
+            "atom_names": [
+              "F7",
+              "C4",
+              "C3"
+            ]
+          },
+          {
+            "atom_ids": [
+              9,
+              17,
+              16
+            ],
+            "atom_names": [
+              "F8",
+              "C4",
+              "C3"
+            ]
+          },
+          {
+            "atom_ids": [
+              10,
+              17,
+              16
+            ],
+            "atom_names": [
+              "F9",
+              "C4",
+              "C3"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "FGA2",
+          "CG312",
+          "SG3O1",
+          "OG2P1"
+        ],
+        "tpr_parameter_index": 49,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 9.62320000e-01, phiB= 0.00000000e+00, cpB= 9.62320000e-01, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              11,
+              1,
+              15,
+              4
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              11,
+              1,
+              15,
+              5
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              12,
+              1,
+              15,
+              4
+            ],
+            "atom_names": [
+              "O2",
+              "S1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              12,
+              1,
+              15,
+              5
+            ],
+            "atom_names": [
+              "O2",
+              "S1",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              13,
+              1,
+              15,
+              4
+            ],
+            "atom_names": [
+              "O3",
+              "S1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              13,
+              1,
+              15,
+              5
+            ],
+            "atom_names": [
+              "O3",
+              "S1",
+              "C2",
+              "F4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "SG3O1",
+          "OG2P1"
+        ],
+        "tpr_parameter_index": 49,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 9.62320000e-01, phiB= 0.00000000e+00, cpB= 9.62320000e-01, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              11,
+              1,
+              15,
+              14
+            ],
+            "atom_names": [
+              "O1",
+              "S1",
+              "C2",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              12,
+              1,
+              15,
+              14
+            ],
+            "atom_names": [
+              "O2",
+              "S1",
+              "C2",
+              "C1"
+            ]
+          },
+          {
+            "atom_ids": [
+              13,
+              1,
+              15,
+              14
+            ],
+            "atom_names": [
+              "O3",
+              "S1",
+              "C2",
+              "C1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "FGA2",
+          "CG312",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 50,
+        "effective_GROMACS_coefficients": "phiA= 1.80000000e+02, cpA= 4.85344000e+00, phiB= 1.80000000e+02, cpB= 4.85344000e+00, mult=1",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14,
+              15,
+              1
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C2",
+              "S1"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              15,
+              1
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C2",
+              "S1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "FGA2",
+          "CG312",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 51,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 1.84096000e+00, phiB= 0.00000000e+00, cpB= 1.84096000e+00, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14,
+              15,
+              4
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              2,
+              14,
+              15,
+              5
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              15,
+              4
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              15,
+              5
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              2,
+              14,
+              16,
+              6
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C3",
+              "F5"
+            ]
+          },
+          {
+            "atom_ids": [
+              2,
+              14,
+              16,
+              7
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C3",
+              "F6"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              16,
+              6
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C3",
+              "F5"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              16,
+              7
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C3",
+              "F6"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 52,
+        "effective_GROMACS_coefficients": "phiA= 1.80000000e+02, cpA= 3.93296000e+00, phiB= 1.80000000e+02, cpB= 3.93296000e+00, mult=1",
+        "instances": [
+          {
+            "atom_ids": [
+              16,
+              14,
+              15,
+              1
+            ],
+            "atom_names": [
+              "C3",
+              "C1",
+              "C2",
+              "S1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 53,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 1.58992000e+00, phiB= 0.00000000e+00, cpB= 1.58992000e+00, mult=2",
+        "instances": [
+          {
+            "atom_ids": [
+              16,
+              14,
+              15,
+              1
+            ],
+            "atom_names": [
+              "C3",
+              "C1",
+              "C2",
+              "S1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG312",
+          "SG3O1"
+        ],
+        "tpr_parameter_index": 54,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 4.60240000e-01, phiB= 0.00000000e+00, cpB= 4.60240000e-01, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              16,
+              14,
+              15,
+              1
+            ],
+            "atom_names": [
+              "C3",
+              "C1",
+              "C2",
+              "S1"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 50,
+        "effective_GROMACS_coefficients": "phiA= 1.80000000e+02, cpA= 4.85344000e+00, phiB= 1.80000000e+02, cpB= 4.85344000e+00, mult=1",
+        "instances": [
+          {
+            "atom_ids": [
+              16,
+              14,
+              15,
+              4
+            ],
+            "atom_names": [
+              "C3",
+              "C1",
+              "C2",
+              "F3"
+            ]
+          },
+          {
+            "atom_ids": [
+              16,
+              14,
+              15,
+              5
+            ],
+            "atom_names": [
+              "C3",
+              "C1",
+              "C2",
+              "F4"
+            ]
+          },
+          {
+            "atom_ids": [
+              15,
+              14,
+              16,
+              6
+            ],
+            "atom_names": [
+              "C2",
+              "C1",
+              "C3",
+              "F5"
+            ]
+          },
+          {
+            "atom_ids": [
+              15,
+              14,
+              16,
+              7
+            ],
+            "atom_names": [
+              "C2",
+              "C1",
+              "C3",
+              "F6"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG302",
+          "CG312",
+          "CG312",
+          "FGA2"
+        ],
+        "tpr_parameter_index": 50,
+        "effective_GROMACS_coefficients": "phiA= 1.80000000e+02, cpA= 4.85344000e+00, phiB= 1.80000000e+02, cpB= 4.85344000e+00, mult=1",
+        "instances": [
+          {
+            "atom_ids": [
+              2,
+              14,
+              16,
+              17
+            ],
+            "atom_names": [
+              "F1",
+              "C1",
+              "C3",
+              "C4"
+            ]
+          },
+          {
+            "atom_ids": [
+              3,
+              14,
+              16,
+              17
+            ],
+            "atom_names": [
+              "F2",
+              "C1",
+              "C3",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG302",
+          "CG312",
+          "CG312",
+          "CG312"
+        ],
+        "tpr_parameter_index": 55,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 5.98312000e+00, phiB= 0.00000000e+00, cpB= 5.98312000e+00, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              15,
+              14,
+              16,
+              17
+            ],
+            "atom_names": [
+              "C2",
+              "C1",
+              "C3",
+              "C4"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "FGA2",
+          "CG312",
+          "CG302",
+          "FGA3"
+        ],
+        "tpr_parameter_index": 51,
+        "effective_GROMACS_coefficients": "phiA= 0.00000000e+00, cpA= 1.84096000e+00, phiB= 0.00000000e+00, cpB= 1.84096000e+00, mult=3",
+        "instances": [
+          {
+            "atom_ids": [
+              6,
+              16,
+              17,
+              8
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "C4",
+              "F7"
+            ]
+          },
+          {
+            "atom_ids": [
+              6,
+              16,
+              17,
+              9
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "C4",
+              "F8"
+            ]
+          },
+          {
+            "atom_ids": [
+              6,
+              16,
+              17,
+              10
+            ],
+            "atom_names": [
+              "F5",
+              "C3",
+              "C4",
+              "F9"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16,
+              17,
+              8
+            ],
+            "atom_names": [
+              "F6",
+              "C3",
+              "C4",
+              "F7"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16,
+              17,
+              9
+            ],
+            "atom_names": [
+              "F6",
+              "C3",
+              "C4",
+              "F8"
+            ]
+          },
+          {
+            "atom_ids": [
+              7,
+              16,
+              17,
+              10
+            ],
+            "atom_names": [
+              "F6",
+              "C3",
+              "C4",
+              "F9"
+            ]
+          }
+        ]
+      },
+      {
+        "function": "PDIHS",
+        "types": [
+          "CG312",
+          "CG312",
+          "CG302",
+          "FGA3"
+        ],
+        "tpr_parameter_index": 50,
+        "effective_GROMACS_coefficients": "phiA= 1.80000000e+02, cpA= 4.85344000e+00, phiB= 1.80000000e+02, cpB= 4.85344000e+00, mult=1",
+        "instances": [
+          {
+            "atom_ids": [
+              14,
+              16,
+              17,
+              8
+            ],
+            "atom_names": [
+              "C1",
+              "C3",
+              "C4",
+              "F7"
+            ]
+          },
+          {
+            "atom_ids": [
+              14,
+              16,
+              17,
+              9
+            ],
+            "atom_names": [
+              "C1",
+              "C3",
+              "C4",
+              "F8"
+            ]
+          },
+          {
+            "atom_ids": [
+              14,
+              16,
+              17,
+              10
+            ],
+            "atom_names": [
+              "C1",
+              "C3",
+              "C4",
+              "F9"
+            ]
+          }
+        ]
+      }
+    ],
+    "units": "GROMACS nm, degrees, kJ/mol; GROMACS harmonic k includes its 1/2 convention; not CHARMM parameter values",
+    "zero_amplitude_terms": "Zero-amplitude n=3 terms remain in original PRM but may be absent from compiled TPR. No new terms inferred."
+  },
+  "existing_QM": {
+    "GEO_A_hessian": "1326_PACKED_ENTRIES_PRESENT_45_POSITIVE_MODES",
+    "GEO_B_frequency": "NOT_FOUND_IN_REVIEWED_INVENTORIES",
+    "existing_profiles": "25_MAIN_PLUS_1_BRANCH_NOT_BLIND_HOLDOUT"
+  },
+  "proposed_new_QM": {
+    "GEO_B_frequency": 1,
+    "mixed_junction_training": 6,
+    "mixed_junction_holdout": 4,
+    "C1_C3_axis": {
+      "points": 12,
+      "required_when": "SHARED_14_16_TORSION_AMPLITUDES_VARIED"
+    },
+    "CF3_axis_training": {
+      "points": 5,
+      "required_when": "INDEPENDENT_TAIL_TORSION_DEFECT_OR_APPROVED_AMPLITUDE_CHANGE"
+    },
+    "CF3_axis_holdout": {
+      "points": 4,
+      "required_when": "CF3_AXIS_TRIGGER"
+    },
+    "finite_displacements_training": {
+      "points": 4,
+      "required_when": "HESSIAN_IDENTIFIABILITY_AMBIGUITY_REMAINS"
+    },
+    "finite_displacements_holdout": {
+      "points": 4,
+      "required_when": "DISPLACEMENT_SEED_BATCH_TRIGGER"
+    },
+    "new_minimum_optimization_frequency_family": {
+      "families": 1,
+      "status": "RECOMMENDED_ADDITIONAL_HOLDOUT_NOT_UNCONDITIONAL_MINIMUM"
+    },
+    "rank_guaranteed": false,
+    "execution_authorized": false,
+    "necessary_initial_tranche_target_configurations_or_families": 11,
+    "conditional_full_collection_target_configurations_or_families": 41,
+    "exact_smallest_sufficient_QM_batch": "UNDETERMINED_BEFORE_TARGET_PARAMETER_JACOBIAN"
+  },
+  "rationale": [
+    "Joint response demonstrated without unique defect attribution",
+    "Persistent chain and CF3 geometric bias requires beyond-junction bonded scope",
+    "Existing Hessian and PES provide useful development basis but lack independent mixed-axis/tail/holdout evidence"
+  ],
+  "no_compensation_gate": true,
+  "new_thresholds_introduced": false
+}

@@ -1,0 +1,127 @@
+{
+  "query": {
+    "request_id": "PFBS-V2-MM-PREFLIGHT-20260926-01",
+    "engine": "GromacsEngine",
+    "purpose": "MM finite-difference identifiability preflight with isolated constrained minimizations and physical-energy reruns",
+    "required_capabilities": [
+      {
+        "id": "double_precision_gromacs",
+        "requirement": "Verified double-precision CPU minimization",
+        "materiality": "blocking"
+      },
+      {
+        "id": "topology_preprocessing",
+        "requirement": "Preprocess the CHARMM-compatible isolated PFBS topology and coordinates",
+        "materiality": "blocking"
+      },
+      {
+        "id": "constrained_geometry_minimization",
+        "requirement": "Support restrained profile minimization and unconstrained GEO_A/B minimization",
+        "materiality": "blocking"
+      },
+      {
+        "id": "physical_energy_rerun",
+        "requirement": "Evaluate unrestrained physical MM energies after relaxation",
+        "materiality": "blocking"
+      },
+      {
+        "id": "parameter_copy_isolation",
+        "requirement": "Run each perturbation from immutable v1 bonded sources in isolated v2 copies",
+        "materiality": "blocking"
+      }
+    ],
+    "environment": {
+      "hardware_summary": "Remote master; AMD EPYC 7R32, 2 sockets x 48 cores x 2 SMT = 96 physical / 192 logical CPUs; 471 GiB RAM; no swap; 1.6 TiB free; RTX 4080 SUPER; reference gmx_d CPU build has GPU disabled.",
+      "frozen_protocol_hash": null,
+      "requested_engine_version": "current verified"
+    }
+  },
+  "query_sha256": "b21efc2cde3dae330ece572e0268700c9e0ee1d518c73370b5ee5dedde1040d9",
+  "response": {
+    "request_id": "PFBS-V2-MM-PREFLIGHT-20260926-01",
+    "engine": "GromacsEngine",
+    "engine_version": "2026.3",
+    "backend_skill": "gromacs",
+    "backend_skill_version_or_hash": "SKILL.md sha256=323209f6fe9c38d8d0e5a544b8943546bfd32fb73b9c8574ada00667c12b8467; engine-contract.md sha256=d251d34802a962157367b7a8d7dde4580e76ce7f2e1038df3189d5588090bf0c",
+    "verified_at": "2026-09-26T05:42:20Z",
+    "results": [
+      {
+        "version_basis": "Live gmx_d --version reports GROMACS 2026.3 double precision; same executable identified in v1 provenance",
+        "caveats": [
+          "No sensitivity minimization has run"
+        ],
+        "status": "SUPPORTED",
+        "verification_method": "Remote executable version plus v1 build provenance",
+        "id": "double_precision_gromacs",
+        "recommended_command_or_setting": "Use the isolated v1 gmx_d build on CPU; one thread per independent minimization",
+        "constraints": [
+          "GPU disabled in reference build"
+        ]
+      },
+      {
+        "version_basis": "Live gmx_d grompp -h and prior accepted TPR/processed-MDP outputs",
+        "caveats": [
+          "New perturbation files still require per-job hash and warning audit"
+        ],
+        "status": "SUPPORTED",
+        "verification_method": "Executable help and existing v1 artifacts",
+        "id": "topology_preprocessing",
+        "recommended_command_or_setting": "gmx_d grompp -f <frozen-mdp> -c <coordinates> -p <topology> -o <run.tpr> -po <processed.mdp>",
+        "constraints": []
+      },
+      {
+        "version_basis": "Live gmx_d mdrun -h lists energy minimization; prior double-precision profile workflow uses L-BFGS/CG with restraint and source starts",
+        "caveats": [
+          "Capability finding is not execution approval"
+        ],
+        "status": "SUPPORTED",
+        "verification_method": "Executable help, workflow script, existing outputs",
+        "id": "constrained_geometry_minimization",
+        "recommended_command_or_setting": "Use source-equivalent restrained profiles and unrestrained GEO_A/B minimizations in a fresh v2 runtime tree",
+        "constraints": [
+          "Change only preregistered fields"
+        ]
+      },
+      {
+        "version_basis": "Live mdrun -h lists rerun; previous workflow evaluates physical topology at relaxed coordinates",
+        "caveats": [
+          "Energy reference/normalization follows the pending preregistered protocol"
+        ],
+        "status": "SUPPORTED",
+        "verification_method": "Executable help and existing outputs",
+        "id": "physical_energy_rerun",
+        "recommended_command_or_setting": "Rerun relaxed coordinates with original physical topology and no scan restraint",
+        "constraints": []
+      },
+      {
+        "version_basis": "Existing workflow separates parameter source copies and per-job outputs; new v2 runner not yet instantiated",
+        "caveats": [
+          "New isolation pipeline must be verified before derivative execution"
+        ],
+        "status": "SUPPORTED_WITH_LIMITATIONS",
+        "verification_method": "Prior runner code and topology inspection",
+        "id": "parameter_copy_isolation",
+        "recommended_command_or_setting": "Build a new remote runtime root with immutable source snapshot and independent single-parameter copies",
+        "constraints": [
+          "Do not write v1/production/existing run paths"
+        ]
+      }
+    ]
+  },
+  "engine_receipt": {
+    "generated_artifacts": [],
+    "engine_version": "2026.3",
+    "backend_skill_version_or_hash": "SKILL.md sha256=323209f6fe9c38d8d0e5a544b8943546bfd32fb73b9c8574ada00667c12b8467; engine-contract.md sha256=d251d34802a962157367b7a8d7dde4580e76ce7f2e1038df3189d5588090bf0c",
+    "warnings": [
+      "No throughput estimate yet; use existing logs and final run matrix for ETA"
+    ],
+    "returned_constraints": [
+      "Await finalized preregistration before derivative minimizations",
+      "Never modify v1/production/existing run directories",
+      "Use isolated v2 runtime root"
+    ],
+    "adapter": "GromacsEngine",
+    "backend_skill": "gromacs",
+    "capability_query_hash": "b21efc2cde3dae330ece572e0268700c9e0ee1d518c73370b5ee5dedde1040d9"
+  }
+}

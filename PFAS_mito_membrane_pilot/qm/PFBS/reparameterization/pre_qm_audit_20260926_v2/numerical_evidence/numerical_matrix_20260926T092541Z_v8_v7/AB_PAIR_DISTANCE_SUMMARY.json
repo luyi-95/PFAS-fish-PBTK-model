@@ -1,0 +1,13 @@
+{
+  "all_pair_domain_pass": true,
+  "box_nm": [
+    10.0,
+    10.0,
+    10.0
+  ],
+  "expected_rows": 50592,
+  "isolated_domain_limit_nm": 2.0,
+  "max_distance_nm": 0.6994683087757514,
+  "rows": 50592,
+  "scope": "all 136 atom pairs for GEO_A and GEO_B_REVISED at start, LBFGS final, and CG final across 62 states"
+}

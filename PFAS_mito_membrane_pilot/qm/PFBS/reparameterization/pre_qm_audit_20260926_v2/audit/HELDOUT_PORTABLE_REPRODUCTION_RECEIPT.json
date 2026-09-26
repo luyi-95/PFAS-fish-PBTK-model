@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "root_rebinding_only": true,
+  "checks": {
+    "HELDOUT_PERIODIC_DISTANCES.tsv": true,
+    "HELDOUT_SEED_FEASIBILITY.tsv": true,
+    "HELDOUT_PAIR_SYMMETRY.tsv": true,
+    "OFFLINE_ROTATED_SEED_PREVIEWS.json": true
+  },
+  "code": "42725e3d995771e2885964121c13c666675b380f78efddbbd8a583cd9e2cc53e"
+}

@@ -1,0 +1,180 @@
+{
+  "A_B_all_pair_distance_summary": {
+    "all_pair_domain_pass": true,
+    "box_nm": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "expected_rows": 50592,
+    "isolated_domain_limit_nm": 2.0,
+    "max_distance_nm": 0.6994683087757514,
+    "rows": 50592,
+    "scope": "all 136 atom pairs for GEO_A and GEO_B_REVISED at start, LBFGS final, and CG final across 62 states"
+  },
+  "analysis_method": "frozen finite difference and weighted SVD; no fitting",
+  "analysis_script_sha256": "bba0ffbfedfea9169b0f1f5ba14806112f42e51af046d5f2be13dbc32b255ea0",
+  "catalog_rows_including_primary_anchor_zero": 118,
+  "energy_anchor": "T_CC_300 within the same parameter state; one common anchor for CC and CS",
+  "energy_conversion": "kJ/mol / 4.184 to kcal/mol; raw XVG numeric strings retained",
+  "input_hashes": {
+    "analysis_script": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\scripts\\analyze_numerical_identifiability.py",
+      "sha256": "bba0ffbfedfea9169b0f1f5ba14806112f42e51af046d5f2be13dbc32b255ea0"
+    },
+    "baseline_topology_atom_types": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_audit_work_20260926\\package\\current_parameters\\pfbs_ani.itp",
+      "sha256": "c736e8e20ee778fd64dfc2b95da13040b6a49404c78dc1cf46dd7368b016aeca"
+    },
+    "branch_classifier_addendum": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\BRANCH_CLASSIFIER_PREREGISTRATION_ADDENDUM.md",
+      "sha256": "21c9381e097fb8ef3e23ac2a3ab86ab4b71ab2f9629eaa7762f1e98702369d55"
+    },
+    "geometry_observable_definitions": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\package\\reference_v1\\failure_evidence\\FULL_A_B_BOND_ANGLE_COMPARISON.tsv",
+      "sha256": "8628eaac4f7524e2795484db2b67b2335681083f7b164b930c5b50f602e2e667"
+    },
+    "launch_record": {
+      "path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/matrix_launches/matrix_20260926T092541Z_v8/LAUNCH_RECORD.json",
+      "sha256": "5979f38f6faed25c638523f7f4a3f6ac6ebcfb79df7ffe6e222297bb8e9bbc17"
+    },
+    "launch_record_local": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\receipts\\matrix_launches\\LAUNCH_RECORD_matrix_20260926T092541Z_v8.json",
+      "sha256": "5979f38f6faed25c638523f7f4a3f6ac6ebcfb79df7ffe6e222297bb8e9bbc17"
+    },
+    "low_tier_spec": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\MVP_LOW_TIER_ROW_DIAGNOSTIC_SPEC.json",
+      "sha256": "af4c6a47b6c77b041bf4aa7a8b7eb2c488a0a165769b61a99f4930425ec1f030"
+    },
+    "manifest": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\inputs\\MM_RUN_MANIFEST.json",
+      "sha256": "a8ffd3ac74607cb6d880a7ab798eff684fb1d6a7f836b646bd0ec5b69cf22d12"
+    },
+    "minimal_submatrix_spec": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\MVP_MINIMAL_SUBMATRIX_PREDECLARATION.json",
+      "sha256": "7c85ee7bbbe6bc6eb3e4693a7d23c2c77ed22001d4c8b7af6945b6d726a091b0"
+    },
+    "prereg_BASIN_AND_MATHEMATICAL_RATIONALE_ADDENDUM.md": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\BASIN_AND_MATHEMATICAL_RATIONALE_ADDENDUM.md",
+      "sha256": "ee4e963b5055fb8759032cb3991c8e2d70f1f4840d53b4a7d10135b3d8c29c13"
+    },
+    "prereg_FAILURE_SCOPE_PREREGISTRATION_ADDENDUM.md": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\FAILURE_SCOPE_PREREGISTRATION_ADDENDUM.md",
+      "sha256": "a7f5751163adda6fd1e399149c76c7b81244812c84dffc96f749d59e85064608"
+    },
+    "prereg_FAILURE_SCOPE_PREREGISTRATION_RECEIPT.json": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\FAILURE_SCOPE_PREREGISTRATION_RECEIPT.json",
+      "sha256": "499ff91182912e34c31f2de4768f73d803e51ce5693ad485e1c6411aad2ee561"
+    },
+    "prereg_MVP_LOW_TIER_DIAGNOSTIC_ADDENDUM.md": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\MVP_LOW_TIER_DIAGNOSTIC_ADDENDUM.md",
+      "sha256": "8dbc73835cb60f90c965befe9d796446e4939d7dee4d0be1459c520268b48121"
+    },
+    "prereg_TERMINAL_CONVERGENCE_AND_PHYSICAL_ENERGY_ADDENDUM.md": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\TERMINAL_CONVERGENCE_AND_PHYSICAL_ENERGY_ADDENDUM.md",
+      "sha256": "aff3752034f2aa0d85bce0d46094d9c3a4e7c25954e8809b35704e4d9e617cc4"
+    },
+    "prereg_TERMINAL_CONVERGENCE_AND_PHYSICAL_ENERGY_RECEIPT.json": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\TERMINAL_CONVERGENCE_AND_PHYSICAL_ENERGY_RECEIPT.json",
+      "sha256": "9441594207c52f8238bee81db4af7b518337ea3083cc8a6348b26624192fbf61"
+    },
+    "protocol": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\NUMERICAL_IDENTIFIABILITY_PROTOCOL.md",
+      "sha256": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59"
+    },
+    "runner": {
+      "path": "/home/ls/projects/PFAS_mito_membrane_pilot/qm/PFBS/pre_qm_v2_mm_identifiability_20260926/executor_runtime/immutable_sources/run_mm_identifiability_active_sem_v6_cfc467e92d48.py",
+      "sha256": "cfc467e92d487c22e0e22a6fa5c6293eee46c1048aaad2a247221e2940b46587"
+    },
+    "source_binding": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\inputs\\QM_SOURCE_BINDING.json",
+      "sha256": "315a741f8441c0bf37657f2e6e477691ed85e78cdc8e6213de8e53d369bb8ded"
+    },
+    "terminal_compact_export": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\executor\\analysis\\matrix_20260926T092541Z_v8\\analysis_export_v2\\MATRIX_COMPACT_RUN_EXPORT.json",
+      "sha256": "cb7d39e700a936e1bbea5e4086c383f4406a0917ac0bd58f6feae7ce23e2a9bb"
+    },
+    "variable_spec": {
+      "path": "E:\\AI-App-Data\\PFAS_mito_membrane_pilot\\broad_pre_qm_v2_work_20260926\\preregistered_inputs\\MM_IDENTIFIABILITY_VARIABLE_SPEC.json",
+      "sha256": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61"
+    }
+  },
+  "local_proper_torsion_domain_summary": {
+    "automorphisms_CS_O1_fixed": 96,
+    "automorphisms_general": 288,
+    "count": 280,
+    "failed": 0,
+    "max_minimax_change_deg": 2.803451957406594,
+    "threshold_deg": 30.0,
+    "torsion_indices_source": "unique reverse-canonical proper quartets from original v1 ITP"
+  },
+  "low_tier_anchor_policy": "CC300 included as exact-zero common-anchor row in primary 118 and frozen low-tier 99; CC axis weight 1/sqrt(2*12); no row renormalization.",
+  "low_tier_rows": 99,
+  "matrix_expected_and_observed_runs": 1736,
+  "matrix_launch_attempt": "matrix_20260926T092541Z_v8",
+  "matrix_launch_record_sha256": "5979f38f6faed25c638523f7f4a3f6ac6ebcfb79df7ffe6e222297bb8e9bbc17",
+  "matrix_run_control_status": "COMPLETE",
+  "matrix_status_counts": {
+    "DONE": 1736
+  },
+  "output_hashes_sha256": {
+    "AB_PAIR_DISTANCE_DIAGNOSTICS.tsv": "1bd99a10978a36792474e2bbe553c68a0ef0cea38af948f2c6a4d5837ece452a",
+    "AB_PAIR_DISTANCE_SUMMARY.json": "fbbe93334958db16585b3eacbde866fff1db49c5964be8255d0162e3d256a867",
+    "DERIVATIVE_STEP_STABILITY.tsv": "fe7db1e2b75eb08e6abcdaf707b931d5178aed45fd3a3782f30573ed56919bdd",
+    "LOCAL_PROPER_TORSION_DOMAIN.tsv": "e9cd68426d5ed02b4b879c779bd1be4a591171812451c9d2219155d87aea53f0",
+    "LOCAL_PROPER_TORSION_DOMAIN_SUMMARY.json": "dd874ff2a829b7ec4268edb3c2484fac6d54bb0adf1c59366f8e5dd2b9b3ce99",
+    "MATRIX_SUPPORT_SUMMARY.tsv": "e76f655b2d0b305c953b9e6b0ad1ad16bd5dacc137165ec8136663491a9866b9",
+    "MVP_DECLARED_MINIMAL_SUBMATRIX_SUPPORT.tsv": "f99a91b8953b82fac66987522f669ddb33a335a7edf23ab960a09c08b98c89bd",
+    "MVP_DECLARED_MINIMAL_SUBMATRIX_VECTORS.tsv": "f29ec3738a36ef93266f4445d15aed7a2fbb5bcd9c97ec6f83af4e44a6b473a1",
+    "NORMALIZED_UNIT_NOISE_COVARIANCE_PROXY.tsv": "46e17f31d3c6e182c1a84221911360e668d2d2d69bf29cb56c983d9b98989df6",
+    "NULL_DIRECTION_ANALYSIS.md": "9b83edcf826b8f99fa03cc3f7c1581b0fd6bcf1f58633fbcc5af9b13dcf65ce1",
+    "NUMERICAL_JACOBIAN_NORMALIZED.tsv": "10f2e5ac15f9a4f8b2514fda24d1037e47bb94c9e8ea959730d53ed9d7c436cb",
+    "NUMERICAL_JACOBIAN_NORMALIZED_2H.tsv": "ca08ccfc52167e3fa65b0a9ecfd7422f9cdbf15fd836a570781243cbc9c7584d",
+    "NUMERICAL_JACOBIAN_NORMALIZED_2H_LOW_TIER_99.tsv": "b4210fa4a102840cbc8330abc1e17a29768475f93e421e9ca5fab5d3373588c9",
+    "NUMERICAL_JACOBIAN_NORMALIZED_H.tsv": "10f2e5ac15f9a4f8b2514fda24d1037e47bb94c9e8ea959730d53ed9d7c436cb",
+    "NUMERICAL_JACOBIAN_NORMALIZED_LOW_TIER_99.tsv": "7a04e7cba9bee4899bf6e2338760d32686ed5dc81cdb39fef206f595d9ea121f",
+    "NUMERICAL_JACOBIAN_NORMALIZED_TIGHT.tsv": "4a58fbda4fd92c23eaaf6e16c5e96b4232e4c51db37d284205952eb1b3e17f0b",
+    "NUMERICAL_JACOBIAN_NORMALIZED_TIGHT_LOW_TIER_99.tsv": "b044fd3897ff8de22fffb959ad844acdcffabc566a638f931d71973552f28897",
+    "NUMERICAL_JACOBIAN_RAW.tsv": "a7a93f662a528efce63ce19df8067e8402e68e002b3b3f63daa8bc1b8d90e16b",
+    "NUMERICAL_JACOBIAN_RAW_2H.tsv": "28890c7280d80eb60cfa3bfc96050f858dcc9f4769ed77137be674ff5ee27882",
+    "NUMERICAL_JACOBIAN_RAW_2H_LOW_TIER_99.tsv": "111c055c114012390d918cf5eef8dc7b8f010273b836956a131ae02102a34887",
+    "NUMERICAL_JACOBIAN_RAW_H.tsv": "a7a93f662a528efce63ce19df8067e8402e68e002b3b3f63daa8bc1b8d90e16b",
+    "NUMERICAL_JACOBIAN_RAW_LOW_TIER_99.tsv": "e89828b189804a9e5ccfea7dc8e465af44ca202e97347cd631683e977fa0d952",
+    "NUMERICAL_JACOBIAN_RAW_TIGHT.tsv": "668a93ffca19d4fa58752edea5371456805ece18c2388baf31d997fdbc9ebc25",
+    "NUMERICAL_JACOBIAN_RAW_TIGHT_LOW_TIER_99.tsv": "fedbd1679c2613072cf0c3ff87fef44e61d666af5c52000bb76f2dbf9727ffb7",
+    "NUMERICAL_JACOBIAN_UNCERTAINTY_NORMALIZED.tsv": "994068229fe195ece9785e0c14ca31aa51ed3097f183d07a83b0b388ea40c1fd",
+    "NUMERICAL_JACOBIAN_UNCERTAINTY_NORMALIZED_LOW_TIER_99.tsv": "29b4d5dfb7099b3d5ddd91ced3b62258b285cad24a84bb11692350932b1a8526",
+    "NUMERICAL_JACOBIAN_UNCERTAINTY_RAW.tsv": "9bab1c1fde77a620c571166ba95bc8abb3e4a07fd24a6d3d2c5da6193481a1c9",
+    "NUMERICAL_JACOBIAN_UNCERTAINTY_RAW_LOW_TIER_99.tsv": "9eb1bacb24f1969c9e6d998650f68496c53f9efc56a112b10d4658d0c95b4b84",
+    "PARAMETER_CORRELATION.tsv": "018764e257a140614fd0bcda44c2e7797d908a8f61984f8ecee813e71499fbd6",
+    "RAW_OBSERVABLES.tsv": "f82e0cf28b477200024a2064891b10c490a8b30340318c54aed0d2a362ad9ad4",
+    "SCAN_ANGLE_DRIFT.tsv": "7ddc60363d7fd8727cb78d60ad3c78f18c34f936e48de162b094779489581e44",
+    "SCAN_ANGLE_DRIFT_SUMMARY.json": "f0ffdbd3376834a818ed1c717f02ea68c3f0347be48d8927334e8a4baa209de1",
+    "STRUCTURAL_DOMAIN_QC.md": "939db3521a62e87a8b03869753e0084b40bb43016041f7937d6fc792600860a7",
+    "SVD_RESULTS.tsv": "a449e00afb5c6944bccc1350fad736fab88c9a52b01c78318a2b462b80ca0a20",
+    "SVD_RIGHT_SINGULAR_VECTORS.tsv": "357a3a3116addc8eb989c9ad05acd96de828f38a82421997be3b8b2d28acb2b5",
+    "UNCERTAINTY_NOISE_DIAGNOSTICS.tsv": "edadf279ac7446476f66c99081a9e97e47051bf5e3d66369ebc807d28a4226a3",
+    "VARIABLE_ACTION_EVIDENCE.tsv": "eda829115aef466e2aeba68018e95b5db3475373006f93bb22f64be65613787a"
+  },
+  "parameter_changes_fit_or_adoption": "NONE",
+  "primary_matrix_shape": [
+    118,
+    10
+  ],
+  "primary_rows": 118,
+  "protocol_hash": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "protocol_id": "PFBS_MM_IDENTIFIABILITY_PREREG_V2_01",
+  "rank_rule": "strict sigma > 5*max(Frobenius envelope delta, max(m,n)*eps*sigma_max)",
+  "row_weights": "frozen squared block mass 1 each; no subset renormalization",
+  "runner_sha256": "cfc467e92d487c22e0e22a6fa5c6293eee46c1048aaad2a247221e2940b46587",
+  "scan_angle_gate_summary": {
+    "count": 1612,
+    "failed": 0,
+    "max_abs_drift_deg": 0.01290653877032355,
+    "threshold_deg": 0.02
+  },
+  "schema": "PFBS_MM_NUMERICAL_IDENTIFIABILITY_ANALYSIS_PROVENANCE_v1",
+  "stencil": "central +/-h, +/-2h, independent tight +/-h",
+  "uncertainty": "abs(J_h-J_2h)+abs(J_h-J_h_tight)+endpoint serialization and arithmetic bound",
+  "variable_spec_hash": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61"
+}

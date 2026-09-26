@@ -1,0 +1,18 @@
+{
+  "verification_at_UTC": "2026-09-26T05:47:10.790356+00:00",
+  "v1_git_commit": "0426052aefc17d2e2bece233b853daa78dc1caa4",
+  "v1_package_sha256": "ddb9eac8347fe721e11b476a63daa4bff7617bf9a61217d95ff867d980b2cbd0",
+  "v1_payload_verification": "69/69 PASS local and independent Git exactcommit subtree",
+  "v1_no_modification": true,
+  "user_authorization_attachment_sha256": "7b0b2522d79c9dbc25cac0ce75d508665b34fb62d29de399bbe6dbefec4da400",
+  "preregistered_at_UTC": "2026-09-26T05:45:27.0692460Z",
+  "derivative_results_available_at_freeze": false,
+  "preregistered_readonly_hashes": {
+    "INITIAL_DIAGNOSTIC_VARIABLES.tsv": "afb72bd4cbade810c005d0c9f1496883f7ed614c68542fc0d05d63fec7863db7",
+    "MM_IDENTIFIABILITY_VARIABLE_SPEC.json": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61",
+    "NUMERICAL_IDENTIFIABILITY_PROTOCOL.md": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59"
+  },
+  "authority": "Sol High APPROVE_MM_IDENTIFIABILITY_PREFLIGHT_ONLY under explicit user authorization",
+  "new_QM_launched": false,
+  "fitting_started": false
+}

@@ -1,0 +1,18 @@
+{
+  "receipt_type": "SCIENTIFIC_PREREGISTRATION_FREEZE_BEFORE_MM_DERIVATIVES",
+  "created_UTC": "2026-09-26T05:46:11.853462+00:00",
+  "files": {
+    "NUMERICAL_IDENTIFIABILITY_PROTOCOL.md": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+    "MM_IDENTIFIABILITY_VARIABLE_SPEC.json": "5b6e40bad2aa6cd683acd3ba04e3a8e9e019d70d23ae84913e8b14f938055c61",
+    "INITIAL_DIAGNOSTIC_VARIABLES.tsv": "afb72bd4cbade810c005d0c9f1496883f7ed614c68542fc0d05d63fec7863db7"
+  },
+  "new_criteria_label": "NEW_PREREGISTERED_IDENTIFIABILITY_CRITERION",
+  "scientific_approval": "APPROVE_MM_IDENTIFIABILITY_PREFLIGHT_ONLY",
+  "outcomes_seen": "NO_DERIVATIVE_OR_MM_PREFLIGHT_OUTCOMES_SEEN_BY_REVIEWER",
+  "no_retrospective_rule_edits": true,
+  "fit_started": false,
+  "QM_authorized": false,
+  "production_parameter_replacement_authorized": false,
+  "MD_authorized": false,
+  "executor_binding_gate": "Exact implementation and source/semantic/hash audit before first state; record execution start later in separate receipt."
+}

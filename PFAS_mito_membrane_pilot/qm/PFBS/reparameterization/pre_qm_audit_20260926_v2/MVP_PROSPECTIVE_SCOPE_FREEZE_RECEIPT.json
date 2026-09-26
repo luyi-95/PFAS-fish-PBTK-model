@@ -1,0 +1,20 @@
+{
+  "created_UTC": "2026-09-26T06:07:01.110206+00:00",
+  "latest_user_scope_sha256": "62d6daa67de76e9e5479b829331c0d8604416ff706404685b0f486e8f495dbd0",
+  "MVP_project_objective": "MINIMUM_VIABLE_PARAMETERIZATION_FOR_SUPPORTING_MEMBRANE_MD",
+  "preserved_frozen_numerical_protocol_SHA256": "52dae28ac8b5484e39302323cd9f0eed75c0c779406c210072c64a41ccb0da59",
+  "files": {
+    "MVP_SCOPE_OVERRIDE_AND_RED_FLAG_FRAMEWORK.md": "bff4a5fa29a61aadb1c66cc638e3f0595d27c5087c52d8d8cf3181c167094b66",
+    "MVP_PROSPECTIVE_ACCEPTANCE_GATES.md": "70c879440aef9ba9b2c603aa578a89a3cb01f53b8e01c1c99eaba62f7d7e998b",
+    "MVP_MINIMAL_SUBMATRIX_PREDECLARATION.json": "7c85ee7bbbe6bc6eb3e4693a7d23c2c77ed22001d4c8b7af6945b6d726a091b0"
+  },
+  "MM_derivative_outcomes_viewed_by_reviewer": false,
+  "new_QM_or_fitting_results_used": false,
+  "MVP_route": "PENDING_POST_JACOBIAN_EXACTLY_ONE_A_B_C_D",
+  "FIT_READY": "NO",
+  "PARAMETER_STATUS": "CURRENT_SOURCE_REJECTED_NO_REPAIR_ADOPTED",
+  "SHORT_WATER_PILOT": "NOT_RUN_NOT_AUTHORIZED",
+  "SHORT_MEMBRANE_PILOT": "NOT_RUN_NOT_AUTHORIZED",
+  "QM_or_fit_or_MD_authorized": false,
+  "historic_broad_criteria": "PRESERVED_BACKGROUND_NOT_AUTOMATIC_MVP_GATES_OR_TRANCHES"
+}
